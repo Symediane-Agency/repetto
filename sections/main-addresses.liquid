@@ -1,0 +1,17 @@
+<div class="section-spacing">
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="myaccount--header">
+        <h1 class="myaccount--title">{{ 'customer.addresses.title' | t }}</h1>
+        <p>
+          <a href="{{ routes.account_url }}" class="myaccount--link">
+            {% render 'svg-icons' with 'thb-account-back' %}
+            <span class="text-button">{{ 'customer.account.return_to_account_details' | t }}</span>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  {% render 'main-addresses' %}
+</div>

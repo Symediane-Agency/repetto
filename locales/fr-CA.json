@@ -1,0 +1,87 @@
+{
+  "shopify": {
+    "checkout": {
+      "tips": {
+        "title": "Pourboire au livreur",
+        "add_tip": "Ajouter un pourboire",
+        "description": "Ajouter un pourboire à votre livreur",
+        "message": ""
+      },
+      "general": {
+        "continue_to_shipping_method": "Continuer vers les méthodes de livraison",
+        "back_to_shipping_method": "Retourner à la méthode de livraison",
+        "edit_shipping_address": "Modifier l’adresse de livraison",
+        "edit_shipping_method": "Modifier la méthode de livraison"
+      },
+      "review": {
+        "blocks": {
+          "shipping_address_title": "Livrer à"
+        }
+      },
+      "contact": {
+        "shipping_address_title": "Adresse de livraison"
+      },
+      "delivery_options": {
+        "shipping_address": "Adresse de livraison"
+      },
+      "order_summary": {
+        "free_shipping_discount_label": "Livraison gratuite",
+        "discount_requires_customer_notice": "Veuillez soumettre vos informations de livraison pour appliquer le code de réduction {{code}}",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Vos informations de livraison ne répondent pas aux exigences du code de réduction {{code}}",
+        "shipping_label": "Livraison"
+      },
+      "shipping": {
+        "shipping_method_title": "Option(s) de livraison",
+        "title": "Adresse de livraison",
+        "waiting_on_rate_notice": "Veuillez patienter pendant que nous récupérons les tarifs de livraison disponibles...",
+        "no_rates_for_cart_or_destination_notice": "Aucun mode de livraison n'est disponible pour votre panier ou votre destination.",
+        "no_rates_for_country_notice": "Nous ne proposons pas de livraison au\/en {{country}}.",
+        "please_enter_your_shipping_information_notice": "Veuillez saisir vos informations de livraison"
+      },
+      "payment": {
+        "same_billing_address_label": "Identique à l'adresse de livraison"
+      },
+      "shipping_errors": {
+        "shipping_method": "Votre panier a été modifié et le tarif de livraison que vous aviez précédemment sélectionné ne s'applique plus. Veuillez sélectionner un nouveau tarif."
+      },
+      "thank_you": {
+        "shipping_information_title": "Information de livraison",
+        "shipping_address_title": "Adresse de livraison",
+        "shipping_method_title": "Option(s) de livraison",
+        "marker": {
+          "shipping": "Adresse de livraison",
+          "current": "Emplacement de livraison actuel"
+        },
+        "track_shipment": "Suivre la livraison",
+        "confirmed_description_html": "Nous avons accepté votre commande et nous la préparons. Un courriel de confirmation a été envoyé à {{ email }}. Revenez sur cette page pour des mises à jour sur le statut de votre livraison.",
+        "no_tracking_number": "Il n'y a pas de numéro de suivi pour cette livraison.",
+        "unfulfilled_items_title": "Préparation de la livraison",
+        "unfulfilled_items_description": "Nous préparons actuellement la livraison de ces articles.",
+        "fulfillment": {
+          "unfulfilled_table_title": "Articles en préparation pour la livraison",
+          "fulfilled_table_title": "Articles de cette livraison"
+        },
+        "login_title": "Connectez-vous pour voir tous les détails de la livraison",
+        "failed_title": "Nous n'avons pas pu livrer votre commande",
+        "delivered_description_html": "Votre commande a été livrée à l'adresse que vous avez indiquée. Si vous ne l'avez pas reçue ou si vous rencontrez d'autres problèmes, veuillez {{ contact_us }}.",
+        "delivered_title": "Votre commande a été livrée",
+        "attempted_delivery_description_html": "Une tentative a été faite pour livrer votre commande, mais sans succès. Veuillez {{ contact_us }} pour organiser une autre tentative de livraison.",
+        "attempted_delivery_title": "Une tentative a été faite pour livrer votre commande",
+        "out_for_delivery_description_html": "Votre commande est dans le camion de livraison - attendez-vous à ce qu'elle arrive aujourd'hui. Si vous ne l'avez toujours pas reçue dans les 2 prochains jours, veuillez {{ contact_us }}.",
+        "out_for_delivery_title": "Votre commande est en cours de livraison",
+        "in_transit_description": "Revenez sur cette page pour des mises à jour sur le statut de votre livraison.",
+        "in_transit_title": "Votre commande est en route",
+        "confirmed_title": "Votre livraison est confirmée",
+        "order_updates_subscribe_to_email_notifications": "Recevez des mises à jour de la livraison par courriel",
+        "order_updates_subscribe_to_phone_notifications": "Recevez des mises à jour de la livraison par courriel ou SMS",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Recevez des mises à jour de la livraison par SMS"
+      }
+    },
+    "notices": {
+      "cart": {
+        "shipping_address_not_required": "Ce panier ne nécessite pas de livraison",
+        "shipping_address_invalid": "Adresse de livraison invalide"
+      }
+    }
+  }
+}

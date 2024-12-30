@@ -1,0 +1,117 @@
+{%- liquid
+    assign column_class = 'small-12 medium-4 large-2'
+    case section.settings.column_size
+        when 'medium'
+            assign column_class = 'small-12 medium-3'
+        when 'large'
+            assign column_class = 'small-12 medium-6'
+    endcase
+-%}
+<div class="{{ column_class | escape }} columns widget--menu-column" {{ shopify_attributes }}>
+  <div class="widget widget--menu">
+    {%- if section.settings.menu != blank -%}
+      <ul class="thb-widget-menu">
+        {% for link in section.settings.menu.links %}
+          {% assign has_sub_menu = false %}
+          {% if link.links.size > 0 %}
+            {% assign has_sub_menu = true %}
+          {% endif %}
+          <li class="{% if has_sub_menu %}menu-item-has-children{% endif %}{% if link.active %} active{% endif %}">
+            <a
+              href="{{ link.url }}"
+              title="{{ link.title | escape }}"
+              {%- if link.active %}
+              aria-current="page"
+              {% endif -%}>{{ link.title }}</a>
+            {% if has_sub_menu %}
+              <span class="thb-arrow" tabindex="0">{%- render 'svg-icons' with 'thb-dropdown-bottom' -%}</span>
+            {% endif %}
+            {% if has_sub_menu %}
+              <ul class="sub-menu" tabindex="-1">
+                {% for l in link.links %}
+                  {% assign has_sub_menu = false %}
+                  {% if l.links.size > 0 %}
+                    {% assign has_sub_menu = true %}
+                  {% endif %}
+                  <li class="{% if has_sub_menu %}menu-item-has-children{% endif %}{% if l.active %} active{% endif %}" role="none">
+                    <a
+                      href="{{ l.url }}"
+                      title="{{ l.title | escape }}"
+                      role="menuitem">{{ l.title }}</a>
+                    {% if has_sub_menu %}
+                      <span class="thb-arrow" tabindex="0">{%- render 'svg-icons' with 'thb-dropdown-bottom' -%}</span>
+                    {% endif %}
+                    {% if has_sub_menu %}
+                      <ul class="sub-menu" role="menu">
+                        {% for sub_link in l.links %}
+                          {% assign has_sub_menu = false %}
+                          {% if sub_link.links.size > 0 %}
+                            {% assign has_sub_menu = true %}
+                          {% endif %}
+                          <li class="{% if has_sub_menu %}menu-item-has-children{% endif %}{% if sub_link.active %} active{% endif %}" role="none">
+                            <a
+                              href="{{ sub_link.url }}"
+                              title="{{ sub_link.title | escape }}"
+                              role="menuitem">{{ sub_link.title }}</a>
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Menu Section test",
+    "settings": [
+                {
+            "type": "select",
+            "id": "column_size",
+            "label": "Column size",
+            "options": [
+              {
+                "value": "small",
+                "label": "Small"
+              }, {
+                "value": "medium",
+                "label": "Medium"
+              }, {
+                "value": "large",
+                "label": "Large"
+              }
+            ],
+            "default": "small"
+          }, {
+            "id": "title",
+            "type": "text",
+            "label": "Title"
+          }, {
+            "type": "link_list",
+            "id": "menu",
+            "default": "footer",
+            "label": "Menu",
+            "info": "Select navigation to display"
+          }
+    ],
+    "presets": [
+      {
+      "name": "Menu section Test",
+      "category": "ADVANCED LAYOUT"
+      }]
+  }
+{% endschema %}
+
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

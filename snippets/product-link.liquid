@@ -1,0 +1,80 @@
+{% if sole_sku.value != blank and other_sole != blank %}
+
+    <h3 class="current-h3">Semelles</h3>
+    <div class="current-style">
+      <div class="jump-item active">
+        <i></i>
+        {{ sole_sku.value }}
+      </div>
+      {%- for sku in other_sole -%}
+        {% assign url = sku.url %}
+        {% assign item_scle = sku.metafields.repetto.sole.value.value %}
+        <div class="jump-item">
+        <a href="{{url}}">
+          <i></i>{{item_scle}}
+        </a>
+        </div>
+      {% endfor %}
+    </div>
+    <style>
+      .current-h3{
+        font-family: Archivo;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        margin-bottom: 10px;
+      }
+      .current-style{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+      .current-style .jump-item{
+        margin-right: 40px;
+        font-family: Archivo;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+      .current-style .jump-item.active i::after {
+        content:"";
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #F9DBE1;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .current-style .jump-item a {
+        display: flex;
+        align-items: center;
+        color: #7B7678;
+      }
+      .current-style .jump-item i{
+        display: inline-block;
+        position: relative;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #D8D1D4;
+        margin-right: 10px;
+      }
+      .current-style .jump-item.active{
+        font-family: Archivo;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        color: #000000;
+        }
+    </style>
+  {% endif %}

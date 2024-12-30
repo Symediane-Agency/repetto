@@ -1,0 +1,98 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "f66cf0ef-5325-4127-b6ac-f5cd56897414": {
+      "type": "image-list",
+      "blocks": {
+        "template--21296000958768__f66cf0ef-5325-4127-b6ac-f5cd56897414-imageList-1": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image.jpg",
+            "label": "AI TOMINAGA",
+            "url": "shopify:\/\/products\/arthur-test-product"
+          }
+        },
+        "165225ce-7090-468a-8112-e77333b28239": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-12.jpg",
+            "label": "ANNE",
+            "url": ""
+          }
+        },
+        "58af8b66-7f59-4f87-9108-98bdb60c1d81": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-10.jpg",
+            "label": "AKIRA MINAGAWA",
+            "url": ""
+          }
+        },
+        "a252b08d-2285-4dba-a6f8-f8452aa0ae0a": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-2.jpg",
+            "label": "ANGELIN PREJLOCAJ",
+            "url": ""
+          }
+        },
+        "16ba156a-262c-4ade-9659-d912d045d477": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-11.jpg",
+            "label": "ANDRÉE PUTMAN",
+            "url": ""
+          }
+        },
+        "cf021599-602d-4ad0-8e80-919f115e76fc": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-8.jpg",
+            "label": "ANDRÉE PUTMAN",
+            "url": ""
+          }
+        },
+        "dffb38fb-d025-4460-acc1-1e93693c36f1": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-7.jpg",
+            "label": "ANDRÉE PUTMAN",
+            "url": ""
+          }
+        },
+        "523ef6e2-1fc1-493d-a896-4991fca7a394": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-9.jpg",
+            "label": "ANDRÉE PUTMAN ANDRÉE PUTMANANDRÉE PUTMANANDRÉE PUTMANANDRÉE PUTMANANDRÉE PUTMANANDRÉE PUTMAN",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21296000958768__f66cf0ef-5325-4127-b6ac-f5cd56897414-imageList-1",
+        "165225ce-7090-468a-8112-e77333b28239",
+        "58af8b66-7f59-4f87-9108-98bdb60c1d81",
+        "a252b08d-2285-4dba-a6f8-f8452aa0ae0a",
+        "16ba156a-262c-4ade-9659-d912d045d477",
+        "cf021599-602d-4ad0-8e80-919f115e76fc",
+        "dffb38fb-d025-4460-acc1-1e93693c36f1",
+        "523ef6e2-1fc1-493d-a896-4991fca7a394"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f66cf0ef-5325-4127-b6ac-f5cd56897414"
+  ]
+}

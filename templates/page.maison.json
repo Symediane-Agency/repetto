@@ -1,0 +1,282 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_bMQi4V": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_rbHmbd": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_3fcmRN": {
+          "type": "heading",
+          "settings": {
+            "text": "Depuis 1947, avec passion & savoir-faire.",
+            "heading_size": "h2"
+          }
+        },
+        "text_EJzjCn": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "description_size": "medium"
+          }
+        },
+        "button_TTniV4": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rbHmbd",
+        "heading_3fcmRN",
+        "text_EJzjCn",
+        "button_TTniV4"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/01_0021_final_2_1.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_width": "small",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 18,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_kadkhz": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_content_card_bapW8c": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_xtMBiK": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/ATELIER_RUE_DE_LA_PAIX_-_REPETTO.jpg",
+            "image_position": "right",
+            "block_title": "LA DANSE CLASSIQUE AU CŒUR DE NOTRE HISTOIRE,",
+            "block_content": "<p>En 1947, Madame Rose Repetto ouvre un atelier au 22, rue de la Paix, révolutionnant l'univers de la danse. En 1956, elle crée l'iconique ballerine pour Brigitte Bardot, alliant légèreté et élégance. Régnant sans partage sur l’imaginaire de la danse classique, façonné par son exigence et sa quête  d’excellence, Repetto s’impose aujourd’hui comme une maison de l’univers du luxe français.</p>",
+            "url": "",
+            "url_label": "Découvrir l'histoire de la Maison"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_xtMBiK"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": false,
+        "bg_all_section": false,
+        "text_gap": true,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "custom_text_with_image_YKUVrM": {
+      "type": "custom-text-with-image",
+      "settings": {
+        "show_on_mobile": "right",
+        "left_background_bg": "shopify://shop_images/ATELIER_RUE_DE_LA_PAIX_-_REPETTO.jpg",
+        "right_background_image": "shopify://shop_images/ATELIER_RUE_DE_LA_PAIX2_-_REPETTO_92858319-8817-4f0c-ba23-d543727e1af5.jpg",
+        "heading": "LA DANSE CLASSIQUE AU CŒUR DE NOTRE HISTOIRE",
+        "heading_size": "h4",
+        "content": "<p>En 1947, Rose Repetto met au point un chausson de danse révolutionnaire pour son fils le danseur étoile Roland Petit, et ouvre ainsi son atelier au 22, rue de la Paix, qui devient vite un lieu incontournable de l'univers de la danse. En 1956, elle crée l'iconique ballerine pour Brigitte Bardot, alliant légèreté et élégance. Régnant sans partage sur l’imaginaire de la danse classique, façonné par son exigence et sa quête d’excellence, Repetto s’impose aujourd’hui comme une maison de l’univers du luxe français.</p>",
+        "content_size": "text-size-regular",
+        "button_text": "Découvrir notre histoire",
+        "button_link": "shopify://pages/univers-repetto-histoire"
+      }
+    },
+    "spacer_WKFVBj": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "gallery_aGJE6b": {
+      "type": "gallery",
+      "blocks": {
+        "image_mXqjwH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Repetto_visuel_11.jpg",
+            "subheading": "",
+            "title": "Le Savoir-Faire Repetto",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/univers-repetto-savoir-faire",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_pA7Gez": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Chaussures_portees_ECOM1260-Modifier_-_Copie_1.jpg",
+            "subheading": "",
+            "title": "Nos créations françaises",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/made-in-france",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_U7mYxq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ZIZI_Jeanmaire2.jpg",
+            "subheading": "",
+            "title": "La famille Repetto",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/repetto-ses-amis",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mXqjwH",
+        "image_pA7Gez",
+        "image_U7mYxq"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 25,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_Qmeyry": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_with_text_AxtTT6": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_AaLrUU": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_4jiqmh": {
+          "type": "heading",
+          "settings": {
+            "text": "L'art en vitrine",
+            "heading_size": "h3"
+          }
+        },
+        "text_XLBiGC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Découvrez nos vitrines, une ode à l’univers de la danse et du ballet.</p>"
+          }
+        },
+        "button_fTRxjd": {
+          "type": "button",
+          "settings": {
+            "button_text": "découvrir",
+            "button_link": "shopify://pages/vivre-lexperience-repetto"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AaLrUU",
+        "heading_4jiqmh",
+        "text_XLBiGC",
+        "button_fTRxjd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ruedelapaix.jpg",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "section_width": "grid",
+        "layout": "text_first",
+        "content_position": "text-center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "502bbd70-d7c0-4bdb-b8e3-2739fdaffb7e": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_bMQi4V",
+    "spacer_kadkhz",
+    "image_content_card_bapW8c",
+    "custom_text_with_image_YKUVrM",
+    "spacer_WKFVBj",
+    "gallery_aGJE6b",
+    "spacer_Qmeyry",
+    "image_with_text_AxtTT6",
+    "main",
+    "502bbd70-d7c0-4bdb-b8e3-2739fdaffb7e"
+  ]
+}

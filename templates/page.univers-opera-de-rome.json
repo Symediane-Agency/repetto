@@ -1,0 +1,364 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "59db4771-8eff-46ba-94c1-cfcb04dcab8d": {
+      "type": "custom-content-with-bg",
+      "settings": {
+        "back_img": "shopify:\/\/shop_images\/MicrosoftTeams-image.png",
+        "sub_title": "",
+        "main_title": "",
+        "desc": "",
+        "link_text": "",
+        "link_href": ""
+      }
+    },
+    "bc13f3fb-0370-44bb-9c37-f56278a4b446": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 40,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "7b40e91f-0198-492b-9d75-54ccd7c5ef80": {
+      "type": "waterfall",
+      "blocks": {
+        "011122c7-7e62-470b-a398-7e1f14a2d7a8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_11.jpg",
+            "jump_link": ""
+          }
+        },
+        "02ab6314-8732-4cfb-bfb4-4b5b1d96c597": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_20.jpg",
+            "jump_link": "https:\/\/i.ytimg.com\/vi_webp\/l0hrvll6HQE\/maxresdefault"
+          }
+        },
+        "4f36053f-01b0-40e4-94a0-3ae4722a00d8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_28.jpg",
+            "jump_link": ""
+          }
+        },
+        "2d5bc9a4-3784-42f5-804b-c1cc5cf7b252": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_12.jpg",
+            "jump_link": ""
+          }
+        },
+        "afa927e6-33b2-4916-8da8-4818d00c24d4": {
+          "type": "text",
+          "settings": {
+            "block_title": "TEATRO DELL'OPERA DI ROMA",
+            "block_content": "<p>Le théâtre de l’Opéra de Rome, dirigé par Monsieur Carlo fuortes, s’accompagne d’un corps de Ballet dont la directrice artistique est incarnée par la danseuse Étoile de l’Opéra de Paris, Mlle Eleonora Abbagnato. En plus d’être une danseuse prodigieuse, Eleonora est une femme charismatique, qui permet au public d’accéder à des programmations et des événements de prestige. La Maison Repetto est heureuse de participer à l’épanouissement de ce Ballet mondialement connu.<\/p>",
+            "block_color": "#fcf2f4"
+          }
+        },
+        "d09de357-f936-450e-833f-2a58959015a6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_13.jpg",
+            "jump_link": ""
+          }
+        },
+        "9dd61cbf-9aff-4ca0-9da6-9568f5d8c59c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_29.jpg",
+            "jump_link": ""
+          }
+        },
+        "eed394a4-757a-4c80-a090-216f53a2d5d7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_21.jpg",
+            "jump_link": ""
+          }
+        },
+        "a43c17ef-3b9c-4549-96ed-d7daeb307114": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_14.jpg",
+            "jump_link": ""
+          }
+        },
+        "ca9dee34-3f5f-410e-8fbc-766af9189d8c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_30.jpg",
+            "jump_link": ""
+          }
+        },
+        "4da8f80d-9efb-4884-a5f9-2680e420f04b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_22.jpg",
+            "jump_link": ""
+          }
+        },
+        "9876b1f5-2c54-4bba-899c-006ad859dedc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_15.jpg",
+            "jump_link": ""
+          }
+        },
+        "9e573a0e-fe6e-4807-b120-51e1532dd19f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_31.jpg",
+            "jump_link": ""
+          }
+        },
+        "83954659-ca30-44de-a6c3-b7a99b0054b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_23.jpg",
+            "jump_link": ""
+          }
+        },
+        "64f09bda-f1b4-426b-ac2c-524b93974c99": {
+          "type": "text",
+          "settings": {
+            "block_title": "ROBBINS-PRELJOCAJ-EKMAN",
+            "block_content": "<p>« The Concert » de Jérôme Robbins, « Annonciation » d’Angelin Preljocaj et « Cacti » d’Alexander Ekman : trois ballets identitaires et singuliers qui mettent en lumière l’univers artistique de ces grands chorégraphes.<\/p>",
+            "block_color": "#fcf2f4"
+          }
+        },
+        "4d8192fa-8bba-480e-9f7e-050415af6b25": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_32.jpg",
+            "jump_link": ""
+          }
+        },
+        "6fedd2dc-5b13-40b3-ba5e-8c22f88d3266": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_24.jpg",
+            "jump_link": ""
+          }
+        },
+        "5885fb75-f0e8-410d-bb4a-49293ca13283": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_16.jpg",
+            "jump_link": ""
+          }
+        },
+        "2cdeec5c-96f9-44ca-a078-a9f2e8621481": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_33.jpg",
+            "jump_link": ""
+          }
+        },
+        "68f7b002-a6cd-4636-b4c5-13b6a263543c": {
+          "type": "text",
+          "settings": {
+            "block_title": "COLLABORATION REPETTO X OPERA DE ROME.",
+            "block_content": "<p>Une rencontre artistique mettant le mouvement au cœur de la création en le traitant comme un langage universel. De l’individu au groupe, chaque danseur donne un sens particulier à ce projet à travers une interprétation personnelle.<\/p>",
+            "block_color": "#fcf2f4"
+          }
+        },
+        "3e775c14-ec24-4e78-9f41-27ebd3ca250e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_17.jpg",
+            "jump_link": ""
+          }
+        },
+        "c0843522-23a7-4ad5-abb6-57606b0db4d8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_25.jpg",
+            "jump_link": ""
+          }
+        },
+        "7ace7ccc-849b-4cd6-a01f-39344753fee2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_34.jpg",
+            "jump_link": ""
+          }
+        },
+        "5f29018b-228e-4313-8101-d62f65633dd4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_26.jpg",
+            "jump_link": ""
+          }
+        },
+        "36510d2d-41d8-4841-9e0b-aca48f4bd081": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_35.jpg",
+            "jump_link": ""
+          }
+        },
+        "d4510136-231a-4735-a978-8f875fa5d097": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_18.jpg",
+            "jump_link": ""
+          }
+        },
+        "fce02c95-ea90-4024-a83c-5a9952b5eb53": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_19.jpg",
+            "jump_link": ""
+          }
+        },
+        "da2f1b87-06dc-417e-8944-c4e1a32336d6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_27.jpg",
+            "jump_link": ""
+          }
+        },
+        "fe9b9014-2d27-4547-b4fd-8db37d9ed420": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_36.jpg",
+            "jump_link": ""
+          }
+        },
+        "28eb23fa-2c87-4a75-9b68-b84536a60ccb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Opera-image_37.jpg",
+            "jump_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "011122c7-7e62-470b-a398-7e1f14a2d7a8",
+        "02ab6314-8732-4cfb-bfb4-4b5b1d96c597",
+        "4f36053f-01b0-40e4-94a0-3ae4722a00d8",
+        "2d5bc9a4-3784-42f5-804b-c1cc5cf7b252",
+        "afa927e6-33b2-4916-8da8-4818d00c24d4",
+        "d09de357-f936-450e-833f-2a58959015a6",
+        "9dd61cbf-9aff-4ca0-9da6-9568f5d8c59c",
+        "eed394a4-757a-4c80-a090-216f53a2d5d7",
+        "a43c17ef-3b9c-4549-96ed-d7daeb307114",
+        "ca9dee34-3f5f-410e-8fbc-766af9189d8c",
+        "4da8f80d-9efb-4884-a5f9-2680e420f04b",
+        "9876b1f5-2c54-4bba-899c-006ad859dedc",
+        "9e573a0e-fe6e-4807-b120-51e1532dd19f",
+        "83954659-ca30-44de-a6c3-b7a99b0054b6",
+        "64f09bda-f1b4-426b-ac2c-524b93974c99",
+        "4d8192fa-8bba-480e-9f7e-050415af6b25",
+        "6fedd2dc-5b13-40b3-ba5e-8c22f88d3266",
+        "5885fb75-f0e8-410d-bb4a-49293ca13283",
+        "2cdeec5c-96f9-44ca-a078-a9f2e8621481",
+        "68f7b002-a6cd-4636-b4c5-13b6a263543c",
+        "3e775c14-ec24-4e78-9f41-27ebd3ca250e",
+        "c0843522-23a7-4ad5-abb6-57606b0db4d8",
+        "7ace7ccc-849b-4cd6-a01f-39344753fee2",
+        "5f29018b-228e-4313-8101-d62f65633dd4",
+        "36510d2d-41d8-4841-9e0b-aca48f4bd081",
+        "d4510136-231a-4735-a978-8f875fa5d097",
+        "fce02c95-ea90-4024-a83c-5a9952b5eb53",
+        "da2f1b87-06dc-417e-8944-c4e1a32336d6",
+        "fe9b9014-2d27-4547-b4fd-8db37d9ed420",
+        "28eb23fa-2c87-4a75-9b68-b84536a60ccb"
+      ],
+      "settings": {
+        "body_color": "#ffffff"
+      }
+    },
+    "349dbd2c-6ccc-48b9-bd5a-01c20111f80c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21351955104048__349dbd2c-6ccc-48b9-bd5a-01c20111f80c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>En 2015, Repetto devient fournisseur Officiel du ballet de l’Opéra de Rome. Depuis les liens étroits entre l’Opéra et La Maison n’ont cessé de grandir permettant de lancer le projet « Entrez dans les coulisses d’une compagnie » faisant alors découvrir au grand public l’envers du décor.<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "template--21351955104048__349dbd2c-6ccc-48b9-bd5a-01c20111f80c-text-1"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "32f49a65-edf5-426a-af44-41d266c45603": {
+      "type": "univirse-columns",
+      "blocks": {
+        "template--21351955104048__32f49a65-edf5-426a-af44-41d266c45603-column-1": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify:\/\/shop_images\/a_vos_pointes_repetto.jpg",
+            "title": "à vos “pointes”",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/pages\/repetto-sengage-a-vos-pointes"
+          }
+        },
+        "template--21351955104048__32f49a65-edf5-426a-af44-41d266c45603-column-2": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify:\/\/shop_images\/fondation_danse_pour_la_vie_repetto.jpg",
+            "title": "Fondation Danse pour la Vie",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/pages\/repetto-sengage-fondation-white"
+          }
+        }
+      },
+      "block_order": [
+        "template--21351955104048__32f49a65-edf5-426a-af44-41d266c45603-column-1",
+        "template--21351955104048__32f49a65-edf5-426a-af44-41d266c45603-column-2"
+      ],
+      "settings": {
+        "columns_desktop": 2
+      }
+    },
+    "2adf6a3a-c18b-4dd0-8674-da8c598f3349": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "59db4771-8eff-46ba-94c1-cfcb04dcab8d",
+    "bc13f3fb-0370-44bb-9c37-f56278a4b446",
+    "7b40e91f-0198-492b-9d75-54ccd7c5ef80",
+    "349dbd2c-6ccc-48b9-bd5a-01c20111f80c",
+    "32f49a65-edf5-426a-af44-41d266c45603",
+    "2adf6a3a-c18b-4dd0-8674-da8c598f3349"
+  ]
+}

@@ -1,0 +1,252 @@
+{{ 'waterfall.css' | asset_url | stylesheet_tag }}
+{{ 'waterfall.min.js' | asset_url | script_tag }}
+
+{% liquid
+  assign body_color = section.settings.body_color
+%}
+
+<div class="row waterfall">
+  <div class="small-12 waterfall-grid">
+    {% for block in section.blocks %}
+      <div class="grid-item grid-sizer">
+        {% liquid
+          assign video = block.settings.video
+          assign video_autoplay = block.settings.video_autoplay
+          assign video_md5 = block.id | md5
+          assign video_id = 'ids_' | append: video_md5
+        %}
+        {% if block.type == 'video' %}
+          {% if video != empty %}
+            <div class="video-box {{ video_id }}" onclick="videoPlayWaterfall(`{{video_id}}`)">
+              <div class="video-play {% if video_autoplay %} hide {% endif %}">
+                {% render 'svg-icons' with 'video-play' %}
+              </div>
+              {{
+                video
+                | video_tag: autoplay: video_autoplay, loop: true, controls: false, muted: video_autoplay, id: video_id
+              }}
+            </div>
+          {% endif %}
+        {% elsif block.type == 'text' %}
+          <div class="text-box" style="background: {{block.settings.block_color}};">
+            <div class="title">{{ block.settings.block_title }}</div>
+            <div class="content">{{ block.settings.block_content }}</div>
+          </div>
+        {% elsif block.type == 'image' %}
+          <a href="{{ block.settings.jump_link }}">
+            {% assign image = block.settings.image %}
+            {% assign width = image.src.width | append: 'x' | append: image.src.height %}
+            {% render 'responsive-image', image: image, sizes: width %}
+          </a>
+
+        {% elsif block.type == 'image_with_text' %}
+          <div class="img-with-text">
+            <a href="{{ block.settings.jump_link }}">
+              {% assign image = block.settings.image %}
+              {% assign width = image.src.width | append: 'x' | append: image.src.height %}
+              {% render 'responsive-image', image: image, sizes: width %}
+              <div class="text-box">
+                <div class="title">{{ block.settings.block_title }}</div>
+                <div class="content">{{ block.settings.block_content }}</div>
+                {% if block.settings.jump_link_label != empty %}
+                  <div class="label">{{ block.settings.jump_link_label }}</div>
+                {% endif %}
+              </div>
+            </a>
+          </div>
+        {% elsif block.type == 'youtube_video' %}
+          {% assign image = block.settings.youtube_video_holder %}
+          {% assign width = image.src.width | append: 'x' | append: image.src.height %}
+          {% assign youtube_cover_url = block.settings.youtube_video_holder %}
+          {% assign youtube_video_url = block.settings.video %}
+          <div class="youtube-video">
+            {% render 'responsive-image', image: image, sizes: width %}
+            <div class="play-cover" onclick="openYoutubeDialog('{{youtube_video_url.id}}')">
+              {% render 'svg-icons' with 'video-play' %}
+            </div>
+          </div>
+        {% endif %}
+      </div>
+      {% assign currentIndex = forloop.index | modulo: 3  %}
+      {% if currentIndex != 0%}
+         <div class="gutter-sizer">
+         </div>
+       {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<div class="youtube-paly-dialog">
+  <div class="dialog-content">
+    <div class="dialog-header">
+      <h3>REPETTO</h3>
+      <div class="svg-box" onclick="closeYoutubeDialog()">
+        {% render 'svg-icons' with 'custom-close-icon-black' %}
+      </div>
+    </div>
+    <div class="dialog-body"></div>
+  </div>
+</div>
+<script>
+  let body_color = '{{body_color}}';
+  if (body_color != '') {
+    document.querySelector('.header').style.background = body_color;
+    document.querySelector('#main-content').style.background = body_color;
+  }
+
+  var elem = document.querySelector('.waterfall-grid');
+  var msnry = new Masonry(elem, {
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    percentPosition: true,
+    gutter: '.gutter-sizer',
+  });
+  function videoPlayWaterfall(eleId) {
+     if (eleId) {
+      var video_{{video_id}} = document.querySelector(`#${eleId}`);
+      var video_button_{{video_id}} = document.querySelector(`.${eleId} .video-play`)
+      if (video_button_{{video_id}}.className.indexOf('hide') == -1) {
+        video_button_{{video_id}}.className += ' hide';
+        video_{{video_id}}.play();
+      } else {
+        video_button_{{video_id}}.className = video_button_{{video_id}}.className.replace('hide', '');
+        video_{{video_id}}.pause();
+      }
+    }
+  }
+  function openYoutubeDialog(id){
+    const dialog =  document.querySelector('.youtube-paly-dialog')
+    dialog.style.display = 'flex'
+    const dialogBody = document.querySelector('.youtube-paly-dialog .dialog-body')
+    dialogBody.innerHTML = `<iframe data-src="https://www.youtube.com/embed/${id}?loop=1&autoplay=1&mute=1&playlist=${id}&iv_load_policy=3&disablekb=1&controls=0&playsinline=1&enablejsapi=1" frameborder="0" class="lazyload" allow="autoplay; encrypted-media" allowfullscreen tabindex="-1" width="100%" height="100%"></iframe>`
+  }
+  function closeYoutubeDialog(){
+    const dialog =  document.querySelector('.youtube-paly-dialog')
+    dialog.style.display = 'none'
+  }
+</script>
+{% schema %}
+{
+  "name": "Waterfall",
+  "settings": [
+    {
+      "type": "color",
+      "id": "body_color",
+      "label": "Body background color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Video",
+      "type": "video",
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Selct a video"
+        },
+        {
+          "type": "checkbox",
+          "id": "video_autoplay",
+          "default": true,
+          "label": "Autoplay",
+          "info": "Video will be muted"
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "block_title",
+          "label": "Block title"
+        },
+        {
+          "type": "richtext",
+          "id": "block_content",
+          "label": "Block content"
+        },
+        {
+          "type": "color",
+          "id": "block_color",
+          "label": "Block background color",
+          "default": "#ffffff"
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "type": "image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select a picture"
+        },
+        {
+          "type": "url",
+          "id": "jump_link",
+          "label": "Jump link"
+        }
+      ]
+    },
+    {
+      "name": "Image with text",
+      "type": "image_with_text",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select a picture"
+        },
+        {
+          "type": "text",
+          "id": "block_title",
+          "label": "title"
+        },
+        {
+          "type": "richtext",
+          "id": "block_content",
+          "label": "content"
+        },
+        {
+          "type": "text",
+          "id": "jump_link_label",
+          "label": "Jump link label"
+        },
+        {
+          "type": "url",
+          "id": "jump_link",
+          "label": "Jump link"
+        }
+      ]
+    },
+    {
+      "name": "Youtube video",
+      "type": "youtube_video",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "youtube_video_holder",
+          "label": "Youtube video cover"
+        },
+        {
+          "type": "video_url",
+          "id": "video",
+          "label": "Youtube video URL",
+          "accept": ["youtube"],
+          "placeholder": "Use a YouTube URL",
+          "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Waterfall"
+    }
+  ]
+}
+{% endschema %}

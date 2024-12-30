@@ -1,0 +1,126 @@
+.ceremony-form .row {
+  display: flex;
+  margin-bottom: 60px;
+  padding: 60px 0;
+  border: 20px solid #fcf4f2;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap {
+  flex: 1;
+  padding: 0 40px;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-title {
+  margin: 20px 0;
+  color: #222;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-desc {
+  padding: 0 62px;
+  color: #222;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-wrap {
+  padding: 0 96px;
+  overflow: hidden;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-wrap .field {
+  margin: auto;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-wrap .field.radio-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-wrap .field.radio-field input {
+  margin: 0;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-wrap .field.radio-field label {
+  display: block;
+  position: relative;
+  top: unset;
+  left: unset;
+  padding: 0 20px 0 10px;
+  height: auto;
+  line-height: unset;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-wrap .field::placeholder {
+  color: red;
+  font-size: 1.5em;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-wrap .champs-obligatoires {
+  margin: 60px auto 0;
+  color: #636363;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.ceremony-form .row .ceremony-form-inner-wrap .form-wrap .button {
+  float: right;
+}
+
+.ceremony-form .row .ceremony-form-image-wrap {
+  flex: 1;
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.ceremony-form .row .ceremony-form-image-wrap img {
+  object-fit: contain;
+}
+
+.ui-timepicker-container{
+  z-index: 9!important;
+}
+.ui-timepicker-standard a{
+  text-align:left!important;
+  font-size: 12px;
+  margin-left: 8px;
+  font-family: Archivo, serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .ceremony-form {
+    padding: 0 30px;
+  }
+  .ceremony-form .row {
+    display: block;
+  }
+  .ceremony-form .row .ceremony-form-inner-wrap {
+    padding: 0;
+  }
+  .ceremony-form .row .ceremony-form-inner-wrap .form-desc {
+    padding: 0 20px;
+  }
+  .ceremony-form .row .ceremony-form-inner-wrap .form-wrap {
+    padding: 0 20px;
+  }
+  .ceremony-form .row .ceremony-form-inner-wrap .form-wrap .field {
+    width: unset;
+  }
+  .ceremony-form .row .ceremony-form-inner-wrap .form-wrap .button {
+    width: 100%;
+    float: unset;
+  }
+  .ceremony-form .row .ceremony-form-image-wrap {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "repetto-theme",
+  "version": "1.0.0",
+  "description": "Repetto Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "watch": "theme watch --allow-live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-sesame-digital/repetto-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/open-sesame-digital/repetto-theme/issues"
+  },
+  "homepage": "https://github.com/open-sesame-digital/repetto-theme#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.66.1"
+  }
+}

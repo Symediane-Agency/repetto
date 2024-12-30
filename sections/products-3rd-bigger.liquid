@@ -1,0 +1,159 @@
+{{ 'products-3rd-bigger.css' | asset_url | stylesheet_tag }}
+
+{%- liquid
+	assign section_heading = section.settings.heading
+	assign product1 = section.settings.product1
+	assign product2 = section.settings.product2
+	assign product3 = section.settings.product3
+	assign mobile_swipe = section.settings.mobile_swipe
+  assign show_price = section.settings.show_price
+-%}
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    let product1Element = document.querySelector('#product-wrap-product-1 .product-card');
+    let product2Element = document.querySelector('#product-wrap-product-2 .product-card');
+    let product3Element = document.querySelector('#product-wrap-product-3 .product-card');
+
+    let product1Element_image = product1Element.querySelector("figure");
+    let product2Element_image = product2Element.querySelector("figure");
+    let product3Element_image = product3Element.querySelector("figure");
+
+    function adjustHeights() {
+      if (product1Element.offsetHeight !== product2Element.offsetHeight && product1Element.offsetHeight < product2Element.offsetHeight) {
+        product3Element.style.height = product2Element.offsetHeight + 'px';
+        product3Element_image.style.height = product2Element_image.offsetHeight + 'px';
+      } else {
+        product3Element.style.height = product1Element.offsetHeight + 'px';
+        product3Element_image.style.height = product1Element_image.offsetHeight + 'px';
+      }
+    }
+    
+    // Adjust heights on initial load
+    adjustHeights();
+
+    // Adjust heights when the window is resized
+    window.addEventListener('resize', adjustHeights);
+  })
+</script>
+
+<div class="products-3rd-bigger-container{% if mobile_swipe %} swipe-on-mobile{% endif %}">
+  <div class="row">
+    {% if section_heading != blank %}
+      <div class="header">
+        {{ section_heading | upcase }}
+      </div>
+    {% endif %}
+
+    <div class="products-3rd-bigger-container__inner">
+      <div
+        id="product-grid-{{ section.id }}"
+        class="products"
+      >
+        {%- if product1 -%}
+          <div
+            class="product-wrap"
+            id="product-wrap-product-1"
+          >
+            {%
+              render 'product-card',
+              display_type: '',
+              product_card_product: product1,
+              mobile_swipe: mobile_swipe,
+              show_price: show_price,
+              parent_context: 'first'
+            %}
+          </div>
+        {%- endif -%}
+
+        {%- if product2 -%}
+          <div
+            class="product-wrap"
+            id="product-wrap-product-2"
+          >
+            {%
+              render 'product-card',
+              display_type: '',
+              product_card_product: product2,
+              mobile_swipe: mobile_swipe,
+              show_price: show_price,
+              parent_context: 'second'
+            %}
+          </div>
+        {%- endif -%}
+
+        {%- if product3 -%}
+          <div
+            class="product-wrap"
+            id="product-wrap-product-3"
+          >
+            {%
+              render 'product-card',
+              display_type: '',
+              product_card_product: product3,
+              mobile_swipe: mobile_swipe,
+              show_price: show_price,
+              parent_context: 'third'
+            %}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Products 3rd bigger",
+    "settings": [
+      {
+        "type": "header",
+        "content":"Price setting"
+      },
+      {
+        "type": "checkbox",
+        "default": false,
+        "label": "Is the price displayed ?",
+        "id": "show_price"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Products with the 3rd bigger"
+      },
+      {
+        "type": "header",
+        "content": "Products"
+      },
+      {
+        "type": "product",
+        "id": "product1",
+        "label": "Product1"
+      },
+      {
+        "type": "product",
+        "id": "product2",
+        "label": "Product2"
+      }, {
+        "type": "product",
+        "id": "product3",
+        "label": "Product3"
+      }, {
+        "type": "header",
+        "content": "Grid"
+      }, {
+        "type": "checkbox",
+        "id": "mobile_swipe",
+        "default": true,
+        "label": "Enable swipe on mobile"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Products 3rd bigger"
+      }
+    ]
+  }
+{% endschema %}

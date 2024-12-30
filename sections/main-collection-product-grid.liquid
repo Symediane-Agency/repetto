@@ -1,0 +1,638 @@
+{{- 'facets.css' | asset_url | stylesheet_tag -}}
+{{- 'product-grid.css' | asset_url | stylesheet_tag -}}
+{{- 'main-collection-product-grid.css' | asset_url | stylesheet_tag -}}
+{{- 'collections-tab.css' | asset_url | stylesheet_tag -}}
+{%- liquid
+  assign full_width = section.settings.full_width
+  assign enable_filtering = section.settings.enable_filtering
+  assign enable_sorting = section.settings.enable_sorting
+  assign show_counts = section.settings.show_counts
+  assign filter_color_swatches = section.settings.filter_color_swatches
+  assign pagination_type = section.settings.pagination_type
+  assign products_per_page = section.settings.products_per_page
+  assign columns_desktop = section.settings.columns_desktop
+  assign facets_desktop = section.settings.facets_desktop
+
+  unless enable_filtering
+    assign facets_desktop = 'drawer'
+  endunless
+-%}
+{%- for filter in collection.filters limit: 1 -%}
+{%- endfor -%}
+{%- comment -%} This is just to get rid of the "this theme does not support filters" message in the shopify admin {%- endcomment -%}
+{%- render 'facets-mobile',
+  results: collection,
+  enable_filtering: enable_filtering,
+  enable_sorting: enable_sorting,
+  show_counts: show_counts,
+  filter_color_swatches: filter_color_swatches
+-%}
+<div class="row{% if full_width %} full-width-row{% endif %}">
+  <div class="small-12 columns">
+    {%- paginate collection.products by products_per_page -%}
+      <div class="collection-container section-spacing-bottom">
+        <div id="ProductGridContainer">
+          <div class="sidebar-container facets--{{ facets_desktop }} results--{{ collection.products.size }}">
+            {%- if facets_desktop == 'sidebar' -%}
+              {%- render 'facets-desktop',
+                results: collection,
+                enable_filtering: enable_filtering,
+                enable_sorting: enable_sorting,
+                show_counts: show_counts,
+                filter_color_swatches: filter_color_swatches
+              -%}
+            {% else %}
+              {%- render 'facets-bar',
+                results: collection,
+                enable_filtering: enable_filtering,
+                enable_sorting: enable_sorting,
+                facets_desktop: facets_desktop
+              -%}
+            {%- endif -%}
+          </div>
+
+          {%- if collection.products.size == 0 -%}
+            <div
+              class="collection-empty collection"
+              id="product-grid"
+              data-id="{{ section.id }}"
+            >
+              {% render 'svg-icons' with 'thb-no-products' %}
+              <p>
+                {{ 'sections.collection_template.empty' | t -}}
+                <br>
+                {%- if collection.terms -%}
+                  {{ 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url }}
+                {%- endif -%}
+              </p>
+            </div>
+          {%- else -%}
+            {% comment %} <ul
+              id="product-grid"
+              data-id="{{ section.id }}"
+              class="products collection row small-up-2 medium-up-{{ columns_desktop }} pagination--{{ pagination_type }}"
+            > {% endcomment %}
+            <div
+              id="product-grid"
+              data-id="{{ section.id }}"
+              class="products-grid collection pagination--{{ pagination_type }}"
+            >
+              {%- for product in collection.products -%}
+                {%- assign product_loop = forloop -%}
+
+                {%- if section.blocks.size > 0 -%}
+                  {%- for block in section.blocks -%}
+                    {%- liquid
+                      assign display_image_with_text = false
+                      assign paginated_product_real_index = paginate.current_offset | plus: product_loop.index
+
+                      if paginate.current_offset < block.settings.text_position and paginated_product_real_index == block.settings.text_position or product_loop.index == block.settings.text_position
+                        if block.settings.image_promotion_collection != blank and collection.handle == block.settings.image_promotion_collection.handle
+                          assign display_image_with_text = true
+                        endif
+                      endif
+                    -%}
+
+                    {%- if display_image_with_text -%}
+                      {%- assign text_width = block.settings.text_width | round -%}
+
+                      <div class="promotion-column{% if block.settings.text_width == "2" %} promotion-column-wide{% endif %} column promotion-column-width--{{ block.settings.text_width }} product-columns-{{ columns_desktop }}">
+                        {%- render 'plp-image-with-text' with block.settings -%}
+                      </div>
+                    {%- endif -%}
+
+                    {%- liquid
+                      assign display_video = false
+
+                      if product_loop.index == block.settings.video_position
+                        assign display_video = true
+                      endif
+
+                      if block.settings.video_promotion_collection != blank
+                        if collection.handle == block.settings.video_promotion_collection.handle and product_loop.index == block.settings.video_position
+                          assign display_video = true
+                        else
+                          assign display_video = false
+                        endif
+                      endif
+                    -%}
+
+                    {%- if display_video -%}
+                      {%- assign video_width = block.settings.video_width | round -%}
+
+                      <div class="promotion-column{% if block.settings.video_width == "2" %} promotion-column-wide{% endif %} column promotion-column-width--{{ block.settings.video_width }} product-columns-{{ columns_desktop }}">
+                        {%-
+                          render 'plp-video' with video_hosted: block.settings.video_hosted,
+                          video_autoplay: block.settings.video_autoplay,
+                          video_controls: block.settings.video_controls,
+                          video: block.settings.video
+                        -%}
+                      </div>
+                    {%- endif -%}
+
+                    {%- liquid
+                      assign display_promotion = false
+                      if product_loop.index == block.settings.promotion_position
+                        assign display_promotion = true
+                      endif
+
+                      if block.settings.promotion_collection != blank
+                        if collection.handle == block.settings.promotion_collection.handle and product_loop.index == block.settings.promotion_position
+                          assign display_promotion = true
+                        else
+                          assign display_promotion = false
+                        endif
+                      endif
+                    -%}
+
+                    {%- if display_promotion -%}
+                      {{- 'gallery.css' | asset_url | stylesheet_tag -}}
+                      {%- assign promotion_width = block.settings.promotion_width | round -%}
+
+                      <div class="promotion-column{% if block.settings.promotion_width == "2" %} promotion-column-wide{% endif %} column promotion-column-width--{{ block.settings.promotion_width }} product-columns-{{ columns_desktop }}">
+                        {%- render 'product-promotion', block: block -%}
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                {%- endif -%}
+
+                <div class="column column-product-{{ product.metafields.repetto.product_activity.value.value | downcase }}">
+                  {%- render 'product-card', display_type: '', product_card_product: product, show_price: true -%}
+                </div>
+              {%- endfor -%}
+            </div>
+            {% render 'pagination', paginate: paginate, pagination_type: pagination_type, id: section.id %}
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endpaginate -%}
+  </div>
+</div>
+
+{%- if enable_filtering -%}
+  {{ 'nouislider.js' | asset_url | script_tag }}
+  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
+  <script>
+    var queryString = location.search.substr(1);
+    if (queryString.indexOf('model') != -1) {
+      var ar = document.querySelectorAll('.product-card-vendor');
+      ar.forEach((v) => {
+        v.style.display = 'none';
+      });
+    }
+  </script>
+{%- endif -%}
+
+{% comment %} CHANGE THE SCHEMA ACCORDING TO THE NEW REQUIREMENTS{% endcomment %}
+{% schema %}
+{
+  "name": "Product grid",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": false,
+      "label": "Make section full width"
+    },
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "min": 2,
+      "max": 48,
+      "step": 1,
+      "label": "Number of products",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Number of columns on desktop",
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "pagination_type",
+      "options": [
+        {
+          "value": "paginated",
+          "label": "Paginated"
+        },
+        {
+          "value": "loadmore",
+          "label": "Click to load"
+        },
+        {
+          "value": "infinite",
+          "label": "Infinite"
+        }
+      ],
+      "default": "paginated",
+      "label": "Pagination",
+      "info": "Choose how additional pages of products are navigated."
+    },
+    {
+      "type": "header",
+      "content": "Filtering and sorting"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_filtering",
+      "default": true,
+      "label": "Enable filtering",
+      "info": "Customize [filters](/admin/menus)"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_sorting",
+      "default": true,
+      "label": "Enable sorting"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_counts",
+      "default": true,
+      "label": "Show filter values count"
+    },
+    {
+      "type": "checkbox",
+      "id": "filter_color_swatches",
+      "default": true,
+      "label": "Show color swatches"
+    },
+    {
+      "type": "select",
+      "id": "facets_desktop",
+      "options": [
+        {
+          "value": "sidebar",
+          "label": "Sidebar"
+        },
+        {
+          "value": "drawer",
+          "label": "Drawer"
+        }
+      ],
+      "default": "sidebar",
+      "label": "Desktop position",
+      "info": "Position of filters on desktop"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Image",
+      "name": "Image with text",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "image_promotion_collection",
+          "label": "Collection",
+          "info": "Show on specific collection only"
+        },
+        {
+          "type": "number",
+          "id": "text_position",
+          "label": "Show before position",
+          "default": 1
+        },
+        // {
+        //   "type": "range",
+        //   "id": "text_position",
+        //   "min": 1,
+        //   "max": 9999,
+        //   "step": 1,
+        //   "label": "Show before position",
+        //   "default": 1
+        // },
+        {
+          "type": "select",
+          "id": "text_width",
+          "options": [
+            {
+              "value": "1",
+              "label": "1 column"
+            },
+            {
+              "value": "2",
+              "label": "2 columns"
+            }
+          ],
+          "default": "1",
+          "label": "Width"
+        },
+        {
+          "type": "image_picker",
+          "id": "text_img",
+          "label": "Select a picture to display"
+        },
+        {
+          "type": "header",
+          "content": "Component Content"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_context",
+          "default": true,
+          "label": "Display copy related content"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Component Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Component content"
+        },
+        {
+          "type": "text",
+          "id": "url_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button url"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_product",
+          "default": false,
+          "label": "Add a product suspension point"
+        },
+        {
+          "type": "header",
+          "content": "Product"
+        },
+        {
+          "type": "product",
+          "id": "product_handle",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "x_position",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal",
+          "default": 20,
+          "info": "Horizontal position of the hot spot"
+        },
+        {
+          "type": "range",
+          "id": "y_position",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical",
+          "default": 20,
+          "info": "Vertical position of the hot spot"
+        },
+        {
+          "type": "header",
+          "content": "Product 1"
+        },
+        {
+          "type": "product",
+          "id": "product_handle_one",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "x_position_one",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal",
+          "default": 20,
+          "info": "Horizontal position of the hot spot"
+        },
+        {
+          "type": "range",
+          "id": "y_position_one",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical",
+          "default": 20,
+          "info": "Vertical position of the hot spot"
+        },
+        {
+          "type": "header",
+          "content": "Product 2"
+        },
+        {
+          "type": "product",
+          "id": "product_handle_two",
+          "label": "Product"
+        },
+        {
+          "type": "range",
+          "id": "x_position_two",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal",
+          "default": 20,
+          "info": "Horizontal position of the hot spot"
+        },
+        {
+          "type": "range",
+          "id": "y_position_two",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical",
+          "default": 20,
+          "info": "Vertical position of the hot spot"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "name": "Video",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "video_promotion_collection",
+          "label": "Collection",
+          "info": "Show on specific collection only"
+        },
+        {
+          "type": "number",
+          "id": "video_position",
+          "label": "Show before position",
+          "default": 1
+        },
+        // {
+        //   "type": "range",
+        //   "id": "video_position",
+        //   "min": 1,
+        //   "max": 9999,
+        //   "step": 1,
+        //   "label": "Show before position",
+        //   "default": 1
+        // },
+        {
+          "type": "select",
+          "id": "video_width",
+          "options": [
+            {
+              "value": "1",
+              "label": "1 column"
+            },
+            {
+              "value": "2",
+              "label": "2 columns"
+            }
+          ],
+          "default": "1",
+          "label": "Width"
+        },
+        {
+          "type": "checkbox",
+          "id": "video_autoplay",
+          "default": true,
+          "label": "Autoplay",
+          "info": "Video will be muted"
+        },
+        {
+          "type": "checkbox",
+          "id": "video_controls",
+          "default": true,
+          "label": "Display video controls"
+        },
+        {
+          "type": "video_url",
+          "id": "video",
+          "label": "Video URL",
+          "accept": ["youtube", "vimeo"],
+          "placeholder": "Use a YouTube or Vimeo URL",
+          "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+          "info": "Video plays in a lightbox."
+        },
+        {
+          "type": "video",
+          "id": "video_hosted",
+          "label": "Shopify-hosted video",
+          "info": "Overrides the Video URL setting."
+        }
+      ]
+    },
+    {
+      "type": "promotion",
+      "name": "Promotion",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "promotion_collection",
+          "label": "Collection",
+          "info": "Show on specific collection only"
+        },
+        {
+          "type": "number",
+          "id": "promotion_position",
+          "label": "Show before position",
+          "default": 1
+        },
+        // {
+        //   "type": "range",
+        //   "id": "promotion_position",
+        //   "min": 1,
+        //   "max": 9999,
+        //   "step": 1,
+        //   "label": "Show before position",
+        //   "default": 1
+        // },
+        {
+          "type": "select",
+          "id": "promotion_width",
+          "options": [
+            {
+              "value": "1",
+              "label": "1 column"
+            },
+            {
+              "value": "2",
+              "label": "2 columns"
+            }
+          ],
+          "default": "1",
+          "label": "Width"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Promotion",
+          "label": "Heading"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "default": "Advertise a promotion or a sale",
+          "label": "Description"
+        },
+        {
+          "id": "link_label",
+          "type": "text",
+          "label": "Button label",
+          "default": "Explore",
+          "info": "Leave the label blank to hide the button."
+        },
+        {
+          "id": "link",
+          "type": "url",
+          "label": "Button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_text_button",
+          "label": "Use text button",
+          "default": false
+        },
+        {
+          "id": "block_link",
+          "type": "url",
+          "label": "Link",
+          "info": "This will allow you to set a link to the promotion"
+        },
+        {
+          "type": "header",
+          "content": "Colors"
+        },
+        {
+          "type": "color",
+          "id": "overlay_color",
+          "label": "Overlay",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "overlay_opacity",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Overlay opacity",
+          "default": 70
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

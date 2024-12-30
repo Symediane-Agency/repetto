@@ -1,0 +1,89 @@
+{{ 'video-with-text.css' | asset_url | stylesheet_tag }}
+
+{% liquid
+  assign video_autoplay = section.settings.video_autoplay
+  assign video_hosted = section.settings.video_hosted
+%}
+<div class="row video-with-text">
+  <div class="small-12">
+    <div class="container">
+      <div class="sections">
+        <div class="section-title">
+          {{ section.settings.section_title }}
+        </div>
+        <div class="section-content">
+          {{ section.settings.section_content }}
+        </div>
+        <div class="video-play {% if video_autoplay %} hide {% endif %}">
+          {% render 'svg-icons' with 'video-play' %}
+        </div>
+      </div>
+      <div class="video-container">
+        {%- if video_hosted != blank -%}
+          <div class="video_hosted">
+            {%- liquid
+              assign sizes = '1440px'
+            -%}
+            {{
+              video_hosted
+              | video_tag:
+                autoplay: video_autoplay,
+                loop: true,
+                controls: false,
+                muted: video_autoplay,
+                image_size: sizes,
+                id: 'video-with-text'
+            }}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const video = document.querySelector('.video-container #video-with-text');
+  const video_button = document.querySelector('.video-play');
+  const sections = document.querySelector('.video-with-text .sections');
+  sections.addEventListener('click', function () {
+    if (video_button.className.indexOf('hide') == -1) {
+      video_button.className += 'hide';
+      video.play();
+    } else {
+      video_button.className = video_button.className.replace('hide', '');
+      video.pause();
+    }
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Video with text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "section title"
+    },
+    {
+      "type": "richtext",
+      "id": "section_content",
+      "label": "section content"
+    },
+    {
+      "type": "video",
+      "id": "video_hosted",
+      "label": "Shopify-hosted video",
+      "info": "Overrides the Video URL setting."
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay",
+      "default": false,
+      "label": "Autoplay",
+      "info": "Video will be muted"
+    }
+  ],
+
+  "presets": [{ "name": "Video with text" }]
+}
+{% endschema %}

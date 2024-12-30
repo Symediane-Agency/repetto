@@ -1,0 +1,204 @@
+{{- 'multicolumn.css' | asset_url | stylesheet_tag -}}
+{{ 'plp-filters.css' | asset_url | stylesheet_tag }}
+
+{% if collection.handle == 'catalogue-femme-chaussures-ballerines' %}
+  {% comment %}START THIS IS A HARD CODED FILTER LIST FOR BALLERINAS ONLY START{% endcomment %}
+  {% comment %}
+    Order: Camille, Cendrillon, Sophia, Lilouh, Garance, Gianna, Joana, Brigitte, Junon, Cendrillon Hautes
+  {% endcomment %}
+
+  {% comment %}
+    INSIDE THE COLLECTION FILTERS
+    Brigitte,Camille,Cendrillon,Cendrillon hautes,Flora,Garance,Gianna,Grenadine,Joana,Junon,Lilouh,Sophia
+  {% endcomment %}
+  {% comment %} {% assign filters = "Camille, Cendrillon, Sophia, Lilouh, Garance, Gianna, Flora, Joana, Brigitte, Cendrillon hautes" | split: ", " %} {% endcomment %}
+
+  {% assign filters_image_name = "Camille, Cendrillon, Sophia, Lisbeth, Lilouh, Lilouh Babies, Garance, Gianna, Flora, Limbo, Joana, Brigitte, Cendrillon hautes" | split: ", " %}
+
+  {% if request.locale.iso_code == 'en' %}
+    {% assign filters = "Camille, Cendrillon, Sophia, Lisbeth, Lilouh, Lilouh Babies, Garance, Gianna, Flora, Limbo, Joana, Brigitte, Cendrillon hautes" | split: ", " %}
+    {% assign filter_name = "Camille, Cendrillon, Sophia, Lisbeth, Lilouh, Lilouh Babies, Garance, Gianna, Flora, Limbo, Joana, Brigitte, Cendrillon Hautes" | split: ", " %}
+  {% else %}
+    {% assign filters = "Camille, Cendrillon, Sophia, Lisbeth, Lilouh, Lilouh Babies, Garance, Gianna, Flora, Limbo, Joana, Brigitte, Cendrillon hautes" | split: ", " %}
+    {% assign filter_name = "Camille, Cendrillon, Sophia, Lisbeth, Lilouh, Lilouh Babies, Garance, Gianna, Flora, Limbo, Joana, Brigitte, Cendrillon Hautes" | split: ", " %}
+  {% endif %}
+  {% comment %}END THIS IS A HARD CODED FILTER LIST FOR BALLERINAS ONLY END{% endcomment %}
+
+  {% assign size = 8 %}
+  {% assign collection_filters = collection.filters | where: 'param_name', 'filter.p.m.repetto.model' %}
+  {% assign col_filters = collection_filters.first.values %}
+
+  <div class="row pc-show-filter">
+    <div class="small-12 plp-flex-box-overflow">
+      <div class="plp-flex-box{% if col_filters.size > size %} carousel flex-start{% endif %}">
+        <div
+          class="plp-items active"
+          data-index="0"
+          data-name="null"
+          onclick="tabChange(0,null)"
+        >
+          {% render 'svg-icons' with 'all-plps' %}
+          <div class="label">{{ 'plp.header_filter.all' | t }}</div>
+        </div>
+
+        {% for filterName in filters %}
+          {% assign collection_where = col_filters | where: 'value', filterName %}
+          {% assign col_value = collection_where.first.value %}
+          {% assign model_img = filters_image_name[forloop.index0] | replace: ' ', '_' | append: '.png' | file_img_url: '1024x768' %}
+
+          <div
+            class="plp-items carousel__slide"
+            onclick="tabChange(`{{forloop.index}}`, `{{col_value}}`)"
+            data-name="{{col_value}}"
+            data-index="{{forloop.index}}"
+          >
+            <img src="{{ model_img }}" class="plp-images">
+            <div class="label">
+              {{filter_name[forloop.index0]}}
+            </div>
+          </div>
+        {% endfor %}
+
+        {% if col_filters.size > size %}
+          <div class="flickity-nav flickity-prev" tabindex="0">
+            {% render 'svg-icons' with 'plp-filter-more' %}
+          </div>
+          <div class="flickity-nav flickity-next" tabindex="0">
+            {% render 'svg-icons' with 'plp-filter-more' %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="row mob-show-filter">
+    <div class="small-12 plp-flex-box-overflow">
+      <div class="plp-flex-box{% if col_filters.size > size %} flex-start{% endif %}">
+        <div
+          class="plp-items active"
+          data-index="0"
+          data-name="null"
+          onclick="tabChange(0,null)"
+        >
+          {% render 'svg-icons' with 'all-plps' %}
+          <div class="label">{{ 'plp.header_filter.models' | t }}</div>
+        </div>
+
+        {% for filterName in filters %}
+          {% assign collection_where = col_filters | where: 'value', filterName %}
+          {% assign col_value = collection_where.first.value %}
+          {% assign model_img = filters_image_name[forloop.index0] | replace: ' ', '_' | append: '.png' | file_img_url: '1024x768' %}
+
+          <div
+            class="plp-items carousel__slide"
+            onclick="tabChange(`{{forloop.index}}`, `{{col_value}}`)"
+            data-name="{{col_value}}"
+            data-index="{{forloop.index}}"
+          >
+            <img src="{{ model_img }}" class="plp-images">
+            <div class="label">
+              {{filter_name[forloop.index0]}}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Plp filter",
+  "presets": [
+    {
+      "name": "Plp filter"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  const pcPlpItems = document.querySelectorAll('.pc-show-filter .plp-items');
+  const mobPlpItems = document.querySelectorAll('.mob-show-filter .plp-items');
+
+  function tabChange(index, params, type) {
+    if (type == 'pc') {
+      pcPlpItems.forEach((v) => {
+        v.className = v.className.replace('active', '');
+      });
+
+      pcPlpItems[index].className += ' active';
+    } else {
+      mobPlpItems.forEach((v) => {
+        v.className = v.className.replace('active', '');
+      });
+
+      mobPlpItems[index].className += ' active';
+    }
+
+    renderPage(params);
+  }
+
+  function renderPage(params) {
+    let replaceUrl = location.origin + location.pathname;
+
+    if (params != null) {
+      replaceUrl = replaceUrl + `?filter.p.m.repetto.model=${params}`;
+    }
+
+    location.href = replaceUrl;
+  }
+
+  Shopify.queryParams = {};
+  if (location.search.length) {
+    var params = location.search.substr(1).split('&');
+
+    for (var i = 0; i < params.length; i++) {
+      var keyValue = params[i].split('=');
+
+      if (keyValue.length) {
+        Shopify.queryParams[decodeURIComponent(keyValue[0])] = decodeURIComponent(keyValue[1]);
+      }
+    }
+
+    const currentName = Shopify.queryParams['filter.p.m.repetto.model'];
+    let index = null;
+
+    for (let i = 0; i < pcPlpItems.length; i++) {
+      if (pcPlpItems[i].getAttribute('data-name') == currentName) {
+        index = i;
+      }
+    }
+
+    if (index != null) {
+      pcPlpItems.forEach((v) => {
+        v.className = v.className.replace('active', '');
+      });
+
+      pcPlpItems[index].className += ' active';
+    }
+
+    if (index != null) {
+      mobPlpItems.forEach((v) => {
+        v.className = v.className.replace('active', '');
+      });
+
+      mobPlpItems[index].className += ' active';
+    }
+  }
+
+  function scrollToNext() {
+    let ele = document.querySelector('.plp-items.active');
+    let activeIndex = Number(ele.getAttribute('data-index')) + 1;
+    let name = plpItems[activeIndex]?.getAttribute('data-name');
+
+    if (!name) {
+      activeIndex = 0;
+      name = null;
+    }
+
+    if (activeIndex != undefined) {
+      tabChange(activeIndex, name);
+    }
+  }
+</script>

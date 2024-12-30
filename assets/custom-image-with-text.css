@@ -1,0 +1,78 @@
+@media only screen and (min-width: 768px) {
+  .image-with-text.grid--image-medium > .image-with-text__inner.image-with-text__content {
+    width: 30%;
+  }
+  .image-with-text.grid--image-large > .image-with-text__inner,
+  .image-with-text.grid--image-medium > .image-with-text__inner.image-with-text__image {
+    width: 73%;
+  }
+  .image-with-text.text_first {
+    justify-content: flex-end;
+  }
+  .image-with-text__content {
+    max-width: 352px;
+    padding: 0;
+    margin-right: 32px;
+  }
+  .image-with-text__content .image-with-text__content--inner h3 {
+    margin-bottom: 10px;
+  }
+  .image-with-text__content .image-with-text__content--inner h3.h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .image-with-text__content .image-with-text__content--inner .rte {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .image-with-text__content .image-with-text__content--inner .rte p,
+  .image-with-text__content .image-with-text__content--inner .rte h1,
+  .image-with-text__content .image-with-text__content--inner .rte h2,
+  .image-with-text__content .image-with-text__content--inner .rte h3,
+  .image-with-text__content .image-with-text__content--inner .rte h4,
+  .image-with-text__content .image-with-text__content--inner .rte h5,
+  .image-with-text__content .image-with-text__content--inner .rte h6 {
+    color: #7B7678;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .row.no-padding-image-with-text {
+    padding: 0;
+  }
+  .row.no-padding-image-with-text .columns {
+    padding: 0;
+  }
+  .image-with-text__content--inner h3 {
+    margin-bottom: 10px;
+  }
+  .image-with-text__content--inner h3.h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  .image-with-text__content--inner .rte {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .image-with-text__content--inner .rte p,
+  .image-with-text__content--inner .rte h1,
+  .image-with-text__content--inner .rte h2,
+  .image-with-text__content--inner .rte h3,
+  .image-with-text__content--inner .rte h4,
+  .image-with-text__content--inner .rte h5,
+  .image-with-text__content--inner .rte h6 {
+    color: #7B7678;
+  }
+}

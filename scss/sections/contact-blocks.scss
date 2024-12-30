@@ -1,0 +1,68 @@
+@use "../_vars.scss" as vars;
+
+.contact-blocks {
+
+    .wrapper{
+        border-bottom: 1px solid var(--repetto-colors-grey-secondary, #D8D1D4);
+    }
+
+    .contact-block{
+        border: 1px solid var(--repetto-colors-grey-secondary, #D8D1D4);
+        background: var(--repetto-colors-white, #FFF);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        flex-shrink: 0;
+        padding: 50px 20px 30px 20px;
+        position: relative;
+        margin-bottom: 50px;
+
+        .icon{
+            background: #fff;
+            border: solid 1px var(--repetto-colors-grey-secondary, #D8D1D4);
+            border-radius: 100%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -20px;
+        }
+
+        .title{
+            color: var(--repetto-colors-black-primary, #000);
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px; /* 137.5% */
+        }
+        .text{
+            color: var(--repetto-colors-grey-primary, #7B7678);
+            text-align: center;
+            font-family: Archivo;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 128.571% */
+        }
+
+        .form {
+            width: 100%;
+            .input-group{
+                display: flex;
+            }
+            .input-group-button{
+                width: 50px;
+                padding: 0;
+            }
+            .input-group-field{
+                width: calc(100% - 50px);
+            }
+        }
+    }
+}

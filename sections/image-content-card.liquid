@@ -1,0 +1,137 @@
+{{ 'image-content-card.css' | asset_url | stylesheet_tag }}
+
+<div class="row image-content-card">
+  <div class="small-12">
+    <div class="section-container">
+      {% if section.settings.section_head != blank %}
+        <div class="container-title">
+          {{ section.settings.section_head }}
+        </div>
+      {% endif %}
+      {% for block in section.blocks %}
+        <div class="content-item {% if section.settings.block_gap %} has-gap {% endif %} {% if block.settings.component_width == "100%" %} full-width {% endif %} {% if block.settings.image_position == 'right' %} reverse {% endif %}">
+          {% assign image = block.settings.img %}
+          {%- if image.src != blank -%}
+            <div class="img-box">
+              {% assign width = image.src.width | append: 'x' | append: image.src.height %}
+              {% render 'responsive-image', image: image, sizes: width %}
+            </div>
+          {%- endif -%}
+          <div class="text-box {% if section.settings.text_gap %} large-gap{% endif %}" style="background: {{ section.settings.text_bg_color }}">
+            <div class="title">{{ block.settings.block_title }}</div>
+            <div class="content">{{ block.settings.block_content }}</div>
+            {% if block.settings.url_label != blank %}
+              <a href="{{block.settings.url}}">
+                <div class="label">{{ block.settings.url_label }}</div>
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<script>
+  var bgColor = '{{section.settings.section_background_color}}';
+  var bgAllSection = {{section.settings.bg_all_section}}
+  if (bgColor && bgAllSection) {
+    document.querySelector('#shopify-section-{{section.id}}').style.background = bgColor;
+  }else if(bgColor && !bgAllSection){
+    document.querySelector('#shopify-section-{{section.id}} .image-content-card').style.background = bgColor;
+    document.querySelector('#shopify-section-{{section.id}} .image-content-card').style.padding = 0;
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Image content card",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_head",
+      "label": "Section title"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "Section background color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "checkbox",
+      "id": "block_gap",
+      "default": true,
+      "label": "Gap between blocks"
+    },
+    {
+      "type": "checkbox",
+      "id": "bg_all_section",
+      "default": true,
+      "label": "Background color covers all section"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_gap",
+      "default": false,
+      "label": "Use large spacing between text and images"
+    },
+    {
+      "type": "color",
+      "default": "#ffffff",
+      "id": "text_bg_color",
+      "label": "Text section background color"
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "Image-card",
+      "name": "Image-card",
+      "settings": [
+        {
+          "type": "select",
+          "id": "component_width",
+          "default": "100%",
+          "label": "Component width",
+          "options": [
+            { "label": "50%", "value": "50%" },
+            { "label": "100%", "value": "100%" }
+          ]
+        },
+        { "type": "image_picker", "id": "img", "label": "Select a picture" },
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Image position",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "right", "label": "Right" }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "block_title",
+          "label": "Block title"
+        },
+        {
+          "type": "richtext",
+          "id": "block_content",
+          "label": "Block content"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Url link"
+        },
+        {
+          "type": "text",
+          "id": "url_label",
+          "label": "Url label"
+        }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Image content card" }]
+}
+{% endschema %}

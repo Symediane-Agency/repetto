@@ -1,0 +1,25 @@
+@use '../vars' as vars;
+
+.button-group{
+  display: flex;
+}
+
+.button-group input {
+  display: none;
+}
+.button-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: vars.$gray-primary;
+  border: solid 1px vars.$gray-secondary;
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.button-group input:checked + label,
+.button-group input:checked + label:active {
+  background-color: vars.$pink-300;
+  color: black;
+}

@@ -1,0 +1,630 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "image": "shopify:\/\/shop_images\/Vogue_World_3-Modifier.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "promotional_banner_enWUng": {
+      "type": "promotional-banner",
+      "blocks": {
+        "subheading_G38U3G": {
+          "type": "subheading",
+          "settings": {
+            "text": "Savoir-Faire fRANçais"
+          }
+        },
+        "heading_99JRTM": {
+          "type": "heading",
+          "settings": {
+            "text": "REPETTO",
+            "heading_size": "h1"
+          }
+        },
+        "text_xVVWhQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Maison célèbre la fabrication à la française et exprime son soutien aux athlètes français en revisitant l’iconique ballerine Cendrillon dans une édition limitée bleu-blanc-rouge.  <\/p><p>Une ode au mouvement, la ballerine Cendrillon est le fruit d’un artisanat historique incarné par le geste du cousu-retourné qui lui confère souplesse et confort inégalés. Un intemporel Made in France qui célèbre le sport français tout en grâce.<\/p>"
+          }
+        },
+        "button_LiWmUe": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Shop Now",
+            "button_link": "",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_G38U3G",
+        "heading_99JRTM",
+        "text_xVVWhQ",
+        "button_LiWmUe"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/Vogue_World_3-Modifier.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Vogue_World_3-Modifier.jpg",
+        "image_height": "adapt",
+        "image_width": "split",
+        "frame_border": true,
+        "content_position": "text-left",
+        "split_layout": "text_first",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_ihXiXL": {
+      "type": "gallery",
+      "blocks": {
+        "image_bGeP6y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chaussures_portees_ECOM1260-Modifier.jpg",
+            "subheading": "LA FABRIQUE DES ICONIQUES",
+            "title": "Chaussures de Ville",
+            "text": "Issu de notre savoir-faire danse, le « cousu retourné » est un procédé unique de fabrication...",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/catalogue-femme-iconiques",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/catalogue-femme-iconiques"
+          }
+        },
+        "image_awM8gx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Studio_16-1_2e39e98c-ea39-424e-a916-c2b705f5164c.jpg",
+            "subheading": "MADE IN FRANCE",
+            "title": "Chaussons de Danse",
+            "text": "L'essence de la Maison depuis 1947.",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/catalogue-femme-danse-demi-pointes",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/catalogue-femme-danse-demi-pointes"
+          }
+        },
+        "image_byEHNt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tutu_still_life_7-Modifier.jpg",
+            "subheading": "L'ARTISANAT DE LUXE",
+            "title": "Tutus & Créations",
+            "text": "Des plus grands ballets, à nos collections en passant par les vitrines incontournables.",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/tutus-jupons",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/tutus-jupons"
+          }
+        }
+      },
+      "block_order": [
+        "image_bGeP6y",
+        "image_awM8gx",
+        "image_byEHNt"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "medium",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 22,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "a38a51df-4c8a-4f40-a81b-3dc0363e32f1": {
+      "type": "custom-plp-banner",
+      "disabled": true,
+      "settings": {
+        "plp-title": "{{ collection.title }}",
+        "plp-content": "{{ collection.metafields.repetto.addtional_content_text_1 | metafield_tag }}",
+        "button_text": "En savoir plus sur les Cendrillons",
+        "backournd-color": "#faf5f5",
+        "video_autoplay_left": true,
+        "video_controls_left": true,
+        "video_left": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_hosted_left": "{{ collection.metafields.repetto.plp_top_left_video.value }}",
+        "top_left_img": "{{ collection.metafields.repetto.plp_top_left_img.value }}",
+        "top_left_heading": "ESCAPADES ESTIVALES",
+        "top_left_content": "<p>Dans l'éclat de minuit, sous l'astre argenté, les ballerines Cendrillon se métamorphosent, réinventées grâce au talent de @noirkeininomiya.\u2028Telles des étoiles filantes, elles illuminent la scène de leur présence féerique.\u2028Sur Instagram, l'artiste dévoile ces créations exquises, capturant l'instant éphémère où la danse transcende les limites du temps.\u2028Laissez-vous emporter par cette réinterprétation divine.<\/p>",
+        "top_left_btn_url_label": "Revivre le mythe de Cendrillon",
+        "top_left_btn_url": "",
+        "product_handle_1": "{{ collection.metafields.repetto.product_1_plp.value }}",
+        "product_handle_2": "{{ collection.metafields.repetto.product_2_plp.value }}",
+        "product_handle_3": "{{ collection.metafields.repetto.product_3_plp.value }}",
+        "video_autoplay_right": true,
+        "video_controls_right": true,
+        "video_right": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "top_right_img": "{{ collection.metafields.repetto.plp_top_right_img.value }}",
+        "top_right_heading": "ÉVANESCENCES DU SOIR",
+        "top_right_content": "<p>Au coucher du soleil, tout est effervescence et fluidité. Les drapeaux se font robes asymétriques et flottent sur la dune, rouges et roses éclatants se mêlent sur des pièces légères et modulables.<\/p>",
+        "top_right_btn_url_label": "Révéler la magie de Barbie",
+        "top_right_btn_url": "",
+        "product_handle_4": "{{ collection.metafields.repetto.product_4_plp.value }}",
+        "product_handle_5": "{{ collection.metafields.repetto.product_5_plp.value }}",
+        "product_handle_6": "{{ collection.metafields.repetto.product_6_plp.value }}",
+        "video_autoplay_bottom": true,
+        "video_controls_bottom": true,
+        "video_bottom": "",
+        "video_hosted_bottom": "{{ collection.metafields.repetto.plp_bottom_left_video.value }}",
+        "bottom_left_img": "{{ collection.metafields.repetto.plp_bottom_left_img.value }}",
+        "bottom_left_heading": "Cousu retourné : l'excellence Repetto",
+        "bottom_left_content": "<p>Dans l'atelier de Repetto, les secrets enchantés s'entrelacent et le \"cousu retourné\" se révèle. Entre confort et légèreté, pas après pas, la passion prend forme.\u2028Des chaussons naissent, embrassant le sol avec légèreté, laissant dans leur sillage des rêves qui virevoltent dans l'écho des étoiles.<\/p>",
+        "bottom_left_btn_url_label": "",
+        "bottom_left_btn_url": "",
+        "product_handle_7": "{{ collection.metafields.repetto.product_7_plp.value }}",
+        "product_handle_8": "{{ collection.metafields.repetto.product_8_plp.value }}",
+        "product_handle_9": "{{ collection.metafields.repetto.product_9_plp.value }}"
+      }
+    },
+    "505aff6b-3107-4684-a349-f5f88d77d379": {
+      "type": "plp-filter",
+      "settings": {
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "image_D3LfWh": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-la-ceremonie",
+            "text_position": 80,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/zizi_blanche.jpg",
+            "show_context": true,
+            "title": "Collection Homme",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/collections\/catalogue-homme-chaussures",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_66zT4d": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-la-ceremonie",
+            "text_position": 1,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/escarpins-joy-blanc-satin-coco_9424d77f-22e2-460c-b1e8-eab4ba184848.jpg",
+            "show_context": true,
+            "title": "Pour la mariée",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/products\/sandales-joy-blanc-coco-v4174satd-774",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 54,
+            "y_position": 90,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_GRNQ6K": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-la-ceremonie",
+            "text_position": 23,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Bal_de_Nuit-2.jpg",
+            "show_context": true,
+            "title": "Bal de nuit",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/products\/escarpins-jewel-noir-v4181satstd-410",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_jRNHed": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-la-ceremonie",
+            "text_position": 45,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Bal_de_Nuit-4.jpg",
+            "show_context": true,
+            "title": "Justine",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/products\/sandales-justine-rose-raspberry-v4176satd-1448",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_x6DJpU": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-nouvelle-collection",
+            "text_position": 53,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Repetto_Stillife_Nov235515f_1_2c1e24b3-8d16-4f1c-9c66-f2803b2b431b.jpg",
+            "show_context": true,
+            "title": "Nos mules",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/products\/mules-camille-orange-orangeade-v4183cv-1469",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_zfVWk6": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-nouvelle-collection",
+            "text_position": 3,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/V511V-550-P6.jpg",
+            "show_context": true,
+            "title": "Nouvelle Collection",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_wgUAzF": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "made-in-france",
+            "text_position": 1,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/REPETTO_SAVOIRFAIRE_2023_SEWLEATHERREDBALLERINA.jpg",
+            "show_context": true,
+            "title": "Un savoir-faire unique",
+            "content": "<p>Le cousu retourné<\/p>",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_W4XBm6": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "made-in-france",
+            "text_position": 14,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Brigitte_Bardot_Paris_Match_BD.jpg",
+            "show_context": true,
+            "title": "Une icône française",
+            "content": "<p>Depuis 1956<\/p>",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_rewVpq": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "made-in-france",
+            "text_position": 24,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Repetto_x_Jacquemus_Zizi_blanche.png",
+            "show_context": true,
+            "title": "Collab Made in France",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_x6AxEc": {
+          "type": "Image",
+          "disabled": true,
+          "settings": {
+            "image_promotion_collection": "made-in-france",
+            "text_position": 23,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/vegan04.jpg",
+            "show_context": true,
+            "title": "Vegan",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "video_x8QzaC": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_promotion_collection": "made-in-france",
+            "video_position": 8,
+            "video_width": "2",
+            "video_autoplay": true,
+            "video_controls": true,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify:\/\/files\/videos\/Cendrillon VF.mov"
+          }
+        },
+        "image_FBC8gx": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "made-in-france",
+            "text_position": 30,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/DANCE_COLLECTION_REPETTO.jpg",
+            "show_context": true,
+            "title": "UN VRAI BALLET",
+            "content": "<p>La Collection Danse<\/p>",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "video_ebPbk8": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_promotion_collection": "made-in-france",
+            "video_position": 1,
+            "video_width": "2",
+            "video_autoplay": true,
+            "video_controls": true,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify:\/\/files\/videos\/A003_A001_0622E4_001_2.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "image_D3LfWh",
+        "image_66zT4d",
+        "image_GRNQ6K",
+        "image_jRNHed",
+        "image_x6DJpU",
+        "image_zfVWk6",
+        "image_wgUAzF",
+        "image_W4XBm6",
+        "image_rewVpq",
+        "image_x6AxEc",
+        "video_x8QzaC",
+        "image_FBC8gx",
+        "video_ebPbk8"
+      ],
+      "settings": {
+        "full_width": false,
+        "products_per_page": 18,
+        "columns_desktop": 4,
+        "pagination_type": "loadmore",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "rich_text_p3ijL4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GynDkh": {
+          "type": "heading",
+          "settings": {
+            "text": "ET BIEN PLUS ENCORE",
+            "size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GynDkh"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_list_h8U3DV": {
+      "type": "image-list",
+      "blocks": {
+        "image_list_GqaCy3": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/07_0006_final.jpg",
+            "label": "Repetto & Creations",
+            "url": "shopify:\/\/collections\/catalogue-actualites-nouvelle-collection"
+          }
+        },
+        "image_list_WJRGeF": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/072A1182-Modifier-Modifier.jpg",
+            "label": "Repetto & Stores",
+            "url": "shopify:\/\/pages\/trouver-un-revendeur"
+          }
+        },
+        "image_list_mycBxb": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marine_Serre_4-Modifier.jpg",
+            "label": "Repetto & Friends",
+            "url": "shopify:\/\/pages\/marine-serre"
+          }
+        },
+        "image_list_nN6EgK": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ZIZI_Jeanmaire2.jpg",
+            "label": "Repetto & History",
+            "url": "shopify:\/\/pages\/univers-repetto-histoire"
+          }
+        }
+      },
+      "block_order": [
+        "image_list_GqaCy3",
+        "image_list_WJRGeF",
+        "image_list_mycBxb",
+        "image_list_nN6EgK"
+      ],
+      "settings": {
+      }
+    },
+    "d8806980-eb68-4b61-a795-2fb026fb7074": {
+      "type": "custom-content-with-bg",
+      "settings": {
+        "sub_title": "La maison Répetto",
+        "main_title": "FIL D'HISTOIREET HÉRITAGE ÉTOILÉ",
+        "desc": "Avec le cousu retourné, Repetto dévoile son génie. Un savoir-faire secret, héritage précieux, entre gestes cachés et douceur révélée. Le chausson se métamorphose, ballet des artisans, étreinte intemporelle entre ciel et terre. Dans cet art subtil, l'héritage se dessine, éternel comme l'étoile.",
+        "link_text": "Révéler la magie",
+        "link_href": "shopify:\/\/blogs\/news"
+      }
+    },
+    "6057a089-5b1f-4adc-b7e3-ec5bacf408df": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "promotional_banner_enWUng",
+    "gallery_ihXiXL",
+    "a38a51df-4c8a-4f40-a81b-3dc0363e32f1",
+    "505aff6b-3107-4684-a349-f5f88d77d379",
+    "166367228131c52c01",
+    "product-grid",
+    "rich_text_p3ijL4",
+    "image_list_h8U3DV",
+    "d8806980-eb68-4b61-a795-2fb026fb7074",
+    "6057a089-5b1f-4adc-b7e3-ec5bacf408df"
+  ]
+}

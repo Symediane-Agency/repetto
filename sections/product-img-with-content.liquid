@@ -1,0 +1,245 @@
+{{- 'product-image-with-content.css' | asset_url | stylesheet_tag -}}
+{%- liquid
+	assign image = section.settings.image
+	assign image_height = section.settings.image_height
+	assign split_layout = section.settings.split_layout
+	assign content_position = section.settings.content_position
+
+	assign color_text = section.settings.color_text
+
+	assign disable_top_spacing = section.settings.disable_top_spacing
+	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+
+	assign ratio = 1
+	if image_height == 'adapt' and image != blank
+		assign ratio = image.aspect_ratio
+	endif
+
+-%}
+<div class="row grid product-img-with-content-wrap">
+  <div class="small-12 columns product-img-with-content-mobile">
+    <div class="product-img-content layout--split {{ split_layout }} section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}" style="--color-bg: #ffffff; --color-text: {{ color_text }}; --overlay-color-rgb: #000, {{ '#000' | color_extract: 'green' }}, {{ '#000' | color_extract: 'blue' }}; --overlay-opacity: 100; --solid-button-background: {{ color_text }}; --outline-button-label: {{ color_text }};--solid-button-label: #ffffff;--bg-body: #ffffff">
+      <div class="product-img-content--image">
+        <div class="product-img-content--image-media aspect-ratio aspect-ratio--{{ image_height }}" style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%; --ratio-percent--mobile: {{ 1 | divided_by: mobile_ratio | times: 100 }}%">
+          {%- if image -%}
+            {%- liquid
+							assign small_width = image.src.height | times: '375' | divided_by: image.src.width
+							assign master_width = image.src.height | append: 'x' | append: image.src.width
+							assign width = '375x' | append: small_width | append: ',' | append: master_width
+						 -%}
+            {%- render 'responsive-image', image: image, sizes: width, class: class -%}
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder_svg_tag' }}
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="product-img-content--content {{ content_position }}">
+        <div class="product-img-content--content-inner">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'heading' -%}
+              <h3 class="{{ block.settings.heading_size }} heading" {{ block.shopify_attributes }}>{{ block.settings.text | newline_to_br }}</h3>
+              {%- when 'text' -%}
+              <div class="rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              {%- when 'button' -%}
+              {% if block.settings.button_text != blank %}
+                <a
+                  class="link-btn"
+                  href="{{ block.settings.button_link }}"
+                  role="button"
+                  title="{{ block.settings.button_text | escape }}"
+                  {{ block.shopify_attributes }}>
+                  <span>{{ block.settings.button_text }}</span>
+                </a>
+              {% endif %}
+              {% when 'space' %}
+              <div style="height: {{ block.settings.height | append: 'px' }}" {{ block.shopify_attributes }}></div>
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Product img with content",
+    "class": "section-product-img-content",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "select",
+        "id": "image_height",
+        "options": [
+          {
+            "value": "adapt",
+            "label": "Adapt to image"
+          }, {
+            "value": "small",
+            "label": "Small"
+          }, {
+            "value": "large",
+            "label": "Large"
+          }
+        ],
+        "default": "adapt",
+        "label": "Image height"
+      },
+      {
+        "type": "select",
+        "id": "content_position",
+        "label": "Desktop content alignment",
+        "options": [
+          {
+            "value": "text-center",
+            "label": "Center"
+          }, {
+            "value": "text-left",
+            "label": "Left"
+          }, {
+            "value": "text-right",
+            "label": "Right"
+          }
+        ],
+        "default": "text-left"
+      },
+      {
+        "type": "select",
+        "id": "split_layout",
+        "options": [
+          {
+            "value": "image_first",
+            "label": "Image first"
+          }, {
+            "value": "text_first",
+            "label": "Image second"
+          }
+        ],
+        "default": "image_first",
+        "label": "Desktop image placement",
+        "info": "Image first is the default mobile layout."
+      }, {
+        "type": "header",
+        "content": "Colors"
+      }, {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text",
+        "default": "#151515"
+      }, {
+        "type": "header",
+        "content": "Spacing"
+      }, {
+        "type": "checkbox",
+        "id": "disable_top_spacing",
+        "default": false,
+        "label": "Remove top spacing"
+      }, {
+        "type": "checkbox",
+        "id": "disable_bottom_spacing",
+        "default": false,
+        "label": "Remove bottom spacing"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "name": "Heading",
+        "settings": [
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text",
+            "default": "LA MAISON REPETTO"
+          }, {
+            "type": "select",
+            "id": "heading_size",
+            "label": "Size",
+            "options": [
+              {
+                "value": "h2",
+                "label": "Small"
+              }, {
+                "value": "h1",
+                "label": "Medium"
+              }, {
+                "value": "h1-large",
+                "label": "Large"
+              }, {
+                "value": "h1-xlarge",
+                "label": "Extra large"
+              }
+            ],
+            "default": "h1"
+          }
+        ]
+      }, {
+        "type": "text",
+        "name": "Text",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Content",
+            "default": "<p>Entre danse et rêve, tel un pas de deux envoûtant, Repetto virevolta et tissa une maison étoilée...</p>"
+          }
+        ]
+      }, {
+        "type": "button",
+        "name": "Button",
+        "settings": [
+          {
+            "id": "button_text",
+            "type": "text",
+            "label": "Button label",
+            "default": "Explorer notre univers",
+            "info": "Leave the label blank to hide the button."
+          }, {
+            "id": "button_link",
+            "type": "url",
+            "label": "Button link"
+          }, {
+            "type": "checkbox",
+            "id": "button_outline",
+            "label": "Use outline button style",
+            "default": true
+          }
+        ]
+      }, {
+        "type": "space",
+        "name": "Empty space",
+        "settings": [
+          {
+            "type": "range",
+            "id": "height",
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "unit": "px",
+            "label": "Height",
+            "default": 50
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product img with content",
+        "blocks": [
+          {
+            "type": "heading"
+          }, {
+            "type": "text"
+          }, {
+            "type": "button"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

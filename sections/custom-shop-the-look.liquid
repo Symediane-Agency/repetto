@@ -1,0 +1,132 @@
+{% assign custom_data = section.settings %}
+{% assign show_on_device = section.settings.show_on_mobile %}
+{{ 'custom-text-with-image.css' | asset_url | stylesheet_tag }}
+{{ 'custom-shop-the-look.css' | asset_url | stylesheet_tag }}
+<div class="row">
+  <div class="small-12 custom-shop-the-look custom-shop-the-look--desktop">
+    <div class="box small-6 medium-6 large-6">
+      {% render 'c-shop-the-look' with custom_data, align: 'left' %}
+    </div>
+    <div class="box small-6 medium-6 large-6">
+      {% render 'c-shop-the-look' with custom_data, align: 'right' %}
+    </div>
+  </div>
+  <div class="custom-shop-the-look custom-shop-the-look--mobile mob_{{show_on_device}}_show">
+    {%- if show_on_device == 'left' or show_on_device == 'all' -%}
+      <div class="box small-12">
+        {% render 'c-shop-the-look' with custom_data, align: 'left' %}
+      </div>
+    {% endif %}
+    {%- if show_on_device == 'right' or show_on_device == 'all' -%}
+      <div class="box small-12">
+        {% render 'c-shop-the-look' with custom_data, align: 'right' %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "custom Shop the look",
+  "settings": [
+    {
+      "type": "select",
+      "id": "show_on_mobile",
+      "label": "Is it displayed on the phone",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "all",
+          "label": "All"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "left_background_bg",
+      "label": "Left background image",
+      "info": "574 x 608 px .jpg recommended."
+    },
+    {
+      "type": "image_picker",
+      "id": "right_background_image",
+      "label": "Right background imag",
+      "info": "574 x 608 px .jpg recommended."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "select",
+          "id": "belongs_to",
+          "label": "Belongs to that side",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "product",
+          "id": "product_handle",
+          "label": "Product"
+        },
+        {
+          "type": "header",
+          "content": "Position"
+        },
+        {
+          "type": "range",
+          "id": "x_position",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Horizontal",
+          "default": 20,
+          "info": "Horizontal position of the hot spot"
+        },
+        {
+          "type": "range",
+          "id": "y_position",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "%",
+          "label": "Vertical",
+          "default": 20,
+          "info": "Vertical position of the hot spot"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "custom Shop the look",
+      "blocks": [
+        {
+          "type": "product"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

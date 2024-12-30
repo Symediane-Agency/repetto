@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_image": true,
+        "show_collection_description": true,
+        "show_subcollections": true,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "a38a51df-4c8a-4f40-a81b-3dc0363e32f1": {
+      "type": "custom-plp-banner",
+      "settings": {
+        "plp-title": "{{ collection.title }}",
+        "plp-content": "{{ collection.metafields.repetto.addtional_content_text_1 | metafield_tag }}",
+        "button_text": "En savoir plus sur les Cendrillons",
+        "backournd-color": "#faf5f5",
+        "video_autoplay_left": true,
+        "video_controls_left": true,
+        "video_left": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_hosted_left": "{{ collection.metafields.repetto.plp_top_left_video.value }}",
+        "top_left_heading": "ESCAPADES ESTIVALES",
+        "top_left_content": "<p>Dans l'éclat de minuit, sous l'astre argenté, les ballerines Cendrillon se métamorphosent, réinventées grâce au talent de @noirkeininomiya.\u2028Telles des étoiles filantes, elles illuminent la scène de leur présence féerique.\u2028Sur Instagram, l'artiste dévoile ces créations exquises, capturant l'instant éphémère où la danse transcende les limites du temps.\u2028Laissez-vous emporter par cette réinterprétation divine.<\/p>",
+        "top_left_btn_url_label": "Revivre le mythe de Cendrillon",
+        "top_left_btn_url": "",
+        "product_handle_1": "{{ collection.metafields.repetto.product_1_plp.value }}",
+        "product_handle_2": "",
+        "product_handle_3": "",
+        "video_autoplay_right": true,
+        "video_controls_right": true,
+        "video_right": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "top_right_heading": "ÉVANESCENCES DU SOIR",
+        "top_right_content": "<p>Au coucher du soleil, tout est effervescence et fluidité. Les drapeaux se font robes asymétriques et flottent sur la dune, rouges et roses éclatants se mêlent sur des pièces légères et modulables.<\/p>",
+        "top_right_btn_url_label": "Révéler la magie de Barbie",
+        "top_right_btn_url": "",
+        "product_handle_4": "{{ collection.metafields.repetto.product_4_plp.value }}",
+        "product_handle_5": "",
+        "product_handle_6": "",
+        "video_autoplay_bottom": true,
+        "video_controls_bottom": true,
+        "video_bottom": "",
+        "video_hosted_bottom": "{{ collection.metafields.repetto.plp_bottom_left_video.value }}",
+        "bottom_left_img": "shopify:\/\/shop_images\/Rectangle_158.png",
+        "bottom_left_heading": "Cousu retourné : l'excellence Repetto",
+        "bottom_left_content": "<p>Dans l'atelier de Repetto, les secrets enchantés s'entrelacent et le \"cousu retourné\" se révèle. Entre confort et légèreté, pas après pas, la passion prend forme.\u2028Des chaussons naissent, embrassant le sol avec légèreté, laissant dans leur sillage des rêves qui virevoltent dans l'écho des étoiles.<\/p>",
+        "bottom_left_btn_url_label": "",
+        "bottom_left_btn_url": "",
+        "product_handle_7": "",
+        "product_handle_8": "{{ collection.metafields.repetto.product_8_plp.value }}",
+        "product_handle_9": ""
+      }
+    },
+    "505aff6b-3107-4684-a349-f5f88d77d379": {
+      "type": "plp-filter",
+      "settings": {
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "full_width": false,
+        "products_per_page": 20,
+        "columns_desktop": 4,
+        "pagination_type": "loadmore",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "1e25b736-1763-43e2-9a95-503ea442f91d": {
+      "type": "text-and-link",
+      "settings": {
+        "content": "<p>Dans le tourbillon du temps, une rencontre divine a donné naissance à l'éclat éternel des Ballerines Cendrillon de Repetto... <\/p>",
+        "url_label": "Lire la suite",
+        "url_link": "shopify:\/\/pages\/felix-test"
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "d8806980-eb68-4b61-a795-2fb026fb7074": {
+      "type": "custom-content-with-bg",
+      "settings": {
+        "sub_title": "La maison Répetto",
+        "main_title": "FIL D'HISTOIREET HÉRITAGE ÉTOILÉ",
+        "desc": "Avec le cousu retourné, Repetto dévoile son génie. Un savoir-faire secret, héritage précieux, entre gestes cachés et douceur révélée. Le chausson se métamorphose, ballet des artisans, étreinte intemporelle entre ciel et terre. Dans cet art subtil, l'héritage se dessine, éternel comme l'étoile.",
+        "link_text": "Révéler la magie",
+        "link_href": "shopify:\/\/blogs\/news"
+      }
+    },
+    "6057a089-5b1f-4adc-b7e3-ec5bacf408df": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "a38a51df-4c8a-4f40-a81b-3dc0363e32f1",
+    "505aff6b-3107-4684-a349-f5f88d77d379",
+    "product-grid",
+    "1e25b736-1763-43e2-9a95-503ea442f91d",
+    "166367228131c52c01",
+    "d8806980-eb68-4b61-a795-2fb026fb7074",
+    "6057a089-5b1f-4adc-b7e3-ec5bacf408df"
+  ]
+}

@@ -1,0 +1,196 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "contact-blocks": {
+      "type": "contact-blocks",
+      "disabled": true,
+      "settings": {
+        "faq_enabled": true,
+        "whatsapp_enabled": true,
+        "storelocator_enabled": true,
+        "form_enabled": true
+      }
+    },
+    "contact-texts": {
+      "type": "contact-texts",
+      "disabled": true,
+      "settings": {
+        "headquarter_content": "<p>REPETTO<br/>30, avenue de Messine<br/>75008 Paris<br/><br/>Tél. : +33 (0) 1 44 71 83 00<br/><br/>E-mail professionnel : <a href=\"mailto:contact@repetto.com\" title=\"mailto:contact@repetto.com\">contact@repetto.com</a><br/>E-mail consommateur : <a href=\"mailto:service.client@repetto.fr\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com</a></p>",
+        "sales_department_content": "<p>Tél. : + 33 (0) 1 44 71 83 10<br/>E-mail :<a href=\"mailto:adv@repetto.com\" title=\"mailto:adv@repetto.com\"> adv@repetto.com</a><br/>Devenir revendeur ? <a href=\"/pages/wholesale\" title=\"Wholesale\">C’est par ici</a></p>",
+        "press_content": "<p>Pour toute demande presse, nous vous invitons à contacter le service client, en adressant un e-mail à : <a href=\"mailto:service.client@repetto.com\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com</a><br/>Découvrez l’espace presse : <a href=\"/pages/relation-presse\" title=\"Relation presse\">c’est par ici</a></p>",
+        "recruitment_content": "<p>Retrouvez nos dernière offres d’emploi ici</p>",
+        "recruitment_link": "/pages/recrutement",
+        "recruitment_link_text": "Carrière"
+      }
+    },
+    "background_video_Y7z779": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": false,
+        "subheading": "",
+        "heading": "",
+        "text": "",
+        "lightbox_button": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_hosted": "shopify://files/videos/REPETTO_15s_03_MASTER_169.mp4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "hero_xtHyG8": {
+      "type": "hero",
+      "settings": {
+        "hero_title": "Repetto & ses amis",
+        "hero_content": ""
+      }
+    },
+    "rich_text_Vgfptf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_mP68Wk": {
+          "type": "subheading",
+          "settings": {
+            "text": "Repetto & ses amis"
+          }
+        },
+        "text_EpRxzq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Depuis 1947, nous nous engageons à offrir des produits confectionnés à partir de matières d'exception, renommées pour leur durabilité, leur qualité supérieure et leur confort inégalé. Nos créations, particulièrement résistantes, sont conçues pour un usage quotidien. Toutefois, elles requièrent un entretien régulier pour préserver leur élégance et leur éclat. Découvrez tous nos conseils d'entretien pour prendre soin de vos articles Repetto.</p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mP68Wk",
+        "text_EpRxzq"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "gallery_7pegPt": {
+      "type": "gallery",
+      "blocks": {
+        "image_E3Xj8b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Marine_Serre_13-Modifier_fded46ed-574f-4b23-8bc9-dd9df39c7da5.jpg",
+            "subheading": "",
+            "title": "Collaborations",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/collaborations",
+            "use_text_button": true,
+            "block_link": "shopify://pages/collaborations"
+          }
+        },
+        "image_a7qxQi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2024-08-09_MADAME_FIGARO_REPETTO_X_JACQUEMUS_Tina_Kunakey_1.jpg",
+            "subheading": "",
+            "title": "Presse",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/presse",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_N4FqW8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FTWK_square_serge.png",
+            "subheading": "",
+            "title": "Les amis de la Maison",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/les-amis-de-la-maison",
+            "use_text_button": true,
+            "block_link": "shopify://pages/les-amis-de-la-maison"
+          }
+        }
+      },
+      "block_order": [
+        "image_E3Xj8b",
+        "image_a7qxQi",
+        "image_N4FqW8"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "full-width-row",
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "column_spacing": "medium",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 6,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7",
+    "main",
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631",
+    "contact-blocks",
+    "contact-texts",
+    "background_video_Y7z779",
+    "hero_xtHyG8",
+    "rich_text_Vgfptf",
+    "gallery_7pegPt"
+  ]
+}

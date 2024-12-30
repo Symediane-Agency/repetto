@@ -1,0 +1,157 @@
+.image-title-description .row {
+  display: block;
+  padding-bottom: 60px;
+}
+
+.image-title-description .row .columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-title-description .row .columns .section-column {
+  flex: 0 0 calc(25% - 12px);
+}
+
+.image-title-description .row .columns .section-column .content .column-name {
+  margin-top: 20px;
+  line-height: 20px;
+  font-style: italic;
+  font-size: 14px;
+  color: #222;
+  text-align: center;
+}
+
+.image-title-description .row .columns .section-column .content:hover .column-name {
+  text-decoration: underline;
+}
+
+.image-title-description .row .columns .section-column .content .description {
+  display: none;
+}
+
+.image-title-description .row .last-item-with-fixed-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.image-title-description .row .last-item-with-fixed-description .last-item {
+  flex: 0 0 calc(25% - 12px);
+}
+
+.image-title-description .row .last-item-with-fixed-description .last-item .last-item-name {
+  margin-top: 20px;
+  line-height: 20px;
+  font-style: italic;
+  font-size: 14px;
+  color: #222;
+  text-align: center;
+}
+
+.image-title-description .row .last-item-with-fixed-description .last-item:hover .last-item-name {
+  text-decoration: underline;
+}
+
+.image-title-description .row .last-item-with-fixed-description .last-item .description {
+  display: none;
+}
+
+.image-title-description .row .last-item-with-fixed-description .fixed-description {
+  padding: 0 100px;
+  font-size: 14px;
+  color: #222;
+  line-height: 21px;
+  text-align: center;
+}
+
+.image-title-description .row .last-item-with-fixed-description .fixed-description:hover {
+  text-decoration: underline;
+}
+
+.image-title-description .row .last-item-with-fixed-description .fixed-description P {
+  margin: 0;
+}
+
+.image-title-description .row .compartment .item-name .item-name-icon-wrap {
+  display: none;
+}
+
+.image-title-description .row .dynamic-description {
+  margin: 0 auto;
+  padding: 40px;
+  width: 50%;
+  text-align: center;
+  color: #222;
+  font-size: 14px;
+  background: #fcf4f2;
+}
+
+.image-title-description .row .dynamic-description.dynamic-description-hide {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .image-title-description .row .columns .section-column {
+    flex: 0 0 100%;
+  }
+  .image-title-description .row .columns .section-column .content {
+    margin-bottom: 20px;
+  }
+  .image-title-description .row .columns .section-column .content .image-wrap {
+    padding: 0 80px;
+  }
+  .image-title-description .row .columns .section-column .content .column-name {
+    margin-top: 20px;
+    line-height: 20px;
+    font-style: italic;
+    font-size: 14px;
+    color: #222;
+    text-align: center;
+  }
+  .image-title-description .row .columns .section-column .content:hover .column-name {
+    text-decoration: underline;
+  }
+  .image-title-description .row .columns .section-column .content .description {
+    display: none;
+    padding-top: 20px;
+    text-align: center;
+    color: #222;
+    font-size: 14px;
+  }
+  .image-title-description .row .last-item-with-fixed-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .image-title-description .row .last-item-with-fixed-description .last-item {
+    flex: 0 0 100%;
+  }
+  .image-title-description .row .last-item-with-fixed-description .last-item .image-wrap {
+    padding: 0 80px;
+  }
+  .image-title-description .row .last-item-with-fixed-description .last-item .description {
+    padding-top: 20px;
+    text-align: center;
+    color: #222;
+    font-size: 14px;
+  }
+  .image-title-description .row .last-item-with-fixed-description .fixed-description {
+    display: none;
+  }
+  .image-title-description .row .compartment .item-name .item-name-icon-wrap {
+    display: inline;
+    margin-left: 20px;
+  }
+  .image-title-description .row .compartment .item-name .item-name-icon-wrap .item-name-icon {
+    display: inline-block;
+  }
+  .image-title-description .row .compartment .item-name .item-name-icon-wrap .item-name-icon.up {
+    transform: rotate(180deg);
+  }
+  .image-title-description .row .dynamic-description {
+    display: none;
+  }
+}

@@ -1,0 +1,167 @@
+{{ 'job-details.css' | asset_url | stylesheet_tag }}
+<div class="row">
+  <div class="content">
+    {%- for block in section.blocks -%}
+      <div class="section-column">
+        <div class="main-title" style="font-size:{{ block.settings.heading_fontsize }}px;text-align:{{ block.settings.heading_text_align }}">{{ block.settings.heading | upcase }}</div>
+        <div class="desc" style="font-size:{{ block.settings.description_fontsize }}px;text-align:{{ block.settings.description_text_align }};--padding-pc:{{ block.settings.padding_pc | append: 'px'  }};--padding-mobile:{{ block.settings.padding_mobile | append: 'px'  }};">{{ block.settings.text }}</div>
+      </div>
+    {%- endfor -%}
+  </div>
+  <div class="form-container">
+    <div class="form-wrap">
+      <div class="form-heading">{{ 'sections.jobapply_form.title' | t }}</div>
+      {% comment %} <div class="form-subheading">CHEF DE PROJET TECHNICO-FONCTIONNEL</div> {% endcomment %}
+      <form class="form" id="jobApplyForm">
+        <div class="form-row-wrap">
+          <div class="form-row">
+            <input type="text" required id="jobApplyLastname" placeholder="{{ 'sections.jobapply_form.lastname' | t }}">
+            <input type="text" required id="jobApplyFirstname" placeholder="{{ 'sections.jobapply_form.firstname' | t }}">
+            <input type="text" required id="jobApplyPhone" placeholder="{{ 'sections.jobapply_form.phone' | t }}">
+            <input type="text" required id="jobApplyEmail" placeholder="{{ 'sections.jobapply_form.email' | t }}">
+          </div>
+          <div class="form-row">
+            <div class="btn-wrap">
+              <div class="btn-name">{{ 'sections.jobapply_form.file_title' | t }}</div>
+              <label for="jobApplyFile1" class="job-apply-label">
+                <span class="button">{{ 'sections.jobapply_form.download_file' | t }}{% render 'svg-icons' with 'upload' %}</span>
+                <input type="file" class="job-apply-file" id="jobApplyFile1" required>
+                <div class="file-name"></div>
+              </label>
+              <div class="btn-desc">{{ 'sections.jobapply_form.file_type' | t }}</div>
+            </div>
+            <div class="btn-wrap">
+              <div class="btn-name">{{ 'sections.jobapply_form.file2_title' | t }}</div>
+              <label for="jobApplyFile2" class="job-apply-label">
+                <span class="button">{{ 'sections.jobapply_form.download_file2' | t }}{% render 'svg-icons' with 'upload' %}</span>
+                <input type="file" class="job-apply-file" id="jobApplyFile2">
+                <div class="file-name"></div>
+              </label>
+              <div class="btn-desc">{{ 'sections.jobapply_form.file2_type' | t }}</div>
+            </div>
+          </div>
+        </div>
+        <div class="form-btn-wrap">
+          <button id="jobApplyFormSubmit" class="button">{{ 'sections.jobapply_form.send' | t }}</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{{ 'jobapply-form.js' | asset_url | script_tag }}
+
+{% schema %}
+  {
+    "name": "Job details",
+    "class": "job-details",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "header",
+            "content": "Heading"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "default": "Column",
+            "label": "Content"
+          },
+          {
+            "type": "select",
+            "id": "heading_text_align",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              }, {
+                "value": "center",
+                "label": "Center"
+              }, {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "left",
+            "label": "Text align"
+          },
+          {
+            "type": "range",
+            "id": "heading_fontsize",
+            "min": 0,
+            "max": 50,
+            "step": 1,
+            "unit": "px",
+            "label": "Font size",
+            "default": 16,
+            "info": "Changes the heading font size."
+          }, {
+            "type": "header",
+            "content": "Description"
+          }, {
+            "type": "richtext",
+            "id": "text",
+            "default": "<p>description</p>",
+            "label": "Content"
+          }, {
+            "type": "select",
+            "id": "description_text_align",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              }, {
+                "value": "center",
+                "label": "Center"
+              }, {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "left",
+            "label": "Text align"
+          }, {
+            "type": "range",
+            "id": "description_fontsize",
+            "min": 0,
+            "max": 50,
+            "step": 1,
+            "unit": "px",
+            "label": "Font size",
+            "default": 14,
+            "info": "Changes the description font size."
+          }, {
+            "type": "range",
+            "id": "padding_pc",
+            "min": 0,
+            "max": 200,
+            "step": 5,
+            "unit": "px",
+            "label": "PC Padding",
+            "default": 0,
+            "info": "Changes the description padding for pc."
+          }, {
+            "type": "range",
+            "id": "padding_mobile",
+            "min": 0,
+            "max": 200,
+            "step": 5,
+            "unit": "px",
+            "label": "Mobile Padding",
+            "default": 0,
+            "info": "Changes the description padding for mobile."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Job details"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,60 @@
+{{- 'facets-pdp.css' | asset_url | stylesheet_tag -}}
+{%- liquid
+  assign colorSize = color_selections.value | join: '###' | split: '###'
+  assign all_products = product.metafields.repetto.other_color_products.value
+  assign image_index = -1
+  assign featured_media = product.selected_or_first_available_variant.featured_media
+  assign first_image = null
+-%}
+
+<FacetFiltersFormMobile>
+  {%- if featured_media != null -%}
+    {%- liquid
+      assign image_index = image_index | plus: 1
+      assign first_image = featured_media.preview_image
+    -%}
+  {%- endif -%}
+  {%- for media in product.media -%}
+    {%- unless media.id == featured_media.id -%}
+      {%- liquid
+        if media.media_type == 'image'
+          assign image_index = image_index | default: 0 | plus: 1
+        endif
+        if image_index == 0
+          assign first_image = media.preview_image
+        endif
+      -%}
+    {%- endunless -%}
+  {%- endfor -%}
+  <div class="side-panel facet-drawer pdp-side-panel" id="Facet-Drawer">
+    <div class="side-panel-inner">
+      <div class="side-panel-header">
+        <div class="btn-close">
+          <span class="hide-panel">{% render 'svg-icons' with 'color-close' %}</span>
+        </div>
+        <div class="side-panel-header-title">{{ 'custom.pdp.color' | t }}</div>
+      </div>
+      <div class="side-panel-content">
+        <div class="sku-wrap">
+          <div class="sku-item {% if current_product_num < 9  %} sku-item-big  {% endif %} sku-item-current">
+            <a>
+              {%- render 'responsive-image', image: first_image -%}
+            </a>
+            <div class="sku-color">{{ product.metafields.repetto.color.value.value | escape }}</div>
+          </div>
+          {%- for item in all_products -%}
+            <div class="sku-item {% if current_product_num < 9  %} sku-item-big  {% endif %} {% if product.url == item.url  %} sku-item-current {% endif %}">
+              <a href="{{ item.url }}">
+                {%- render 'responsive-image', image: item.featured_image -%}
+              </a>
+              <div class="sku-color">{{ item.metafields.repetto.color.value.value | escape }}</div>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</FacetFiltersFormMobile>
+{{ 'facets.css' | asset_url | stylesheet_tag }}
+{{ 'nouislider.js' | asset_url | script_tag }}
+<script src="{{ 'facets-pdp.js' | asset_url }}" defer="defer"></script>

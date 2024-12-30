@@ -1,0 +1,49 @@
+{% assign life_style = 'store_locator.filters.life_style' | t %}
+{% assign dance = 'store_locator.filters.dance' | t %}
+
+<script>
+    
+    const SHOPIFY_TRANSLATIONS = {
+        size_guide: {
+            size_advice: "{{ 'custom.pdp.size_guide.size_advice' | t }}",
+            size_not_available: "{{ 'custom.pdp.size_guide.size_not_available' | t }}",
+            select_size_type: "{{ 'custom.pdp.size_guide.select_size_type' | t }}",
+            select_size: "{{ 'custom.pdp.size_guide.select_size' | t }}",
+            size_properties: {
+                "repetto": "{{ 'custom.pdp.size_guide.size_properties.repetto' | t }}",
+                "fr_eu": "{{ 'custom.pdp.size_guide.size_properties.fr_eu' | t }}",
+                "de": "{{ 'custom.pdp.size_guide.size_properties.de' | t }}",
+                "it": "{{ 'custom.pdp.size_guide.size_properties.it' | t }}",
+                "uk": "{{ 'custom.pdp.size_guide.size_properties.uk' | t }}",
+                "us": "{{ 'custom.pdp.size_guide.size_properties.us' | t }}",
+                height: "{{ 'custom.pdp.size_guide.size_properties.height' | t }}",
+                waist: "{{ 'custom.pdp.size_guide.size_properties.waist' | t }}",
+                chest: "{{ 'custom.pdp.size_guide.size_properties.chest' | t }}",
+                hips: "{{ 'custom.pdp.size_guide.size_properties.hips' | t }}",
+                inside_leg: "{{ 'custom.pdp.size_guide.size_properties.inside_leg' | t }}",
+                fr_de_eu: "{{ 'custom.pdp.size_guide.size_properties.fr_de_eu' | t }}",
+                fr_eu_de: "{{ 'custom.pdp.size_guide.size_properties.fr_eu_de' | t }}",
+                foot_length: "{{ 'custom.pdp.size_guide.size_properties.foot_length' | t }}",
+                inches: "{{ 'custom.pdp.size_guide.size_properties.inches' | t }}",
+                us_woman: "{{ 'custom.pdp.size_guide.size_properties.us_woman' | t }}",
+                us_man: "{{ 'custom.pdp.size_guide.size_properties.us_man' | t }}"
+            }
+        },
+        'Chaussures & Mode': "{{ life_style | raw }}".replace(/&amp;/g, '&'),
+        'Danse': "{{dance}}"
+    }
+
+    function getTranslation(key){
+        const keys = key.split('.')
+        let currentTranslation = SHOPIFY_TRANSLATIONS
+        for(const k of keys){
+            if(currentTranslation[k] == undefined){
+                return key
+            }
+
+            currentTranslation = currentTranslation[k]
+        }
+
+        return currentTranslation
+    }
+</script>

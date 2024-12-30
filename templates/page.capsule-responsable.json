@@ -1,0 +1,172 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "settings": {
+        "hero_image": "shopify:\/\/shop_images\/Capsule_1-1.jpg",
+        "hero_title": "Repenser la mode : la Collection Responsable ",
+        "hero_content": "<p>Depuis sa création, la maison Repetto se distingue par une fabrication française et engagée, ainsi que par la recherche et l’innovation. <\/p><p>Dernièrement, une collection 100% Vegan a vu le jour. Celle-ci allie tradition et modernité en privilégiant des matières d’origine végétale. <\/p><p><em>Découvrez l’histoire de Repetto et comment la maison a revisité ses modèles incontournables, tout en conservant des souliers d’une qualité inégalée, fabriqués en France.<\/em> <\/p>"
+      }
+    },
+    "1f7fb399-531e-4bc3-9b4f-a8861e1f5cb0": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 90,
+        "border_separator": false,
+        "border_separator_full": true
+      }
+    },
+    "4d36c4c2-7b64-4a0f-afbd-3dce243ecc5d": {
+      "type": "content-image-list",
+      "blocks": {
+        "703bf87c-0fd3-4f38-bf8a-20882865e083": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Capsule-2.jpg",
+            "image_position": "left",
+            "block_title": "Une fabrication française et éthique ",
+            "block_content": "<p>Dès ses débuts, la maison Repetto a fait le choix de localiser sa confection en France. Chaussons de danse et ballerines de ville sont façonnés dans nos ateliers de Saint-Médard d’Excideuil. <\/p><p>Cette décision historique a permis de favoriser un circuit court et de soutenir l’économie locale, tout en assurant la qualité et la transmission du savoir-faire Repetto. <\/p><p><span style=\"text-decoration:underline\"><em>Parcourir notre sélection « Conçus en France »<\/em><\/span> <\/p>"
+          }
+        },
+        "367f0def-c777-4c36-9684-22374bea1b7a": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Capsule-3.jpg",
+            "image_position": "right",
+            "block_title": "Le savoir-faire Repetto : un artisanat français exigeant ",
+            "block_content": "<p>Du chausson à la chaussure, la maison Repettose distingue depuis toujours par la qualité de ses produits. Cette qualité est le résultat du travail méticuleux de nos artisans façonniers qui accomplissentavec des gestes maîtrisés la méthode du cousu-retourné depuis 1947.<\/p><p><span style=\"text-decoration:underline\"><em>Découvrir le savoir-faire Repetto<\/em><\/span><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "703bf87c-0fd3-4f38-bf8a-20882865e083",
+        "367f0def-c777-4c36-9684-22374bea1b7a"
+      ],
+      "settings": {
+        "section_index": 1
+      }
+    },
+    "60e4509c-462c-435d-9110-5ef360e52d45": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "eff41b2e-0562-4964-9990-26b4cd5feccb": {
+      "type": "univirse-columns",
+      "blocks": {
+        "template--21335243915568__eff41b2e-0562-4964-9990-26b4cd5feccb-column-1": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "outside",
+            "image": "shopify:\/\/shop_images\/Capsule-3.jpg",
+            "title": "Dévoiler vos orteils",
+            "description": "<p>Les sandales d'été Repetto<\/p>",
+            "link_label": "Voir la séléction",
+            "link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--21335243915568__eff41b2e-0562-4964-9990-26b4cd5feccb-column-1"
+      ],
+      "settings": {
+        "columns_desktop": 1
+      }
+    },
+    "82243858-2ad4-4adb-9753-f48ef10e03cc": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 5,
+        "spacer_desktop": 10,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "19a576f2-7659-4498-9f3e-c601fb566aa1": {
+      "type": "content-image-list",
+      "blocks": {
+        "c5af746a-04e0-48b8-9f89-a7bc5ca4dbf0": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Capsule-4.jpg",
+            "image_position": "left",
+            "block_title": "Une nouvelle gamme Vegan pour des chaussures innovantes ",
+            "block_content": "<p>La maison met à profit sa connaissance unique des matériaux pour mettre au point une nouvelle gamme végane, sans aucune matière d’origine animale. <\/p><p>Ces nouveaux souliers Vegan conservent la qualité, le confort et le style qui font la renommée de Repetto, tout en mettant à l’honneur de nouveaux composants végétaux. <\/p><p><span style=\"text-decoration:underline\"><em>Voir la gamme Vegan<\/em><\/span> <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "c5af746a-04e0-48b8-9f89-a7bc5ca4dbf0"
+      ],
+      "settings": {
+        "section_index": 3
+      }
+    },
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "2119b849-c418-4611-afc4-1a3cf480b72b": {
+      "type": "custom-content-with-bg",
+      "settings": {
+        "back_img": "shopify:\/\/shop_images\/Capsule-5.jpg",
+        "sub_title": "La Maison Repetto",
+        "main_title": "FIL D'HISTOIRE ET HÉRITAGE ÉTOILÉ",
+        "desc": "Avec le cousu retourné, Repetto dévoile son génie. Un savoir-faire secret, héritage précieux, entre gestes cachés et douceur révélée. Le chausson se métamorphose, ballet des artisans, étreinte intemporelle entre ciel et terre. Dans cet art subtil, l'héritage se dessine, éternel comme l'étoile.",
+        "link_text": "Revivre notre histoire",
+        "link_href": "shopify:\/\/pages\/hub-edito"
+      }
+    },
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "1f7fb399-531e-4bc3-9b4f-a8861e1f5cb0",
+    "4d36c4c2-7b64-4a0f-afbd-3dce243ecc5d",
+    "60e4509c-462c-435d-9110-5ef360e52d45",
+    "eff41b2e-0562-4964-9990-26b4cd5feccb",
+    "82243858-2ad4-4adb-9753-f48ef10e03cc",
+    "19a576f2-7659-4498-9f3e-c601fb566aa1",
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab",
+    "2119b849-c418-4611-afc4-1a3cf480b72b",
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74"
+  ]
+}

@@ -1,0 +1,74 @@
+{%- liquid
+	assign section_heading = section.settings.heading
+	assign section_heading_left = section.settings.heading_left
+	assign section_description = section.settings.description
+	assign full_width = section.settings.full_width
+	assign mobile_swipe = section.settings.mobile_swipe
+	assign disable_top_spacing = section.settings.disable_top_spacing
+	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+-%}
+
+{% render 'recently-viewed-products' with section_heading, section_heading_left, section_description, full_width, mobile_swipe, disable_top_spacing, disable_bottom_spacing  %}
+
+{% schema %}
+	{
+		"name": "Recently viewed products",
+		"settings": [
+			{
+				"type": "paragraph",
+				"content": "Recently viewed products are only visible when browsing outside of the editor"
+			},
+			{
+	      "type": "text",
+	      "id": "heading",
+	      "label": "Heading",
+	      "default": "Recently viewed products"
+	    },
+			{
+				"type": "checkbox",
+				"id": "heading_left",
+				"default": true,
+				"label": "Left align heading"
+			},
+	    {
+	      "type": "richtext",
+	      "id": "description",
+	      "label": "Description",
+	      "default": "<p>Describe your recently viewed products here</p>"
+	    },
+			{
+				"type": "checkbox",
+				"id": "full_width",
+				"label": "Make section full width",
+				"default": true
+			},
+			{
+				"type": "checkbox",
+				"id": "mobile_swipe",
+				"default": true,
+				"label": "Enable swipe on mobile"
+			},
+	 		{
+	       "type": "header",
+	       "content": "Spacing"
+	     },
+	 		{
+	 			"type": "checkbox",
+	 			"id": "disable_top_spacing",
+	 			"default": false,
+	 			"label": "Remove top spacing"
+	 		},
+	 		{
+	 			"type": "checkbox",
+	 			"id": "disable_bottom_spacing",
+	 			"default": false,
+	 			"label": "Remove bottom spacing"
+	 		}
+		],
+    "presets": [
+      {
+        "name": "Recently viewed products"
+      }
+    ]
+	}
+{% endschema %}

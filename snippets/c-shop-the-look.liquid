@@ -1,0 +1,55 @@
+{{ 'shop-the-look.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'product.js' | asset_url }}" defer="defer"></script>
+{%  liquid
+    assign custom_data = c-shop-the-look 
+    assign imageLeft = custom_data.left_background_bg
+    assign imageRight = custom_data.right_background_image
+    assign align = align
+%}
+<shop-the-look class="shop-the-look section-spacing{% if disable_top_spacing %} section-spacing--disable-top{% endif %}{% if disable_bottom_spacing %} section-spacing--disable-bottom{% endif %}">
+  <div class="row {{ section_width }}">
+    <div class="small-12 columns">
+      <figure class="shop-the-look--area">
+        {% case align %}
+          {% when 'left' %}
+          {%- if imageLeft -%}
+            {% assign master_width = imageLeft.src.width | append: 'x' | append: imageLeft.src.height %}
+            {% render 'responsive-image', image: imageLeft, sizes: master_width %}
+          {%- else -%}
+            <div class="thb-placeholder">
+              {{ 'lifestyle-1' | placeholder_svg_tag }}
+            </div>
+          {%- endif -%}
+          {% when 'right' %}
+          {%- if imageRight -%}
+            {% assign master_width = imageRight.src.width | append: 'x' | append: imageRight.src.height %}
+            {% render 'responsive-image', image: imageRight, sizes: master_width %}
+          {%- else -%}
+            <div class="thb-placeholder">
+              {{ 'lifestyle-1' | placeholder_svg_tag }}
+            </div>
+          {% endif %}
+        {% endcase %}
+        {% for block in section.blocks %}
+          {%- assign hotspot_product = all_products[block.settings.product_handle] -%}
+          {% assign hotspot_product_align = block.settings.belongs_to %}
+          {% if hotspot_product_align == align %}
+            <quick-view
+              class="thb-hotspot pin-white"
+              style="left: {{- block.settings.x_position | append: '%' -}}; top: {{- block.settings.y_position | append: '%' -}};"
+              data-product-handle="{{ hotspot_product.handle }}"
+              {{ block.shopify_attributes }}>
+              <div class="thb-hotspot-content thb-pulsate">
+                {%- unless hotspot_product == empty -%}
+                  <div class="loading-overlay">
+                    {% render 'svg-icons' with 'thb-loading' %}
+                  </div>
+                {%- endunless -%}
+              </div>
+            </quick-view>
+          {% endif %}
+        {% endfor %}
+      </figure>
+    </div>
+  </div>
+</shop-the-look>

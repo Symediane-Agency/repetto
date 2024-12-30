@@ -1,0 +1,90 @@
+@use "../_vars.scss" as vars;
+
+.wholesale-list {
+  padding-bottom: 50px;
+
+  .wholesale-list-container{
+    position: relative;
+  }
+
+  .heading{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 35px;
+    margin-top: 50px;
+
+    @media screen and (max-width: vars.$sm-max) {
+      display: block;
+      text-align: center;
+    }
+
+
+    & > div:first-child{
+      width: calc((100% / 3) * 2 - 30px);
+
+      @media screen and (max-width: vars.$sm-max) {
+        width: 100%;
+      }
+    }
+    & > div:last-child{
+      width: calc(100% / 3 - 30px);
+      
+      @media screen and (max-width: vars.$sm-max) {
+        width: 100%;
+      }
+    }
+
+    ::placeholder {
+      color: #7B7678;
+    }
+
+    .search-container{
+      position: relative;
+      .input-container{
+        z-index: 9;
+        input{
+          width: 100%;
+        }
+
+        .icon{
+          position: absolute;
+          z-index: 10;
+          right: 17px;
+          top: 17px;
+        }
+      }
+    }
+  }
+
+  .title{
+    color: var(--repetto-colors-black-primary, #000);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 110% */
+    margin-bottom: 0;
+    text-align: left;
+
+    @media screen and (max-width: vars.$sm-max) {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+
+  .store-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .store-item{
+      width: calc(100% / 3 - 30px);
+      margin-bottom: 0;
+
+      @media screen and (max-width: vars.$sm-max) {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{{ 'context-with-media.css' | asset_url | stylesheet_tag }}
+{% liquid
+  assign video_autoplay = section.settings.video_autoplay
+  assign video_hosted = section.settings.video_hosted
+  assign video_to_image = section.settings.video_to_image
+  assign eleId = section.id | md5
+%}
+
+<div class="row context-with-media context-with-media-{{eleId}}">
+  <div class="small-12">
+    <div class="media-container media-container-{{eleId}}">
+      {% assign image = section.settings.image_cover %}
+      {% if video_to_image %}
+        {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
+        {% assign width = '375x500' | append: ',' | append: master_width %}
+        {%- render 'responsive-image', image: image, sizes: width -%}
+      {%- elsif video_hosted != blank and video_to_image == false -%}
+        <div class="video_hosted">
+          {%- liquid
+            assign sizes = '1440px'
+          -%}
+          {{
+            video_hosted
+            | video_tag:
+              autoplay: video_autoplay,
+              loop: true,
+              controls: false,
+              muted: video_autoplay,
+              image_size: sizes,
+              id: 'context-with-media'
+          }}
+        </div>
+      {%- endif -%}
+      <div class="video-play {% if video_autoplay %} hide {% endif %}">
+        {% render 'svg-icons' with 'video-play' %}
+      </div>
+    </div>
+    <div class="content-container img-{{section.settings.image_position}}">
+      <div class="img-box">
+        {% assign image = section.settings.content_image %}
+        {% if image %}
+          {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
+          {% assign width = '375x500' | append: ',' | append: master_width %}
+          {%- render 'responsive-image', image: image, sizes: width -%}
+        {% endif %}
+      </div>
+      <div class="contents">
+        <div class="subtitle">{{ section.settings.content_subtitle }}</div>
+        <div class="content-title">{{ section.settings.content_title }}</div>
+        <div class="content">{{ section.settings.content_richtext }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  let video_{{eleId}} = document.querySelector('.context-with-media-{{eleId}} #context-with-media');
+  var video_button_{{eleId}} = document.querySelector('.context-with-media-{{eleId}} .video-play');
+  var sections_{{eleId}} = document.querySelector('.context-with-media-{{eleId}} .media-container');
+  if(video_{{eleId}}){
+    sections_{{eleId}}.addEventListener('click', function () {
+      if (video_button_{{eleId}}.className.indexOf('hide') == -1) {
+      video_button_{{eleId}}.className += 'hide';
+        video_{{eleId}}.play();
+      } else {
+      video_button_{{eleId}}.className = video_button.className.replace('hide', '');
+        video_{{eleId}}.pause();
+      }
+    });
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Context with media",
+  "settings": [
+    { "type": "header", "content": "Video" },
+    {
+      "type": "video",
+      "id": "video_hosted",
+      "label": "Shopify-hosted video",
+      "info": "Overrides the Video URL setting."
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay",
+      "default": true,
+      "label": "Autoplay",
+      "info": "Video will be muted"
+    },
+    { "type": "header", "content": "Image" },
+    {
+      "type": "checkbox",
+      "id": "video_to_image",
+      "default": false,
+      "label": "Use image",
+      "info": "Replace video with pictures"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_cover",
+      "label": "Top big image"
+    },
+    { "type": "header", "content": "Content" },
+    {
+      "type": "image_picker",
+      "id": "content_image",
+      "label": "Content image"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "default": "left",
+      "options": [
+        { "label": "Left", "value": "left" },
+        { "label": "Right", "value": "right" }
+      ]
+    },
+    { "type": "text", "id": "content_title", "label": "Content title" },
+    { "type": "text", "id": "content_subtitle", "label": "Content subtitle" },
+    { "type": "richtext", "id": "content_richtext", "label": "Content" }
+  ],
+  "presets": [{ "name": "Context with media" }]
+}
+{% endschema %}

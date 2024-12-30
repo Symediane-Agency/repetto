@@ -1,0 +1,95 @@
+.video-with-text {
+  padding: 0;
+}
+
+.video-with-text .container {
+  width: 100%;
+  height: 688px;
+  position: relative;
+}
+
+.video-with-text .container .sections {
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.video-with-text .container .sections div {
+  width: 100%;
+}
+
+.video-with-text .container .sections div.section-content {
+  max-width: 438px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.video-with-text .container .sections div.section-title {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.video-with-text .container .sections div.section-title p {
+  margin: 0;
+}
+
+.video-with-text .container .sections div.video-play {
+  width: fit-content;
+  margin: 34px auto 0;
+}
+
+.video-with-text .container .sections div.video-play.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.video-with-text .container .video-container,
+.video-with-text .container .video_hosted {
+  width: 100%;
+  height: 100%;
+}
+
+.video-with-text .container .video-container video,
+.video-with-text .container .video-container iframe,
+.video-with-text .container .video_hosted video,
+.video-with-text .container .video_hosted iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .video-with-text {
+    padding: 0 16px;
+  }
+  .video-with-text .container .sections div.section-content {
+    max-width: 287px;
+  }
+  .video-with-text .container .sections div.section-title {
+    max-width: 287px;
+    margin: 0px auto 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1520px) {
+  .video-with-text {
+    padding: 0 60px;
+  }
+}

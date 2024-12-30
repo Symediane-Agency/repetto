@@ -1,0 +1,157 @@
+{{- 'facets-pdp-size.css' | asset_url | stylesheet_tag -}}
+{% liquid
+
+  assign sizeGuideKey = product.metafields.repetto.size_guide.value.key
+  assign sizeTableData = product.metafields.repetto.size_guide.value.data
+  assign sizeTableName = product.metafields.repetto.size_guide.value.name
+  assign byGender = product.metafields.repetto.by_gender.value.value
+  assign activity_data = product.metafields.repetto.product_activity.value.value
+  assign type = byGender | append: activity_data
+  assign heightArr = '150-155/155-160/160-165/165-170/170-175/175-180' | split: '/'
+  assign weightArr = '45/50/55/60/65/70/75/80' | split: '/'
+  if sizeGuideKey == "CLA-CE"
+    assign heightArr = '100-105/105-110/110-115/115-120/120-125/125-130/130-135/135-140/140-145/145-150/150-155/155-160' | split: '/'
+    assign weightArr = '10/15/20/25/30/35/40' | split: '/'
+  endif
+
+%}
+
+
+
+<script>
+  {% comment %} const DATA_SOURCE_MAPPING = {
+    Woman: {
+      CHV: 'CHAUSSURES-VILLE-FEMMES',
+      CLA: 'POINTES',
+      DAW: 'VÊTEMENTS-ATHLEISURE-FEMMES',
+      DAWC: 'SNEAKERS-FEMMES',
+      WT: 'COLLANTS-ADULTES',
+    },
+    Man: {
+      CHV: 'CHAUSSURES-VILLE-HOMMES',
+      MT: 'COLLANTS-ADULTES',
+    },
+    Child: {
+      CLA: 'COLLANTS-ENFANTS',
+    },
+    Femme: {
+      CHV: 'CHAUSSURES-VILLE-FEMMES',
+      CLA: 'POINTES',
+      DAW: 'VÊTEMENTS-ATHLEISURE-FEMMES',
+      DAWC: 'SNEAKERS-FEMMES',
+      WT: 'COLLANTS-ADULTES',
+    },
+    Homme: {
+      CHV: 'CHAUSSURES-VILLE-HOMMES',
+      MT: 'COLLANTS-ADULTES',
+    },
+    Enfant: {
+      CLA: 'COLLANTS-ENFANTS',
+    },
+  }; {% endcomment %}
+
+  const byGender = '{{ byGender }}';
+  const activity = '{{ activity_data }}';
+  const sourceType = '{{ sizeGuideKey }}';
+  {% comment %} const sizeTableData = JSON.parse('{{ sizeTableData }}'); {% endcomment %}
+</script>
+<FacetFiltersFormMobile>
+  <div class="side-panel facet-drawer pdp-side-panel" id="Facet-Drawer-size">
+    <div class="side-panel-inner">
+      <div class="side-panel-header">
+        <div class="btn-close">
+          <span class="hide-panel-size">{% render 'svg-icons' with 'color-close' %}</span>
+        </div>
+        <div class="side-panel-header-title">{{ 'custom.pdp.size' | t }}</div>
+        <div class="side-panel-header-type">{{ sizeTableName }}</div>
+      </div>
+      <div class="side-panel-content">
+        <div class="sku-wrap">
+          {% comment %} sizeGuideKey == 'ATH-F' or {% endcomment %}
+          {% comment %} sizeGuideKey == 'CLA-P' or {% endcomment %}
+          {% comment %} sizeGuideKey == 'CLA-DP' or {% endcomment %}
+          {% comment %} sizeGuideKey == 'CLA-VET' or {% endcomment %}
+          {% comment %} sizeGuideKey == 'CLA-J' or {% endcomment %}
+          {% if
+              
+              sizeGuideKey == 'CLA-CE' or
+              sizeGuideKey == 'CLA-CA'
+            %}
+            <div class="type-two">
+              <div class="item">
+                <p>{{ 'custom.pdp.corresponding_size' | t }}</p>
+                <select name="heigtSelect" onchange="selectHeightWeight(`${sourceType}`)" id="heightSelect">
+                  <option style="display: none;" value="null" disabled selected>{{ 'custom.pdp.size_guide.select_height' | t }}</option>
+                  {% for item in heightArr %}
+                    <option value="{{item}}">{{ item }} cm</option>
+                  {% endfor %}
+                </select>
+                <select name="weightSelect" onchange="selectHeightWeight(`${sourceType}`)" id="weightSelect">
+                  <option style="display: none;" value="null" selected disabled>{{ 'custom.pdp.size_guide.select_weight' | t }}</option>
+                  {% for item in weightArr %}
+                    <option value="{{item}}">{{ item }} kg</option>
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="item result" id="size-guide-result"></div>
+            </div>
+          {% else %}
+            <div class="type-one">
+              {% if product.metafields.repetto.size_advice %}
+                <div class="tip">
+                  <div class="tip-icon-wrap">
+                    <img
+                      src="https://cdn.shopifycdn.net/s/files/1/0781/9578/6032/files/Alert_big_430x.gif?v=1697524460"
+                    >
+                  </div>
+                  <span>{{ product.metafields.repetto.size_advice }}</span>
+                </div>
+              {% endif %}
+              <div class="item flex-item">
+                <div class="select">
+                  <select id="size-type"></select>
+                </div>
+                <div class="right-text">
+                  <p>{{ 'custom.pdp.corresponding_size' | t }}</p>
+                  <p></p>
+                </div>
+              </div>
+              <div class="item flex-item">
+                <select
+                  class="size-len"
+                  id="size-length"
+                ></select>
+              </div>
+              <div class="item">
+                <div class="table" id="type-one-table">
+                  <div class="tbody"></div>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          <concat-us class="contract-us">
+            <a href="tel:{{phone_number}}">
+              <div class="a-inner">
+                <span>{{ 'custom.pdp.question' | t }}</span>
+                <span>
+                  {{ 'custom.pdp.contact' | t }}
+                  {% render 'svg-icons-inline', icon: 'conttract-us' %}
+                </span>
+              </div>
+            </a>
+          </concat-us>
+        </div>
+      </div>
+    </div>
+  </div>
+</FacetFiltersFormMobile>
+{{ 'facets.css' | asset_url | stylesheet_tag }}
+{{ 'nouislider.js' | asset_url | script_tag }}
+{{ 'facets-pdp-size.js' | asset_url | script_tag }}
+{{ 'sizeGuideDataSource.js' | asset_url | script_tag }}
+{{ 'sizeGuide.js' | asset_url | script_tag }}
+{% if type != 'WomanWT' and type != 'ManMT' and type != 'ChildCLA' %}
+  <script>
+    new initSelectBox(sourceType);
+  </script>
+{% endif %}

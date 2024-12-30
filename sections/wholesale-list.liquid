@@ -1,0 +1,111 @@
+<div x-data="wholesale_list" class="wholesale-list-container" x-data="wholesale_list">
+  <div class="row">
+    <div class="small-12 columns heading">
+      <div>
+        <h2 class="title">
+          {{ 'wholesale.reseller.title' | t }}
+        </h2>
+      </div>
+      <div class="search-container">
+        <div class="input-container">
+          <input
+            id="wholesale-search"
+            class=""
+            type="text"
+            placeholder="{{ 'wholesale.reseller.search_placeholder' | t }}"
+            x-model="search"
+          >
+            <svg class="icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path id="Search" d="M4.33333 7.66667L0.999999 11M7.11111 8.77778C4.96334 8.77778 3.22222 7.03666 3.22222 4.88889C3.22222 2.74111 4.96334 1 7.11111 1C9.25889 1 11 2.74111 11 4.88889C11 7.03666 9.25888 8.77778 7.11111 8.77778Z" stroke="black"/>
+            </svg>
+              
+        </div>
+      </div>
+    </div>
+
+    <div class="small-12 columns">
+      <ul
+        id="store-list"
+        class="store-list custom-scrollbar"
+      >
+        {% for wholesale in shop.metaobjects.wholesale.values %}
+          {% assign tags = wholesale.tags | replace: '[', '' | replace: ']', '' | replace: '"', '' | split: ',' %}
+          <li
+            data-latlng="{{ wholesale.latitude }}{{ wholesale.longitude }}"
+            data-tags="{{ tags | join:',' }}"
+            class="store-item"
+            x-data="{ open: false }"
+            x-show="search === '' || $el.textContent.includes(search)"
+            :class="{ 'open' : open }"
+          >
+            <div class="item-header">
+              <h4 class="store-name">
+                {{ wholesale.name }}
+              </h4>
+              <img
+                src="{{ 'Icone_Close.svg' | asset_url }}"
+                alt="Toogle close"
+                @click="open = !open"
+                class="toggle-open"
+              >
+            </div>
+            <div class="item-tags">
+              {% for tag in tags %}
+                <div class="tag">
+                  {{ tag }}
+                </div>
+              {% endfor %}
+            </div>
+            <div class="address">
+              <p>
+                {{ wholesale.address }}
+              </p>
+              <p>
+                {{ wholesale.postcode }}
+                {{ wholesale.city }}
+              </p>
+            </div>
+
+            <div class="contact">
+              {% if wholesale.phone %}
+                <p>
+                  {{ 'store_locator.phone' | t }}: <a href="tel:{{ wholesale.phone }}">{{ wholesale.phone }}</a>
+                </p>
+              {% endif %}
+              {% if wholesale.email %}
+                <p>
+                  {{ 'store_locator.email' | t }}: <a href="mailto:{{ wholesale.email }}">{{ wholesale.email }}</a>
+                </p>
+              {% endif %}
+              {% if wholesale.schedule %}
+                <p>
+                  {{ wholesale.schedule }}
+                </p>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="small-12 medium-8 columns small-order-1 medium-order-3">
+      <div
+        id="map"
+        data-stores="{{ shop.metaobjects.store_locator.values | json | escape }}"
+        data-api-key="{{ section.settings.google_maps_api_key }}"
+        data-mapicon="{{ 'pin-store.png' | asset_url }}"
+        data-mapicon-selected="{{ 'pin-store-selected.png' | asset_url }}"
+        data-mapicon-cluster="{{ 'pin-store-cluster.png' | asset_url }}"
+      ></div>
+    </div>
+  </div>
+</div>
+
+{{ 'wholesale_list.js' | asset_url | script_tag }}
+
+{% schema %}
+{
+  "name": "Wholesale list",
+  "class": "wholesale-list",
+  "settings": []
+}
+{% endschema %}

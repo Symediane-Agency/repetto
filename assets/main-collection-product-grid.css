@@ -1,0 +1,246 @@
+/* TEMP FIX FOR GRID WITH 1X1 SYSTEM */
+/* .medium-up-4 > .column:nth-child(5):not(.promotion-column) {
+  grid-column: span 2;
+  grid-row: span 2;
+} */
+/* .medium-up-4 > .column:nth-child(5):not(.promotion-column).column-product-chv .product-card .product-featured-image-link .carousel__slide:first-child img{
+  object-position: center 80%; 
+  object-fit: cover;
+} */
+/* .medium-up-4 > .column:nth-child(5):not(.promotion-column) .product-card .product-featured-image-link img{
+  object-fit: contain;
+  background: #f7f7f7;
+} */
+.column {
+  display: grid;
+  grid-column: span 1;
+  grid-row: span 1;
+}
+/* .column:nth-child(5):not(.promotion-column) {
+  display: grid;
+  grid-column: span 2;
+  grid-row: span 2;
+} */
+
+/* .column:nth-child(5):not(.promotion-column).column-product-chv .product-card .product-featured-image-link .carousel__slide:first-child img{
+  padding-top: 5vh;
+  object-position: center 80%; 
+  object-fit: cover;
+} */
+
+/* .column:nth-child(5):not(.promotion-column) .product-card .product-featured-image-link img{
+  padding-top: 5vh;
+  object-fit: contain;
+  background: #f7f7f7;
+} */
+.collection-container {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .promotion-column video,
+  .promotion-column iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 25px;
+  }
+  .promotion-column.promotion-column-wide {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  /*
+  .medium-up-4 > .column.column-product-chv .product-card .product-featured-image-link img{
+    object-fit: contain;
+    object-position: center;
+  } */
+    /* .medium-up-4 > .column.column-product-chv .product-card .product-secondary-image{
+    width: 100%;
+  } */
+  .column.column-product-chv .product-card .product-featured-image-link img{
+    object-fit: contain;
+    object-position: center;
+  }
+  .column.column-product-chv .product-card .product-secondary-image{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* TEMP FIX FOR GRID WITH 1X1 SYSTEM */
+  /* .small-up-2 > .column:nth-child(3):not(.promotion-column) {
+    grid-column: span 4;
+    grid-row: span 4;
+  } */
+    /* .small-up-2 > .column:nth-child(3):not(.promotion-column).column-product-chv .product-card .product-featured-image-link img{
+    /* object-position: center -42vw;
+    object-fit: cover;
+  } */
+    /* .small-up-2 > .column:nth-child(5):not(.promotion-column) .product-card .product-featured-image-link img{
+    object-fit: contain;
+    background: #f7f7f7;
+  } */
+  /* .promotion-column.promotion-column-wide {
+    flex: 0 0 100%;
+    max-width: 100%;
+  } */
+
+  /* .column:nth-child(3):not(.promotion-column) {
+    display: grid;
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .column:nth-child(3):not(.promotion-column).column-product-chv .product-card .product-featured-image-link img{
+    object-fit: cover;
+  }
+  .column:nth-child(3):not(.promotion-column) .product-card .product-featured-image-link img{
+    padding-top: 5vh;
+    object-fit: contain;
+    background: #f7f7f7;
+  } */
+
+  /* .column:nth-child(5):not(.promotion-column) .product-card .product-featured-image-link img{
+    padding-top: 5vh;
+    object-fit: contain;
+    background: #f7f7f7;
+  } */
+  .promotion-column video,
+  .promotion-column iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 25px;
+  }
+  .promotion-column.promotion-column-wide {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+
+#Facet-Drawer .facets .thb-filter-content ul {
+  overflow: visible;
+  max-height: unset;
+}
+
+#Facet-Drawer .side-panel-content div ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#Facet-Drawer .side-panel-content div ul li {
+  width: 48%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#Facet-Drawer .side-panel-content div ul li input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  cursor: pointer;
+}
+
+#Facet-Drawer .side-panel-content div ul li input[type="checkbox"]::after {
+  content: "";
+  cursor: pointer;
+  color: transparent;
+  display: block;
+  border-radius: 0px;
+  border-color: #d8d1d4;
+}
+
+#Facet-Drawer .side-panel-content div ul li input[type="checkbox"]:checked {
+  width: 18px;
+  height: 1px;
+}
+
+#Facet-Drawer .side-panel-content div ul li input[type="checkbox"]:checked::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #d8d1d4;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#Facet-Drawer .side-panel-content div ul li input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  display: block;
+  width: 12px;
+  height: 12px;
+  color: #ffffff;
+  background-color: #f8e4e9;
+}
+
+#Facet-Drawer .side-panel-content div ul li input[type="checkbox"]:checked + label {
+  font-weight: bold;
+  color: #000000;
+}
+#Facet-Drawer .side-panel-content div ul li input[type="checkbox"] + label {
+  color: #7b7678;
+}
+
+/* #Facet-Drawer .side-panel-content .list-size {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#Facet-Drawer .side-panel-content .list-size li input[type="checkbox"] {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+#Facet-Drawer .side-panel-content .list-size li .label {
+  display: block;
+  width: 60px;
+  height: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #d8d1d4;
+  color: #7b7678;
+  cursor: pointer;
+} */
+
+#Facet-Drawer .side-panel-content .list-size li .label.checked {
+  border-color: #000000;
+  color: #000000;
+}
+
+#Facet-Drawer .side-panel-content .list-size li .label.disabled {
+  color: #d8d1d4;
+  pointer-events: none;
+}
+
+#Facet-Drawer .side-panel-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#Facet-Drawer .side-panel-footer button {
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}

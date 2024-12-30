@@ -1,0 +1,30 @@
+.contract-us a {
+    display: block;
+    width: 100%;
+  }
+  
+  .contract-us a .a-inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #faf5f5;
+    padding: 10px 20px;
+  }
+  
+  .contract-us a .a-inner span {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contract-us a .a-inner span:last-child {
+    text-transform: capitalize;
+  }
+  
+  .contract-us a .a-inner span:last-child svg {
+    margin-left: 10px;
+  }

@@ -1,0 +1,293 @@
+{{ 'store-locator.css' | asset_url | stylesheet_tag }}
+
+
+<div x-data="store_locator" class="store-locator-container">
+
+<div
+x-data="store_locator"
+class="store-locator-container"
+>
+<div
+  x-show="popupOpen"
+  class="popup-filter"
+>
+  <div class="frame">
+    <div class="popup-container">
+      
+      <div
+        class="popup-container-column-left{% unless request.locale.iso_code == 'fr' and localization.market.handle == 'fr' %} int{% endunless %}"
+      >
+        <div class="popup-container-column-title">
+          {{ 'store_locator.looking_for_lifestyle' | t }}
+        </div>
+
+        <button
+          class="button popup-container-column-button"
+          @click="tagFilter = '{{ 'store_locator.filters.life_style' | t }}'; popupOpen = false; updateFilters();"
+        >
+          {{ 'store_locator.find' | t }}
+        </button>
+      </div>
+
+      <divs
+        class="popup-container-column-right{% unless request.locale.iso_code == 'fr' and localization.market.handle == 'fr' %} int{% endunless %}"
+      >
+        <div
+          class="popup-container-column-right-title-container{% unless request.locale.iso_code == 'fr' and localization.market.handle == 'fr' %} int{% endunless %}"
+        >
+          <div class="popup-container-column-title">
+            {{ 'store_locator.looking_for_dance' | t }}
+          </div>
+        </div>
+
+        <button
+          class="button popup-container-column-button"
+          @click="tagFilter = '{{ 'store_locator.filters.dance' | t }}'; popupOpen = false; updateFilters();"
+        >
+          {{ 'store_locator.find' | t }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="row">
+    {% if section.settings.searchbar_enabled %}
+      <div class="small-12 columns">
+        <div class="col-1-1">
+          <div class="searchbar">
+            <div class="input-group">
+              <input
+                id="location-autocomplete"
+                class="input-group-field"
+                type="text"
+                placeholder="{{ 'store_locator.search_placeholder' | t }}"
+              >
+              <a class="input-group-button button">OK</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% if section.settings.tags_filter_enabled %}
+      <div class="small-12 medium-4 columns small-order-2 medium-order-1">
+        <div class="tags-filter">
+          <div class="radio-component">
+            <div class="button-group round toggle">
+              <input
+                checked type="radio"
+                id="storelocator-filters-all"
+                name="options"
+                value="All"
+                x-model="tagFilter"
+                @change="updateFilters"
+              >
+
+              <label for="storelocator-filters-all">
+                {{ 'store_locator.filters.all' | t }}
+              </label>
+
+              <input
+                type="radio"
+                id="storelocator-filters-lifestyle"
+                name="options"
+                value="{{ 'store_locator.filters.life_style' | t }}"
+                x-model="tagFilter"
+                @change="updateFilters"
+              >
+              <label for="storelocator-filters-lifestyle">
+                {{ 'store_locator.filters.life_style' | t }}
+              </label>
+
+              <input
+                type="radio"
+                id="storelocator-filters-dance"
+                name="options"
+                value="{{ 'store_locator.filters.dance' | t }}"
+                x-model="tagFilter"
+                @change="updateFilters"
+              >
+              
+              <label for="storelocator-filters-dance">
+                {{ 'store_locator.filters.dance' | t }}
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-12 medium-8 columns small-order-4 medium-order-2"></div>
+    {% endif %}
+
+    <div class="small-12 medium-4 columns small-order-3 medium-order-2">
+      <ul
+        x-data="store_list"
+        id="store-list"
+        class="store-list custom-scrollbar"
+        @select-store="selectStore($event.detail.latlng)"
+      >
+        <template x-for="store in stores">
+          <li
+            x-bind:data-latlng="store.latitude + store.longitude"
+            x-bind:data-tags="store.tags.join(',')"
+            class="store-item"
+            x-data="{ open: false }"
+            @click="selectStore(store.latitude + store.longitude)"
+            :class="{ 'selected': selectedStore == (store.latitude + store.longitude), 'open' : open }"
+          >
+            <div class="item-header">
+              <h4
+                class="store-name"
+                x-text="store.name
+              "></h4>
+
+              <img
+                src="{{ 'Icone_Close.svg' | asset_url }}"
+                alt="Toogle close"
+                @click="open = !open"
+                class="toggle-open"
+              />
+            </div>
+
+            <div class="item-tags">
+              <template x-for="tag in store.tags">
+                <div
+                  x-text="tag"
+                  class="tag"
+                >
+                </div>
+              </template>
+            </div>
+
+            <div class="address">
+              <p x-text="store.address"></p>
+
+              <p>
+                <span x-text="store.postcode"></span> <span x-text="store.city"></span>
+              </p>
+            </div>
+
+            <div class="contact">
+              <p x-show="store.phone">
+                {{ 'store_locator.phone' | t }}: <a x-bind:href="'tel:'+ store.phone" x-text="store.phone"></a>
+              </p>
+
+              <p x-show="store.email">
+                {{ 'store_locator.email' | t }}: <a x-bind:href="'mailto:'+ store.email" x-text="store.email"></a>
+              </p>
+
+              <p x-show="store.schedule">
+                {{ 'store_locator.schedule' | t }}: <p x-text="store.schedule"></p>
+              </p> 
+            </div>
+          </li>
+        </template>
+
+        {% comment %} {% for storeLocator in shop.metaobjects.store_locator.values %}
+          {% assign tags = storeLocator.tags | replace: '[', '' | replace: ']', '' | replace: '"', '' | split:',' %}
+
+          <li
+            data-latlng="{{ storeLocator.latitude }}{{ storeLocator.longitude }}"
+            data-tags="{{ tags | join:',' }}"
+            class="store-item"
+            x-data="{ open: false }"
+            @click="selectStore('{{ storeLocator.latitude }}{{ storeLocator.longitude }}')"
+            :class="{ 'selected': selectedStore == '{{ storeLocator.latitude }}{{ storeLocator.longitude }}', 'open' : open }"
+          >
+            <div class="item-header">
+              <h4 class="store-name">
+                {{ storeLocator.name }}
+              </h4>
+
+              <img
+                src="{{ 'Icone_Close.svg' | asset_url }}"
+                alt="Toogle close"
+                @click="open = !open"
+                class="toggle-open"
+              />
+            </div>
+
+            <div class="item-tags">
+              {% for tag in tags %}
+                <div class="tag">
+                  {{ tag }}
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="address">
+              <p>
+                {{ storeLocator.address }}
+              </p>
+
+              <p>
+                {{ storeLocator.postcode }} {{ storeLocator.city }}
+              </p>
+            </div>
+
+            <div class="contact">
+              {% if storeLocator.phone %}
+                <p>
+                  {{ 'store_locator.phone' }}: <a href="tel:{{ storeLocator.phone }}">{{ storeLocator.phone }}</a>
+                </p>  
+              {% endif %}
+
+              {% if storeLocator.email %}
+                <p>
+                  {{ 'store_locator.email' }}: <a href="mailto:{{ storeLocator.email }}">{{ storeLocator.email }}</a>
+                </p>  
+              {% endif %}
+
+              {% if storeLocator.schedule %}
+                <p>
+                  {{ storeLocator.schedule }}
+                </p>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %} {% endcomment %}
+      </ul>
+    </div>
+
+    <div class="small-12 medium-8 columns small-order-1 medium-order-3">
+      <div
+        id="map"
+        data-stores="{{ shop.metaobjects.store_locator.values | json | escape }}"
+        data-api-key="{{ section.settings.google_maps_api_key }}"
+        data-mapicon="{{ 'pin-store.png' | asset_url }}"
+        data-mapicon-selected="{{ 'pin-store-selected.png' | asset_url }}"
+        data-mapicon-cluster="{{ 'pin-store-cluster.png' | asset_url }}"
+      ></div>
+    </div>
+  </div>
+</div>
+
+
+
+{{ 'store_locator.js' | asset_url | script_tag }}
+
+{% schema %}
+  {
+    "name": "Store locator",
+    "class": "store-locator",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "searchbar_enabled",
+        "default": false,
+        "info": "Enable searchbar",
+        "label": "Enable searchbar"
+      }, {
+        "type": "checkbox",
+        "id": "tags_filter_enabled",
+        "default": false,
+        "label": "Tags filter enabled",
+        "info": "Tags filter enabled"
+      }, {
+        "type": "text",
+        "id": "google_maps_api_key",
+        "label": "Google maps API KEY"
+      }
+    ]
+  }
+  {% endschema %}

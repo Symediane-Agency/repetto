@@ -1,0 +1,53 @@
+{{ 'header-page.css' | asset_url | stylesheet_tag }}
+
+<div class="row header-page {% if section.settings.border_top %} border-top  {% endif %} {% if section.settings.border_bottom %} border-bottom  {% endif %}">
+  <div class="small-12 ">
+    <div class="page-title">
+      {{ section.settings.header_name }}
+    </div>
+    <div class="page-tel">{{ 'custom.help.tel' | t }}. : {{ section.settings.telphone }}</div>
+    <div class="page-email">
+      E-mail : <a href="mailto:{{section.settings.emaill}}">{{ section.settings.emaill }}</a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Page header",
+  "settings": [
+    {
+      "type": "text",
+      "id": "header_name",
+      "label": "Header name"
+    },
+    {
+      "type": "text",
+      "id": "telphone",
+      "label": "Telphone"
+    },
+    {
+      "type": "text",
+      "id": "emaill",
+      "label": "E-mail"
+    },
+    {
+      "type": "checkbox",
+      "default": true,
+      "id": "border_top",
+      "label": "Enable border top"
+    },
+    {
+      "type": "checkbox",
+      "default": true,
+      "id": "border_bottom",
+      "label": "Enable border bottom"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page header"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main-blog-header": {
+      "type": "main-blog-header",
+      "settings": {
+        "heading": "Blog posts",
+        "description": "<p>Add a short description for your blog.<\/p>",
+        "show_category_list": true
+      }
+    },
+    "main-blog": {
+      "type": "main-blog",
+      "settings": {
+        "image_ratio": "landscape",
+        "show_date": true,
+        "show_excerpt": true
+      }
+    }
+  },
+  "order": [
+    "main-blog-header",
+    "main-blog"
+  ]
+}

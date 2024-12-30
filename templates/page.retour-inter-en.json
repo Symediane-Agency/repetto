@@ -1,0 +1,388 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "contact-blocks": {
+      "type": "contact-blocks",
+      "disabled": true,
+      "settings": {
+        "faq_enabled": true,
+        "whatsapp_enabled": true,
+        "storelocator_enabled": true,
+        "form_enabled": true
+      }
+    },
+    "contact-texts": {
+      "type": "contact-texts",
+      "disabled": true,
+      "settings": {
+        "headquarter_content": "<p>REPETTO<br\/>30, avenue de Messine<br\/>75008 Paris<br\/><br\/>Tél. : +33 (0) 1 44 71 83 00<br\/><br\/>E-mail professionnel : <a href=\"mailto:contact@repetto.com\" title=\"mailto:contact@repetto.com\">contact@repetto.com<\/a><br\/>E-mail consommateur : <a href=\"mailto:service.client@repetto.fr\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com<\/a><\/p>",
+        "sales_department_content": "<p>Tél. : + 33 (0) 1 44 71 83 10<br\/>E-mail :<a href=\"mailto:adv@repetto.com\" title=\"mailto:adv@repetto.com\"> adv@repetto.com<\/a><br\/>Devenir revendeur ? <a href=\"\/pages\/wholesale\" title=\"Wholesale\">C’est par ici<\/a><\/p>",
+        "press_content": "<p>Pour toute demande presse, nous vous invitons à contacter le service client, en adressant un e-mail à : <a href=\"mailto:service.client@repetto.com\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com<\/a><br\/>Découvrez l’espace presse : <a href=\"\/pages\/relation-presse\" title=\"Relation presse\">c’est par ici<\/a><\/p>",
+        "recruitment_content": "<p>Retrouvez nos dernière offres d’emploi ici<\/p>",
+        "recruitment_link": "\/pages\/recrutement",
+        "recruitment_link_text": "Carrière"
+      }
+    },
+    "hero_xtHyG8": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "hero_title": "Conseils & entretien",
+        "hero_content": "<p><\/p><p><\/p><p>Depuis 1947, nous nous engageons à offrir des produits confectionnés à partir de matières d'exception, reconnues pour leur qualité supérieure et leur souplesse. Toutefois, ces matériaux nécessitent un entretien régulier pour préserver leur élégance et leur éclat. Découvrez tous nos conseils d'entretien pour prendre soin de vos créations Repetto.<\/p>"
+      }
+    },
+    "rich_text_Vgfptf": {
+      "type": "rich-text",
+      "blocks": {
+        "text_EpRxzq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Depuis 1947, nous nous engageons à offrir des produits confectionnés à partir de matières d'exception, renommées pour leur durabilité, leur qualité supérieure et leur confort inégalé. Nos créations, particulièrement résistantes, sont conçues pour un usage quotidien. Toutefois, elles requièrent un entretien régulier pour préserver leur élégance et leur éclat. Découvrez tous nos conseils d'entretien pour prendre soin de vos articles Repetto.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_EpRxzq"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_wh9dwj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bkQMhR": {
+          "type": "heading",
+          "settings": {
+            "text": "Retourner une création Repetto",
+            "size": "h2"
+          }
+        },
+        "subheading_nm4RnC": {
+          "type": "subheading",
+          "settings": {
+            "text": "Sous 14 jours"
+          }
+        },
+        "text_6NcmUR": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Les modalités de retour varient en fonction de votre localisation. Afin de garantir un traitement rapide de votre retour, nous vous invitons à suivre les instructions spécifiques à votre région.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "text_4YrJJH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Depuis 1947, la Maison Repetto veille à ce que chaque expérience d'achat soit exceptionnelle. C’est pourquoi nous vous offrons un service de retour à la hauteur de nos engagements. <\/p><p>Afin de garantir un traitement rapide de votre retour, nous vous invitons à suivre les instructions spécifiques à votre région.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bkQMhR",
+        "subheading_nm4RnC",
+        "text_6NcmUR",
+        "text_4YrJJH"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "content_image_list_w4UxiW": {
+      "type": "content-image-list",
+      "blocks": {
+        "combination_WqDA8m": {
+          "type": "combination",
+          "settings": {
+            "image_position": "left",
+            "block_title": "Depuis la France",
+            "block_content": "<p>Vous pouvez retourner votre commande <a href=\"https:\/\/repetto.com\/a\/return\" target=\"_blank\" title=\"https:\/\/repetto.com\/a\/return\">en cliquant ici<\/a> ou si vous avez un compte, dans l'espace \"Mes commandes\".<\/p><p>Options de retour : <\/p><p>- échange pour une taille et\/ou une couleur différente : <strong>offert<\/strong><\/p><p>- remboursement sous forme d'avoir : <strong>offert<\/strong><\/p><p>- remboursement sur votre moyen de paiement : <strong>5€<\/strong> déduit de votre remboursement<\/p>"
+          }
+        },
+        "combination_B7cWbQ": {
+          "type": "combination",
+          "settings": {
+            "image_position": "left",
+            "block_title": "Depuis l'international",
+            "block_content": "<p>Vous pouvez retourner votre commande <a href=\"https:\/\/web.global-e.com\/Returns\/portal\/mZwy\" target=\"_blank\" title=\"https:\/\/web.global-e.com\/Returns\/portal\/mZwy\">en cliquant ici <\/a>ou si vous avez un compte, dans l'espace \"Mes commandes\". <\/p><p>Le montant du retour pour remboursement est calculé selon le poids de la commande retournée et du pays dans lequel vous vous trouvez. <\/p><p><\/p><p><em>Les échanges et avoirs seront bientôt disponibles. <\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "combination_WqDA8m",
+        "combination_B7cWbQ"
+      ],
+      "settings": {
+        "section_index": 1
+      }
+    },
+    "gallery_7pegPt": {
+      "type": "gallery",
+      "blocks": {
+        "image_a7qxQi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EmptyName_8-Modifier.jpg",
+            "subheading": "Demande de retour",
+            "title": "Depuis la France",
+            "text": "Remboursement : Retour à 5€ - Avoirs et échange : retour offert",
+            "link_label": "Cliquez ici",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/pages\/conseils-entretien-chaussures"
+          }
+        },
+        "image_E3Xj8b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EmptyName_6-Modifier.jpg",
+            "subheading": "",
+            "title": "Retour depuis l'international",
+            "text": "",
+            "link_label": "En savoir plus",
+            "link": "https:\/\/fra01.safelinks.protection.outlook.com\/?url=https%3A%2F%2Fweb.global-e.com%2FReturns%2FPortal%2FmZwy&data=05%7C02%7Clrobin%40repetto.com%7C87f64830fef74b2e21cd08dcc7692da9%7Ca8b5534b5122440ab8ca93e286fa9d24%7C0%7C0%7C638604501749816217%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=zlWYulwq1KTI35e%2FlgTpOYoHRu67dwllBdtgfEyN%2B60%3D&reserved=0",
+            "use_text_button": true,
+            "block_link": "https:\/\/fra01.safelinks.protection.outlook.com\/?url=https%3A%2F%2Fweb.global-e.com%2FReturns%2FPortal%2FmZwy&data=05%7C02%7Clrobin%40repetto.com%7C87f64830fef74b2e21cd08dcc7692da9%7Ca8b5534b5122440ab8ca93e286fa9d24%7C0%7C0%7C638604501749816217%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=zlWYulwq1KTI35e%2FlgTpOYoHRu67dwllBdtgfEyN%2B60%3D&reserved=0"
+          }
+        }
+      },
+      "block_order": [
+        "image_a7qxQi",
+        "image_E3Xj8b"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "grid",
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "top-center",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h1",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_slideshow_aA6t7a": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "slide_8MRfLX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marais2_c7e01489-6e2d-490b-b930-a7a81b6c9ecd.jpg",
+            "heading": "Le délai",
+            "content": "Vous disposez d’un délai de 14 jours calendaires à compter de la date de réception de votre commande pour nous retourner tout article qui ne conviendrait pas. Les retours sont soumis à des frais de 5 €, qui seront déduits de votre remboursement. \n\nLe remboursement est effectué sous 15 jours à compter de la réception de votre retour. Une confirmation de remboursement vous sera alors adressée par email.\n\nLe remboursement sera fait sur le même moyen de paiement ayant servi lors de l'achat.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_mrWdp7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EmptyName_7-Modifier.jpg",
+            "heading": "Parfait état",
+            "content": "Veuillez noter que seuls les articles neufs, dans leur emballage d'origine seront acceptés.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_Lnwebx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8814_1.jpg",
+            "heading": "Retour en boutique",
+            "content": "En cas d’échange en boutique nous vous conseillons vivement de prendre contact avec la boutique souhaitée afin de vous assurer de la disponibilité de la référence comme de la pointure\/taille recherchées.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_MF67mD": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Camille_tweed_repetto_heeled_ballet_flats.jpg",
+            "heading": "Échange en ligne",
+            "content": "Notre Maison propose maintenant les échanges en ligne pour le même produit avec une taille et\/ou couleur différente. L’échange pour un nouveau produit sera possible sur un montant égal à votre produit. L'échange est disponible uniquement pour les commandes passées depuis la France. Bientôt disponible dans le monde entier.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_8MRfLX",
+        "slide_mrWdp7",
+        "slide_Lnwebx",
+        "slide_MF67mD"
+      ],
+      "settings": {
+        "mobile_height": "mobile-height-350",
+        "desktop_height": "desktop-height-650",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "multicolumn_hkWbGC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_fKcYQU": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "100 millions de tonnes de C02",
+            "text": "<p>Les retours génèrent chaque année 100 millions de tonnes de CO₂.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4DR8KD": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "Vêtements : Retour à 23 %",
+            "text": "<p>Une enquête de Statista, réalisée de juin 2022 à juin 2023, montre que les vêtements sont les articles les plus souvent retournés, avec un taux de 23 %, loin devant les chaussures à 14 %. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EBnhcc": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "45 % des achats en ligne font l’objet de retours",
+            "text": "<p>Selon une enquête complémentaire, 45 % des consommateurs choisissent de retourner leurs achats effectués en ligne.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_fKcYQU",
+        "column_4DR8KD",
+        "column_EBnhcc"
+      ],
+      "settings": {
+        "heading": "Le saviez-vous ?",
+        "heading_left": false,
+        "description": "<p>Les retours ont un grand impact environnemental<\/p>",
+        "full_width": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "text_alignment": "center",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_VHrg4b": {
+      "type": "rich-text",
+      "blocks": {
+        "text_yYcEQB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour toute question, nous vous invitons à <a href=\"https:\/\/repetto.com\/pages\/nous-contacter\" title=\"https:\/\/repetto.com\/pages\/nous-contacter\"><em><strong>contacter notre service client<\/strong><\/em><\/a> ou à vous rendre dans l'une de <a href=\"https:\/\/repetto.com\/pages\/trouver-un-revendeur\" title=\"https:\/\/repetto.com\/pages\/trouver-un-revendeur\"><em><strong>nos boutiques,<\/strong><\/em><\/a> où notre personnel se fera un plaisir de vous aider et de vous informer sur nos services. <\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_yYcEQB"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7",
+    "main",
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631",
+    "contact-blocks",
+    "contact-texts",
+    "hero_xtHyG8",
+    "rich_text_Vgfptf",
+    "rich_text_wh9dwj",
+    "content_image_list_w4UxiW",
+    "gallery_7pegPt",
+    "image_with_text_slideshow_aA6t7a",
+    "multicolumn_hkWbGC",
+    "rich_text_VHrg4b"
+  ]
+}

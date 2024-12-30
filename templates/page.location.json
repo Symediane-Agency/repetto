@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "a2a0c804-2726-4a60-ab8e-f999de34b370": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "2ef3b36e-5c87-4984-8630-a0372fb8488a": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "store-locator": {
+      "type": "store-locator",
+      "settings": {
+        "searchbar_enabled": true,
+        "tags_filter_enabled": true,
+        "google_maps_api_key": "AIzaSyA7fGIJvcvUtZ8rhDcu-Le3zO_gWfMV7R0"
+      }
+    }
+  },
+  "order": [
+    "a2a0c804-2726-4a60-ab8e-f999de34b370",
+    "main",
+    "2ef3b36e-5c87-4984-8630-a0372fb8488a",
+    "store-locator"
+  ]
+}

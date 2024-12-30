@@ -1,0 +1,586 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "efefc79c-6c88-4408-9bf2-f9e9682e7562": {
+      "type": "rich-text",
+      "blocks": {
+        "5e98b518-04f3-4dc1-aba9-fccdb4aa44a2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>UNIVERS REPETTO<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--21349630345520__efefc79c-6c88-4408-9bf2-f9e9682e7562-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "COLLECTION ANNIVERSAIRE",
+            "size": "h3"
+          }
+        },
+        "template--21349630345520__efefc79c-6c88-4408-9bf2-f9e9682e7562-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>À l'occasion du soixantième anniversaire de la Maison Repetto, plus de 60 artistes de renom se sont mobilisés autour du projet de la <\/strong><a href=\"\/pages\/repetto-sengage-fondation-pink\" title=\"UAT - Repetto S'engage - Fondation - Pink\"><strong>Fondation Danse pour la Vie<\/strong><\/a><strong> en donnant libre cours à leur inspiration sur les produits intemporels de la marque : ballerines, pointes et tutus. Une collection unique a vu le jour et a été exposée dans la boutique Repetto, 22 rue de la Paix avant d'entamer un tour du monde avec pour point de départ New York puis Montréal, Séoul, Londres, Milan, Tokyo, Hong Kong, Sidney, Singapour...<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "5e98b518-04f3-4dc1-aba9-fccdb4aa44a2",
+        "template--21349630345520__efefc79c-6c88-4408-9bf2-f9e9682e7562-heading-1",
+        "template--21349630345520__efefc79c-6c88-4408-9bf2-f9e9682e7562-text-1"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4c94707c-4fdd-4b57-8aa9-f5689e06e487": {
+      "type": "image-list",
+      "blocks": {
+        "template--21296000958768__4c94707c-4fdd-4b57-8aa9-f5689e06e487-imageList-1": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image.jpg",
+            "label": "AI TOMINAGA",
+            "url": "shopify:\/\/products\/arthur-test-product"
+          }
+        },
+        "165225ce-7090-468a-8112-e77333b28239": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-1_6dc89091-3ae7-4690-8ae1-a6071ae49663.jpg",
+            "label": "AKIRA MINAGAWA",
+            "url": ""
+          }
+        },
+        "58af8b66-7f59-4f87-9108-98bdb60c1d81": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-2.jpg",
+            "label": "ANDRÉE PUTMAN",
+            "url": ""
+          }
+        },
+        "a252b08d-2285-4dba-a6f8-f8452aa0ae0a": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-3.jpg",
+            "label": "ANGELIN PREJLOCAJ",
+            "url": ""
+          }
+        },
+        "16ba156a-262c-4ade-9659-d912d045d477": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-4.jpg",
+            "label": "ANGELIN PREJLOCAJ",
+            "url": ""
+          }
+        },
+        "cf021599-602d-4ad0-8e80-919f115e76fc": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-5.jpg",
+            "label": "ANNA TSUCHIYA",
+            "url": ""
+          }
+        },
+        "dffb38fb-d025-4460-acc1-1e93693c36f1": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-6.jpg",
+            "label": "ANNE",
+            "url": ""
+          }
+        },
+        "523ef6e2-1fc1-493d-a896-4991fca7a394": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-7.jpg",
+            "label": "AUDREY MARNAY",
+            "url": ""
+          }
+        },
+        "f88860ca-f73c-4e22-ace2-197e1c50a118": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-8.jpg",
+            "label": "AURÉLIE DUPONT",
+            "url": ""
+          }
+        },
+        "43b85e54-8dc3-446b-b47e-8d572410ea10": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-9.jpg",
+            "label": "BÉJART & COMPAGNIE ",
+            "url": ""
+          }
+        },
+        "d8d30e2a-0d1f-4d0d-83b3-f2f84c467469": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-10.jpg",
+            "label": "BIANCA LI",
+            "url": ""
+          }
+        },
+        "8ce72f47-d88a-439e-af13-e5cfddd1f837": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-11.jpg",
+            "label": "BIANCA LI",
+            "url": ""
+          }
+        },
+        "4e1f602a-2867-4513-83a8-45cc4209e128": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-12.jpg",
+            "label": "BRIGITTE BARDOT",
+            "url": ""
+          }
+        },
+        "62087356-cffe-4875-9983-62d0be8531d6": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-13.jpg",
+            "label": "BRUNO AGATI",
+            "url": ""
+          }
+        },
+        "258fe287-e091-4260-adee-1458b59ba7a6": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-14.jpg",
+            "label": "CARLA BRUNI",
+            "url": ""
+          }
+        },
+        "2f988a34-c6d3-43c0-b536-a864d75613e7": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-15.jpg",
+            "label": "CAROLYN CARLSON",
+            "url": ""
+          }
+        },
+        "4685ff6e-4611-43b7-854b-1287e502186e": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-16.jpg",
+            "label": "CATHERINE DENEUVE",
+            "url": ""
+          }
+        },
+        "1221fc80-e897-4389-ad07-1a96f8f6871c": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-17.jpg",
+            "label": "CHANTAL THOMASS",
+            "url": ""
+          }
+        },
+        "89a5d58e-dbfb-4406-8b66-b4d85e19b248": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-18.jpg",
+            "label": "CHANTAL THOMASS",
+            "url": ""
+          }
+        },
+        "6aad8386-d77b-4a8e-9bbe-2619ad919986": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Anniversaire-Image-19.jpg",
+            "label": "CHARLOTTE GAINSBOURG",
+            "url": ""
+          }
+        },
+        "image_list_GTYWye": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.png",
+            "label": "CHIARA MASTROIANI",
+            "url": ""
+          }
+        },
+        "image_list_BP7thA": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.png",
+            "label": "CHLOË SEVIGNY",
+            "url": ""
+          }
+        },
+        "image_list_PAkhkk": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20.png",
+            "label": "COLLIER SHORR",
+            "url": ""
+          }
+        },
+        "image_list_phwjPa": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/26.png",
+            "label": "ERIN WASSON",
+            "url": ""
+          }
+        },
+        "image_list_DkdMGT": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/28.png",
+            "label": "GASPARD ULLIEL",
+            "url": ""
+          }
+        },
+        "image_list_HCG4P8": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/29.png",
+            "label": "GIL ROMAN",
+            "url": ""
+          }
+        },
+        "image_list_TXHJ9U": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/21.png",
+            "label": "ISABELLE CIARAVOLA",
+            "url": ""
+          }
+        },
+        "image_list_8EyJjm": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/27.png",
+            "label": "J.C. MAILLOT",
+            "url": ""
+          }
+        },
+        "image_list_NmAcQX": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/22.png",
+            "label": "JEAN PAUL GAULTIER",
+            "url": ""
+          }
+        },
+        "image_list_qK3fQa": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/24.png",
+            "label": "JESSICA STAM",
+            "url": ""
+          }
+        },
+        "image_list_mQeVwV": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/23.png",
+            "label": "JULIE GILHART",
+            "url": ""
+          }
+        },
+        "image_list_aeWbLf": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/41.png",
+            "label": "KAREN KIL",
+            "url": ""
+          }
+        },
+        "image_list_jQ4YzU": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/39.png",
+            "label": "KENGO KUMA",
+            "url": ""
+          }
+        },
+        "image_list_EWTrDC": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/40.png",
+            "label": "KIM GORDON",
+            "url": ""
+          }
+        },
+        "image_list_zerFdx": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/33.png",
+            "label": "M.CREED & H.HOOPER",
+            "url": ""
+          }
+        },
+        "image_list_DeQUkz": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/42.png",
+            "label": "MARI NATSUKI",
+            "url": ""
+          }
+        },
+        "image_list_TnUzxT": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/37.png",
+            "label": "MASTERMIND",
+            "url": ""
+          }
+        },
+        "image_list_8LKe4c": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/34.png",
+            "label": "MATHIEU CHEDID",
+            "url": ""
+          }
+        },
+        "image_list_yNxnRc": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/32.png",
+            "label": "MATHIEU GANIO",
+            "url": ""
+          }
+        },
+        "image_list_E6LFVG": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/36.png",
+            "label": "MAURICE BÉJART",
+            "url": ""
+          }
+        },
+        "image_list_Xykegf": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/38.png",
+            "label": "MÉLANIE LAURENT",
+            "url": ""
+          }
+        },
+        "image_list_ppTdJ3": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/48.png",
+            "label": "NATHALIE GARCON",
+            "url": ""
+          }
+        },
+        "image_list_gYtFU4": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/49.png",
+            "label": "NICOLAS A. TARALIS",
+            "url": ""
+          }
+        },
+        "image_list_6fMntD": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/47.png",
+            "label": "OLIVIA RUIZ",
+            "url": ""
+          }
+        },
+        "image_list_cDVG6B": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/46.png",
+            "label": "PHILIPPE DECOUFLÉ",
+            "url": ""
+          }
+        },
+        "image_list_qRBU8L": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/45.png",
+            "label": "PHILIPPE DECOUFLÉ",
+            "url": ""
+          }
+        },
+        "image_list_iEeYtP": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/44.png",
+            "label": "PROENZA SCHOULER",
+            "url": ""
+          }
+        },
+        "image_list_mBfHJL": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/50.png",
+            "label": "PROENZA SCHOULER",
+            "url": ""
+          }
+        },
+        "image_list_6Jrgt8": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/43.png",
+            "label": "REI KAWAKUBO",
+            "url": ""
+          }
+        },
+        "image_list_BRwVMJ": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/61.png",
+            "label": "REI KAWAKUBO",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21296000958768__4c94707c-4fdd-4b57-8aa9-f5689e06e487-imageList-1",
+        "165225ce-7090-468a-8112-e77333b28239",
+        "58af8b66-7f59-4f87-9108-98bdb60c1d81",
+        "a252b08d-2285-4dba-a6f8-f8452aa0ae0a",
+        "16ba156a-262c-4ade-9659-d912d045d477",
+        "cf021599-602d-4ad0-8e80-919f115e76fc",
+        "dffb38fb-d025-4460-acc1-1e93693c36f1",
+        "523ef6e2-1fc1-493d-a896-4991fca7a394",
+        "f88860ca-f73c-4e22-ace2-197e1c50a118",
+        "43b85e54-8dc3-446b-b47e-8d572410ea10",
+        "d8d30e2a-0d1f-4d0d-83b3-f2f84c467469",
+        "8ce72f47-d88a-439e-af13-e5cfddd1f837",
+        "4e1f602a-2867-4513-83a8-45cc4209e128",
+        "62087356-cffe-4875-9983-62d0be8531d6",
+        "258fe287-e091-4260-adee-1458b59ba7a6",
+        "2f988a34-c6d3-43c0-b536-a864d75613e7",
+        "4685ff6e-4611-43b7-854b-1287e502186e",
+        "1221fc80-e897-4389-ad07-1a96f8f6871c",
+        "89a5d58e-dbfb-4406-8b66-b4d85e19b248",
+        "6aad8386-d77b-4a8e-9bbe-2619ad919986",
+        "image_list_GTYWye",
+        "image_list_BP7thA",
+        "image_list_PAkhkk",
+        "image_list_phwjPa",
+        "image_list_DkdMGT",
+        "image_list_HCG4P8",
+        "image_list_TXHJ9U",
+        "image_list_8EyJjm",
+        "image_list_NmAcQX",
+        "image_list_qK3fQa",
+        "image_list_mQeVwV",
+        "image_list_aeWbLf",
+        "image_list_jQ4YzU",
+        "image_list_EWTrDC",
+        "image_list_zerFdx",
+        "image_list_DeQUkz",
+        "image_list_TnUzxT",
+        "image_list_8LKe4c",
+        "image_list_yNxnRc",
+        "image_list_E6LFVG",
+        "image_list_Xykegf",
+        "image_list_ppTdJ3",
+        "image_list_gYtFU4",
+        "image_list_6fMntD",
+        "image_list_cDVG6B",
+        "image_list_qRBU8L",
+        "image_list_iEeYtP",
+        "image_list_mBfHJL",
+        "image_list_6Jrgt8",
+        "image_list_BRwVMJ"
+      ],
+      "settings": {
+      }
+    },
+    "fc91e0e9-d7c4-4555-b8e3-0df6f352d03b": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 30,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "1d72b905-b92f-4a21-a2c0-59d7f45d312c": {
+      "type": "univirse-columns",
+      "blocks": {
+        "template--21349630345520__1d72b905-b92f-4a21-a2c0-59d7f45d312c-column-1": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify:\/\/shop_images\/savoir_faire_repetto_7926ded8-029f-4d95-a215-f6e3db672b42.jpg",
+            "title": "Savoir faire",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "\/"
+          }
+        },
+        "template--21349630345520__1d72b905-b92f-4a21-a2c0-59d7f45d312c-column-2": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify:\/\/shop_images\/ATELIER_RUE_DE_LA_PAIX2_-_REPETTO_store_paris_b15c36f2-c05b-466e-b229-7387a8ffe0e5.jpg",
+            "title": "L’histoire",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "\/"
+          }
+        },
+        "template--21349630345520__1d72b905-b92f-4a21-a2c0-59d7f45d312c-column-3": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify:\/\/shop_images\/rue_de_la_paix_1959_repetto_store_paris.jpg",
+            "title": "héritage français",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--21349630345520__1d72b905-b92f-4a21-a2c0-59d7f45d312c-column-1",
+        "template--21349630345520__1d72b905-b92f-4a21-a2c0-59d7f45d312c-column-2",
+        "template--21349630345520__1d72b905-b92f-4a21-a2c0-59d7f45d312c-column-3"
+      ],
+      "settings": {
+        "columns_desktop": 3
+      }
+    },
+    "1641643b-9cc3-4823-8586-2cdbab4cd40b": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "efefc79c-6c88-4408-9bf2-f9e9682e7562",
+    "4c94707c-4fdd-4b57-8aa9-f5689e06e487",
+    "fc91e0e9-d7c4-4555-b8e3-0df6f352d03b",
+    "1d72b905-b92f-4a21-a2c0-59d7f45d312c",
+    "1641643b-9cc3-4823-8586-2cdbab4cd40b"
+  ]
+}

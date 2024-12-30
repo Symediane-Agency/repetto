@@ -1,0 +1,187 @@
+.several-images {
+  padding: 0;
+  width: 100%;
+}
+
+.several-images .container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 840px;
+}
+
+.several-images .container .sections {
+  text-align: center;
+  max-width: 544px;
+  height: auto;
+}
+
+.several-images .container .sections svg {
+  width: 251px;
+  height: 64px;
+}
+
+.several-images .container .sections .section-content {
+  margin-top: 60px;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 22px;
+}
+
+.several-images .container .image-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.several-images .container .image-container .images {
+  position: absolute;
+}
+
+.several-images .container .image-container .images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.several-images .container .image-container .images.local-1 {
+  left: 0;
+  top: 41px;
+}
+
+.several-images .container .image-container .images.local-1 .img-1 {
+  width: 305px;
+  height: 465px;
+}
+
+.several-images .container .image-container .images.local-1 .img-2 {
+  position: absolute;
+  width: 178px;
+  height: 228px;
+  right: -89px;
+  bottom: -114px;
+}
+
+.several-images .container .image-container .images.local-4 {
+  bottom: 0;
+  right: 375px;
+}
+
+.several-images .container .image-container .images.local-4 .img-1 {
+  width: 245px;
+  height: 281px;
+}
+
+.several-images .container .image-container .images.local-4 .img-2 {
+  position: absolute;
+  width: 122px;
+  height: 153px;
+  left: -100px;
+  bottom: 27px;
+}
+
+.several-images .container .image-container .singleImage {
+  position: absolute;
+}
+
+.several-images .container .image-container .singleImage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.several-images .container .image-container .singleImage.local-2 {
+  width: 122px;
+  height: 153px;
+  top: 0;
+  right: 437px;
+}
+
+.several-images .container .image-container .singleImage.local-3 {
+  width: 245px;
+  height: 310px;
+  top: 304px;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .several-images .container {
+    height: 936px;
+  }
+  .several-images .container .sections {
+    margin-top: 40px;
+    max-width: 341px;
+  }
+  .several-images .container .image-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .several-images .container .image-container .images {
+    position: absolute;
+  }
+  .several-images .container .image-container .images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .several-images .container .image-container .images.local-1 {
+    left: 0;
+    top: 25px;
+  }
+  .several-images .container .image-container .images.local-1 .img-1 {
+    width: 135px;
+    height: 206px;
+  }
+  .several-images .container .image-container .images.local-1 .img-2 {
+    position: absolute;
+    width: 79px;
+    height: 101px;
+    right: -39px;
+    bottom: -51px;
+  }
+  .several-images .container .image-container .images.local-4 {
+    bottom: 60px;
+    right: 0px;
+  }
+  .several-images .container .image-container .images.local-4 .img-1 {
+    width: 131px;
+    height: 150px;
+  }
+  .several-images .container .image-container .images.local-4 .img-2 {
+    position: absolute;
+    width: 65px;
+    height: 82px;
+    left: -42px;
+    bottom: 14px;
+  }
+  .several-images .container .image-container .singleImage {
+    position: absolute;
+  }
+  .several-images .container .image-container .singleImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .several-images .container .image-container .singleImage.local-2 {
+    width: 82px;
+    height: 103px;
+    top: 283px;
+    right: 0px;
+  }
+  .several-images .container .image-container .singleImage.local-3 {
+    width: 104px;
+    height: 131px;
+    top: 660px;
+    right: unset;
+    left: 0;
+  }
+}

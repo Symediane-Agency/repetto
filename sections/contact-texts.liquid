@@ -1,0 +1,89 @@
+<div class="container">
+  <div class="row">
+
+    <div class="columns large-4 small-12">
+      <div class="contact-text">
+        <h3 class="title">
+          {{ 'contact_us.headquarter.title' | t }}
+        </h3>
+        <div class="text">
+          {{ section.settings.headquarter_content }}
+        </div>
+      </div>
+    </div> 
+
+    <div class="columns large-4 small-12">
+      <div class="contact-text">
+        <h3 class="title">
+          {{ 'contact_us.sales_department.title' | t }}
+        </h3>
+        <div class="text">
+          {{ section.settings.sales_department_content }}
+        </div>
+      </div>
+
+      <div class="contact-text">
+        <h3 class="title">
+          {{ 'contact_us.press.title' | t }}
+        </h3>
+        <div class="text">
+          {{ section.settings.press_content }}
+        </div>
+      </div>
+    </div> 
+
+    <div class="columns large-4 small-12">
+      <div class="contact-text">
+        <h3 class="title">
+          {{ 'contact_us.recruitment.title' | t }}
+        </h3>
+        <div class="text">
+          {{ section.settings.recruitment_content }}
+        </div>
+        <a href="{{ section.settings.recruitment_link }}" class="button">
+          {{ section.settings.recruitment_link_text }}
+        </a>
+      </div>
+    </div> 
+
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact texts",
+  "class": "contact-texts",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "headquarter_content",
+      "label": "Headquarter content"
+    },
+    {
+      "type": "richtext",
+      "id": "sales_department_content",
+      "label": "Sales department content"
+    },
+    {
+      "type": "richtext",
+      "id": "press_content",
+      "label": "Press content"
+    },
+    {
+      "type": "richtext",
+      "id": "recruitment_content",
+      "label": "Recruitment content"
+    },
+    {
+      "type": "text",
+      "id": "recruitment_link",
+      "label": "Recruitment button link"
+    },
+    {
+      "type": "text",
+      "id": "recruitment_link_text",
+      "label": "Recruitment button text"
+    }
+  ]
+}
+{% endschema %}

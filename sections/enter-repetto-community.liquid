@@ -1,0 +1,93 @@
+{{- 'enter-repetto-community.css' | asset_url | stylesheet_tag -}}
+
+<div class="row">
+    <modal-dialog id="PopupModal-{{ section.id }}" class="product-popup-modal enter-repetto-community-modal">
+      {% form 'customer', class: 'signup-form' %} 
+      <div role="dialog" aria-label="{{ section.settings.sizing_guide_text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
+        <div class="modal__content-header">
+          <button id="ModalClose-{{ section.id }}" type="button" class="modal__toggle" aria-label="{{ 'accessibility.close' | t }}">FERMER<span>{%- render 'svg-icons' with 'popup-close' -%}</span></button>
+        </div>
+        <div class="main">
+          <div class="img-wrap">
+            <img src="https://cdn.shopify.com/s/files/1/0781/9578/6032/files/11ca5496c751236802fba830a713fdd1.png?v=1702618943">
+          </div>
+          <div class="main-content">
+            <div class="title">ENTREZ DANS LA COMMUNAUTÉ REPETTO</div>
+            <div class="desc">Inscrivez-vous et recevez les actualités de la Maison Repetto en avant-première.</div>
+            <div class="field">
+            <input
+              class="full"
+              placeholder="{{ 'newsletter.label' | t }}"
+              type="email"
+              id="NewsletterForm--{{ section.id }}"
+              name="contact[email]"
+              autocorrect="off"
+              autocapitalize="off"
+              autocomplete="email"
+              value="{{ form.email }}"
+              pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+              title="xxx@xxx.xxx"
+              {% if form.errors %}
+              autofocus
+              aria-invalid="true"
+              aria-describedby="Newsletter-error--{{ section.id }}"
+              {% elsif form.posted_successfully? %}
+              aria-describedby="Newsletter-success--{{ section.id }}"
+              {% endif %}
+              required />
+              <label class="field__label" for="NewsletterForm--{{ section.id }}" style="color:#7B7678">
+               Email
+              </label>
+              <!-- <input type="email" id="CommunityFormEmail" class="full" placeholder="Email">
+              <label for="CommunityFormEmail">Email</label> -->
+            </div>
+            <button
+              class="button"
+              role="button"
+              type="submit"
+              aria-label="{{ 'sections.signup.enter_your_email' | t }}"
+              title="{{ 'je m’inscris' | escape }}"
+              onclick="saveCurrentState()"
+            >
+              <span>{{ 'je m’inscris' | escape }}</span>
+            </button>
+            <div class="replenish">Vos données personnelles seront utilisées par Repetto pour vous envoyer la newsletter, que vous avez expressément demandé à recevoir. Repetto protège vos données. Pour plus d'informations, consultez notre <a>Politique de confidentialité.</a></div>
+          </div>
+        </div>
+      </div>
+      {% endform %}
+    </modal-dialog>
+</div>  
+<script>
+  window.addEventListener("DOMContentLoaded",function(){
+    const dialog = document.querySelector('#PopupModal-{{ section.id }}')
+    const email = localStorage.getItem('email--{{ section.id }}')
+    const isShowed = localStorage.getItem('isShowedEnterRepettoCommunity')
+    if(!email && !isShowed) {
+      dialog.setAttribute('open',true)
+    }
+    if (!isShowed) {
+      localStorage.setItem('isShowedEnterRepettoCommunity', 'showed')
+    }
+  })
+  function saveCurrentState(){
+     var email =  document.querySelector("#NewsletterForm--{{ section.id }}").value
+     if(email){
+       localStorage.setItem('email--{{ section.id }}',email)
+      }
+  }
+</script>
+
+{% schema %}
+  {
+    "name": "Enter repetto community",
+    "class": "enter-repetto-community",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Enter repetto community"
+      }
+    ]
+  }
+
+{% endschema %}

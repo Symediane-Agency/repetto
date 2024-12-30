@@ -1,0 +1,220 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "settings": {
+        "hero_image": "shopify:\/\/shop_images\/Capsule_1-1.jpg",
+        "hero_title": "LES ICONIQUES",
+        "hero_content": "<p>La Maison Repetto confectionne depuis 1947, des souliers de danse et de ville dans ses ateliers français. Artisans de la matière avant tout, la Maison sélectionne des cuirs de première qualité,souples, qui procurent un effet seconde peau unique et un grand confort grâce à la technique du cousu retourné.<\/p>"
+      }
+    },
+    "1f7fb399-531e-4bc3-9b4f-a8861e1f5cb0": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 90,
+        "border_separator": false,
+        "border_separator_full": true
+      }
+    },
+    "6954f768-cf65-490d-ba55-fbe3beb234ad": {
+      "type": "image-content-card",
+      "blocks": {
+        "fb23ddd6-10b4-4be6-a3ed-ecfec3f986a2": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Capsule-2.jpg",
+            "image_position": "left",
+            "block_title": "LES BALLERINES CENDRILLON",
+            "block_content": "<p>Conçues pour Brigitte Bardot à l’occasion de « et dieu créa la femme »en 1956, les ballerines Cendrillon incarnent la grâce de la danse transposée dans un chausson de ville. Véritable invitation à la légèreté et au confort, ces ballerines intemporelles se déclinent dans tous les styles.<\/p><p><span style=\"text-decoration:underline\"><em>Trouver votre style en cendrillon<\/em><\/span><\/p>",
+            "url": "shopify:\/\/collections\/catalogue-femme-chaussures-ballerines",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "fb23ddd6-10b4-4be6-a3ed-ecfec3f986a2"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "32fcdc7b-191b-4a7f-901b-2d76d9c37b35": {
+      "type": "products-3rd-bigger",
+      "settings": {
+        "show_price": false,
+        "heading": "",
+        "product1": "babies-guillemette-noir-et-rose-icone-v4136sat-914",
+        "product2": "babies-guillemette-blanc-coco-v4136sat-774",
+        "product3": "babies-joana-blanc-v184ved-050",
+        "mobile_swipe": true
+      }
+    },
+    "f925ae07-fcc5-41c1-8a59-3a0f1a1a3bc8": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "99ac075a-aad4-4137-9319-02fc0af21778": {
+      "type": "image-content-card",
+      "blocks": {
+        "2686d9bd-242b-4586-9b0d-7b821063cbb7": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Capsule-3.jpg",
+            "image_position": "left",
+            "block_title": "LES RICHELIEUS ZIZI ",
+            "block_content": "<p>La Maison Repetto rend un vibrant hommage à la danseuse légendaire Zizi Jeanmaire avec des richelieus aussi souples et confortables que des chaussons. Modèle unisex, il devienticonique dans les années 70 avec le charme envoûtant de Serge Gainsbourg,ambassadeur des richelieus. Indémodables, les Zizi ajoutent une touche de charme rétro à votre garde-robe.<\/p><p><span style=\"text-decoration:underline\">Richelieus Femme<\/span> | <span style=\"text-decoration:underline\">Richelieus Homme<\/span><\/p>",
+            "url": "shopify:\/\/collections\/catalogue-femme-chaussures-richelieus-and-zizi",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "2686d9bd-242b-4586-9b0d-7b821063cbb7"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "97656573-6e05-417d-b943-cab4ca4f78a8": {
+      "type": "products-3rd-bigger",
+      "settings": {
+        "show_price": false,
+        "heading": "coup de coeur en vue",
+        "product1": "babies-guillemette-rouge-flamme-v4136vsat-550",
+        "product2": "babies-guillemette-noir-v4136vsat-410",
+        "product3": "babies-guillemette-or-clair-bulle-et-noir-v4136seq-1362",
+        "mobile_swipe": true
+      }
+    },
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "8cb5d52f-b152-4719-822e-103040e7a1ac": {
+      "type": "image-content-card",
+      "blocks": {
+        "f056b3ff-c2e7-47f6-b97b-fed7cf9d10a0": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Capsule-4.jpg",
+            "image_position": "left",
+            "block_title": "LES MOCASSINS MICHAEL ",
+            "block_content": "<p>Créés en 2009 par la Maison Repetto, les mocassins Michael célèbrent la magie du Roi de la danse. Conçus avec un cuir souple, ils enveloppent confortablement le pied pour un maintien parfait à chaque pas. Élégants, ils ont séduit les hommes et les femmes pour devenir un classique de la maison. <\/p><p>Mocassins femme | Mocassins homme<\/p>",
+            "url": "shopify:\/\/collections\/catalogue-femme-chaussures-mocassins",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "f056b3ff-c2e7-47f6-b97b-fed7cf9d10a0"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "e0a6ebf3-72a4-4019-8002-ad61e7fd8095": {
+      "type": "products-3rd-bigger",
+      "settings": {
+        "show_price": false,
+        "heading": "",
+        "product1": "babies-joana-noir-v184vip-410",
+        "product2": "babies-joana-bleu-everest-v184jeand-1418",
+        "product3": "babies-joana-rose-raspberry-v184ved-1448",
+        "mobile_swipe": true
+      }
+    },
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "2119b849-c418-4611-afc4-1a3cf480b72b": {
+      "type": "custom-content-with-bg",
+      "settings": {
+        "back_img": "shopify:\/\/shop_images\/Capsule-5.jpg",
+        "sub_title": "La Maison Repetto",
+        "main_title": "FIL D'HISTOIRE ET HÉRITAGE ÉTOILÉ",
+        "desc": "Avec le cousu retourné, Repetto dévoile son génie. Un savoir-faire secret, héritage précieux, entre gestes cachés et douceur révélée. Le chausson se métamorphose, ballet des artisans, étreinte intemporelle entre ciel et terre. Dans cet art subtil, l'héritage se dessine, éternel comme l'étoile.",
+        "link_text": "Revivre notre histoire",
+        "link_href": "shopify:\/\/pages\/univers-repetto-histoire"
+      }
+    },
+    "379cad2c-84f4-4d48-b6cc-b2173b291e9f": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "1f7fb399-531e-4bc3-9b4f-a8861e1f5cb0",
+    "6954f768-cf65-490d-ba55-fbe3beb234ad",
+    "32fcdc7b-191b-4a7f-901b-2d76d9c37b35",
+    "f925ae07-fcc5-41c1-8a59-3a0f1a1a3bc8",
+    "99ac075a-aad4-4137-9319-02fc0af21778",
+    "97656573-6e05-417d-b943-cab4ca4f78a8",
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab",
+    "8cb5d52f-b152-4719-822e-103040e7a1ac",
+    "e0a6ebf3-72a4-4019-8002-ad61e7fd8095",
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74",
+    "2119b849-c418-4611-afc4-1a3cf480b72b",
+    "379cad2c-84f4-4d48-b6cc-b2173b291e9f"
+  ]
+}

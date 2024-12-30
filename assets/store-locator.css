@@ -1,0 +1,117 @@
+.popup-container {
+    display: flex;
+    /* height: 12vh; */
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.popup-container-column-left {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.popup-container-column-right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.popup-container-column-left.int {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.popup-container-column-right.int {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.popup-container-column-right-title-container {
+    align-self: center;
+}
+
+.popup-container-column-right-title-container.int {
+    width: 110px;
+    align-self: center;
+}
+
+.popup-container-column-title {
+    width: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px; /* Space between title and button */
+}
+
+.popup-container-column-button {
+    align-self: center; /* Ensures the button is centered regardless of the text length */
+    height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .popup-container-column-title {
+        width: 100%;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 10px; /* Space between title and button */
+    }
+
+    .popup-container-column-left {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        margin-right: 0;
+    }
+    
+    .popup-container-column-right {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .popup-container-column-left.int {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        margin-right: 0;
+    }
+    
+    .popup-container-column-right.int {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .popup-container-column-right-title-container.int {
+        width: 110px;
+        align-self: center;
+    }
+}

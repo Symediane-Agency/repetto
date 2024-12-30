@@ -1,0 +1,113 @@
+{{ 'plp-image-with-text.css' | asset_url | stylesheet_tag }}
+{{ 'shop-the-look.css' | asset_url | stylesheet_tag }}
+<script
+  src="{{ 'product.js' | asset_url }}"
+  defer="defer"
+></script>
+{% liquid
+  assign image_settings = plp-image-with-text
+  assign image_bg = image_settings.text_img
+  assign show_context = image_settings.show_context
+  assign title = image_settings.title
+  assign content = image_settings.content
+  assign url_label = image_settings.url_label
+  assign btn_url = image_settings.btn_url
+  assign use_product = image_settings.use_product
+  assign product_handle = image_settings.product_handle
+  assign x_position = image_settings.x_position
+  assign y_position = image_settings.y_position
+  assign product_handle_one = image_settings.product_handle_one
+  assign x_position_one = image_settings.x_position_one
+  assign y_position_one = image_settings.y_position_one
+  assign product_handle_two = image_settings.product_handle_two
+  assign x_position_two = image_settings.x_position_two
+  assign y_position_two = image_settings.y_position_two
+%}
+{%- assign hotspot_product = all_products[product_handle] -%}
+{%- assign hotspot_product_one = all_products[product_handle_one] -%}
+{%- assign hotspot_product_tow = all_products[product_handle_two] -%}
+<plp-image-with-text class="plp-image-with-text">
+  <div class="image-box">
+    <shop-the-look class="shop-the-look section-spacing">
+      <figure class="shop-the-look--area">
+        {% if image_bg %}
+          {% assign master_width = image_bg.src.width | append: 'x' | append: image_bg.src.height %}
+          {% render 'responsive-image', image: image_bg, sizes: master_width %}
+        {% endif %}
+
+        {% if hotspot_product != empty %}
+          <quick-view
+            class="thb-hotspot pin-white"
+            style="left: {{- x_position | append: '%' -}}; top: {{- y_position | append: '%' -}};"
+            data-product-handle="{{ hotspot_product.handle }}"
+          >
+            <div class="thb-hotspot-content thb-pulsate">
+              {%- unless hotspot_product == empty -%}
+                <div class="loading-overlay">
+                  {% render 'svg-icons' with 'thb-loading' %}
+                </div>
+              {%- endunless -%}
+            </div>
+          </quick-view>
+        {% endif %}
+
+        {% if hotspot_product_one != empty %}
+          <quick-view
+            class="thb-hotspot pin-white"
+            style="left: {{- x_position_one | append: '%' -}}; top: {{- y_position_one | append: '%' -}};"
+            data-product-handle="{{ hotspot_product_one.handle }}"
+          >
+            <div class="thb-hotspot-content thb-pulsate">
+              {%- unless hotspot_product_one == empty -%}
+                <div class="loading-overlay">
+                  {% render 'svg-icons' with 'thb-loading' %}
+                </div>
+              {%- endunless -%}
+            </div>
+          </quick-view>
+        {% endif %}
+
+        {% if hotspot_product_tow != empty %}
+          <quick-view
+            class="thb-hotspot pin-white"
+            style="left: {{- x_position_two | append: '%' -}}; top: {{- y_position_two | append: '%' -}};"
+            data-product-handle="{{ hotspot_product_tow.handle }}"
+          >
+            <div class="thb-hotspot-content thb-pulsate">
+              {%- unless hotspot_product_two == empty -%}
+                <div class="loading-overlay">
+                  {% render 'svg-icons' with 'thb-loading' %}
+                </div>
+              {%- endunless -%}
+            </div>
+          </quick-view>
+        {% endif %}
+      </figure>
+    </shop-the-look>
+
+    {% if show_context %}
+      {% if title != '' or content != '' %}
+        <div class="context">
+          {% if title %}
+            <h3>{{ title | newline_to_br }}</h3>
+          {% endif %}
+
+          {% if url_label != blank %}
+            <a
+              href="{{btn_url}}"
+              title="{{ url_label | escape }}"
+            >
+              <span>{{ url_label }}</span>
+            </a>
+          {% endif %}
+
+          {% if content %}
+            <div class="rte">
+              {{ content }}
+            </div>
+          {% endif %}        
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</plp-image-with-text>

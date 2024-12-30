@@ -1,0 +1,91 @@
+{{ 'help-links.css' | asset_url | stylesheet_tag }}
+<div class="row help-links">
+  <div class="small-12">
+    <div class="container">
+      <div class="text">{{ 'custom.help.question' | t }}</div>
+      <div class="links">
+        {% for block in section.blocks %}
+          {% if block.type == 'phone' %}
+            <a href="tel:{{ block.settings.phone }}">
+              {% assign image = block.settings.icon %}
+              {% if image != blank %}
+                <div class="icon">
+                  {% assign width = image.src.width | append: 'x' | append: image.src.height %}
+                  {% render 'responsive-image', image: image, sizes: width %}
+                </div>
+              {% endif %}
+              <span>{{ block.settings.phone_label }}</span>
+            </a>
+          {% elsif block.type == 'link' %}
+            <a href="{{ block.settings.url_link }}">
+              {% assign image = block.settings.icon %}
+              {% if image != blank %}
+                <div class="icon">
+                  {% assign width = image.src.width | append: 'x' | append: image.src.height %}
+                  {% render 'responsive-image', image: image, sizes: width %}
+                </div>
+              {% endif %}
+              <span>{{ block.settings.url_label }}</span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Help links",
+  "blocks": [
+    {
+      "name": "Link",
+      "type": "link",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Icon",
+          "id": "icon"
+        },
+        {
+          "type": "text",
+          "label": "Url label",
+          "id": "url_label"
+        },
+        {
+          "type": "url",
+          "id": "url_link",
+          "label": "Url"
+        }
+      ]
+    },
+    {
+      "name": "Phone",
+      "type": "phone",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Icon",
+          "id": "icon"
+        },
+        {
+          "type": "text",
+          "label": "label",
+          "id": "phone_label"
+        },
+        {
+          "type": "text",
+          "label": "Phone",
+          "id": "phone"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Help links",
+      "blocks": [{ "type": "link" }]
+    }
+  ]
+}
+{% endschema %}

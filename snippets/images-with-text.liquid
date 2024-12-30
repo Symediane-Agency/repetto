@@ -1,0 +1,48 @@
+{%- liquid  
+    assign heading_size = section.settings.heading_size
+    assign content_size = section.settings.content_size
+    assign heading = section.settings.heading
+    assign content = section.settings.content
+    assign button_link = section.settings.button_link
+    assign button_text = section.settings.button_text
+    assign imageRight = section.settings.right_background_bg
+    assign imageLeftBig = section.settings.left_big_background_bg
+    assign imageLeftSmall = section.settings.left_small_background_bg
+    assign isMobile = isMobile
+    assign image_one_mobile = section.settings.left_big_background_bg_mobile
+    assign image_two_mobile = section.settings.left_small_background_bg_mobile
+    assign image_three_mobile = section.settings.right_background_bg_mobile
+-%}
+<div class="large-6 medium-6 small-12 left-box">
+  {%- if isMobile == false or isMobile == true and image_one_mobile == true -%}
+    <div class="big-img">
+      {% assign left_big_width = imageLeftBig.src.width | append: 'x' | append: imageLeftBig.src.height %}
+      {% render 'responsive-image', image: imageLeftBig, sizes: left_big_width %}
+    </div>
+  {%- endif -%}
+  {%- if isMobile == false or isMobile == true and image_two_mobile == true -%}
+    <div class="small-img">
+      {% assign left_small_width = imageLeftSmall.src.width | append: 'x' | append: imageLeftSmall.src.height %}
+      {% render 'responsive-image', image: imageLeftSmall, sizes: left_small_width %}
+    </div>
+  {%- endif -%}
+  <div class="title {% if  isMobile == true %}pc-show{%endif%}">
+    <h3 class="{{ heading_size }}">{{ heading | newline_to_br }}</h3>
+    <div class="rte {{ content_size }}">{{ content }}</div>
+    {% if button_text != blank %}
+      <a
+        class="button"
+        href="{{button_link }}"
+        role="button"
+        title="{{ button_text | escape }}">
+        <span>{{ button_text }}</span>
+      </a>
+    {% endif %}
+  </div>
+</div>
+{%- if isMobile == false or isMobile == true and image_three_mobile == true -%}
+  <div class="right-box large-6 medium-6 small-12">
+    {% assign master_width = imageRight.src.width | append: 'x' | append: imageRight.src.height %}
+    {% render 'responsive-image', image: imageRight, sizes: master_width %}
+  </div>
+{%- endif -%}

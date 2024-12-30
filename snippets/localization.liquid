@@ -1,0 +1,157 @@
+{% assign available_country_list = localization.available_countries %}
+{% assign special_countries = "countries.special_countries" | t | split: ", " %}
+{% assign fully_available_country_list = available_country_list | concat: special_countries %}
+{% assign sorted_fully_available_country_list = fully_available_country_list | sort %}
+{% assign selected_country = localization.country %}
+
+{%- if show_language_switcher or show_currency_switcher -%}
+	<div class="thb-localization-forms {{ class }}">
+		{%- form 'localization', id: id -%}
+			{%- if show_language_switcher -%}
+				<div class="select">
+					<select
+						name="language_code"
+						class="thb-language-code{% if resizeSelect != false %} resize-select{% endif %}"
+					>
+						{%- for language in localization.available_languages -%}
+							<option
+								value="{{ language.iso_code }}"
+								{%- if language == localization.language %}selected="selected"{% endif %}
+							>
+								{{- language.endonym_name -}}
+							</option>
+						{%- endfor -%}
+					</select>
+
+					<div class="select-arrow">
+						{%- render 'svg-icons' with 'thb-select' -%}
+					</div>
+				</div>
+			{%- endif -%}
+
+			{%- if show_currency_switcher -%}
+				<div class="select">
+					<select
+						name="country_code"
+						id="thb-currency-code"
+						class="thb-currency-code{% if resizeSelect != false %} resize-select{% endif %}"
+					>
+					</select>
+
+					<div class="select-arrow">
+						{%- render 'svg-icons' with 'thb-select' -%}
+					</div>
+				</div>
+			{%- endif -%}
+
+			<noscript>
+				<button class="text-button">
+					{{ 'localization.update_country' | t }}
+				</button>
+			</noscript>
+		{%- endform -%}
+	</div>
+{%- endif -%}
+
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+		const fullyAvailableCountryList = {{ fully_available_country_list | json }};
+
+		const selectOptionMaxSize = fullyAvailableCountryList.length;
+		let selectIndex = 0;
+
+		// Selects all elements with the given ID and filters out hidden ones
+		let visibleSelectElements = Array.from(document.querySelectorAll('#thb-currency-code'));
+
+		if (window.getComputedStyle(visibleSelectElements[0].parentNode.parentNode.parentNode.parentNode).display === 'none') {
+			selectIndex = selectIndex + 1;
+		}
+
+		const selectElement = visibleSelectElements[selectIndex];
+
+		if (selectElement.options.length < selectOptionMaxSize) {
+			// Sort the array considering accents
+			const sortedCountries = fullyAvailableCountryList.sort((a, b) => {
+				return a.localeCompare(b, 'fr', { sensitivity: 'base' }); // change the value 'en' to 'fr' ?
+			});
+
+			let availableCountryList = {
+				{% for country in available_country_list %}
+					"{{ country.name }}": {
+						country_iso_code: "{{ country.iso_code }}",
+						currency_iso_code: "{{ country.currency.iso_code }}",
+						currency_symbol: "{{ country.currency.symbol }}" }{% if forloop.last == false %}, {% endif %}
+				{% endfor %}
+			};
+
+			const dollar_countries = [
+				"{{ 'countries.bolivia' | t }}",
+				"{{ 'countries.brunei' | t }}"
+			];
+
+			dollar_countries.map((country) => {
+				availableCountryList[country]["currency_iso_code"] = "USD";
+				availableCountryList[country]["currency_symbol"] =  "$";
+			})
+
+			function getCountryInfos(countryName) {
+				let country_iso_code = "";
+				let currency_iso_code = ""; 
+				let currency_symbol = ""; 
+
+				if ("{{ "countries.special_countries" | t}}".split(', ').includes(countryName)) {
+					const southKorea = "{{ 'countries.south_korea' | t }}";
+					const china = "{{ 'countries.china' | t }}";
+
+					if (countryName === southKorea) {
+						country_iso_code = "KR";
+						currency_iso_code = "KRW";
+						currency_symbol = "₩";
+					} else {
+						if (countryName === china) {
+							country_iso_code = "CN";
+							currency_iso_code = "CNY";
+						} else {
+							country_iso_code = "JP";
+							currency_iso_code = "JPY";
+						}
+
+						currency_symbol = "¥";
+					}
+				} else {
+					const legit_country = availableCountryList[countryName];
+
+					if (legit_country) {
+						country_iso_code = legit_country.country_iso_code;
+						currency_iso_code = legit_country.currency_iso_code;
+						currency_symbol = legit_country.currency_symbol;
+					}
+				}
+
+				return { country_iso_code, currency_iso_code, currency_symbol };
+			}
+
+			// Add sorted countries as new options
+			sortedCountries.forEach(function(country) {
+				// Determine if the country is the current one (to set as selected)
+				let isSelected = "{{ localization.country }}" === country;
+
+				let countryInfos = getCountryInfos(country);
+				let country_iso_code = countryInfos.country_iso_code;
+				let currency_iso_code = countryInfos.currency_iso_code;
+				let currency_symbol = countryInfos.currency_symbol;
+
+				// Create option element
+				let option = document.createElement("option");
+				option.value = country_iso_code;
+				option.text = `${country.replace(/&amp;/g, '&')} (${currency_iso_code} ${currency_symbol})`;
+
+				if (isSelected) {
+					option.selected = true;
+				}
+
+				selectElement.add(option);
+			});
+		}
+	});
+</script>

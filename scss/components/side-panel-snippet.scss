@@ -1,0 +1,29 @@
+.side-panel-header{
+    border:0;
+    
+    & > div{
+        justify-content: end;
+    }
+
+    .body-font{
+        display: none;
+    }
+    h4{
+        display: none;
+    }
+}
+
+.side-panel-close {
+    cursor: pointer;
+    background-color: var(--repetto-colors-pink-300, #F9DBE1);
+    border-radius: 100%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg{
+        width: 8px;
+    }
+}

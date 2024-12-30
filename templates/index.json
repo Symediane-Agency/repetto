@@ -1,0 +1,761 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gallery_izpnea": {
+      "type": "gallery",
+      "blocks": {
+        "image_dmzmbn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ecom_activwear-Modifier.jpg",
+            "subheading": "VENTES PRIVEES",
+            "title": "",
+            "text": "",
+            "link_label": "Jusqu'à -40%",
+            "link": "shopify://collections/ventes-privees",
+            "use_text_button": true,
+            "block_link": "shopify://collections/ventes-privees"
+          }
+        },
+        "image_MQqxXN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cowboys_Repetto_Image_3_4x5_4081c129-236f-411b-9853-4050f9adf4dd.jpg",
+            "subheading": "PRE-COLLECTION PRINTEMPS",
+            "title": "",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://collections/collection-printemps-ete-2025",
+            "use_text_button": true,
+            "block_link": "shopify://collections/collection-printemps-ete-2025"
+          }
+        }
+      },
+      "block_order": [
+        "image_dmzmbn",
+        "image_MQqxXN"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 8,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_xQGjiC": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_K6dEjT": {
+          "type": "subheading",
+          "settings": {
+            "text": "NOUVELLE COLLECTION"
+          }
+        },
+        "text_Np8hhb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Nouvelles Nuances - Intemporelle Allure</p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_K6dEjT",
+        "text_Np8hhb"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_HqQMrF": {
+      "type": "featured-collection",
+      "settings": {
+        "show_price": false,
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": false,
+        "collection": "collection-home-2",
+        "display_type": "carousel",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_8gFdq3": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "show_price": false,
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": false,
+        "collection": "collection-home-1",
+        "display_type": "carousel",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_cU4QrG": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "show_price": false,
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": false,
+        "collection": "collection-home-3",
+        "display_type": "carousel",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_UAzhcD": {
+      "type": "gallery",
+      "blocks": {
+        "image_NGttWP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Shoot_Boots18-Modifier.jpg",
+            "subheading": "BOOTS",
+            "title": "",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://collections/catalogue-femme-chaussures-bottes-and-bottines",
+            "use_text_button": true,
+            "block_link": "shopify://collections/catalogue-femme-chaussures-bottes-and-bottines"
+          }
+        },
+        "image_RHxHGj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EmptyName_22-Modifier_4.jpg",
+            "subheading": "LE SAC OPERA",
+            "title": "",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://collections/catalogue-femme-maroquinerie",
+            "use_text_button": true,
+            "block_link": "shopify://collections/catalogue-femme-maroquinerie"
+          }
+        }
+      },
+      "block_order": [
+        "image_NGttWP",
+        "image_RHxHGj"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 8,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_PTpcjz": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 30,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_with_text_overlay_mjYJpB": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_bXHBLe": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_b43AjN": {
+          "type": "heading",
+          "settings": {
+            "text": "Le Sac Opéra",
+            "heading_size": "h1-large"
+          }
+        },
+        "text_iiwFbq": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "description_size": "medium"
+          }
+        },
+        "button_6aFeWh": {
+          "type": "button",
+          "settings": {
+            "button_text": "Découvrir",
+            "button_link": "shopify://collections/catalogue-femme-maroquinerie",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bXHBLe",
+        "heading_b43AjN",
+        "text_iiwFbq",
+        "button_6aFeWh"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Maro_Charms-16X9.jpg",
+        "mobile_image": "shopify://shop_images/campagne_noel_41-Modifier_1.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 5,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_FWwUC4": {
+      "type": "gallery",
+      "blocks": {
+        "image_CE4U9t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/V4233VEM-020-P1_1.jpg",
+            "subheading": "Lilouh",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/babies-lilouh-argent-v4233vem-020"
+          }
+        },
+        "image_J7hGKz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/V4212VD-410-P1.jpg",
+            "subheading": "Leia",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/escarpins-leia-noir-v4212vd-410"
+          }
+        },
+        "image_Jz4NTT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/v4194satstd-410-p1-georgia-noir-strass-satin-repetto.jpg",
+            "subheading": "Georgia Strass",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/babies-georgia-noir-v4194satstd-410"
+          }
+        },
+        "image_JnLTpw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/V690VELGLD-410-P1.jpg",
+            "subheading": "Phoebe",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/bottines-phoebe-noir-v690velgld-410"
+          }
+        }
+      },
+      "block_order": [
+        "image_CE4U9t",
+        "image_J7hGKz",
+        "image_Jz4NTT",
+        "image_JnLTpw"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 4,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": true,
+        "image_ratio": "portrait",
+        "content_position": "middle-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 9,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_KPpmhy": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 30,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_with_text_slideshow_n4karH": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "slide_KAeGLU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Devanture_RDLP__Maxi_Noeud_low.jpg",
+            "heading": "Nos boutiques",
+            "content": "Repetto célèbre la fin d’année et vous ouvre ses boutiques les dimanches de décembre. L’occasion d’offrir bien plus qu’un cadeau : une touche de grâce et de douceur, pour faire rayonner ceux que vous aimez.",
+            "button_text": "Découvrir",
+            "button_link": "https://repetto.com/pages/trouver-un-revendeur"
+          }
+        },
+        "slide_7bnQac": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/campagne_noel_49-Modifier_1.jpg",
+            "heading": "Holidays in Repetto",
+            "content": "Pour cette période festive, Repetto célèbre l'hiver avec une élégance intemporelle...",
+            "button_text": "LOOKBOOK",
+            "button_link": "shopify://pages/holidays-in-repetto"
+          }
+        }
+      },
+      "block_order": [
+        "slide_KAeGLU",
+        "slide_7bnQac"
+      ],
+      "settings": {
+        "mobile_height": "mobile-height-350",
+        "desktop_height": "desktop-height-650",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-right",
+        "full_width": false,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_slideshow_YfhyEB": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "slide_gCfKNQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/campagne_noel_49-Modifier.jpg",
+            "heading": "HOLIDAYS IN REPETTO",
+            "content": "À l'approche des fêtes, Repetto célèbre l'hiver avec une élégance intemporelle...",
+            "button_text": "LOOKBOOK",
+            "button_link": "shopify://pages/holidays-in-repetto"
+          }
+        }
+      },
+      "block_order": [
+        "slide_gCfKNQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "mobile_height": "mobile-height-300",
+        "desktop_height": "desktop-height-650",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "gallery_NKXQyi": {
+      "type": "gallery",
+      "blocks": {
+        "image_zLBfHr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BT58_Emma_7563.jpg",
+            "subheading": "ACTIVEWEAR",
+            "title": "",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://collections/catalogue-femme-athleisure",
+            "use_text_button": true,
+            "block_link": "shopify://collections/catalogue-femme-athleisure"
+          }
+        },
+        "image_rihQrC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Activwear_still_life_18-Modifier.jpg",
+            "subheading": "LIFESTYLE",
+            "title": "",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://collections/lifestyle",
+            "use_text_button": true,
+            "block_link": "shopify://collections/lifestyle"
+          }
+        }
+      },
+      "block_order": [
+        "image_zLBfHr",
+        "image_rihQrC"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "full-width-row-full",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 5,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_V8kcVG": {
+      "type": "featured-collection",
+      "settings": {
+        "show_price": false,
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": false,
+        "collection": "nouvelle-collection-activewear",
+        "display_type": "carousel",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_dnydyj": {
+      "type": "featured-collection",
+      "settings": {
+        "show_price": false,
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": false,
+        "collection": "catalogue-femme-athleisure",
+        "display_type": "carousel",
+        "product_limit": 4,
+        "columns_desktop": 4,
+        "show_view_all": false,
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_XnWVTe": {
+      "type": "gallery",
+      "blocks": {
+        "image_cY83U8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S0666-412-P1.jpg",
+            "subheading": "INSTINCT",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/crop-top-manches-longues-noir-carbone-s0666-412"
+          }
+        },
+        "image_E9BpHz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/S0667-412-P1.jpg",
+            "subheading": "INSTINCT",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/legging-noir-carbone-s0667-412"
+          }
+        },
+        "image_VP8emC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/s0612m-047-p1-sans-manche-rose-repetto.jpg",
+            "subheading": "LIFESTYLE",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/doudoune-sans-manches-rose-petale-s0612m-047"
+          }
+        },
+        "image_XV8pKU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/v072r-288-p1_1.jpg",
+            "subheading": "SNEAKERS",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": "shopify://products/dance-sneakers-gris-bleute-v072r-288"
+          }
+        }
+      },
+      "block_order": [
+        "image_cY83U8",
+        "image_E9BpHz",
+        "image_VP8emC",
+        "image_XV8pKU"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 4,
+        "section_width": "grid",
+        "mobile_swipe": true,
+        "image_ratio": "portrait",
+        "content_position": "middle-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 9,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "1231b1c8-63ce-4e58-8c21-d3170cce7983": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 5,
+        "spacer_desktop": 15,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "98486df1-caf9-4806-b317-1487e52dea82": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20645423546672__98486df1-caf9-4806-b317-1487e52dea82-column-4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/REPETTO_SAVOIRFAIRE_2023_SEWREDLEATHERBALLERINA.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Artisanat Français",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/made-in-france"
+          }
+        },
+        "template--20645423546672__98486df1-caf9-4806-b317-1487e52dea82-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto-3_a617ca4c-9664-4b0e-bfd4-b8d3417a5c92.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Personnalisation",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/personnalisation-1"
+          }
+        },
+        "template--20645423546672__98486df1-caf9-4806-b317-1487e52dea82-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/savoir_faire_repetto_2.png",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Service client",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/nous-contacter"
+          }
+        },
+        "template--20645423546672__98486df1-caf9-4806-b317-1487e52dea82-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Devanture-RDLP-3000x2000.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Rendez-vous en boutique",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://pages/trouver-un-revendeur"
+          }
+        }
+      },
+      "block_order": [
+        "template--20645423546672__98486df1-caf9-4806-b317-1487e52dea82-column-4",
+        "template--20645423546672__98486df1-caf9-4806-b317-1487e52dea82-column-1",
+        "template--20645423546672__98486df1-caf9-4806-b317-1487e52dea82-column-3",
+        "template--20645423546672__98486df1-caf9-4806-b317-1487e52dea82-column-2"
+      ],
+      "settings": {
+        "heading": "LE SERVICE REPETTO",
+        "heading_left": false,
+        "description": "<p>Une expérience sans couture de la Maison, artisan du Luxe et de la Danse depuis 1947.</p>",
+        "full_width": false,
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "text_alignment": "left",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "f9797593-1b9f-4584-b6d6-ed2f3d945baa": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20645423546672__f9797593-1b9f-4584-b6d6-ed2f3d945baa-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "L'Esprit Ballet : entre tradition et grâce",
+            "size": "h4"
+          }
+        },
+        "template--20645423546672__f9797593-1b9f-4584-b6d6-ed2f3d945baa-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>C’est en suivant les conseils de son fils Roland Petit que Rose Repetto créa sa première paire de <a href=\"/collections/catalogue-danse\" title=\"Danse - FEMME\">chaussons de danse</a> et ouvrit son premier atelier à deux pas de l’Opéra National de Paris. Depuis, Repetto n’a de cesse de proposer des produits innovants au service des danseurs : des étudiants aux plus belles étoiles.</p>",
+            "size": "text-size-regular"
+          }
+        },
+        "button_Tn39UU": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "link_label": "DECOUVRIR",
+            "link": "shopify://collections/catalogue-danse",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20645423546672__f9797593-1b9f-4584-b6d6-ed2f3d945baa-heading-1",
+        "template--20645423546672__f9797593-1b9f-4584-b6d6-ed2f3d945baa-text-1",
+        "button_Tn39UU"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "background_video_TfCQGg": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "subheading": "",
+        "heading": "",
+        "text": "",
+        "lightbox_button": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_hosted": "shopify://files/videos/REPETTO_15s_02_MASTER_169.mp4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "gallery_izpnea",
+    "rich_text_xQGjiC",
+    "featured_collection_HqQMrF",
+    "featured_collection_8gFdq3",
+    "featured_collection_cU4QrG",
+    "gallery_UAzhcD",
+    "spacer_PTpcjz",
+    "image_with_text_overlay_mjYJpB",
+    "gallery_FWwUC4",
+    "spacer_KPpmhy",
+    "image_with_text_slideshow_n4karH",
+    "image_with_text_slideshow_YfhyEB",
+    "gallery_NKXQyi",
+    "featured_collection_V8kcVG",
+    "featured_collection_dnydyj",
+    "gallery_XnWVTe",
+    "1231b1c8-63ce-4e58-8c21-d3170cce7983",
+    "98486df1-caf9-4806-b317-1487e52dea82",
+    "f9797593-1b9f-4584-b6d6-ed2f3d945baa",
+    "background_video_TfCQGg"
+  ]
+}

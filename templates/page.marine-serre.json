@@ -1,0 +1,271 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "settings": {
+        "hero_image": "shopify:\/\/shop_images\/HP_Marine_Serre_low.jpg",
+        "hero_title": "",
+        "hero_content": "<p>La maison Repetto, symbole d'élégance et de savoir-faire<br\/>français depuis 1947, est fière d'annoncer une collaboration avec la créatrice<br\/>de mode visionnaire Marine Serre.<\/p><p>Une union entre l’artisanat de luxe de la Maison Repetto et<br\/>l'audace créative de Marine Serre, créant une collection capsule qui célèbre le<br\/>meilleur des deux univers.<\/p><p>Un imprimé emprunt de féminité : Marine Serre, connue<br\/>pour ses créations innovantes et son engagement envers la durabilité, apporte<br\/>une touche résolument moderne aux classiques Made in France de Repetto. <\/p><p>Les deux Maisons partagent toutes deux des valeurs communes<br\/>de féminité et de liberté.<\/p>"
+      }
+    },
+    "spacer_UQkVdq": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_content_card_RJ9R8H": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_JfVzgE": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Marine_Serre_6-Modifier.jpg",
+            "image_position": "left",
+            "block_title": "Quand deux icones se rencontrent...",
+            "block_content": "<p>Camille est la ballerine iconique made in France de la Maison Repetto qui se décline le temps de cette collaboration avec l’imprimé Lune de Marine Serre, aussi audacieux que féminin. <\/p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_JfVzgE"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "image_content_card_XhiJGC": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_T7GjVj": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Marine_Serre_11-Modifier.jpg",
+            "image_position": "right",
+            "block_title": "Marcher tout en subtilité sur la lune avec la Ballerine Lilouh",
+            "block_content": "<p>C’est brodé que nous retrouvons le motif croissant de Lune de Marine Serre sur la magnifique ballerine Lilouh qui affine le pied avec son empeigne haute.<\/p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_T7GjVj"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "image_content_card_rDDRA8": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_ptztY7": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/MS_Semper_Legati_Details-31-Modifier.jpg",
+            "image_position": "left",
+            "block_title": "Quatre coloris exclusifs qui habillent notre sandale Justine",
+            "block_content": "<p>Le talon fin de 9 cm dessine une silhouette élégante et raffinée. Ses fines brides dévoilent le pied avec délicatesse et viennent se croiser sur l’arrière pour un maintien sans faille.<\/p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_ptztY7"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_list_CCLnCw": {
+      "type": "image-list",
+      "blocks": {
+        "image_list_HqdFRe": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marine_Serre_-Modifier.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_fCPcRE": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marine_Serre_4-Modifier.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_TCaph6": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marine_Serre_13-Modifier_fded46ed-574f-4b23-8bc9-dd9df39c7da5.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_C97pBq": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marine_Serre_8-Modifier.jpg",
+            "label": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_list_HqdFRe",
+        "image_list_fCPcRE",
+        "image_list_TCaph6",
+        "image_list_C97pBq"
+      ],
+      "settings": {
+      }
+    },
+    "image_with_text_hiCPaD": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_9N4pDa": {
+          "type": "subheading",
+          "settings": {
+            "text": "MARRINE SERRE Repetto"
+          }
+        },
+        "heading_RkBHqd": {
+          "type": "heading",
+          "settings": {
+            "text": "Disponible en 2025",
+            "heading_size": "h3"
+          }
+        },
+        "text_pYQ6WW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La collection sera disponible en édition limitée dans les boutiques Repetto, les points de vente Marine Serre et en ligne <strong>à partir de 2025.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9N4pDa",
+        "heading_RkBHqd",
+        "text_pYQ6WW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lune-project-WHITE-P4_bec2dc03-a566-424b-b243-1d758e3fb1be.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "section_width": "grid",
+        "layout": "image_first",
+        "content_position": "text-right",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "collection_list_PdED3r": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Découvrir nos collections",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "catalogue-femme-chaussures-sandales",
+          "catalogue-femme-chaussures-ballerines",
+          "catalogue-actualites-nouvelle-collection",
+          "catalogue-femme-chaussures-escarpins"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 4,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 13,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "spacer_UQkVdq",
+    "image_content_card_RJ9R8H",
+    "image_content_card_XhiJGC",
+    "image_content_card_rDDRA8",
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74",
+    "image_list_CCLnCw",
+    "image_with_text_hiCPaD",
+    "collection_list_PdED3r"
+  ]
+}

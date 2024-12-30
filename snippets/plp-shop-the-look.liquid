@@ -1,0 +1,109 @@
+{{ 'shop-the-look.css' | asset_url | stylesheet_tag }}
+<script
+  src="{{ 'product.js' | asset_url }}"
+  defer="defer"></script>
+{%  liquid
+    assign imageLeft = imageLeft
+    assign imageRight = imageRight
+    assign bottom_left_img = bottom_left_img
+    assign align = align
+    assign product_handle_1 = product_handle_1
+    assign x_position_1 = x_position_1
+    assign y_position_1 = y_position_1
+    assign product_handle_2 = product_handle_2
+    assign x_position_2 = x_position_2
+    assign y_position_2 = y_position_2
+    assign product_handle_3 = product_handle_3
+    assign x_position_3 = x_position_3
+    assign y_position_3 = y_position_3
+    %}
+<shop-the-look
+  class="shop-the-look">
+  <figure
+    class="shop-the-look--area">
+    {% case align %}
+      {% when 'left' %}
+      {%- if imageLeft -%}
+        {% assign master_width = imageLeft.src.width | append: 'x' | append: imageLeft.src.height %}
+        {% render 'responsive-image', image: imageLeft, sizes: master_width %}
+      {%- else -%}
+        <div
+          class="thb-placeholder">
+          {{ 'lifestyle-1' | placeholder_svg_tag }}
+        </div>
+      {%- endif -%}
+      {% when 'right' %}
+      {%- if imageRight -%}
+        {% assign master_width = imageRight.src.width | append: 'x' | append: imageRight.src.height %}
+        {% render 'responsive-image', image: imageRight, sizes: master_width %}
+      {%- else -%}
+        <div
+          class="thb-placeholder">
+          {{ 'lifestyle-1' | placeholder_svg_tag }}
+        </div>
+      {% endif %}
+      {% when 'bottom' %}
+      {%- if bottom_left_img -%}
+        {% assign master_width = bottom_left_img.src.width | append: 'x' | append: bottom_left_img.src.height %}
+        {% render 'responsive-image', image: bottom_left_img, sizes: master_width %}
+      {%- else -%}
+        <div
+          class="thb-placeholder">
+          {{ 'lifestyle-1' | placeholder_svg_tag }}
+        </div>
+      {% endif %}
+    {% endcase %}
+    {%- assign hotspot_product_1 = all_products[product_handle_1] -%}
+    {%- assign hotspot_product_2 = all_products[product_handle_2] -%}
+    {%- assign hotspot_product_3 = all_products[product_handle_3] -%}
+    {% if hotspot_product_1 != empty %}
+      <quick-view
+        class="thb-hotspot pin-white"
+        style="left: {{- x_position_1 | append: '%' -}}; top: {{- y_position_1 | append: '%' -}};"
+        data-product-handle="{{ hotspot_product_1.handle }}">
+        <div
+          class="thb-hotspot-content thb-pulsate">
+          {%- unless hotspot_product_1 == empty -%}
+            <div
+              class="loading-overlay">
+              {% render 'svg-icons' with 'thb-loading' %}
+            </div>
+          {%- endunless -%}
+        </div>
+      </quick-view>
+    {% endif %}
+
+    {% if hotspot_product_2 != empty %}
+      <quick-view
+        class="thb-hotspot pin-white"
+        style="left: {{- x_position_2 | append: '%' -}}; top: {{- y_position_2 | append: '%' -}};"
+        data-product-handle="{{ hotspot_product_2.handle }}">
+        <div
+          class="thb-hotspot-content thb-pulsate">
+          {%- unless hotspot_product_2 == empty -%}
+            <div
+              class="loading-overlay">
+              {% render 'svg-icons' with 'thb-loading' %}
+            </div>
+          {%- endunless -%}
+        </div>
+      </quick-view>
+    {% endif %}
+    {% if hotspot_product_3 != empty %}
+      <quick-view
+        class="thb-hotspot pin-white"
+        style="left: {{- x_position_3 | append: '%' -}}; top: {{- y_position_3 | append: '%' -}};"
+        data-product-handle="{{ hotspot_product_3.handle }}">
+        <div
+          class="thb-hotspot-content thb-pulsate">
+          {%- unless hotspot_product_3 == empty -%}
+            <div
+              class="loading-overlay">
+              {% render 'svg-icons' with 'thb-loading' %}
+            </div>
+          {%- endunless -%}
+        </div>
+      </quick-view>
+    {% endif %}
+  </figure>
+</shop-the-look>

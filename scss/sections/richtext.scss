@@ -1,0 +1,15 @@
+.rich-text{
+    &.richtext-spacing-padding{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .rich-text__inner > .rte{
+        margin-bottom: 0;
+    }
+
+    a:not(.button) {
+        text-decoration: underline;
+        color: var(--repetto-colors-pink-500, #EF8CA5);        
+    }
+}

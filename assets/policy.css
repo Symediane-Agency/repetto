@@ -1,0 +1,95 @@
+[role="main"] .shopify-policy__container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 12.5px;
+}
+
+[role="main"] .shopify-policy__container .shopify-policy__title {
+  display: none;
+}
+
+[role="main"] .shopify-policy__container .rte {
+  margin-bottom: 40px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+[role="main"] .shopify-policy__container .rte h1 {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  line-height: 26px;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+[role="main"] .shopify-policy__container .rte h2,
+[role="main"] .shopify-policy__container .rte h3,
+[role="main"] .shopify-policy__container .rte h4,
+[role="main"] .shopify-policy__container .rte h5 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+[role="main"] .shopify-policy__container .rte h1,
+[role="main"] .shopify-policy__container .rte h2,
+[role="main"] .shopify-policy__container .rte h3,
+[role="main"] .shopify-policy__container .rte h4 {
+  text-transform: uppercase;
+}
+
+[role="main"] .shopify-policy__container .rte h1 strong,
+[role="main"] .shopify-policy__container .rte h2 strong,
+[role="main"] .shopify-policy__container .rte h3 strong,
+[role="main"] .shopify-policy__container .rte h4 strong {
+  font-weight: bolder;
+}
+
+[role="main"] .shopify-policy__container .rte h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+[role="main"] .shopify-policy__container .rte h6 {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+[role="main"] .shopify-policy__container .rte p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+[role="main"] .shopify-policy__container .rte table th,
+[role="main"] .shopify-policy__container .rte table td {
+  font-size: 12px;
+  line-height: 16px;
+  border: 1px solid #000;
+}
+
+[role="main"] .shopify-policy__container .rte table tr:first-child td {
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 768px) {
+  [role="main"] .shopify-policy__container {
+    padding: 0 40px;
+  }
+  [role="main"] .shopify-policy__container .rte {
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width: 1068px) {
+  [role="main"] .shopify-policy__container {
+    max-width: 1140px;
+  }
+}

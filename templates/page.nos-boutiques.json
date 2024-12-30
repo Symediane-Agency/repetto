@@ -1,0 +1,829 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_WTcqQU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_gHz4pq": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_Qw3WfA": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_size": "h1-xlarge"
+          }
+        },
+        "text_JzfRiX": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "description_size": "medium"
+          }
+        },
+        "button_6H4JKQ": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gHz4pq",
+        "heading_Qw3WfA",
+        "text_JzfRiX",
+        "button_6H4JKQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify://shop_images/072A8603_1.jpg",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "content_width": "small",
+        "content_position": "bottom-center",
+        "text_alignment": "center",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_text_with_image_KqVCBP": {
+      "type": "custom-text-with-image",
+      "disabled": true,
+      "settings": {
+        "show_on_mobile": "left",
+        "left_background_bg": "shopify://shop_images/Marais2_c7e01489-6e2d-490b-b930-a7a81b6c9ecd.jpg",
+        "right_background_image": "shopify://shop_images/EmptyName_6-Modifier.jpg",
+        "heading": "Repetto se réinvente",
+        "heading_size": "h4",
+        "content": "<p>Chez <strong>Repetto</strong>, nous célébrons l’union entre savoir-faire artisanal et audace créative à travers nos collaborations uniques. En collaborant avec des créateurs et Maisons emblématiques, nous réinventons sans cesse nos pièces iconiques. De Jacquemus à Marine Serre, en passant par Noir Kei Ninomiya, chaque rencontre est l’occasion de sublimer notre héritage tout en se réinvantant.</p>",
+        "content_size": "text-size-regular",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "hero_title": "Repetto se réinvente",
+        "hero_content": "<p>Chez <strong>Repetto</strong>, nous célébrons l’union entre savoir-faire artisanal et audace créative à travers nos collaborations uniques. En collaborant avec des créateurs et Maisons emblématiques, nous réinventons sans cesse nos pièces iconiques. De Jacquemus à Marine Serre, en passant par Noir Kei Ninomiya, chaque rencontre est l’occasion de sublimer notre héritage tout en se réinvantant.</p>"
+      }
+    },
+    "spacer_3yi4N4": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_gJVeaF": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_EgaGW3": {
+          "type": "subheading",
+          "settings": {
+            "text": "Vivre l'expérience repetto"
+          }
+        },
+        "heading_yK6wUR": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": "h3"
+          }
+        },
+        "text_j7TwxG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nos vitrines, véritables œuvres en mouvement, invitent à l’évasion et au rêve. </p><p>L’art du ballet et les créations iconiques se prêtent à toutes les inspirations.</p><p>Les décors célèbrent l’héritage et le savoir-faire de la Maison. De boutique en boutique, elles transportent une magie intemporelle, offrant à chaque regard une nouvelle histoire à contempler.</p>",
+            "size": "text-size-regular"
+          }
+        },
+        "button_Tghf9p": {
+          "type": "button",
+          "settings": {
+            "link_label": "",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_EgaGW3",
+        "heading_yK6wUR",
+        "text_j7TwxG",
+        "button_Tghf9p"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_content_card_RJ9R8H": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_JfVzgE": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/072A1957_2.jpg",
+            "image_position": "left",
+            "block_title": "Vivre le rêve de la danse",
+            "block_content": "<p>Que ce soit dans nos boutiques ou dans nos vitrines, chaque détail est soigneusement conçu pour éveiller votre imagination.<br/>Nos vitrines vous plongent dans l’univers de la danse, où chaque pièce raconte une histoire et vous fait vivre le rêve de la danse.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_JfVzgE"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": false,
+        "text_gap": true,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "image_list_CCLnCw": {
+      "type": "image-list",
+      "blocks": {
+        "image_list_HqdFRe": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/072A8562.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_fCPcRE": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/072A3320-Modifier_2_1.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_C97pBq": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/072A6360.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_TCaph6": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Vue_Vitrine_Face.jpg",
+            "label": "Tourbillon, novembre 2023",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_list_HqdFRe",
+        "image_list_fCPcRE",
+        "image_list_C97pBq",
+        "image_list_TCaph6"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_list_mnHDNx": {
+      "type": "image-list",
+      "blocks": {
+        "image_list_yxtw4D": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/1Y7A6068.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_J6xWLR": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6411.jpg",
+            "label": "Corolle noël, novembre 2019",
+            "url": ""
+          }
+        },
+        "image_list_pTnqyN": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Rio2.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_zwziNV": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/072A6360.jpg",
+            "label": "Sophia, juin 2023",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_list_yxtw4D",
+        "image_list_J6xWLR",
+        "image_list_pTnqyN",
+        "image_list_zwziNV"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_list_aGLF3C": {
+      "type": "image-list",
+      "blocks": {
+        "image_list_F6neRh": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/071Vitrine-RDLP-CUIVRE-1.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_hb3nfz": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/072A9913_1.jpg",
+            "label": "Poupée, novembre 2023",
+            "url": ""
+          }
+        },
+        "image_list_RPHMHh": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Vue_Vitrine_Face.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_FXaHWL": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1503_1.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_WRHTVi": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/072A1942.jpg",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_QkYiif": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/IMG_20210527_172002.jpg",
+            "label": "Rosace, mars 2021",
+            "url": ""
+          }
+        },
+        "image_list_Fnn9Je": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Raymonda_RLP_2.jpg",
+            "label": "Raymonda, juillet 2012",
+            "url": ""
+          }
+        },
+        "image_list_XyF9h4": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/072A1385.jpg",
+            "label": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_list_F6neRh",
+        "image_list_hb3nfz",
+        "image_list_RPHMHh",
+        "image_list_FXaHWL",
+        "image_list_WRHTVi",
+        "image_list_QkYiif",
+        "image_list_Fnn9Je",
+        "image_list_XyF9h4"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "gallery_Uze7m3": {
+      "type": "gallery",
+      "blocks": {
+        "image_VPJkU9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/072A3320-Modifier_2_1.jpg",
+            "subheading": "Jupon",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_Nqi4ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/072A8562.jpg",
+            "subheading": "Coroll",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_gGRRxA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/072A6360.jpg",
+            "subheading": "Sophia",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_AEJDmc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ruedelapaix.jpg",
+            "subheading": "Tourbillon",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_CpxwTj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/072A1942.jpg",
+            "subheading": "Néon",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_7XYcMC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/072A9974.jpg",
+            "subheading": "Aurore",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_UcpTUj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1Y7A6068.jpg",
+            "subheading": "Noel ruban",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_rHpGfU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20230323_155928_tutu_1.jpg",
+            "subheading": "Raymonda",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_AzejnR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_20210527_172002.jpg",
+            "subheading": "Médailles colorées",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_4CM7E4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/072A9913_1.jpg",
+            "subheading": "Poupées",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_H7ixmx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/071Vitrine-RDLP-CUIVRE-1.jpg",
+            "subheading": "Cuivrée",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_FjwpVp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6405.jpg",
+            "subheading": "La valse des tutus",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_MB8NzQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1503_1.jpg",
+            "subheading": "Dentelle",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_rxJBrq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/l_oiseau_bleu.jpg",
+            "subheading": "Oiseau bleu",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_antKXt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/072A1385.jpg",
+            "subheading": "France",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_HbHftJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Repetto-Lyon-Opening-3.jpg",
+            "subheading": "Cygne papier",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_iKyaQR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20200309_121824_1.jpg",
+            "subheading": "Berlingot",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_DBVeNc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20200311_152430.jpg",
+            "subheading": "recyclé",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VPJkU9",
+        "image_Nqi4ec",
+        "image_gGRRxA",
+        "image_AEJDmc",
+        "image_CpxwTj",
+        "image_7XYcMC",
+        "image_UcpTUj",
+        "image_rHpGfU",
+        "image_AzejnR",
+        "image_4CM7E4",
+        "image_H7ixmx",
+        "image_FjwpVp",
+        "image_MB8NzQ",
+        "image_rxJBrq",
+        "image_antKXt",
+        "image_HbHftJ",
+        "image_iKyaQR",
+        "image_DBVeNc"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 19,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_content_card_XhiJGC": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_T7GjVj": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/Marine_Serre_11-Modifier.jpg",
+            "image_position": "right",
+            "block_title": "Marcher tout en subtilité sur la lune avec la Ballerine Lilouh",
+            "block_content": "<p>C’est brodé que nous retrouvons le motif croissant de Lune de Marine Serre sur la magnifique ballerine Lilouh qui affine le pied avec son empeigne haute.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_T7GjVj"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "image_content_card_rDDRA8": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_ptztY7": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/MS_Semper_Legati_Details-31-Modifier.jpg",
+            "image_position": "left",
+            "block_title": "Quatre coloris exclusifs qui habillent notre sandale Justine",
+            "block_content": "<p>Le talon fin de 9 cm dessine une silhouette élégante et raffinée. Ses fines brides dévoilent le pied avec délicatesse et viennent se croiser sur l’arrière pour un maintien sans faille.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_ptztY7"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_with_text_hiCPaD": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_9N4pDa": {
+          "type": "subheading",
+          "settings": {
+            "text": "MARRINE SERRE Repetto"
+          }
+        },
+        "heading_RkBHqd": {
+          "type": "heading",
+          "settings": {
+            "text": "Disponible en 2025",
+            "heading_size": "h3"
+          }
+        },
+        "text_pYQ6WW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La collection sera disponible en édition limitée dans les boutiques Repetto, les points de vente Marine Serre et en ligne <strong>à partir de 2025.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9N4pDa",
+        "heading_RkBHqd",
+        "text_pYQ6WW"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/lune-project-WHITE-P4_bec2dc03-a566-424b-b243-1d758e3fb1be.jpg",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "section_width": "grid",
+        "layout": "image_first",
+        "content_position": "text-right",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_HjfT8w": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mNcjM8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Réinterprété par Jacquemus, l’intemporel richelieu Zizi de Repetto est paré d’un bout carré et d’un talon circulaire, dans un jeu de géométrie qui lui est propre et qui évoque les pointes de danse, mouvement initiateur de la maison. Confectionné selon la méthode du cousu-retourné dans les ateliers Repetto en Dordogne, cette collaboration exclusive aux lignes androgynes, célèbre l’artisanat d’exception et l’esprit visionnaire à la française. </p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_mNcjM8"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "collection_list_PdED3r": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Découvrir nos collections",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "catalogue-femme-chaussures-sandales",
+          "catalogue-femme-chaussures-ballerines",
+          "catalogue-actualites-nouvelle-collection",
+          "catalogue-femme-chaussures-escarpins"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 4,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 13,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_FUPEaJ": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_WTcqQU",
+    "main",
+    "custom_text_with_image_KqVCBP",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "spacer_3yi4N4",
+    "rich_text_gJVeaF",
+    "image_content_card_RJ9R8H",
+    "image_list_CCLnCw",
+    "image_list_mnHDNx",
+    "image_list_aGLF3C",
+    "gallery_Uze7m3",
+    "image_content_card_XhiJGC",
+    "image_content_card_rDDRA8",
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74",
+    "image_with_text_hiCPaD",
+    "rich_text_HjfT8w",
+    "collection_list_PdED3r",
+    "spacer_FUPEaJ"
+  ]
+}

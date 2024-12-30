@@ -1,0 +1,31 @@
+@use "../_vars.scss" as vars;
+
+.section-custom-banner {
+    .promotional-banner--content-inner{
+        background-color: var(--color-bg-frame);
+        padding: 30px 100px;
+
+        @media screen and (max-width: vars.$sm-max) {
+            padding: 20px 50px;
+        }
+    }
+
+    .h1{
+        color: var(--repetto-colors-black-primary, #000);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; /* 137.5% */
+        text-transform: uppercase;
+    }
+    .rte{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+
+        * {
+            color: var(--repetto-colors-grey-primary, #7B7678);
+        }
+    }
+}

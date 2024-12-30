@@ -1,0 +1,626 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "show_subcollections": false,
+        "make_heading_uppercase": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "a38a51df-4c8a-4f40-a81b-3dc0363e32f1": {
+      "type": "custom-plp-banner",
+      "disabled": true,
+      "settings": {
+        "plp-title": "{{ collection.title }}",
+        "plp-content": "{{ collection.metafields.repetto.addtional_content_text_1 | metafield_tag }}",
+        "button_text": "En savoir plus sur les Cendrillons",
+        "backournd-color": "#faf5f5",
+        "video_autoplay_left": true,
+        "video_controls_left": true,
+        "video_left": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_hosted_left": "{{ collection.metafields.repetto.plp_top_left_video.value }}",
+        "top_left_img": "{{ collection.metafields.repetto.plp_top_left_img.value }}",
+        "top_left_heading": "ESCAPADES ESTIVALES",
+        "top_left_content": "<p>Dans l'éclat de minuit, sous l'astre argenté, les ballerines Cendrillon se métamorphosent, réinventées grâce au talent de @noirkeininomiya.\u2028Telles des étoiles filantes, elles illuminent la scène de leur présence féerique.\u2028Sur Instagram, l'artiste dévoile ces créations exquises, capturant l'instant éphémère où la danse transcende les limites du temps.\u2028Laissez-vous emporter par cette réinterprétation divine.<\/p>",
+        "top_left_btn_url_label": "Revivre le mythe de Cendrillon",
+        "top_left_btn_url": "",
+        "product_handle_1": "{{ collection.metafields.repetto.product_1_plp.value }}",
+        "product_handle_2": "{{ collection.metafields.repetto.product_2_plp.value }}",
+        "product_handle_3": "{{ collection.metafields.repetto.product_3_plp.value }}",
+        "video_autoplay_right": true,
+        "video_controls_right": true,
+        "video_right": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "top_right_img": "{{ collection.metafields.repetto.plp_top_right_img.value }}",
+        "top_right_heading": "ÉVANESCENCES DU SOIR",
+        "top_right_content": "<p>Au coucher du soleil, tout est effervescence et fluidité. Les drapeaux se font robes asymétriques et flottent sur la dune, rouges et roses éclatants se mêlent sur des pièces légères et modulables.<\/p>",
+        "top_right_btn_url_label": "Révéler la magie de Barbie",
+        "top_right_btn_url": "",
+        "product_handle_4": "{{ collection.metafields.repetto.product_4_plp.value }}",
+        "product_handle_5": "{{ collection.metafields.repetto.product_5_plp.value }}",
+        "product_handle_6": "{{ collection.metafields.repetto.product_6_plp.value }}",
+        "video_autoplay_bottom": true,
+        "video_controls_bottom": true,
+        "video_bottom": "",
+        "video_hosted_bottom": "{{ collection.metafields.repetto.plp_bottom_left_video.value }}",
+        "bottom_left_img": "{{ collection.metafields.repetto.plp_bottom_left_img.value }}",
+        "bottom_left_heading": "Cousu retourné : l'excellence Repetto",
+        "bottom_left_content": "<p>Dans l'atelier de Repetto, les secrets enchantés s'entrelacent et le \"cousu retourné\" se révèle. Entre confort et légèreté, pas après pas, la passion prend forme.\u2028Des chaussons naissent, embrassant le sol avec légèreté, laissant dans leur sillage des rêves qui virevoltent dans l'écho des étoiles.<\/p>",
+        "bottom_left_btn_url_label": "",
+        "bottom_left_btn_url": "",
+        "product_handle_7": "{{ collection.metafields.repetto.product_7_plp.value }}",
+        "product_handle_8": "{{ collection.metafields.repetto.product_8_plp.value }}",
+        "product_handle_9": "{{ collection.metafields.repetto.product_9_plp.value }}"
+      }
+    },
+    "505aff6b-3107-4684-a349-f5f88d77d379": {
+      "type": "plp-filter",
+      "settings": {
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "image_D3LfWh": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-la-ceremonie",
+            "text_position": 92,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/zizi_blanche.jpg",
+            "show_context": true,
+            "title": "Collection Homme",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/collections\/catalogue-homme-chaussures",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_66zT4d": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-la-ceremonie",
+            "text_position": 1,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/escarpins-joy-blanc-satin-coco_9424d77f-22e2-460c-b1e8-eab4ba184848.jpg",
+            "show_context": true,
+            "title": "Pour la mariée",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/products\/sandales-joy-blanc-coco-v4174satd-774",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 54,
+            "y_position": 90,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_GRNQ6K": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-la-ceremonie",
+            "text_position": 23,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Bal_de_Nuit-2.jpg",
+            "show_context": true,
+            "title": "Bal de nuit",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/products\/escarpins-jewel-noir-v4181satstd-410",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_jRNHed": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-la-ceremonie",
+            "text_position": 45,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Bal_de_Nuit-4.jpg",
+            "show_context": true,
+            "title": "Justine",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/products\/sandales-justine-rose-raspberry-v4176satd-1448",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_x6DJpU": {
+          "type": "Image",
+          "disabled": true,
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-nouvelle-collection",
+            "text_position": 53,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Repetto_Stillife_Nov235515f_1_2c1e24b3-8d16-4f1c-9c66-f2803b2b431b.jpg",
+            "show_context": true,
+            "title": "Nos mules",
+            "content": "",
+            "url_label": "Découvrir",
+            "btn_url": "shopify:\/\/products\/mules-camille-orange-orangeade-v4183cv-1469",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_zfVWk6": {
+          "type": "Image",
+          "disabled": true,
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-nouvelle-collection",
+            "text_position": 3,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/V511V-550-P6.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "ballerines-camille-rouge-flamme-v511v-550",
+            "x_position": 42,
+            "y_position": 86,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_3wxKkh": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-femme-chaussures-sandales",
+            "text_position": 4,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Repetto_Stillife_Nov235803F_43f65224-a08b-4775-b48a-ea54621ddcfc.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "sandales-jive-noir-et-rose-icone-v4180sat-914",
+            "x_position": 46,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_DHYLnA": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-femme-chaussures-sandales",
+            "text_position": 32,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Repetto_Stillife_Nov235732F_1_9083d30a-6119-4459-81b6-cd931e1f3910.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "mules-a-talon-jordana-jaune-limoncello-v4173ved-1150",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_zAite4": {
+          "type": "Image",
+          "disabled": true,
+          "settings": {
+            "image_promotion_collection": "cadeaux",
+            "text_position": 5,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Keyrings_ASIA_still_life-4.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 46,
+            "y_position": 16,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_KkM3Xh": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "cadeaux",
+            "text_position": 17,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/M0752A-550-P6_48e12797-201b-452b-8ef1-f6c6304ae95e.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "sac-poids-plume-rouge-flamme-m0752a-550",
+            "x_position": 46,
+            "y_position": 16,
+            "product_handle_one": "sac-poids-plume-beige-cachemire-m0752mt-1451",
+            "x_position_one": 61,
+            "y_position_one": 76,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "video_BaCMNL": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "video_promotion_collection": "catalogue-femme-chaussures",
+            "video_position": 30,
+            "video_width": "2",
+            "video_autoplay": true,
+            "video_controls": true,
+            "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify:\/\/files\/videos\/A003_A001_0622E4_001_2.mp4"
+          }
+        },
+        "image_CJyY3c": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-femme-chaussures-ballerines",
+            "text_position": 5,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/02_0030_final.min.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_kNdzdi": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-femme-chaussures-ballerines",
+            "text_position": 27,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/03_0002_final_copie.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_dnHea4": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-femme-chaussures-collection-denim",
+            "text_position": 5,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/Repetto_Stillife_Nov235650F_0db31e65-5fbd-4d30-adec-c8eb48091aef.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_jEH677": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "cadeaux",
+            "text_position": 1,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/zizi05.b_w.jpg",
+            "show_context": true,
+            "title": "Sélection Homme",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 20,
+            "y_position": 20,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_fhr3ty": {
+          "type": "Image",
+          "disabled": true,
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-nouvelle-collection",
+            "text_position": 1,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/LISBETH_6.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "",
+            "x_position": 63,
+            "y_position": 27,
+            "product_handle_one": "ballerines-lisbeth-rose-icone-v4200ved-899",
+            "x_position_one": 19,
+            "y_position_one": 93,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_Ej3wg7": {
+          "type": "Image",
+          "disabled": true,
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-nouvelle-collection",
+            "text_position": 11,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/LISBETH_4.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "ballerines-lisbeth-argent-v4200vemd-020",
+            "x_position": 31,
+            "y_position": 70,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_8PC3Lf": {
+          "type": "Image",
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-ballerine-camille",
+            "text_position": 3,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/leopard_4-Modifier.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "ballerines-semelle-gomme-marron-leopard-v080pony-1479",
+            "x_position": 45,
+            "y_position": 91,
+            "product_handle_one": "",
+            "x_position_one": 22,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        },
+        "image_aUNbqH": {
+          "type": "Image",
+          "disabled": true,
+          "settings": {
+            "image_promotion_collection": "catalogue-actualites-ballerine-camille",
+            "text_position": 8,
+            "text_width": "2",
+            "text_img": "shopify:\/\/shop_images\/05_0845.jpg",
+            "show_context": true,
+            "title": "",
+            "content": "",
+            "url_label": "",
+            "btn_url": "",
+            "use_product": false,
+            "product_handle": "ballerines-camille-beige-swan-v511ve-1449",
+            "x_position": 53,
+            "y_position": 71,
+            "product_handle_one": "",
+            "x_position_one": 20,
+            "y_position_one": 20,
+            "product_handle_two": "",
+            "x_position_two": 20,
+            "y_position_two": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_D3LfWh",
+        "image_66zT4d",
+        "image_GRNQ6K",
+        "image_jRNHed",
+        "image_x6DJpU",
+        "image_zfVWk6",
+        "image_3wxKkh",
+        "image_DHYLnA",
+        "image_zAite4",
+        "image_KkM3Xh",
+        "video_BaCMNL",
+        "image_CJyY3c",
+        "image_kNdzdi",
+        "image_dnHea4",
+        "image_jEH677",
+        "image_fhr3ty",
+        "image_Ej3wg7",
+        "image_8PC3Lf",
+        "image_aUNbqH"
+      ],
+      "settings": {
+        "full_width": false,
+        "products_per_page": 18,
+        "columns_desktop": 4,
+        "pagination_type": "loadmore",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": false,
+        "facets_desktop": "drawer"
+      }
+    },
+    "166367228131c52c01": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 35,
+        "spacer_desktop": 50,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "d8806980-eb68-4b61-a795-2fb026fb7074": {
+      "type": "custom-content-with-bg",
+      "settings": {
+        "sub_title": "La maison Répetto",
+        "main_title": "FIL D'HISTOIREET HÉRITAGE ÉTOILÉ",
+        "desc": "Avec le cousu retourné, Repetto dévoile son génie. Un savoir-faire secret, héritage précieux, entre gestes cachés et douceur révélée. Le chausson se métamorphose, ballet des artisans, étreinte intemporelle entre ciel et terre. Dans cet art subtil, l'héritage se dessine, éternel comme l'étoile.",
+        "link_text": "Révéler la magie",
+        "link_href": "shopify:\/\/blogs\/news"
+      }
+    },
+    "6057a089-5b1f-4adc-b7e3-ec5bacf408df": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "collection_list_rGbWxQ": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Découvrir nos collections",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "catalogue-femme-chaussures-ballerines",
+          "catalogue-actualites-nouvelle-collection",
+          "catalogue-femme-maroquinerie"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 13,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "a38a51df-4c8a-4f40-a81b-3dc0363e32f1",
+    "505aff6b-3107-4684-a349-f5f88d77d379",
+    "product-grid",
+    "166367228131c52c01",
+    "d8806980-eb68-4b61-a795-2fb026fb7074",
+    "6057a089-5b1f-4adc-b7e3-ec5bacf408df",
+    "collection_list_rGbWxQ"
+  ]
+}

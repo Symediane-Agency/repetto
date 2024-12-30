@@ -1,0 +1,35 @@
+.section-header--content h2 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.product-recommendations {
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.product-recommendations .collection {
+  padding-left: 10px;
+}
+
+/* we need this ? */
+.product-recommendations.product-recommendations--loaded {
+  padding-bottom: 47px;
+}
+
+@media only screen and (min-width: 1068px) {
+  .medium-up-3 {
+    overflow-x: hidden;
+    grid-auto-flow: nowrap;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #wrapper #main-content .row.product-recommendations-wrap .product-recommendations {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #wrapper #main-content .row.product-recommendations-wrap .product-recommendations.swipe-on-mobile .products.row {
+    grid-auto-flow: dense;
+  }
+}

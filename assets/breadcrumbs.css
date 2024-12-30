@@ -1,0 +1,83 @@
+.breadcrumbs-section + .product-section .thb-product-detail {
+  margin-top: 0;
+  height: 100%;
+}
+
+.breadcrumbs {
+  font-size: 0.75rem;
+  overflow-x: scroll;
+  padding: 15px;
+  display: inline-flex;
+  width: 100%;
+  white-space: nowrap;
+  max-width: 100vw;
+  text-align: left;
+  scrollbar-width: none;
+  border-bottom: 1px solid #ece7e9;
+  justify-content: space-between;
+}
+.breadcrumbs div {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .breadcrumbs {
+    padding: 20px 50px;
+    overflow-x: hidden;
+  }
+}
+.breadcrumbs::-webkit-scrollbar {
+  display: none;
+}
+.breadcrumbs i {
+  color: #7b7678;
+  display: inline-block;
+  line-height: 20px;
+  margin: 0 10px;
+}
+.breadcrumbs i:last-child {
+  opacity: 1;
+}
+.breadcrumbs a {
+  color: #7b7678;
+}
+.breadcrumbs .home-icon {
+  margin-right: 20px;
+}
+
+.breadcrumbs .social-links {
+  display: flex;
+}
+.breadcrumbs .widget {
+  margin-bottom: 0;
+}
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-links li {
+  margin-bottom: 5px;
+}
+.social-links li a {
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  margin-right: 10px;
+}
+.social-links svg {
+  width: 16px;
+  height: auto;
+}
+.social-links span {
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .breadcrumbs .widget.pc-social-links {
+    display: none;
+  }
+}

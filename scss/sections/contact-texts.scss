@@ -1,0 +1,28 @@
+@use "../_vars.scss" as vars;
+
+.contact-texts {
+    .contact-text{
+        .title{
+            color: var(--repetto-colors-black-primary, #000);
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .text{
+            color: var(--repetto-colors-grey-primary, #7B7678);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 166.667% */
+
+            a {
+                color: var(--repetto-colors-pink-500, #EF8CA5);
+                font-style: normal;
+                font-weight: 400;
+                line-height: 20px;
+                text-decoration-line: underline;
+            }
+        }
+    }
+}

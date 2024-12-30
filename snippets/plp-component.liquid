@@ -1,0 +1,119 @@
+{%  liquid
+  assign custom_data = plp-component
+  assign local = local
+  assign video_hosted_left = custom_data.video_hosted_left
+  assign video_autoplay_left = custom_data.video_autoplay_left
+  assign video_controls_left = custom_data.video_controls_left
+  assign video_left = custom_data.video_left
+  assign video_hosted_right = custom_data.video_hosted_right
+  assign video_autoplay_right = custom_data.video_autoplay_right
+  assign video_controls_right = custom_data.video_controls_right
+  assign video_right = custom_data.video_right
+  assign video_hosted_bottom = custom_data.video_hosted_bottom
+  assign video_autoplay_bottom = custom_data.video_autoplay_bottom
+  assign video_controls_bottom = custom_data.video_controls_bottom
+  assign video_bottom = custom_data.video_bottom
+  assign product_handle_1 = custom_data.product_handle_1
+  assign x_position_1 = collection.metafields.custom.product_1_horizontal
+  assign y_position_1 = collection.metafields.custom.product_1_vertical
+  assign product_handle_2 = custom_data.product_handle_2
+  assign x_position_2 =  collection.metafields.custom.product_2_horizontal
+  assign y_position_2 = collection.metafields.custom.product_2_vertical
+  assign product_handle_3 = custom_data.product_handle_3
+  assign x_position_3 = ccollection.metafields.custom.product_3_horizontal
+  assign y_position_3 = collection.metafields.custom.product_3_vertical
+  assign product_handle_4 = custom_data.product_handle_4
+  assign x_position_4 =  collection.metafields.custom.product_4_horizontal
+  assign y_position_4 = collection.metafields.custom.product_4_vertical
+  assign product_handle_5 = custom_data.product_handle_5
+  assign x_position_5 =  collection.metafields.custom.product_5_horizontal
+  assign y_position_5 = collection.metafields.custom.product_5_vertical
+  assign product_handle_6 = custom_data.product_handle_6
+  assign x_position_6 =  collection.metafields.custom.product_6_horizontal
+  assign y_position_6 = collection.metafields.custom.product_6_vertical
+  assign product_handle_7 = custom_data.product_handle_7
+  assign x_position_7 =  collection.metafields.custom.product_7_horizontal
+  assign y_position_7 = collection.metafields.custom.product_7_vertical
+  assign product_handle_8 = custom_data.product_handle_8
+  assign x_position_8 =  collection.metafields.custom.product_8_horizontal
+  assign y_position_8 = collection.metafields.custom.product_8_vertical
+  assign product_handle_9 = custom_data.product_handle_9
+  assign x_position_9 =  collection.metafields.custom.product_9_horizontal
+  assign y_position_9 = collection.metafields.custom.product_9_vertical
+  assign imageLeft = custom_data.top_left_img
+  assign imageRight = custom_data.top_right_img
+  assign bottom_left_img = custom_data.bottom_left_img
+%}
+{% case local %}
+  {% when "left" %}
+  <plp-component class="flex-container">
+    <div class="left-component">
+      {% if collection.metafields.custom.product_top_left_component_use_video == true %}
+        {% render 'plp-video' with video_hosted: video_hosted_left, video_autoplay: video_autoplay_left, video_controls: video_controls_left, video: video_left %}
+      {% else %}
+        {% render 'plp-shop-the-look' with imageLeft: imageLeft, imageRight: imageRight, bottom_left_img: bottom_left_img, product_handle_1: product_handle_1, x_position_1: x_position_1, y_position_1: y_position_1, product_handle_2: product_handle_2, x_position_2: x_position_2, y_position_2: y_position_2, product_handle_3: product_handle_3, x_position_3: x_position_3, y_position_3: y_position_3, align: {{local}} %}
+      {% endif %}
+    </div>
+    <div class="right-text">
+      {% if custom_data.top_left_heading %}
+        <h3>{{ custom_data.top_left_heading | newline_to_br }}</h3>
+      {% endif %}
+      {% if custom_data.top_left_content %}
+        <div class="rte">{{ custom_data.top_left_content }}</div>
+      {% endif %}
+      {% if custom_data.button_text != blank %}
+        <a href="{{custom_data.top_left_btn_url}}" title="{{ custom_data.top_left_btn_url_label | escape }}">
+          <span>{{ custom_data.top_left_btn_url_label }}</span>
+        </a>
+      {% endif %}
+    </div>
+  </plp-component>
+  {% when "right" %}
+  <plp-component class="flex-container">
+    <div class="left-component">
+      {% if collection.metafields.custom.product_top_right_component_use_video %}
+        {% render 'plp-video' with video_hosted: video_hosted_right, video_autoplay: video_autoplay_right, video_controls: video_controls_right, video: video_right %}
+      {% else %}
+        {% render 'plp-shop-the-look' 
+         with imageLeft: imageLeft, imageRight: imageRight, bottom_left_img: bottom_left_img, product_handle_1: product_handle_4, x_position_1: x_position_4, y_position_1: y_position_4, product_handle_2: product_handle_5, x_position_2: x_position_5, y_position_2: y_position_5, product_handle_3: product_handle_6, x_position_3: x_position_6, y_position_3: y_position_6, align: {{local}} %}
+      {% endif %}
+    </div>
+    <div class="right-text">
+      {% if custom_data.top_right_heading %}
+        <h3>{{ custom_data.top_right_heading | newline_to_br }}</h3>
+      {% endif %}
+      {% if custom_data.top_right_content %}
+        <div class="rte">{{ custom_data.top_right_content }}</div>
+      {% endif %}
+      {% if custom_data.button_text != blank %}
+        <a href="{{custom_data.top_right_btn_url}}" title="{{ custom_data.top_right_btn_url_label | escape }}">
+          <span>{{ custom_data.top_right_btn_url_label }}</span>
+        </a>
+      {% endif %}
+    </div>
+  </plp-component>
+  {% when "bottom" %}
+  <plp-component class="flex-container">
+    <div class="left-component">
+      {% if collection.metafields.custom.product_bottom_left_component_use_video == true %}
+        {% render 'plp-video' with video_hosted: video_hosted_bottom, video_autoplay: video_autoplay_bottom, video_controls: video_controls_bottom, video: video_bottom %}
+      {% else %}
+        {% render 'plp-shop-the-look' 
+         with imageLeft: imageLeft, imageRight: imageRight, bottom_left_img: bottom_left_img, product_handle_1: product_handle_7, x_position_1: x_position_7, y_position_1: y_position_7, product_handle_2: product_handle_8, x_position_2: x_position_8, y_position_2: y_position_8, product_handle_3: product_handle_9, x_position_3: x_position_9, y_position_3: y_position_9, align: {{local}} %}
+      {% endif %}
+    </div>
+    <div class="right-text">
+      {% if custom_data.bottom_left_heading %}
+        <h3>{{ custom_data.bottom_left_heading | newline_to_br }}</h3>
+      {% endif %}
+      {% if custom_data.bottom_left_content %}
+        <div class="rte">{{ custom_data.bottom_left_content }}</div>
+      {% endif %}
+      {% if custom_data.button_text != blank %}
+        <a href="{{custom_data.bottom_left_btn_url}}" title="{{ custom_data.bottom_left_btn_url_label | escape }}">
+          <span>{{ custom_data.bottom_left_btn_url_label }}</span>
+        </a>
+      {% endif %}
+    </div>
+  </plp-component>
+{% endcase %}

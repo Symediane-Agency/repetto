@@ -1,0 +1,93 @@
+{%- liquid
+  if customer
+    assign profile_link = routes.account_url
+    assign profile_text = 'sections.header.my_account' | t
+  else
+    assign profile_link = routes.account_login_url
+    assign profile_text = 'sections.header.login' | t
+  endif
+-%}
+{{- 'slide-bar.css' | asset_url | stylesheet_tag -}}
+<div
+  class="thb-secondary-area thb-header-right"
+>
+  <div class="slide-bar">
+    <div class="slide-bar-inner"></div>
+  </div>
+  {%- unless header_settings.style == 'style4' -%}
+    <div
+      class="no-js-hidden"
+    >
+      {%- render 'localization',
+        id: 'HeaderLocalization',
+        show_language_switcher: false,
+        show_currency_switcher: true,
+        class: 'inside-header'
+      -%}
+    </div>
+  {%- endunless -%}
+  <div
+    class="thb-secondary-area-item thb-header-mobile-left"
+  >
+    {% render 'header-mobile-toggle', header_settings: header_settings, blocks: blocks %}
+  </div>
+  <a
+    class="thb-secondary-area-item pc-show header-search header-search-drawer-btn"
+    href="{{ routes.search_url }}"
+    title="Search"
+  >
+    {%- render 'svg-icons' with 'search' -%}
+  </a>
+  <a
+  class="thb-secondary-area-item thb-quick-search mb-show header-search"
+  href="{{ routes.search_url }}"
+  title="Search"
+>
+  {%- render 'svg-icons' with 'search' -%}
+</a>
+  <a
+    class="thb-secondary-area-item thb-quick-map"
+    href="{{ pages['trouver-un-revendeur'].url }}"
+    title="Location"
+  >
+    {%- render 'svg-icons' with 'map' -%}
+  </a>
+  <a
+    class="thb-secondary-area-item thb-quick-account login-drawer-toggle"
+    href="{{ profile_link | escape }}"
+    title="MyAccount"
+    id="login-drawer-toggle"
+  >
+    {%- render 'svg-icons' with 'myaccount' -%}
+  </a>
+  {% comment %}
+    {%- if shop.customer_accounts_enabled -%}
+    <a
+    class="thb-secondary-area-item thb-secondary-myaccount"
+    href="{{ profile_link | escape }}"
+    title="{{ 'sections.header.cart' | t }}">
+    <span>{{ profile_text }}</span>
+    </a>
+    {%- endif -%}
+  {% endcomment %}
+  <a
+    class="thb-secondary-area-item thb-secondary-cart"
+    href="{{ routes.cart_url }}"
+    id="cart-drawer-toggle"
+  >
+    <div
+      class="thb-secondary-item-icon"
+    >
+      {% render 'svg-icons' with 'cart' %}
+      <span
+        class="thb-item-count"
+      >
+        {%- if cart.item_count > 99 -%}
+          {%- render 'svg-icons' with 'thb-asterisk' -%}
+        {%- else -%}
+          {{ cart.item_count }}
+        {%- endif -%}
+      </span>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,74 @@
+{{ 'content-image-list.css' | asset_url | stylesheet_tag }}
+<div class="row content-image">
+  <div class="small-12">
+    {% for block in section.blocks %}
+      {% assign image = block.settings.img %}
+      <div class="content-item {% if image.src != blank%} full-width {% endif %} {% if block.settings.image_position == 'right' %} reverse {% endif %}">
+        {%- if image.src != blank -%}
+          <div class="img-box">
+            {% assign width = image.src.width | append: 'x' | append: image.src.height %}
+            {% render 'responsive-image', image: image, sizes: width %}
+          </div>
+        {%- endif -%}
+        <div class="text-box">
+          {% if section.settings.section_index != 1 %}
+            <p>{{ forloop.index | plus: section.settings.section_index | minus: 1 }}</p>
+          {% else %}
+            <p>{{ forloop.index }}</p>
+          {% endif %}
+          <div class="title">{{ block.settings.block_title }}</div>
+          <div class="content">{{ block.settings.block_content }}</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Content image list",
+  "settings": [
+    {
+      "type": "number",
+      "id": "section_index",
+      "label": "Component index starts from",
+      "default": 1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "combination",
+      "name": "Content item",
+      "settings": [
+        { "type": "image_picker", "id": "img", "label": "Select a picture" },
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Image position",
+          "default": "left",
+          "options": [
+            { "value": "left", "label": "Left" },
+            { "value": "right", "label": "Right" }
+          ]
+        },
+        {
+          "type": "header",
+          "content": "Content"
+        },
+
+        {
+          "type": "text",
+          "id": "block_title",
+          "label": "Block title"
+        },
+        {
+          "type": "richtext",
+          "id": "block_content",
+          "label": "Block content"
+        }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Content image list", "blocks": [{ "type": "combination" }]}]
+}
+{% endschema %}

@@ -1,0 +1,442 @@
+{{ 'plp-banner.css' | asset_url | stylesheet_tag }}
+{{ 'plp-banner.js' | asset_url | script_tag }}
+{{- 'image-with-text.css' | asset_url | stylesheet_tag -}}
+
+{% liquid
+  assign backgorund = section.settings['backournd-color']
+  assign custom_data = section.settings
+  assign show_banner = collection.metafields.repetto.is_there_an_expandable_banner
+%}
+
+<div class="plp-banner row full-width-row">
+  <div
+    class="row"
+  >
+    <div
+      class="small-12 plp-title-with-text"
+    >
+      {% if section.settings['plp-title'] %}
+        <h1
+          class="plp-title"
+        >
+          {{ section.settings['plp-title'] }}
+        </h1>
+      {% endif %}
+      {% if collection.description %}
+        <div
+          class="plp-content"
+        >
+          {{ collection.description }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% if show_banner %}
+  <div
+    class="plp-banner row full-width-row"
+    style="margin-top: 0"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="small-12 plp-title-with-text"
+      >
+        <div
+          class="plp-btn"
+          style="margin-top: 1.25rem;"
+        >
+          {% if section.settings.button_text != blank %}
+            <a
+              class="button"
+              role="button"
+              onclick="toggleComponent()"
+              title="{{ section.settings.button_text | escape }}"
+            >
+              <span>{{ section.settings.button_text }}</span>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    <div
+      class="components-box"
+      id="plp-components-box"
+      style="background-color: {{backgorund}};"
+    >
+      <div class="pc-show">
+        <div
+          class="content-box-plp"
+        >
+          <div
+            class="left-box-plp"
+          >
+            {% render 'plp-component' with custom_data, local: 'left' %}
+          </div>
+          <div
+            class="right-box-plp"
+          >
+            {% render 'plp-component' with custom_data, local: 'right' %}
+          </div>
+        </div>
+        <div
+          class="content-box-bottom-plp"
+        >
+          {% render 'plp-component' with custom_data, local: 'bottom' %}
+        </div>
+      </div>
+      <div class="mobile-show">
+        <div
+          class="content-box-plp carousel custom-dots"
+          data-dots="{{true}}"
+        >
+          <div
+            class="left-box-plp carousel__slide"
+          >
+            {% render 'plp-component' with custom_data, local: 'left' %}
+          </div>
+          <div
+            class="right-box-plp carousel__slide"
+          >
+            {% render 'plp-component' with custom_data, local: 'right' %}
+          </div>
+          <div
+            class="content-box-bottom-plp carousel__slide"
+          >
+            {% render 'plp-component' with custom_data, local: 'bottom' %}
+          </div>
+          <ol class="flickity-page-dots">
+            {% assign numAr = '1/2/3' | split: '/' %}
+            {%- for item in numAr -%}
+              <li class="dot" aria-label="{{ forloop.index }}">
+                {%- render 'svg-icons' with 'thb-pagination-dot' -%}
+              </li>
+            {%- endfor -%}
+          </ol>
+        </div>
+      </div>
+      <div
+        class="close-btn"
+        onclick="toggleComponent()"
+      >
+        {%- render 'svg-icons' with 'custom-close-icon' -%}
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Custom plp banner",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Plp settings"
+    },
+    {
+      "type": "text",
+      "id": "plp-title",
+      "label": "Banner title"
+    },
+    {
+      "type": "richtext",
+      "id": "plp-content",
+      "label": "Banner content"
+    },
+    {
+      "id": "button_text",
+      "type": "text",
+      "label": "Banner button label",
+      "default": "Découvrir d’avantage"
+    },
+    {
+      "type": "color",
+      "id": "backournd-color",
+      "label": "Background color after unfolding",
+      "default": "#f5f5f5"
+    },
+    {
+      "type": "header",
+      "content": "Left component settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay_left",
+      "default": true,
+      "label": "Autoplay",
+      "info": "Video will be muted"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_controls_left",
+      "default": true,
+      "label": "Display video controls"
+    },
+    {
+      "type": "video_url",
+      "id": "video_left",
+      "label": "Video URL",
+      "accept": ["youtube", "vimeo"],
+      "placeholder": "Use a YouTube or Vimeo URL",
+      "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+      "info": "Video plays in a lightbox."
+    },
+    {
+      "type": "video",
+      "id": "video_hosted_left",
+      "label": "Shopify-hosted video",
+      "info": "Overrides the Video URL setting."
+    },
+    {
+      "type": "header",
+      "content": "Left image setting"
+    },
+    {
+      "type": "image_picker",
+      "id": "top_left_img",
+      "label": "Top left img"
+    },
+    {
+      "type": "text",
+      "id": "top_left_heading",
+      "label": "Top feft heading"
+    },
+    {
+      "type": "richtext",
+      "id": "top_left_content",
+      "label": "Top left content"
+    },
+    {
+      "type": "text",
+      "id": "top_left_btn_url_label",
+      "label": "Top left button url label"
+    },
+    {
+      "type": "url",
+      "id": "top_left_btn_url",
+      "label": "Top left button url"
+    },
+    {
+      "type": "header",
+      "content": "Product Floating Point "
+    },
+    {
+      "type": "header",
+      "content": "Product 1"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_1",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Product 2"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_2",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Product 3"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_3",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Right component settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay_right",
+      "default": true,
+      "label": "Autoplay",
+      "info": "Video will be muted"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_controls_right",
+      "default": true,
+      "label": "Display video controls"
+    },
+    {
+      "type": "video_url",
+      "id": "video_right",
+      "label": "Video URL",
+      "accept": ["youtube", "vimeo"],
+      "placeholder": "Use a YouTube or Vimeo URL",
+      "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+      "info": "Video plays in a lightbox."
+    },
+    {
+      "type": "video",
+      "id": "video_hosted_right",
+      "label": "Shopify-hosted video",
+      "info": "Overrides the Video URL setting."
+    },
+    {
+      "type": "header",
+      "content": "Right image setting"
+    },
+    {
+      "type": "image_picker",
+      "id": "top_right_img",
+      "label": "Top right img"
+    },
+    {
+      "type": "text",
+      "id": "top_right_heading",
+      "label": "Top right heading"
+    },
+    {
+      "type": "richtext",
+      "id": "top_right_content",
+      "label": "Top right content"
+    },
+    {
+      "type": "text",
+      "id": "top_right_btn_url_label",
+      "label": "Top right button url label"
+    },
+    {
+      "type": "url",
+      "id": "top_right_btn_url",
+      "label": "Top right button url"
+    },
+    {
+      "type": "header",
+      "content": "Product Floating Point "
+    },
+    {
+      "type": "header",
+      "content": "Product 4"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_4",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Product 5"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_5",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Product 6"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_6",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Bottom component settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_autoplay_bottom",
+      "default": true,
+      "label": "Autoplay",
+      "info": "Video will be muted"
+    },
+    {
+      "type": "checkbox",
+      "id": "video_controls_bottom",
+      "default": true,
+      "label": "Display video controls"
+    },
+    {
+      "type": "video_url",
+      "id": "video_bottom",
+      "label": "Video URL",
+      "accept": ["youtube", "vimeo"],
+      "placeholder": "Use a YouTube or Vimeo URL",
+      "default": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+      "info": "Video plays in a lightbox."
+    },
+    {
+      "type": "video",
+      "id": "video_hosted_bottom",
+      "label": "Shopify-hosted video",
+      "info": "Overrides the Video URL setting."
+    },
+    {
+      "type": "header",
+      "content": "Bottom image setting"
+    },
+    {
+      "type": "image_picker",
+      "id": "bottom_left_img",
+      "label": "Bottom left img"
+    },
+    {
+      "type": "text",
+      "id": "bottom_left_heading",
+      "label": "Bottom heading"
+    },
+    {
+      "type": "richtext",
+      "id": "bottom_left_content",
+      "label": "Bottom content"
+    },
+    {
+      "type": "text",
+      "id": "bottom_left_btn_url_label",
+      "label": "Bottom button url label"
+    },
+    {
+      "type": "url",
+      "id": "bottom_left_btn_url",
+      "label": "Bottom button url"
+    },
+    {
+      "type": "header",
+      "content": "Product Floating Point "
+    },
+    {
+      "type": "header",
+      "content": "Product 7"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_7",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Product 8"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_8",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Product 9"
+    },
+    {
+      "type": "product",
+      "id": "product_handle_9",
+      "label": "Product"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom plp banner"
+    }
+  ]
+}
+{% endschema %}

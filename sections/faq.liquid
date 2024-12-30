@@ -1,0 +1,170 @@
+{{- 'collapsible-content.css' | asset_url | stylesheet_tag -}}
+{{- 'faq.css' | asset_url | stylesheet_tag -}}
+{%- liquid
+	assign uppercase_heading = section.settings.uppercase_heading
+	assign disable_top_spacing = section.settings.disable_top_spacing
+	assign disable_bottom_spacing = section.settings.disable_bottom_spacing
+-%}
+
+<div id="Faq-{{ section.id }}" class="row pc-container faq-container">
+  <div class="faq-menu-wrap">
+    <div class="faq-menu">
+      <div class="menu-title">F.A.Q</div>
+      <ul class="menu-items">
+        {%- for block in section.blocks -%}
+          {% if block.type == 'text' %}
+            <li class="menu-item">
+              <a class="menu-item-a" href="#{{block.id}}">
+                <span class="menu-item-icon-wrap">
+                  {%- if block.settings.icon != blank -%}
+                  <img
+                    class="menu-item-icon"
+                    src="{{ block.settings.icon | image_url }}"
+                    alt="">
+                  {%- endif -%}
+                  </span>
+                <span class="menu-item-text">{{ block.settings.heading }}</span>
+              </a>
+            </li>
+          {% endif %}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+  <div class="faq-main">
+    <div class="collapsible-content">
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {% when 'text' %}
+          <div id="{{block.id}}" class="collapsible-content-title">{{ block.settings.heading }}</div>
+          {% when 'collapsible_tab' %}
+          <collapsible-row class="accordion" {{ block.shopify_attributes }}>
+            <details id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
+              <summary>
+                {{ block.settings.heading | default: block.settings.page.title }}
+                <span></span>
+              </summary>
+              <div class="collapsible__content accordion__content rte" id="Accordion-{{ block.id }}-{{ section.id }}">
+                {{ block.settings.content }}
+                {{ block.settings.page.content }}
+              </div>
+            </details>
+          </collapsible-row>
+        {% endcase %}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+<div class="row mobile-container mobile-container-{{section.id}}">
+  <div class="faq-menu-wrap">
+    <div class="faq-menu">
+      <div class="menu-title">F.A.Q</div>
+    </div>
+  </div>
+  <div class="faq-main">
+    <div class="title-accordion-wrap">
+      {%- liquid
+        assign text_block_id = ''
+      -%}
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {% when 'text' %}
+          {%- liquid
+            assign text_block_id = block.id
+          -%}
+          <div class="collapsible-content-title collapsible-content-title-mobile" data-id="{{text_block_id}}">
+            <span class="collapsible-content-title-icon-wrap">
+              {%- if block.settings.icon != blank -%}
+              <img
+                class="collapsible-content-title-icon"
+                src="{{ block.settings.icon | image_url }}"
+                alt="">
+              {%- endif -%}
+            </span>
+            <span class="collapsible-content-title-text">{{ block.settings.heading }}</span>
+            <span class="collapsible-content-title-arrow">{% render 'svg-icons' with 'custom-right-icon' %}</span>
+          </div>
+          {% when 'collapsible_tab' %}
+          <collapsible-row
+            class="accordion accordion-mobile"
+            data-text-id="{{text_block_id}}"
+            {{ block.shopify_attributes }}>
+            <details id="Details-{{ block.id }}-{{ section.id }}" {% if block.settings.open %}open{% endif %}>
+              <summary>
+                {{ block.settings.heading | default: block.settings.page.title }}
+                <span></span>
+              </summary>
+              <div class="collapsible__content accordion__content rte" id="Accordion-{{ block.id }}-{{ section.id }}">
+                {{ block.settings.content }}
+                {{ block.settings.page.content }}
+              </div>
+            </details>
+          </collapsible-row>
+        {% endcase %}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+<script>
+  window.addEventListener('load', () => {
+  if (typeof Faq !== 'undefined') {
+    new Faq("{{ section.id }}")
+  }
+})
+</script>
+{% schema %}
+  {
+    "name": "Faq",
+    "class": "faq",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "Clause title",
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading",
+            "default": "Clause title",
+            "label": "Heading"
+          }, {
+            "type": "image_picker",
+            "id": "icon",
+            "label": "Menu icon",
+            "info": "12 x 12 px .svg"
+          }
+        ]
+      }, {
+        "type": "collapsible_tab",
+        "name": "Collapsible row",
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading",
+            "default": "Collapsible row",
+            "info": "Include a heading that explains the content.",
+            "label": "Heading"
+          }, {
+            "type": "checkbox",
+            "id": "open",
+            "default": false,
+            "label": "Open by default"
+          }, {
+            "type": "richtext",
+            "id": "content",
+            "label": "Row content"
+          }, {
+            "type": "page",
+            "id": "page",
+            "label": "Row content from page"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Faq"
+      }
+    ]
+  }
+{% endschema %}

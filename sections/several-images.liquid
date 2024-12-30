@@ -1,0 +1,112 @@
+{{ 'several-images-with-content.css' | asset_url | stylesheet_tag }}
+
+<div class="row full-width-row several-images">
+  <div class="small-12">
+    <div class="container">
+      <div class="sections">
+        <div class="section-title">
+          {% render 'svg-icons' with 'logo' %}
+        </div>
+        <div class="section-content">
+          {{ section.settings.section_content }}
+        </div>
+      </div>
+      <div class="image-container">
+        {% for block in section.blocks %}
+          {% if block.type == 'images' %}
+            <div class="images local-{{block.settings.position}}">
+              <div class="img-1">
+                {% liquid
+                  assign image = block.settings.images_large_id
+                  assign width = image.src.width | append: 'x' | append: image.src.height
+                %}
+                {%- render 'responsive-image', image: image, sizes: width, class: 'big-img' -%}
+              </div>
+              <div class="img-2">
+                {% liquid
+                  assign image = block.settings.images_small_id
+                  assign width = image.src.width | append: 'x' | append: image.src.height
+                %}
+                {%- render 'responsive-image', image: image, sizes: width, class: 'small-img' -%}
+              </div>
+            </div>
+          {% endif %}
+          {% if block.type == 'singleImage' %}
+            <div class="singleImage local-{{block.settings.position}}">
+              <div class="img">
+                {% liquid
+                  assign image = block.settings.images_id
+                  assign width = image.src.width | append: 'x' | append: image.src.height
+                %}
+                {%- render 'responsive-image', image: image, sizes: width, class: 'img' -%}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Several images",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "section_content",
+      "label": "section content"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "images",
+      "type": "images",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Which location does it belong to",
+          "options": [
+            {
+              "label": "Left",
+              "value": "1"
+            },
+            {
+              "label": "Bottom",
+              "value": "4"
+            }
+          ]
+        },
+        { "type": "image_picker", "id": "images_large_id", "label": "Select Large Image" },
+        { "type": "image_picker", "id": "images_small_id", "label": "Select Small Image" }
+      ]
+    },
+    {
+      "name": " singleImage",
+      "type": "singleImage",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "select",
+          "id": "position",
+          "label": "Which location does it belong to",
+          "options": [
+            {
+              "label": "TOP",
+              "value": "2"
+            },
+            {
+              "label": "Right",
+              "value": "3"
+            }
+          ]
+        },
+        { "type": "image_picker", "id": "images_id", "label": "Select Image" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Several images" }]
+}
+{% endschema %}

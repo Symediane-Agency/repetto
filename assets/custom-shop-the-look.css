@@ -1,0 +1,61 @@
+.custom-shop-the-look {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.custom-shop-the-look.custom-shop-the-look--desktop {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.custom-shop-the-look.custom-shop-the-look--mobile {
+  display: none;
+}
+
+.custom-shop-the-look .box {
+  overflow: hidden;
+}
+
+.custom-shop-the-look .row {
+  padding: 0;
+}
+
+.custom-shop-the-look .row .columns {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-shop-the-look.custom-shop-the-look--desktop {
+    display: none;
+  }
+  .custom-shop-the-look.custom-shop-the-look--mobile {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+    max-height: unset;
+  }
+  .custom-shop-the-look .pc-show {
+    display: none;
+  }
+  .custom-shop-the-look .mob_left_show,
+  .custom-shop-the-look .mob_right_show,
+  .custom-shop-the-look .mob_all_show {
+    display: block;
+  }
+  .custom-shop-the-look .mob_none_show {
+    display: none;
+  }
+  .custom-shop-the-look .row {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1520px) {
+  .custom-shop-the-look .box {
+    padding: 0 8px;
+    overflow: visible;
+  }
+}

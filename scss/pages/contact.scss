@@ -1,0 +1,39 @@
+@use "../_vars.scss" as vars;
+
+.template-page-contact{
+    #contact_form{
+        input[type="submit"]{
+            @media screen and (max-width: vars.$sm-max) {
+                width: 100%;
+            }
+        }
+    }
+
+    .form-notification {
+        &.success {
+            .icon{
+                svg{
+                    margin-bottom: 10px;
+                    circle{
+                        fill: var(--repetto-colors-pink-300, #F9DBE1);
+                    }
+                }
+            }
+
+            .text {
+                color: var(--repetto-colors-black-primary, #000);
+                text-align: center;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+                margin-bottom: 30px;
+            }
+
+            .contract-us{
+                width: 100%;
+            }
+        }
+    }
+}

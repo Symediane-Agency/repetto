@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "settings": {
+        "hero_image": "shopify:\/\/shop_images\/Capsule_1-1.jpg",
+        "hero_title": "Un mariage en Repetto",
+        "hero_content": "<p>La collection Mariage de Repetto propose une gamme de chaussures, ballerines et sacs conçus pour sublimer cette journée inoubliable avec une pointe de liberté. <br\/>Découvrez notre sélection de pièces minutieusement confectionnées. <\/p>"
+      }
+    },
+    "1f7fb399-531e-4bc3-9b4f-a8861e1f5cb0": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 90,
+        "border_separator": false,
+        "border_separator_full": true
+      }
+    },
+    "4d36c4c2-7b64-4a0f-afbd-3dce243ecc5d": {
+      "type": "content-image-list",
+      "blocks": {
+        "703bf87c-0fd3-4f38-bf8a-20882865e083": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Capsule-2.jpg",
+            "image_position": "left",
+            "block_title": "Une collection Mariage au charme intemporel ",
+            "block_content": "<p>La Maison Repetto offre une grande variété de souliers et de couleurs pour célébrer cette journée inoubliable. A plat ou à talon, leurs silhouettes délicates et confortables s'harmonisent parfaitement avec les robes et costumes élégants. <br\/>Découvrez la chaussure qui habillera votre tenue. <br\/><em>Voir notre sélection « Mariage » <\/em><\/p>"
+          }
+        },
+        "367f0def-c777-4c36-9684-22374bea1b7a": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Capsule-3.jpg",
+            "image_position": "right",
+            "block_title": "Un mariage en toute légèreté  ",
+            "block_content": "<p>Avez-vous pensé à un mariage en ballerine ? Optez pour le chic des ballerines Repetto pour mettre en valeur votre tenue. Chaussez nos souliers plats puis dansez et virevoltez en toute aisance. Profitez pleinement de cet instant exceptionnel. <br\/><em>Trouver ballerine à votre pied <\/em><\/p>"
+          }
+        },
+        "b560ef84-bb73-49c1-ac90-f63070d15461": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Rectangle_133.png",
+            "image_position": "left",
+            "block_title": "Un artisanat d'exception  ",
+            "block_content": "<p>Chacune de nos chaussures est fabriquée avec une attention méticuleuse au détail. <br\/>L'utilisation de cuirs de première qualité et la fabrication artisanale dans notre atelier français confèrent à celles-ci une durabilité et un confort exceptionnel, pour une cérémonie sans aucun faux pas. <br\/><em>Lever le voile sur le savoir-faire Repetto <\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "703bf87c-0fd3-4f38-bf8a-20882865e083",
+        "367f0def-c777-4c36-9684-22374bea1b7a",
+        "b560ef84-bb73-49c1-ac90-f63070d15461"
+      ],
+      "settings": {
+        "section_index": 1
+      }
+    },
+    "60e4509c-462c-435d-9110-5ef360e52d45": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "97656573-6e05-417d-b943-cab4ca4f78a8": {
+      "type": "products-3rd-bigger",
+      "settings": {
+        "show_price": false,
+        "heading": "",
+        "product1": "babies-rose-jaune-limoncello-v1413v-1150",
+        "product2": "jupon-de-repetition-1",
+        "product3": "cache-coeur-manches-longues",
+        "mobile_swipe": true
+      }
+    },
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "2119b849-c418-4611-afc4-1a3cf480b72b": {
+      "type": "custom-content-with-bg",
+      "settings": {
+        "back_img": "shopify:\/\/shop_images\/Capsule-5.jpg",
+        "sub_title": "La Maison Repetto",
+        "main_title": "FIL D'HISTOIRE ET HÉRITAGE ÉTOILÉ",
+        "desc": "Avec le cousu retourné, Repetto dévoile son génie. Un savoir-faire secret, héritage précieux, entre gestes cachés et douceur révélée. Le chausson se métamorphose, ballet des artisans, étreinte intemporelle entre ciel et terre. Dans cet art subtil, l'héritage se dessine, éternel comme l'étoile.",
+        "link_text": "Revivre notre histoire",
+        "link_href": "shopify:\/\/pages\/hub-edito"
+      }
+    },
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "1f7fb399-531e-4bc3-9b4f-a8861e1f5cb0",
+    "4d36c4c2-7b64-4a0f-afbd-3dce243ecc5d",
+    "60e4509c-462c-435d-9110-5ef360e52d45",
+    "97656573-6e05-417d-b943-cab4ca4f78a8",
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab",
+    "2119b849-c418-4611-afc4-1a3cf480b72b",
+    "3da60a4e-521c-4099-b2b3-7ad5fb058e74"
+  ]
+}

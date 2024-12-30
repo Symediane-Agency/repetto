@@ -1,0 +1,26 @@
+<script>
+  var themeColor = '{{section.settings.themeColor}}';
+  if (themeColor) {
+    document.querySelector('header.header').style.background = themeColor;
+    document.querySelector('#wrapper>[role=main]').style.background = themeColor;
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Theme",
+  "settings": [
+    {
+      "type": "color",
+      "label": "Support for change page bg color",
+      "default": "#ffffff",
+      "id": "themeColor"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Theme"
+    }
+  ]
+}
+{% endschema %}

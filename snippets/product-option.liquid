@@ -1,0 +1,259 @@
+{%- liquid
+  if sticky
+    assign appended = '--sticky'
+  endif
+
+  assign shoes = "Ballerines,Mocassins,Richelieus,Salomés,Sandales,Talons,Babies,Chaussures de mariage,Sneakers,Bottes & bottines,Demi-pointes,Pointes,Escarpins,Jazz,Mules,Chaussures de professeurs,Slingback" | split: ","
+  assign clothes = "Jupes & jupettes,Tutus & jupons,Justaucorps & tuniques,Collants & caleçons,Pantalons & shorts,Brassière,Maille,Vestes,Robes & combinaisons,Jupes & shorts,Pantalons,Hauts,Jeune danseur,Jupettes,Leggings,Robes & jupes,Pantalons & combinaisons,Maille & sweatshirts,Tops & T-shirts,Brassières & leggings" | split: ","
+  assign product_subcategory = product.metafields.repetto.sous_categorie
+
+  if shoes contains product_subcategory
+    assign fit_type = "fit_shoe"
+   elsif clothes contains product_subcategory
+    assign fit_type = "fit_clothe"
+   else
+    assign fit_type = "fit_clothe"
+  endif
+
+  assign translation_key = 'custom.pdp.type.' | append: fit_type
+
+  assign size_fit = product.metafields.repetto.size_fit | downcase
+
+  case size_fit
+    when "conforme"
+      assign fit_translation_key = 'true'
+    when "ajustée" 
+      assign fit_translation_key = 'small'
+    when "large" 
+      assign fit_translation_key = 'large'
+    when "spéciale"
+      assign fit_translation_key = 'special'
+    else
+      assign fit_translation_key = ''
+  endcase
+  
+  
+  assign fit_translation_key_final = 'custom.pdp.type.' | append: fit_translation_key
+
+  assign first_value = option.values | first
+
+  if product.metafields.repetto.product_activity and product.metafields.repetto.product_activity.value.value == "CHV"
+    assign sorted_values = option.values | sort
+  else
+    assign sorted_values = option.values
+  endif
+  assign sole_sku = product.metafields.repetto.sole.value
+  assign other_sole = product.metafields.repetto.other_sole_sku.value
+-%}
+
+{% render 'product-link',sole_sku:sole_sku,other_sole:other_sole %}
+{%- case option_type -%}
+  {%- when 'dropdown' -%}
+    <fieldset class="product-form__input product-form__input--dropdown">
+      <div class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}{{ appended }}">
+        {{ option.name -}}
+        {{- sizing_link }}
+      </div>
+      <div class="select">
+        <select
+          id="Option-{{ section.id }}-{{ forloop.index0 }}{{ appended }}"
+          name="options[{{ option.name | escape | append: appended }}]"
+          form="{{ product_form_id }}"
+        >
+          {%- for value in option.values -%}
+            <option
+              value="{{ value | escape }}"
+              {% comment %} {% if option.selected_value == value %}
+                selected="selected"
+              {% endif %} {% endcomment %}
+            >
+              {{ value }}
+            </option>
+          {%- endfor -%}
+        </select>
+        <div class="select-arrow">{%- render 'svg-icons' with 'thb-select' -%}</div>
+      </div>
+    </fieldset>
+  {%- when 'button' -%}
+    <fieldset class="product-form__input product-form__input--block {{custom_style}}">
+      {% if sorted_values.size > 1 %}
+        {% style %}
+          .title {
+            display: flex;
+            justify-content: space-between;
+          }
+          .title #Facets-Toggle-size {
+            color: #222;
+            font-size: 12px;
+            font-style: normal;
+            line-height: 14px;
+            text-decoration: underline;
+            text-transform: capitalize;
+          }
+        {% endstyle %}
+      {% endif %}
+      {% assign sorted_values_size = sorted_values | size %}
+      {% if sorted_values_size > 1 %}
+        {% if  sizing_link != 'false' %}
+        <div class="title">
+          {% comment %} {{ 'products.product.size_title' | t }} {% endcomment %}
+          {% if product.metafields.repetto.size_advice %}
+            <div class="tip">
+              <div class="tip-icon-wrap">
+                <img
+                  width="14px"
+                  height="14px"
+                  src="https://cdn.shopifycdn.net/s/files/1/0781/9578/6032/files/Alert_big_430x.gif?v=1697524460"
+                />
+              </div>
+              <span>{{ translation_key | t }} : {{ fit_translation_key_final | t }}</span>
+            </div>
+            {% endif %}
+          {% endif %}
+          {% if sorted_values.size > 1 %}
+            {% if product.metafields.repetto.size_guide %}
+              {% unless product.metafields.custom.show_sizing_guide == false %}
+                <button id="Facets-Toggle-size" class="product-popup-modal__button" type="button" aria-haspopup="dialog">
+                  <span>{{ 'custom.pdp.size' | t }}</span>
+                </button>
+              {% endunless %}
+            {% endif %}
+          {% endif %}
+        </div>
+
+        {% assign size_order = "XS,S,M,L,XL" | split: ',' %}
+        {% assign letter_sizes = '' %}
+        {% assign other_values = '' %}
+
+        {%- for value in sorted_values -%}
+          {%- if size_order contains value -%} 
+            {%- assign letter_sizes = letter_sizes | append: value | append: ',' %}
+          {%- else -%}
+            {%- assign other_values = other_values | append: value | append: ',' %}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {% assign letter_sizes = letter_sizes | split: ',' | uniq %}
+        {% assign sorted_letter_sizes = '' %}
+
+        {%- for size in size_order -%}
+          {%- if letter_sizes contains size -%}
+            {% assign sorted_letter_sizes = sorted_letter_sizes | append: size | append: ',' %}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {% assign sorted_letter_sizes = sorted_letter_sizes | split: ',' %}
+        {% assign other_values = other_values | split: ',' %}
+
+        <div class="option-wrap">
+          {%- for value in sorted_letter_sizes -%}
+            {%- if value != '' -%}
+              <input
+                type="radio"
+                id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+                name="{{ option.name | append: appended }}"
+                value="{{ value | escape }}"
+                form="{{ product_form_id }}"
+            {% if first_value == value %}
+              checked
+            {% endif %}
+              >
+              <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+                <span>{{ value }}</span>
+              </label>
+            {%- endif -%}
+          {%- endfor -%}
+
+  {%- for value in other_values -%}
+    {%- if value != '' -%}
+      <input
+        type="radio"
+        id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+        name="{{ option.name | append: appended }}"
+        value="{{ value | escape }}"
+        form="{{ product_form_id }}"
+        {% if first_value == value %}
+          checked
+        {% endif %}
+      >
+      <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}">
+        <span>{{ value }}</span>
+      </label>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+
+      {% endif %}
+      
+    </fieldset>
+  {%- when 'color' -%}
+    {%- liquid
+      assign custom_colors = settings.color_swatches | newline_to_br | split: '<br />'
+      assign key_array = ''
+      assign val_array = ''
+
+      for color in custom_colors
+        assign key = color | split: ':' | first | rstrip
+        assign value = color | split: ':' | last | lstrip
+        assign key_array = key_array | append: ',' | append: key
+        assign val_array = val_array | append: ',' | append: value
+      endfor
+
+      assign key_array = key_array | remove_first: ',' | strip_newlines | downcase | split: ','
+      assign val_array = val_array | remove_first: ',' | split: ','
+    -%}
+    <fieldset class="product-form__input product-form__input--color">
+      <div class="form__label">
+        {{ option.name }}:
+        <span class="form__label__value">{{ option.selected_value }}</span>
+      </div>
+      {%- for value in option.values -%}
+        <input
+          type="radio"
+          id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+          name="{{ option.name | append: appended }}"
+          value="{{ value | escape }}"
+          form="{{ product_form_id }}"
+          {% if option.selected_value == value %}
+            checked
+          {% endif %}
+        >
+        {%- liquid
+          assign color_value = value | downcase | escape
+
+          for custom_color in key_array
+            if custom_color == color_value
+              assign color_value = val_array[forloop.index0]
+            endif
+          endfor
+
+          assign bg_value = empty
+          if color_value contains '.'
+            assign bg_value = color_value | file_url
+            assign color_value = 'var(--bg-body)'
+          endif
+        -%}
+        <label
+          for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}{{ appended }}"
+          style="--option-color: {{ color_value | downcase | escape }}; {%- if bg_value -%} --option-color-image: url('{{ bg_value | escape }}');{%- endif -%}"
+        >
+          {{ value }}
+        </label>
+      {%- endfor -%}
+    </fieldset>
+{%- endcase -%}
+
+{% if option.selected_value != blank %}
+  <style>
+    .tips {
+      color: #7b7678;
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+    }
+  </style>
+
+  <div class="tips">
+    {{ 'custom.reassurance.shipping.content' | t }}
+  </div>
+{% endif %}

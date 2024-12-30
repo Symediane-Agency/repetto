@@ -1,0 +1,172 @@
+{{ 'personal-info.css' | asset_url | stylesheet_tag }}
+<div class="side-panel personal-drawer" tabindex="-1" id="Personal-Drawer">
+  <div class="side-panel-inner">
+    <div class="side-panel-header">
+      <div>
+        <h4>{{ 'custom.help.edit' | t }}</h4>
+        <side-panel-close class="side-panel-close">{%- render 'svg-icons' with 'close' -%}</side-panel-close>
+      </div>
+    </div>
+    <div class="side-panel-content side-panel-content--initial">
+      {% form 'customer_address', customer.new_address, novalidate: 'novalidate' %}
+        <div class="item">
+          <label for="male">
+            <input type="radio" id="male" name="customer[note][gender]" value="man" {% if customer.metafields.repetto.gender == "man" %} checked {% endif %}>
+            {{ 'personal.drawer.male' | t }}
+          </label>
+          <label for="female">
+            <input type="radio" id="female" name="customer[note][gender]" value="woman" {% if customer.metafields.repetto.gender == "woman" %} checked {% endif %}> {{ 'personal.drawer.female' | t }}
+          </label>
+        </div>
+        <div class="item name-box">
+          <input type="text" placeholder="{{ 'personal.drawer.first_name' | t }}" value="{{ customer.first_name }}" name="customer[first_name]">
+          <input type="text" placeholder="{{ 'personal.drawer.last_name' | t }}" value="{{ customer.last_name }}" name="customer[last_name]">
+        </div>
+
+        <div class="item">
+          <div class="field" style="width: 100%;">
+            <select
+              class="full"
+              name="customer[note][dancer_profile]"
+              autocomplete="off"
+              placeholder="{{ 'personal.drawer.dancer_profile' | t }}"
+            >
+              <option value="" >
+                {{ 'customer.signup_page.are_you_a_dancer' | t }}
+              </option>
+              <option value="not_dancer" {% if customer.metafields.repetto.dancer_profile == "not_dancer" %} selected {% endif %}>
+                {{ 'customer.signup_page.no' | t }}
+              </option>
+              <option
+                value="amateur_dancer" {% if customer.metafields.repetto.dancer_profile == "amateur_dancer" %} selected {% endif %}
+              >
+                {{ 'customer.signup_page.amateur_dancer' | t }}
+              </option>
+              <option
+                value="student_dancer" {% if customer.metafields.repetto.dancer_profile == "student_dancer" %} selected {% endif %}
+              >
+                {{ 'customer.signup_page.student_dancer' | t }}
+              </option>
+              <option
+                value="professional_dancer" {% if customer.metafields.repetto.dancer_profile == "professional_dancer" %} selected {% endif %}
+              >
+                {{ 'customer.signup_page.pro_dancer' | t }}
+              </option>
+              <option
+                value="dance_teacher" {% if customer.metafields.repetto.dancer_profile == "dance_teacher" %} selected {% endif %}
+              >
+              {{ 'customer.signup_page.dance_teacher' | t }}
+              </option>
+            </select>
+            <label style="width: 50%;" for="dancer_profile">{{ 'personal.drawer.dancer_profile' | t }}</label>
+          </div>
+        </div>
+
+        
+        
+        <div class="item e-mail-box">
+          <input type="text" placeholder="{{ 'personal.drawer.e-mail' | t }}"  value="{{ customer.email }}" name="customer[email]">
+          <div class="date">
+            {% if customer.metafields.repetto.birthdate == "" || customer.metafields.repetto.birthdate == null %}<div class="placeholder" id="date-placeholder">{{ 'personal.drawer.birth' | t }}</div>{% endif %}
+            <input type="date" id="personal-date" name="customer[note][birthdate]" {% if customer.metafields.repetto.birthdate %}value="{{ customer.metafields.repetto.birthdate }}"{% endif %} onchange="inputChange()">
+            <script>
+              function inputChange() {
+                var ele = document.getElementById('date-placeholder');
+                var value = document.getElementById('personal-date').value;
+                if (value) {
+                  ele.style.opacity = 0;
+                }else{
+                  ele.style.opacity = 1;
+                }
+              }
+            </script>
+          </div>
+        </div>
+        <div class="item tips">
+          {{ 'personal.drawer.tips_html' | t }}
+        </div>
+        <div class="item password-box-tip">*{{ 'personal.drawer.required' | t }}</div>
+        <div class="item button-box">
+          <button class="button" style="width: 100%;">{{ 'personal.drawer.save' | t }}</button>
+        </div>
+
+        <input
+          type="hidden"
+          id="AddressFirstNameNewFake"
+          name="address[first_name]"
+          value="fake"
+          autocomplete="given-name"
+          placeholder="{{ 'customer.addresses.first_name' | t }}"
+          class="full"
+        >
+        <input
+          type="hidden"
+          id="AddressLastNameNewFake"
+          name="address[last_name]"
+          value="fake"
+          autocomplete="family-name"
+          placeholder="{{ 'customer.addresses.last_name' | t }}"
+          class="full"
+        >
+        <input
+          type="hidden"
+          id="AddressCompanyNewFake"
+          name="address[company]"
+          value="fake"
+          autocomplete="organization"
+          placeholder="{{ 'customer.addresses.company' | t }}"
+          class="full"
+        >
+        <input
+          type="hidden"
+          id="AddressAddress1NewFake"
+          name="address[address1]"
+          value="fake"
+          autocomplete="address-line1"
+          placeholder="{{ 'customer.addresses.address1' | t }}"
+          class="full"
+        >
+        <input
+          type="hidden"
+          id="AddressAddress2NewFake"
+          name="address[address2]"
+          value="fake"
+          autocomplete="address-line2"
+          placeholder="{{ 'customer.addresses.address2' | t }}"
+          class="full"
+        >
+        <input
+          type="hidden"
+          id="AddressCityNewFake"
+          name="address[city]"
+          value="fake"
+          autocomplete="address-level2"
+          placeholder="{{ 'customer.addresses.city' | t }}"
+          class="full"
+        >
+        <input type="hidden" name="address[country]" value="FR">
+        <input type="hidden" name="address[province]" value="">
+        
+        <input
+          type="hidden"
+          id="AddressZipNewFake"
+          name="address[zip]"
+          value="fake"
+          autocapitalize="characters"
+          autocomplete="postal-code"
+          placeholder="{{ 'customer.addresses.zip' | t }}"
+          class="full"
+        >
+        <input
+          type="hidden"
+          id="AddressPhoneNewFake"
+          name="address[phone]"
+          value="fake"
+          autocomplete="tel"
+          placeholder="{{ 'customer.addresses.phone' | t }}"
+          class="full"
+        >
+      {% endform %}
+    </div>
+  </div>
+</div>

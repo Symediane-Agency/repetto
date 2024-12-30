@@ -1,0 +1,39 @@
+.slide-bar {
+  display: none;
+  width: 100%;
+  height: 5px;
+  background: #fcf2f4;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slide-bar-inner {
+  width: 0;
+  height: 100%;
+  background: rgba(241, 180, 197, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+.header .pc-show {
+  display: flex;
+}
+
+.mb-show {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-bar {
+    display: block;
+  }
+  .header .pc-show {
+    display: none;
+  }
+  .mb-show {
+    display: flex;
+  }
+}

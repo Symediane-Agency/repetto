@@ -1,0 +1,329 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "ad755abf-e4ed-40e2-aee4-1a528f4fdb09": {
+      "type": "ceremony-form",
+      "settings": {
+        "heading": "ATELIER DE PERSONNALISATION",
+        "description": "<p>Prenez rendez-vous pour personnaliser la paire de vos rêves avec de nouvelles matières exclusives développées pour votre grand jour !</p>",
+        "image": "shopify://shop_images/L_Atelier_Repetto-2.jpg"
+      }
+    },
+    "64c8b707-044d-460c-a67f-91aa88842e5e": {
+      "type": "rich-text",
+      "blocks": {
+        "c0371092-00a4-4f42-8ba9-97ab955edda2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOGO.jpg",
+            "retina": true
+          }
+        },
+        "image_HAB7rC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto.jpg",
+            "retina": true
+          }
+        },
+        "template--21666802630960__64c8b707-044d-460c-a67f-91aa88842e5e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Un espace de personnalisation infini",
+            "size": "h3"
+          }
+        },
+        "template--21666802630960__64c8b707-044d-460c-a67f-91aa88842e5e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le savoir-faire unique transmis dans notre manufacture périgourdine nous permet de vous donner le choix entre d’infinies associations de matières, de formes, de hauteurs et de couleurs. Les créations de l’Atelier Repetto peuvent se distinguer par le «R» doré, délicatement incrusté sur le talon, ainsi que par l’inscription d’un nom ou d’une phrase à l’intérieur du soulier.</p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "c0371092-00a4-4f42-8ba9-97ab955edda2",
+        "image_HAB7rC",
+        "template--21666802630960__64c8b707-044d-460c-a67f-91aa88842e5e-heading-1",
+        "template--21666802630960__64c8b707-044d-460c-a67f-91aa88842e5e-text-1"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "aa4818e6-06dc-46dc-a7e5-1266ba93d064": {
+      "type": "image-title-description",
+      "blocks": {
+        "ef64179e-aed3-4da1-a528-4bf7d7bf43f2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Richelieux-Zizi.jpg",
+            "column_name": "Richelieux Zizi",
+            "column_description_title": "Zizi",
+            "column_description": "Nos iconiques Richelieux Zizi partagent leur histoire avec de nombreux artistes de la scène musicale française et internationale."
+          }
+        },
+        "747151d8-1d58-4706-863a-ab920929ac36": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Cendrillon.jpg",
+            "column_name": "Ballerines Cendrillon",
+            "column_description_title": "Cendrillon",
+            "column_description": "LaLa ballerine Cendrillon, née en 1956 de la demande de Brigitte Bardot est aussi légère et agréable qu'un chausson de danse."
+          }
+        },
+        "3c16be83-473e-4f6d-a616-69bc8326b9fe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mocassins-Michael.jpg",
+            "column_name": "Mocassins Michael",
+            "column_description_title": "Michael",
+            "column_description": "Créés en 2009 en référence au roi de la pop, les mocassions Michael sont des chaussures iconiques de la Maison Repetto."
+          }
+        },
+        "91e955d2-aa94-457a-8bd7-5b2805817e52": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Camille.jpg",
+            "column_name": "Ballerines Camille",
+            "column_description_title": "Camille",
+            "column_description": "Les ballerines Camille reprennent la forme de l'iconique Cendrillon, cette fois perchée sur un petit talon."
+          }
+        },
+        "76f2161c-0902-43ed-9f2f-ac66608ca5ab": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Brigitte.jpg",
+            "column_name": "Ballerines Brigitte",
+            "column_description_title": "Brigitte",
+            "column_description": "Les ballerines Brigitte sont des ballerines au bout pointu confortables et féminines."
+          }
+        },
+        "12ccc009-ce0a-401d-a971-49b3fbc09d29": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Junon.jpg",
+            "column_name": "Ballerines Junon",
+            "column_description_title": "Junon",
+            "column_description": "La ballerine au bout pointu et semelle de gomme à personnaliser à l’infini."
+          }
+        },
+        "f1360c73-b0bc-42c2-aed2-6b0f90d40295": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Flora.jpg",
+            "column_name": "Ballerines Flora",
+            "column_description_title": "Flora",
+            "column_description": "La ballerine Flora élance votre démarche grâce à un bout arrondi et une pièce bicolore ou bi-matière sur la pointe."
+          }
+        },
+        "aad08f0c-58d8-4273-874f-b53e971fb630": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Lilouh.jpg",
+            "column_name": "Ballerines Lilouh",
+            "column_description_title": "Lilouh",
+            "column_description": "Grâce à son décolleté enveloppant, ce nouvel iconique de la Maison Repetto vous confère souplesse et confort et vous accompagne de jour comme de nuit."
+          }
+        }
+      },
+      "block_order": [
+        "ef64179e-aed3-4da1-a528-4bf7d7bf43f2",
+        "747151d8-1d58-4706-863a-ab920929ac36",
+        "3c16be83-473e-4f6d-a616-69bc8326b9fe",
+        "91e955d2-aa94-457a-8bd7-5b2805817e52",
+        "76f2161c-0902-43ed-9f2f-ac66608ca5ab",
+        "12ccc009-ce0a-401d-a971-49b3fbc09d29",
+        "f1360c73-b0bc-42c2-aed2-6b0f90d40295",
+        "aad08f0c-58d8-4273-874f-b53e971fb630"
+      ],
+      "settings": {
+        "last_item_image": "shopify://shop_images/Sandales-Bikini.jpg",
+        "last_item_name": "Sandales Bikini - Nouveau",
+        "last_item_description_title": "Bikini",
+        "last_item_description": "Confortable et élancée avec son haut talon, la Bikini est la sandale parfaite pour votre grand jour. Désormais personnalisable dans notre atelier, ajoutez votre touche personnelle pour créer un paire qui vous ressemble.",
+        "fixed_description": "<p>L’offre cérémonie fait son arrivée chez Repetto avec l’iconique sandale à talon Bikini et des matières spécialement pensées pour votre grand jour. Prenez rendez-vous en boutique pour créer la paire de vos rêves.</p>"
+      }
+    },
+    "gallery_4HFiGV": {
+      "type": "gallery",
+      "blocks": {
+        "image_TfwFd9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto-9.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_EL6VE3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto-4.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_3t3rRW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto-7.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TfwFd9",
+        "image_EL6VE3",
+        "image_3t3rRW"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "83848c5e-888e-4757-8e29-cf9ca44ce1be": {
+      "type": "image-content-card",
+      "blocks": {
+        "1fd5dc44-c3a2-451f-934d-1eff0a1407c9": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/Left.jpg",
+            "image_position": "left",
+            "block_title": "NOS ATELIERS DE CRÉATION",
+            "block_content": "<p>Créer une paire de souliers avec l’Atelier Repetto est une expérience unique : le premier pas vers du sur-mesure. Prenez rendez-vous en ligne, par téléphone ou en boutique et laissez nos conseillers vous guider pour donner libre cours à votre imagination en réalisant les choix les plus délicats aux plus audacieux.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        },
+        "2c984640-bcfc-4cdd-b3e2-dcc489a933f6": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/Right.jpg",
+            "image_position": "right",
+            "block_title": "LE TRAVAIL DES ARTISANS",
+            "block_content": "<p>Une fois votre création transmise dans nos ateliers de Saint-Médard d’Excideuil en France, nos artisans façonniers appliquent un savoir-faire transmis depuis 1947. Ils sélectionnent les matières et les procédés de fabrication les plus adaptés pour répondre à vos envies d’exceptions. Les souliers vous seront livrés sous 4 semaines.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "1fd5dc44-c3a2-451f-934d-1eff0a1407c9",
+        "2c984640-bcfc-4cdd-b3e2-dcc489a933f6"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "16aae979-c5d5-44d7-9827-adb4f1b8103d": {
+      "type": "rich-text",
+      "blocks": {
+        "baf05fe6-f4b2-4820-93b1-b6d02aab0141": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Personalization-gif_0e929809-a208-45d6-bf8a-d49fe63d8818.gif",
+            "retina": false
+          }
+        },
+        "template--21666802630960__16aae979-c5d5-44d7-9827-adb4f1b8103d-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La personnalisation fait partie de l’héritage de notre Maison. De la création d’un chausson de danse plus confortable pour Roland Petit, le fils de Rose Repetto, à la confection d’une ballerine citadine pour Brigitte Bardot, notre volonté d'interpréter les envies d’exception s’exprime à travers l’Atelier Repetto.</p>",
+            "size": "text-size-regular"
+          }
+        },
+        "246bcbc7-252d-4b70-8cfd-0f1c19186a94": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto-10.jpg",
+            "retina": false
+          }
+        }
+      },
+      "block_order": [
+        "baf05fe6-f4b2-4820-93b1-b6d02aab0141",
+        "template--21666802630960__16aae979-c5d5-44d7-9827-adb4f1b8103d-text-1",
+        "246bcbc7-252d-4b70-8cfd-0f1c19186a94"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ad755abf-e4ed-40e2-aee4-1a528f4fdb09",
+    "64c8b707-044d-460c-a67f-91aa88842e5e",
+    "aa4818e6-06dc-46dc-a7e5-1266ba93d064",
+    "gallery_4HFiGV",
+    "83848c5e-888e-4757-8e29-cf9ca44ce1be",
+    "16aae979-c5d5-44d7-9827-adb4f1b8103d"
+  ]
+}

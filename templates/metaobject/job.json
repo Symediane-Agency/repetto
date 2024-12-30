@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "afe209e4-7b76-49a8-9659-db91b35e6132": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "40f85d13-47f2-4eaf-b5cf-f43f6f84bf00": {
+      "type": "job-details",
+      "blocks": {
+        "4aacaee2-40c0-45d6-ae9a-05c52295a358": {
+          "type": "column",
+          "settings": {
+            "heading": "{{ metaobject.title.value }}",
+            "heading_text_align": "center",
+            "heading_fontsize": 24,
+            "text": "{{ metaobject.description | metafield_tag }}",
+            "description_text_align": "center",
+            "description_fontsize": 14,
+            "padding_pc": 0,
+            "padding_mobile": 0
+          }
+        },
+        "8f7ccd83-4dc1-488a-b97e-341e88643b00": {
+          "type": "column",
+          "settings": {
+            "heading": "DESCRIPTION DU POSTE",
+            "heading_text_align": "left",
+            "heading_fontsize": 14,
+            "text": "<p>Afin de compléter notre équipe nous recherchons un.e Conseiller.ère de vente 20H.<br\/><br\/>En véritable ambassadeur\/drice Repetto, votre rôle est d’offrir à la clientèle une expérience unique et mémorable dans le but de maximiser les ventes et d’établir des relations clients de long terme.<\/p>",
+            "description_text_align": "left",
+            "description_fontsize": 14,
+            "padding_pc": 0,
+            "padding_mobile": 0
+          }
+        },
+        "c7c95a87-caa7-49bf-9437-f02293b10210": {
+          "type": "column",
+          "settings": {
+            "heading": "VOS MISSIONS",
+            "heading_text_align": "left",
+            "heading_fontsize": 16,
+            "text": "<ul><li>Accueil et accompagnement de la clientèle à travers le cérémonial de vente<\/li><li>Conseil à la clientèle dans le but d’optimiser le chiffre d’affaires du point de vente et les indicateurs de performance<\/li><li>Participation à la fidélisation de la clientèle grâce au suivi et à la mise à jour du fichier client<\/li><li>Développement d’une connaissance détaillée du produit, de l’histoire de la Maison, afin d’enrichir l’expérience client<\/li><li>Participation à la gestion du back office : traitement des livraisons, bonne tenue de la réserve, réassort des produits en surface de vente<\/li><li>Présentation et mise en avant des produits dans le respect de l’identité visuelle de la Marque (Merchandising)<\/li><li>Participation active aux inventaires & recherche des éventuels écarts<\/li><\/ul>",
+            "description_text_align": "left",
+            "description_fontsize": 14,
+            "padding_pc": 0,
+            "padding_mobile": 0
+          }
+        },
+        "345f7472-829f-4578-a6a1-282dd7405a57": {
+          "type": "column",
+          "settings": {
+            "heading": "PROFIL RECHERCHE",
+            "heading_text_align": "left",
+            "heading_fontsize": 16,
+            "text": "<ul><li>Vous justifiez d'expériences significatives de la vente au sein d’une ou plusieurs enseignes haut de gamme ou de Luxe<\/li><li>Vous êtes dynamique et avez un véritable esprit d'équipe<\/li><li>Vous avez un excellent relationnel et sens du service<\/li><li>Votre présentation est de qualité et votre élocution est juste<\/li><li>Votre sensibilité à l'univers de la Danse serait un plus<\/li><li>Anglais courant impératif<\/li><\/ul>",
+            "description_text_align": "left",
+            "description_fontsize": 14,
+            "padding_pc": 0,
+            "padding_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "4aacaee2-40c0-45d6-ae9a-05c52295a358",
+        "8f7ccd83-4dc1-488a-b97e-341e88643b00",
+        "c7c95a87-caa7-49bf-9437-f02293b10210",
+        "345f7472-829f-4578-a6a1-282dd7405a57"
+      ],
+      "settings": {
+      }
+    },
+    "71240dac-679c-444f-b9ed-e02994096c82": {
+      "type": "univirse-columns",
+      "blocks": {
+        "template--21316273668400__71240dac-679c-444f-b9ed-e02994096c82-column-1": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "title": "LES ICONIQUES",
+            "description": "",
+            "link_label": "Voir la séléction",
+            "link": "shopify:\/\/collections\/catalogue-femme-iconiques"
+          }
+        }
+      },
+      "block_order": [
+        "template--21316273668400__71240dac-679c-444f-b9ed-e02994096c82-column-1"
+      ],
+      "settings": {
+        "columns_desktop": 1
+      }
+    }
+  },
+  "order": [
+    "afe209e4-7b76-49a8-9659-db91b35e6132",
+    "40f85d13-47f2-4eaf-b5cf-f43f6f84bf00",
+    "71240dac-679c-444f-b9ed-e02994096c82"
+  ]
+}

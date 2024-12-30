@@ -1,0 +1,328 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "contact-blocks": {
+      "type": "contact-blocks",
+      "disabled": true,
+      "settings": {
+        "faq_enabled": true,
+        "whatsapp_enabled": true,
+        "storelocator_enabled": true,
+        "form_enabled": true
+      }
+    },
+    "contact-texts": {
+      "type": "contact-texts",
+      "disabled": true,
+      "settings": {
+        "headquarter_content": "<p>REPETTO<br\/>30, avenue de Messine<br\/>75008 Paris<br\/><br\/>Tél. : +33 (0) 1 44 71 83 00<br\/><br\/>E-mail professionnel : <a href=\"mailto:contact@repetto.com\" title=\"mailto:contact@repetto.com\">contact@repetto.com<\/a><br\/>E-mail consommateur : <a href=\"mailto:service.client@repetto.fr\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com<\/a><\/p>",
+        "sales_department_content": "<p>Tél. : + 33 (0) 1 44 71 83 10<br\/>E-mail :<a href=\"mailto:adv@repetto.com\" title=\"mailto:adv@repetto.com\"> adv@repetto.com<\/a><br\/>Devenir revendeur ? <a href=\"\/pages\/wholesale\" title=\"Wholesale\">C’est par ici<\/a><\/p>",
+        "press_content": "<p>Pour toute demande presse, nous vous invitons à contacter le service client, en adressant un e-mail à : <a href=\"mailto:service.client@repetto.com\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com<\/a><br\/>Découvrez l’espace presse : <a href=\"\/pages\/relation-presse\" title=\"Relation presse\">c’est par ici<\/a><\/p>",
+        "recruitment_content": "<p>Retrouvez nos dernière offres d’emploi ici<\/p>",
+        "recruitment_link": "\/pages\/recrutement",
+        "recruitment_link_text": "Carrière"
+      }
+    },
+    "rich_text_YMUaf7": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_UUfx7k": {
+          "type": "subheading",
+          "settings": {
+            "text": "La petite école de danse"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UUfx7k"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_7pegPt": {
+      "type": "gallery",
+      "blocks": {
+        "image_a7qxQi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Classique",
+            "title": "Eveil 1 & 2",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-eveil-1-2-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-eveil-1-2-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_E3Xj8b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Classique",
+            "title": "Initiation 1 & 2",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-initiation-1-2-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-initiation-1-2-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_TGMLMc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Classique",
+            "title": "Petites étoiles & premiers pas",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-petites-etoiles-premiers-pas-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-petites-etoiles-premiers-pas-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_gkHxGQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Classique",
+            "title": "Pepinières & niveau 1 HA",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-pepiniere-niveau-1-ha-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-pepiniere-niveau-1-ha-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_U3jj89": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Classique",
+            "title": "Elémentaires & ado débutants",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-elementaires-ado-debutants-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-elementaires-ado-debutants-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_PEzfmC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Classique",
+            "title": "Jeunes pousses & études & niveau 2 HA",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/clasique-jeunes-pousses-etudes-niveau-2-ha-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/clasique-jeunes-pousses-etudes-niveau-2-ha-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_PbGByh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Classique",
+            "title": "Adultes",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-adultes-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-adultes-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_Nx7MAW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Jazz \/ Contemporain",
+            "title": "Initiation",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/jazz-contemporain-initiation-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/jazz-contemporain-initiation-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_gjgPFq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Jazz \/ Contemporain",
+            "title": "Kids",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/jazz-contemporain-kids-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/jazz-contemporain-kids-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_mgNYD6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Jazz \/ Contemporain",
+            "title": "Teens",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/jazz-contemporain-teens-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/jazz-contemporain-teens-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_aACNLw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Jazz \/ Contemporain",
+            "title": "Adultes",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/jazz-contemporain-adultes-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/jazz-contemporain-adultes-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_D98zCw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Garçon",
+            "title": "Classique",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/garcon-classique-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/garcon-classique-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_UmGXMa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Garçon - classique",
+            "title": "Eveils & Initiation",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/garcon-classique-eveil-initiation-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/garcon-classique-eveil-initiation-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_bw67RG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Jazz \/ Contemporain",
+            "title": "Garçon",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/garcon-jazz-contemporain-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/garcon-jazz-contemporain-x-la-petite-ecole-de-danse"
+          }
+        },
+        "image_xUFNn8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "Classique",
+            "title": "Pre-pro",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-pre-pro-x-la-petite-ecole-de-danse",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-pre-pro-x-la-petite-ecole-de-danse"
+          }
+        }
+      },
+      "block_order": [
+        "image_a7qxQi",
+        "image_E3Xj8b",
+        "image_TGMLMc",
+        "image_gkHxGQ",
+        "image_U3jj89",
+        "image_PEzfmC",
+        "image_PbGByh",
+        "image_Nx7MAW",
+        "image_gjgPFq",
+        "image_mgNYD6",
+        "image_aACNLw",
+        "image_D98zCw",
+        "image_UmGXMa",
+        "image_bw67RG",
+        "image_xUFNn8"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 16,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7",
+    "main",
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631",
+    "contact-blocks",
+    "contact-texts",
+    "rich_text_YMUaf7",
+    "gallery_7pegPt"
+  ]
+}

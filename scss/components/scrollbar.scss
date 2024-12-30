@@ -1,0 +1,22 @@
+@use "../vars" as vars;
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: auto;
+  scrollbar-color: #000000 vars.$gray-light-primary;
+}
+
+/* Chrome, Edge, and Safari */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: vars.$gray-light-primary;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 0px;
+  border: 0px solid #000000;
+}

@@ -1,0 +1,300 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {}
+    },
+    "main-product": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "uppercase": true,
+            "show_products_rating": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "sizing_link": "true",
+            "picker_type": "button",
+            "color_picker": true,
+            "variant_is_disabled": true,
+            "sizing_guide_text": "Sizing guide",
+            "sizing_guide_icon": "ruler",
+            "sizing_guide_page": "sizing-guide"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822": {
+          "type": "side_panel",
+          "settings": {
+            "side_panel_1_label": "SAVOIR FAIRE",
+            "side_panel_1_title": "ARTISANAT",
+            "side_panel_1_icon": "none",
+            "side_panel_1_content": "",
+            "side_panel_1_page": "",
+            "side_panel_2_label": "CREATIONS",
+            "side_panel_2_title": "EXIGENCE",
+            "side_panel_2_icon": "none",
+            "side_panel_2_content": "",
+            "side_panel_2_page": "",
+            "side_panel_3_label": "EMOTIONS",
+            "side_panel_3_title": "HISTOIRE",
+            "side_panel_3_icon": "none",
+            "side_panel_3_content": "",
+            "side_panel_3_page": ""
+          }
+        },
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b": {
+          "type": "share",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "54b74f9b-04a3-4baa-a034-a41b40a3cbe3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Détails produit",
+            "open": false,
+            "content": "{{ product.metafields.repetto.product_detail | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "1bf75ae7-697f-436a-b177-c97b049d6893": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Conseils d’entretien",
+            "open": false,
+            "content": "{{ product.metafields.repetto.care_advice | metafield_tag }}",
+            "page": "conseils-entretien-chaussures"
+          }
+        },
+        "6cca95ee-b9c4-4bf0-96b4-f6ad8a6aed9e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Livraison",
+            "open": false,
+            "content": "",
+            "page": "livraison"
+          }
+        },
+        "1573b115-fef6-458e-ae81-cd7da6ea4921": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Bien choisir sa taille",
+            "open": false,
+            "content": "",
+            "page": ""
+          }
+        },
+        "b2115076-07fc-4d56-bb33-b7047afd7dcb": {
+          "type": "question",
+          "settings": {
+            "phone_number": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "variant_picker",
+        "buy_buttons",
+        "95b7e00a-0453-4eb0-9cf0-1dae84d8b822",
+        "4fd23485-293f-46a0-8a4c-34d0e25ea41b",
+        "description",
+        "54b74f9b-04a3-4baa-a034-a41b40a3cbe3",
+        "1bf75ae7-697f-436a-b177-c97b049d6893",
+        "6cca95ee-b9c4-4bf0-96b4-f6ad8a6aed9e",
+        "1573b115-fef6-458e-ae81-cd7da6ea4921",
+        "b2115076-07fc-4d56-bb33-b7047afd7dcb"
+      ],
+      "settings": {
+        "full_width": false,
+        "enable_sticky_info": true,
+        "enable_sticky_add_to_cart": true,
+        "show_taxes_included": true,
+        "media_layout": "list",
+        "display_slider_pagination": false,
+        "media_aspect_ratio": "adapt",
+        "display_captions": false,
+        "hide_variants": false,
+        "lightbox": true,
+        "enable_video_looping": false
+      }
+    },
+    "16623877721f33fb14": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "use_grid": true,
+        "phone_number": "13800138000",
+        "show_price": true,
+        "heading": "VOUS AIMEREZ AUSSI",
+        "heading_left": true,
+        "description": "",
+        "full_width": false,
+        "mobile_swipe": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "5eae4b58-1dcc-4606-9eba-055cd44e5b37": {
+      "type": "product-img-with-content",
+      "blocks": {
+        "template--20645423120688__5eae4b58-1dcc-4606-9eba-055cd44e5b37-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "CONSEILS D'ENTRETIEN",
+            "heading_size": "h1"
+          }
+        },
+        "template--20645423120688__5eae4b58-1dcc-4606-9eba-055cd44e5b37-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nos créations intemporelles faites à la main à garder toute la vie...</p>"
+          }
+        },
+        "template--20645423120688__5eae4b58-1dcc-4606-9eba-055cd44e5b37-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Découvrir",
+            "button_link": "shopify://pages/conseils-entretien",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20645423120688__5eae4b58-1dcc-4606-9eba-055cd44e5b37-heading-1",
+        "template--20645423120688__5eae4b58-1dcc-4606-9eba-055cd44e5b37-text-1",
+        "template--20645423120688__5eae4b58-1dcc-4606-9eba-055cd44e5b37-button-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/L_Atelier_Repetto-3.png",
+        "image_height": "large",
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "3df1e17d-e9c9-41c1-a744-24ea5f83a1b7": {
+      "type": "product-img-with-content",
+      "blocks": {
+        "template--20645423120688__3df1e17d-e9c9-41c1-a744-24ea5f83a1b7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "LA MAISON REPETTO",
+            "heading_size": "h1"
+          }
+        },
+        "template--20645423120688__3df1e17d-e9c9-41c1-a744-24ea5f83a1b7-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Entre danse et rêve, tel un pas de deux envoûtant, Repetto virevolte et tisse un savoir faire d'exception depuis plus de 75 ans...</p>"
+          }
+        },
+        "template--20645423120688__3df1e17d-e9c9-41c1-a744-24ea5f83a1b7-button-1": {
+          "type": "button",
+          "settings": {
+            "button_text": "Explorer notre univers",
+            "button_link": "shopify://pages/univers-repetto-savoir-faire",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20645423120688__3df1e17d-e9c9-41c1-a744-24ea5f83a1b7-heading-1",
+        "template--20645423120688__3df1e17d-e9c9-41c1-a744-24ea5f83a1b7-text-1",
+        "template--20645423120688__3df1e17d-e9c9-41c1-a744-24ea5f83a1b7-button-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Repetto_visuel_4.png",
+        "image_height": "large",
+        "content_position": "text-left",
+        "split_layout": "text_first",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "product_img_with_content_gjaWAg": {
+      "type": "product-img-with-content",
+      "blocks": {
+        "heading_9QLJQd": {
+          "type": "heading",
+          "settings": {
+            "text": "PETITS ICONIQUES",
+            "heading_size": "h1"
+          }
+        },
+        "text_6PgQm8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alliant finesse et élégance, les porte-clés  & bijoux de sac réinterprètent les iconiques de la Maison ainsi que les chaussons de danse, symboles éternels de l'héritage et du raffinement de Repetto.</p>"
+          }
+        },
+        "button_nhifzB": {
+          "type": "button",
+          "settings": {
+            "button_text": "Découvrir",
+            "button_link": "shopify://collections/charms",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9QLJQd",
+        "text_6PgQm8",
+        "button_nhifzB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/campagne_noel_41-Modifier_1_1.jpg",
+        "image_height": "large",
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-product",
+    "16623877721f33fb14",
+    "product-recommendations",
+    "5eae4b58-1dcc-4606-9eba-055cd44e5b37",
+    "3df1e17d-e9c9-41c1-a744-24ea5f83a1b7",
+    "product_img_with_content_gjaWAg"
+  ]
+}

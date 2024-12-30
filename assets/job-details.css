@@ -1,0 +1,179 @@
+.job-details .row {
+  display: block;
+  padding: 0;
+}
+
+.job-details .row .content {
+  padding: 0 100px;
+}
+
+.job-details .row .content .section-column {
+  margin-bottom: 70px;
+  border-bottom: 1px solid #fcd2f48a;
+  padding-bottom: 70px;
+}
+
+.job-details .row .content .section-column:last-child {
+  border: 0;
+}
+
+.job-details .row .content .section-column .main-title {
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.job-details .row .content .section-column .main-title p {
+  margin: 0;
+  line-height: 1;
+}
+
+.job-details .row .content .section-column .desc {
+  padding: 0 var(--padding-pc, 0);
+}
+
+.job-details .row .form-container {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0;
+  border-top: 1px solid #000;
+}
+
+.job-details .row .form-container .form-wrap .form-heading {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.job-details .row .form-container .form-wrap .form-subheading {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.job-details .row .form-container .form-wrap .form {
+  margin: auto;
+  width: 736px;
+}
+
+.job-details .row .form-container .form-wrap .form .form-row-wrap .form-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.job-details .row .form-container .form-wrap .form .form-row-wrap .form-row input {
+  display: block;
+  padding: 0px 10px;
+  margin-bottom: 26px;
+  width: 352px;
+  height: 40px;
+  line-height: 49px;
+  font-size: 12px;
+  border: 1px solid #d8d1d4;
+  background: #fff;
+}
+
+.job-details .row .form-container .form-wrap .form .form-row-wrap .form-row input::placeholder {
+  color: #7b7678;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.job-details .row .form-container .form-wrap .form .form-row-wrap .form-row .btn-wrap {
+  padding: 20px;
+  background: #faf5f5;
+  width: 50%;
+}
+
+.job-details .row .form-container .form-wrap .form .form-row-wrap .form-row .btn-wrap .btn-name {
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.job-details .row .form-container .form-wrap .form .form-row-wrap .form-row .btn-wrap button {
+  width: 312px;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #000;
+}
+
+.job-details .row .form-container .form-wrap .form .job-apply-label{
+  width: 100%;
+  display: block;
+}
+.job-details .row .form-container .form-wrap .form .job-apply-label .button{
+  width: 100%;
+  display: block;
+}
+
+.job-details .row .form-container .form-wrap .form .form-row-wrap .form-row .btn-wrap .btn-desc {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.job-details .row .form-container .form-wrap .form .form-btn-wrap {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.job-details .row .form-container .form-wrap .form .form-btn-wrap .button {
+  width: 312px;
+  height: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #000;
+}
+.job-details .row .form-container .form-wrap .form .form-btn-wrap .button[disabled]{
+  color:#aaa;
+  background: #fff;
+}
+
+.job-details .row .form-container .form-wrap .form input[type="file"] {
+  position: absolute;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .job-details .row {
+    padding: 0 16px;
+  }
+  .job-details .row .content {
+    padding: 0;
+  }
+  .job-details .row .content .section-column .desc {
+    padding: 0 var(--padding-mobile, 0);
+  }
+  .job-details .row .form-container {
+    display: block;
+  }
+  .job-details .row .form-container .form-wrap .form {
+    width: 100%;
+  }
+  .job-details .row .form-container .form-wrap .form .form-row-wrap .form-row {
+    display: block;
+  }
+  .job-details .row .form-container .form-wrap .form .form-row-wrap .form-row input {
+    width: 100%;
+  }
+  .job-details .row .form-container .form-wrap .form .form-row-wrap .form-row .btn-wrap{
+    width: 100%;
+  }
+  .job-details .row .form-container .form-wrap .form .form-row-wrap .form-row .btn-wrap button {
+    width: 100%;
+  }
+  .job-details .row .form-container .form-wrap .form .form-row-wrap .form-row .btn-wrap:first-child {
+    margin-bottom: 15px;
+  }
+  .job-details .row .form-container .form-wrap .form .form-btn-wrap button {
+    width: 100%;
+  }
+}

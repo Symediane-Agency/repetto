@@ -1,0 +1,7 @@
+#Search-Drawer .side-panel {
+  width: 100%;
+  bottom: 0;
+  max-width: unset;
+  max-height: 469px;
+  overflow-y: hidden;
+}

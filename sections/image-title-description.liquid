@@ -1,0 +1,103 @@
+{{ 'image-title-description.css' | asset_url | stylesheet_tag }}
+<div class="row">
+  <div class="columns">
+    {%- for block in section.blocks -%}
+      <div class="section-column">
+        <div class="content compartment" data-desc-title={{ block.settings.column_description_title }}>
+          <div class="image-wrap">
+            <img src="{{ block.settings.image | image_url }}" alt="">
+          </div>
+          <div class="column-name item-name"><span class="item-name-text">{{ block.settings.column_name | escape }}</span>
+            <div class="item-name-icon-wrap"><span class="item-name-icon">{% render 'svg-icons' with 'thb-select' %}</span></div></div>
+          <span class="description">{{ block.settings.column_description }}</span>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+  <div class="last-item-with-fixed-description">
+    <div class="last-item compartment" data-desc-title={{ section.settings.last_item_description_title }}>
+      <div class="image-wrap">
+        <img src="{{ section.settings.last_item_image | image_url }}" alt="">
+      </div>
+      <div class="last-item-name item-name"><span class="item-name-text">{{ section.settings.last_item_name }}</span>
+      <div class="item-name-icon-wrap"><span class="item-name-icon">{% render 'svg-icons' with 'thb-select' %}</span></div></div>
+      <span class="description">{{ section.settings.last_item_description }}</span>
+    </div>
+    <div id="fixedDescription" class="fixed-description">{{ section.settings.fixed_description }}</div>
+  </div>
+  <div id="dynamicDescription" class="dynamic-description">Sur la base des modèles les plus identitaires de notre Maison, les paires Ateliers en sont confectionnées au sein de notre usine en France, ou chez notre partenaire historique au Portugal.</div>
+</div>
+<script src="{{ 'image-title-description.js' | asset_url }}" defer="defer"></script>
+{% schema %}
+  {
+    "name": "Image title description",
+    "class": "image-title-description",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "last_item_image",
+        "label": "Last item image"
+      },
+      {
+        "type": "text",
+        "id": "last_item_name",
+        "default": "last item name",
+        "label": "Last item name"
+      },
+      {
+        "type": "text",
+        "id": "last_item_description_title",
+        "default": "last item description title",
+        "label": "Last item description title"
+      },
+      {
+        "type": "text",
+        "id": "last_item_description",
+        "default": "last item description",
+        "label": "Last item description"
+      },
+      {
+        "type": "richtext",
+        "id": "fixed_description",
+        "default": "<p>fixed description</p>",
+        "label": "Fixed description"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "column_name",
+            "default": "name",
+            "label": "Name"
+          },
+          {
+            "type": "text",
+            "id": "column_description_title",
+            "default": "description title",
+            "label": "Description title"
+          },
+          {
+            "type": "text",
+            "id": "column_description",
+            "default": "description",
+            "label": "Description"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image title description"
+      }
+    ]
+  }
+{% endschema %}

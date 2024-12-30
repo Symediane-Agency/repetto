@@ -1,0 +1,239 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "ff5882ec-5c51-4ee9-bb05-5b4edf82c875": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "822e4e88-3a82-4247-ba1e-ca8c6bee9bb7": {
+      "type": "page-header",
+      "settings": {
+        "header_name": "Relation presse",
+        "telphone": "+ 33 (0) 1 44 71 83 10",
+        "emaill": "adv@repetto.com",
+        "border_top": true,
+        "border_bottom": true
+      }
+    },
+    "1fd9b947-7b04-4a99-9901-5db76e5997d9": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 90,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "cf3d1204-216d-4ad0-bdf4-b885e216f8c8": {
+      "type": "waterfall",
+      "blocks": {
+        "c5503574-0d05-4d6e-b17c-7d74e4609729": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-1.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "fb6fa55a-c033-4eed-8ef1-f51b26bf1deb": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-6.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "02c2a22d-a036-4308-9029-b3d37fccbca6": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-10.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "4393b550-dcd8-45b3-bced-28a4c0f24f0e": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-2.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "9f882843-2ec2-43a3-8c17-169213374a71": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-7.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "085ea106-687b-4182-a743-27a582ae91c9": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-11.jpg",
+            "block_title": "",
+            "block_content": "",
+            "jump_link_label": "",
+            "jump_link": ""
+          }
+        },
+        "07bda74a-acb7-4f37-b33e-d1e5d0ae8cef": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-3.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "1a9efe44-94e9-4c82-8815-27c90ef32064": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-8.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "c7ee0479-dd5a-4705-ac46-3177908b1b43": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-4.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "a5d714a8-1d29-4d9c-85c1-af57d22d8b9a": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-12.jpg",
+            "block_title": "",
+            "block_content": "",
+            "jump_link_label": "",
+            "jump_link": ""
+          }
+        },
+        "8082d44e-97b7-4909-8c83-8809b2839fcb": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-5.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "13f12c6c-dc5c-470f-a8b5-a4cce48f1904": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-9.jpg",
+            "block_title": "Suspendisse fermentum vestibulum",
+            "block_content": "<p>Pellentesque augue dui, porttitor eget metus ut, bibendum tempor est.</p>",
+            "jump_link_label": "Découvrez",
+            "jump_link": ""
+          }
+        },
+        "8761c58f-94ff-4ae0-b33f-65decdbe23e7": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Press-13.jpg",
+            "block_title": "",
+            "block_content": "",
+            "jump_link_label": "",
+            "jump_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "c5503574-0d05-4d6e-b17c-7d74e4609729",
+        "fb6fa55a-c033-4eed-8ef1-f51b26bf1deb",
+        "02c2a22d-a036-4308-9029-b3d37fccbca6",
+        "4393b550-dcd8-45b3-bced-28a4c0f24f0e",
+        "9f882843-2ec2-43a3-8c17-169213374a71",
+        "085ea106-687b-4182-a743-27a582ae91c9",
+        "07bda74a-acb7-4f37-b33e-d1e5d0ae8cef",
+        "1a9efe44-94e9-4c82-8815-27c90ef32064",
+        "c7ee0479-dd5a-4705-ac46-3177908b1b43",
+        "a5d714a8-1d29-4d9c-85c1-af57d22d8b9a",
+        "8082d44e-97b7-4909-8c83-8809b2839fcb",
+        "13f12c6c-dc5c-470f-a8b5-a4cce48f1904",
+        "8761c58f-94ff-4ae0-b33f-65decdbe23e7"
+      ],
+      "settings": {
+        "body_color": "#f8e4e9"
+      }
+    },
+    "00923ce7-9453-4773-832f-7df22c916155": {
+      "type": "custom-content-with-bg",
+      "settings": {
+        "back_img": "shopify://shop_images/Press-info.jpg",
+        "sub_title": "La maison Répetto",
+        "main_title": "Fil d'histoire et héritage étoilé",
+        "desc": "Avec le cousu retourné, Repetto dévoile son génie. Un savoir-faire secret, héritage précieux, entre gestes cachés et douceur révélée. Le chausson se métamorphose, ballet des artisans, étreinte intemporelle entre ciel et terre. Dans cet art subtil, l'héritage se dessine, éternel comme l'étoile.",
+        "link_text": "Revivre notre histoire",
+        "link_href": ""
+      }
+    },
+    "f24901b6-e7e4-4cc8-9df5-0782d1216ec2": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "waterfall_PKNRm7": {
+      "type": "waterfall",
+      "settings": {
+        "body_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ff5882ec-5c51-4ee9-bb05-5b4edf82c875",
+    "822e4e88-3a82-4247-ba1e-ca8c6bee9bb7",
+    "1fd9b947-7b04-4a99-9901-5db76e5997d9",
+    "cf3d1204-216d-4ad0-bdf4-b885e216f8c8",
+    "00923ce7-9453-4773-832f-7df22c916155",
+    "f24901b6-e7e4-4cc8-9df5-0782d1216ec2",
+    "waterfall_PKNRm7"
+  ]
+}

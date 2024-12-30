@@ -1,0 +1,210 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "settings": {
+        "hero_image": "shopify://shop_images/NEWS_Agenda_Rentree_de_la_Danse3.jpg",
+        "hero_video": "shopify://files/videos/REPETTO_15s_03_MASTER_169.mp4",
+        "hero_title": "Les rendez-vous de la rentrée",
+        "hero_content": "<p>La Maison Repetto est heureuse de vous retrouver pour une nouvelle rentrée placée sous le signe de la danse. A cette occasion, nous serons ravis de vous retrouver dans nos boutiques, où de jolis moments de partage viendront rythmer ce début de saison.</p>"
+      }
+    },
+    "spacer_dGxTXa": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "custom_banner_CDim74": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_qVzd7t": {
+          "type": "subheading",
+          "settings": {
+            "text": "ATELIER CHIGNON"
+          }
+        },
+        "text_T3BAB6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En septembre, découvrez nos ateliers chignons spécialement organisés pour les jeunes danseuses. Vous y apprendrez tous les conseils de nos experts danse, afin de vous aider dans la réalisation du chignon parfait !</p><p><strong>51, Rue du Four 75006 Paris</strong></p><ul><li>Samedi 7 septembre de 14h00 à 18h00</li><li>Mercredi 11 septembre de 14h00 à 18h00</li></ul><p><strong>22, Rue de la Paix 75002 Paris</strong></p><ul><li>Samedi 14 septembre de 14h00 à 18h00</li><li>Mercredi 18 septembre de 14h00 à 18h00</li></ul><p><strong>36, Rue de Passy 75016 Paris</strong></p><ul><li>Samedi 21<strong> </strong>septembre de 14h00 à 18h00</li></ul><p><strong>13-15 Rue de la Grande Chaussée 59000 Lille</strong></p><ul><li>Mercredi 18 septembre de 14h00 à 18h00</li><li>Mercredi 25 septembre de 14h00 à 18h00</li></ul><p><strong>47, Cour de l’intendance 33000 Bordeaux</strong></p><ul><li>Samedi 28 septembre de 14h00 à 18h00</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qVzd7t",
+        "text_T3BAB6"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/chignon_petit_1.png",
+        "mobile_image": "shopify://shop_images/chignon_petit_1_a2656d8c-ff92-43b7-8bb5-affe52cfae44.png",
+        "image_height": "large",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "custom_banner_GFWADx": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_fXrL6z": {
+          "type": "subheading",
+          "settings": {
+            "text": "ATELIER POINTES "
+          }
+        },
+        "text_gd7bFV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Venez participer à un atelier dédié aux pointes, où vous découvrirez non seulement l'univers magique de ce chausson emblématique, mais aussi toute la technique qui le rend unique. Nos conseillers danse vous guideront à travers l'histoire fascinante des pointes, depuis leur création jusqu'à leur fabrication artisanale, tout en mettant en lumière les grandes Étoiles qui ont contribué à faire des pointes un symbole du ballet. À l'issue de cet atelier, vous aurez également l'opportunité de participer à un essayage de pointes pour ressentir, à votre tour, l'élégance et la précision de ces chaussons légendaires.</p><p><strong>22, Rue de la Paix 75002 Paris</strong></p><ul><li>Dimanche 6 octobre à 11h00 et 15h00</li></ul>"
+          }
+        },
+        "button_8LJBzG": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fXrL6z",
+        "text_gd7bFV",
+        "button_8LJBzG"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Repetto_visuel_2_8be25a74-af03-4d27-92f7-fa20e3cc056e.png",
+        "image_height": "adapt",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "text_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_YnRQTL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3UTGCf": {
+          "type": "heading",
+          "settings": {
+            "text": "rencontres avec les étoiles",
+            "size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3UTGCf"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "60e4509c-462c-435d-9110-5ef360e52d45": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "custom_text_with_image_QLBygt": {
+      "type": "custom-text-with-image",
+      "settings": {
+        "show_on_mobile": "none",
+        "left_background_bg": "shopify://shop_images/Marais2_c7e01489-6e2d-490b-b930-a7a81b6c9ecd.jpg",
+        "right_background_image": "shopify://shop_images/NEWS_Agenda_Rentree_de_la_Danse3.jpg",
+        "heading": "",
+        "heading_size": "h4",
+        "content": "<p><strong>Rencontre avec Myriam Ould Braham</strong></p><p>Nous sommes ravis d’accueillir Mlle Myriam Ould Braham pour un moment d’échange et de partage. Fidèle amie de la Maison Repetto, elle reviendra pour vous sur sa carrière d’Étoile au sein du Ballet de l’Opéra de Paris, où elle a incarné tous les rôles les plus emblématiques de la danse classique, avec grâce et passion.</p><p><strong>22, Rue de la Paix 75002 Paris</strong></p><ul><li>Événement reporté - date à venir</li></ul><p><strong>Séance de dédicaces avec Aurélie Dupont.</strong></p><p><br/>A l’occasion de la sortie de son prochain livre « Danse ! », venez rencontrer Mlle Aurélie Dupont pour un moment privilégié. Dans cet ouvrage, la danseuse Étoile prodigue de précieux conseils et astuces aux jeunes danseurs en devenir, et partage avec le public, tous les souvenirs liés à sa grande carrière.</p><p>Des livres seront disponibles à l’achat sur place pour la dédicace.</p><p><strong>22, Rue de la Paix 75002 Paris</strong></p><ul><li>Mercredi 16 octobre – De 14h00 à 16h00.</li></ul><p></p>",
+        "content_size": "text-size-regular",
+        "button_text": "Découvrir nos points de vente",
+        "button_link": "https://repetto.com/pages/trouver-un-revendeur"
+      }
+    },
+    "collection_list_W9Bp3p": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "Découvrir nos collections",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "catalogue-femme-maroquinerie",
+          "catalogue-femme-chaussures-ballerines",
+          "catalogue-danse"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "spacer_dGxTXa",
+    "custom_banner_CDim74",
+    "custom_banner_GFWADx",
+    "rich_text_YnRQTL",
+    "60e4509c-462c-435d-9110-5ef360e52d45",
+    "custom_text_with_image_QLBygt",
+    "collection_list_W9Bp3p"
+  ]
+}

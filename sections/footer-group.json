@@ -1,0 +1,117 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "068c1032-d180-41ec-93e4-dc9e8468b221": {
+      "type": "text-with-icons",
+      "blocks": {
+        "sections--20645422563632__068c1032-d180-41ec-93e4-dc9e8468b221-icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Truck_3.png",
+            "heading": "",
+            "text": "<p><a href=\"\/pages\/faq\" target=\"_blank\" title=\"FAQ\">Livraison offerte en France à partir de 100 €<\/a><\/p>"
+          }
+        },
+        "sections--20645422563632__068c1032-d180-41ec-93e4-dc9e8468b221-icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "return",
+            "image": "shopify:\/\/shop_images\/Retour_1_1.png",
+            "heading": "",
+            "text": "<p><a href=\"\/pages\/faq\" target=\"_blank\" title=\"FAQ\">Retours simplifiés - échanges offerts<\/a><\/p>"
+          }
+        },
+        "sections--20645422563632__068c1032-d180-41ec-93e4-dc9e8468b221-icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "image": "shopify:\/\/shop_images\/Savoir_Faire_1_1.png",
+            "heading": "",
+            "text": "<p><a href=\"\/pages\/univers-repetto-savoir-faire\" target=\"_blank\" title=\"Univers Repetto - Savoir Faire\">Savoir-faire français unique<\/a><\/p>"
+          }
+        },
+        "bccc8108-8f24-41f2-b25a-670aa2e607b0": {
+          "type": "icon",
+          "settings": {
+            "icon": "price_tag",
+            "image": "shopify:\/\/shop_images\/Card_1_1.png",
+            "heading": "",
+            "text": "<p><a href=\"\/pages\/faq\" target=\"_blank\" title=\"FAQ\">Paiement sécurisé<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "sections--20645422563632__068c1032-d180-41ec-93e4-dc9e8468b221-icon-2",
+        "sections--20645422563632__068c1032-d180-41ec-93e4-dc9e8468b221-icon-3",
+        "sections--20645422563632__068c1032-d180-41ec-93e4-dc9e8468b221-icon-1",
+        "bccc8108-8f24-41f2-b25a-670aa2e607b0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "small",
+        "heading_size": "small",
+        "mobile_swipe": true,
+        "color_bg": "#fcf2f4",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "401e3886-6cb7-4742-8fda-45a0d97a26a3": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer",
+            "mobile_menu": "footer-mobile"
+          }
+        },
+        "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2": {
+          "type": "signup",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "401e3886-6cb7-4742-8fda-45a0d97a26a3",
+        "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2"
+      ],
+      "settings": {
+        "full_width": true,
+        "copyright_text": "All rights reserved.",
+        "menu": "policy-menu"
+      }
+    },
+    "54711894-f9ed-48c0-881d-d808a17c9ee4": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "068c1032-d180-41ec-93e4-dc9e8468b221",
+    "footer",
+    "54711894-f9ed-48c0-881d-d808a17c9ee4"
+  ]
+}

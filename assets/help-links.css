@@ -1,0 +1,52 @@
+.help-links .small-12 .container {
+  padding: 20px 0;
+  display: flex;
+  border-top: 1px solid #fcf2f4;
+  border-bottom: 1px solid #fcf2f4;
+  align-items: center;
+}
+
+.help-links .small-12 .container .text {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 40px;
+  flex-shrink: 0;
+}
+
+.help-links .small-12 .container .links {
+  display: flex;
+  overflow: hidden;
+}
+
+.help-links .small-12 .container .links a {
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.help-links .small-12 .container .links a .icon {
+  margin-right: 10px;
+}
+
+.help-links .small-12 .container .links a span {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.help-links .small-12 .container .links a:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .help-links {
+    display: none;
+  }
+}

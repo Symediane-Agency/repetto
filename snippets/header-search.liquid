@@ -1,0 +1,43 @@
+{{ 'custom-search.css' | asset_url | stylesheet_tag }}
+<div class="search-drawer" tabindex="-1" id="Search-Drawer-header">
+  <div id="custom-header-search" class="custom-header-search">
+    <div class="row">
+      <div class="small-12 columns">
+        <div class="search-box">
+          <form role="search" method="get" class="searchform" action="{{ routes.search_url }}">
+            <fieldset>
+              <input
+                id="side-panel-search-input-header"
+                type="search"
+                class="search-field"
+                placeholder="{{ 'sections.header.search_for' | t | escape }}"
+                value="{{ search.terms | replace: '*', '' }}"
+                name="q"
+                autocomplete="off"
+                autofocus
+              >
+            </fieldset>
+          </form>
+        </div>
+        <div class="side-panel-content side-panel-content--has-tabs"></div>
+        <div class="side-panel-content side-panel-content--initial">
+          <div class="thb-predictive-search">
+            {%- if settings.search_menu != blank -%}
+              <div class="thb-predictive-search--popular">
+                <span class="thb-predictive-search--label">{{ 'sections.header.popular_searches' | t }}</span>
+                <scroll-shadow>
+                  <div>
+                    {%- for link in settings.search_menu.links -%}
+                      <a href="{{ link.url }}" title="{{ link.title | escape }}">{{ link.title }}</a>
+                    {%- endfor -%}
+                  </div>
+                </scroll-shadow>
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="search-drawer-mask"></div>

@@ -1,0 +1,203 @@
+{% if localization.language.iso_code == 'fr' %}
+  <script type="text/javascript">
+    window.axeptioSettings = {
+      clientId: '65a8f63b148ab449f0341293',
+      cookiesVersion: "fr-18-01-2024",
+      googleConsentMode: {
+        default: {
+          analytics_storage: "denied",
+          ad_storage: "denied",
+          ad_user_data: "denied",
+          ad_personalization: "denied",
+          wait_for_update: 500
+        }
+      }
+    };
+
+    (function (d, s) {
+      var t = d.getElementsByTagName(s)[0],
+        e = d.createElement(s);
+      e.async = true;
+      e.src = '//static.axept.io/sdk.js';
+      t.parentNode.insertBefore(e, t);
+    })(document, 'script');
+
+    const cookiesManagementLinks = document.querySelectorAll('a[href="#cookies-management"]');
+
+    for (let i = 0; i < cookiesManagementLinks.length; i++) {
+        cookiesManagementLinks[i].addEventListener("click", function() {
+            openAxeptioCookies()
+        });
+    }
+  </script>
+
+  <script>
+    window.vendors_shopify = [
+      {
+        name: 'shopify_preferences',
+        title: 'Préférences',
+        shortDescription:
+          'Cookies qui mémorisent vos préférences, comme le pays ou la langue, pour personnaliser vos visites sur notre site web',
+        policyUrl: 'https://www.shopify.com/legal/terms',
+        domain: 'shopify.com',
+      },
+      {
+        name: 'shopify_analytics',
+        title: 'Analytique',
+        shortDescription: 'Cookies pour comprendre comment vous interagissez avec notre site',
+        policyUrl: 'https://www.shopify.com/legal/terms',
+        domain: 'shopify.com',
+      },
+      {
+        name: 'shopify_marketing',
+        title: 'Marketing',
+        shortDescription: 'Cookies pour fournir des publicités et des communications marketing basées sur vos intérêts',
+        policyUrl: 'https://www.shopify.com/legal/terms',
+        domain: 'shopify.com',
+      },
+      {
+        name: 'shopify_sale_of_data',
+        title: 'Vente de données',
+        shortDescription: 'Opter pour / contre le partage / vente de données',
+        policyUrl: 'https://www.shopify.com/legal/terms',
+        domain: 'shopify.com',
+      },
+    ];
+
+    (_axcb = window._axcb || []).push(function (sdk) {
+      sdk.on('ready', function () {
+        if (!sdk.cookiesConfig) {
+          return;
+        }
+
+        // Construction de l'étape Shopify dans le widget de cookies
+        sdk.cookiesConfig.steps.splice(1, 0, {
+          hasVendors: true,
+          image: 'cookie-bienvenue',
+          layout: 'category',
+          message:
+            'Shopify utilise plusieurs services et plugins, nous pouvons les contrôler via leur API de confidentialité',
+          name: 'welcome',
+          onlyOnce: true,
+          title: 'Cookies Shopify',
+          subTitle: 'Shopify utilise plusieurs services, cela vous convient-il ?',
+          vendors: window.vendors_shopify,
+        });
+
+        // API de consentement Shopify
+        window.Shopify.loadFeatures([
+          {
+            name: 'consent-tracking-api',
+            version: '0.1',
+          },
+        ]);
+      });
+
+      // Mise à jour de l'API de consentement Shopify
+      sdk.on('consent:saved', function (payload) {
+        const choices = payload.consent.preferences.vendors;
+        window.Shopify.customerPrivacy.setTrackingConsent(
+          {
+            preferences: choices.shopify_preferences,
+            analytics: choices.shopify_analytics,
+            marketing: choices.shopify_marketing,
+            sale_of_data: choices.shopify_sale_of_data,
+          },
+          () => {}
+        );
+      });
+    });
+  </script>
+{% else %}
+  <script type="text/javascript">
+    window.axeptioSettings = {
+      clientId: '65a8f63b148ab449f0341293',
+      cookiesVersion: "fr-18-01-2024_en-EU",
+    };
+
+    (function (d, s) {
+      var t = d.getElementsByTagName(s)[0],
+        e = d.createElement(s);
+      e.async = true;
+      e.src = '//static.axept.io/sdk.js';
+      t.parentNode.insertBefore(e, t);
+    })(document, 'script');
+  </script>
+
+  <script>
+    window.vendors_shopify = [
+      {
+        name: 'shopify_preferences',
+        title: 'Preferences',
+        shortDescription:
+          'Cookies that remember your preferences, such as country or language, to personalize your visits to our website',
+        policyUrl: 'https://www.shopify.com/legal/terms',
+        domain: 'shopify.com',
+      },
+      {
+        name: 'shopify_analytics',
+        title: 'Analytics',
+        shortDescription: 'Cookies to understand how you interact with our site',
+        policyUrl: 'https://www.shopify.com/legal/terms',
+        domain: 'shopify.com',
+      },
+      {
+        name: 'shopify_marketing',
+        title: 'Marketing',
+        shortDescription: 'Cookies to provide ads and marketing communications based on your interests',
+        policyUrl: 'https://www.shopify.com/legal/terms',
+        domain: 'shopify.com',
+      },
+      {
+        name: 'shopify_sale_of_data',
+        title: 'Sale of Data',
+        shortDescription: 'Opt in / out of data sharing / sales',
+        policyUrl: 'https://www.shopify.com/legal/terms',
+        domain: 'shopify.com',
+      },
+    ];
+
+    (_axcb = window._axcb || []).push(function (sdk) {
+      sdk.on('ready', function () {
+        if (!sdk.cookiesConfig) {
+          return;
+        }
+
+        // Building Shopify Step in cookie widget
+        sdk.cookiesConfig.steps.splice(1, 0, {
+          hasVendors: true,
+          image: 'cookie-bienvenue',
+          layout: 'category',
+          message: 'Shopify uses several services and plugins, we can control them via their Privacy API',
+          name: 'welcome',
+          onlyOnce: true,
+          title: 'Shopify Cookies',
+          subTitle: 'Shopify uses several services, is it OK for you ?',
+          vendors: window.vendors_shopify,
+        });
+
+        // Shopify Consent API
+        window.Shopify.loadFeatures([
+          {
+            name: 'consent-tracking-api',
+            version: '0.1',
+          },
+        ]);
+      });
+
+      // Update Shopify Consent API
+      sdk.on('consent:saved', function (payload) {
+        const choices = payload.consent.preferences.vendors;
+        window.Shopify.customerPrivacy.setTrackingConsent(
+          {
+            preferences: choices.shopify_preferences,
+            analytics: choices.shopify_analytics,
+            marketing: choices.shopify_marketing,
+            sale_of_data: choices.shopify_sale_of_data,
+          },
+          () => {}
+        );
+      });
+    });
+  </script>
+{% endif %}

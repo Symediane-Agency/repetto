@@ -1,0 +1,63 @@
+{{ 'hero.css' | asset_url | stylesheet_tag }}
+{%- liquid
+	assign hero_image = section.settings.hero_image
+	assign hero_video = section.settings.hero_video
+	assign hero_title = section.settings.hero_title
+	assign hero_content = section.settings.hero_content
+-%}
+<div class="hero-section row">
+  <div class="small-12">
+    {%- if hero_video == blank -%}
+      <div class="hero-img-box">
+        {%- render 'responsive-image', image: hero_image, sizes: hero_image.src.width -%}
+      </div>
+    {%- endif -%}
+    {%- if hero_video != blank -%}
+      <div class="hero-video-box">
+        {{
+           hero_video
+         | video_tag:
+         autoplay: true,
+         loop: true,
+         controls: false,
+         muted: true,
+         image_size: sizes,
+         id: 'hero-video' }}
+      </div>
+    {%- endif -%}
+    <div class="hero-box">
+      <div class="hero-title">{{ hero_title }}</div>
+      <div class="hero-content">{{ hero_content }}</div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Hero",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "hero_image",
+        "label": "Image"
+      }, {
+        "type": "video",
+        "id": "hero_video",
+        "label": "video",
+        "info": "Video will be muted"
+      }, {
+        "type": "text",
+        "id": "hero_title",
+        "label": "Hero Title"
+      }, {
+        "type": "richtext",
+        "id": "hero_content",
+        "label": "Hero content"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hero"
+      }
+    ]
+  }
+{% endschema %}

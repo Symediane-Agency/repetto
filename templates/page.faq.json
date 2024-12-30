@@ -1,0 +1,657 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "166186303682d7c655": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 15,
+        "spacer_desktop": 35,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "aeedc6fd-14fc-4f08-882e-ac56a1647148": {
+      "type": "faq",
+      "blocks": {
+        "73d89b39-04b9-4a4d-ba2f-f8e5c52af532": {
+          "type": "text",
+          "settings": {
+            "heading": "MON COMPTE"
+          }
+        },
+        "dc9207b1-3481-4365-95de-407296e5ffea": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CRÉER UN COMPTE CLIENT",
+            "open": false,
+            "content": "<p>Pour vous créer un compte Repetto, il vous suffit de :</p><p>- Cliquer sur l'icône qui se trouve tout en haut à droite de votre page<br/>- Cliquer sur \"Créer un compte\" en dessous de la section Connexion<br/>- Remplir les informations demandées et cliquer sur \"créer un compte\".</p><p>Vous pouvez également créer un compte directement depuis votre panier lors du passage de votre commande.</p>",
+            "page": ""
+          }
+        },
+        "48668a99-a753-4554-8a5c-c1cb41d7a457": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MOT DE PASSE OUBLIÉ",
+            "open": false,
+            "content": "<p>Si vous avez oublié votre mot de passe :<br/>- Rendez-vous sur la page d'authentification que vous utilisez habituellement pour accéder à votre compte.<br/>- Cliquez sur “Mot de passe oublié ?” et entrez votre adresse mail<br/>Vous recevrez alors un email vous permettant de réinitialiser celui-ci.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_jFW98y": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CREATION D'UN COMPTE OBLIGATOIRE ?",
+            "open": false,
+            "content": "<p>La création d'un compte n'est pas obligatoire pour pouvoir effectuer une commande sur le site.</p><p>Cependant, nous vous recommandons de la faire pour : </p><ul><li>Suivre vos livraisons </li><li>Profiter des nouveautés en avant-première</li><li>Historique de vos commandes</li></ul>",
+            "page": ""
+          }
+        },
+        "71a33229-ef16-4686-8044-723315ad9447": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MODIFIER MON COMPTE CLIENT",
+            "open": false,
+            "content": "<p>Vous pouvez modifier vos informations personnelles, votre mot de passe ainsi que vos adresses directement depuis votre compte.</p>",
+            "page": ""
+          }
+        },
+        "5ed3b49d-e70a-4c42-9d25-9fc2008a6216": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "GÉRER MES ADRESSES DE LIVRAISON OU DE FACTURATION",
+            "open": false,
+            "content": "<p>Vous avez la possibilité d’enregistrer ou de modifier vos adresses de facturation et/ou de livraison directement depuis votre compte afin de ne pas avoir à les ressaisir lors du passage de votre commande. Vous pourrez également, si besoin, les supprimer.<br/>Pour cela, rendez-vous dans votre compte puis dans \"Mes Adresses\".<br/>Assurez vous de bien vérifier que vos adresses sont correctes avant validation.</p>",
+            "page": ""
+          }
+        },
+        "2ab1d88d-6540-422c-b59e-f1b3c522be7e": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "RECEVOIR LA NEWSLETTER REPETTO",
+            "open": false,
+            "content": "<p>Pour recevoir notre newsletter, il vous suffit de vous rendre tout en bas de notre site et de renseigner votre adresse email dans l'encadré indiquant “Entrer votre email” avant de cliquer sur \"OK\".<br/>Dans le cas où vous ne recevriez pas nos communications, nous vous invitons dans un premier temps à vérifier vos courriers indésirables (ou spams) puis à contacter notre service client (service.client@repetto.com) qui vérifiera votre inscription.</p>",
+            "page": ""
+          }
+        },
+        "69b28e33-6617-495d-bab1-733b8d509498": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ME DÉSINSCRIRE DE LA NEWSLETTER REPETTO",
+            "open": false,
+            "content": "<p>Si vous ne souhaitez plus recevoir nos communications, il vous suffit de cliquer sur le lien de désabonnement en bas de chacune de nos newsletters.</p>",
+            "page": ""
+          }
+        },
+        "50fd7a58-010b-45c4-b41d-f9e6ec1ea90d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "PROTECTION DES DONNÉES PERSONNELLES",
+            "open": false,
+            "content": "<p>La société Repetto Retail gère un fichier électronique qui recense certaines données à caractère personnel relatives à ses clients. Lors d'une commande passée sur le site www.repetto.com par tout nouveau client, cette base de données est enrichie au moyen d'informations le concernant, qui permettront, par la suite, de mieux répondre à ses attentes et de faciliter les prestations d'assistance assurées par le Service Client Repetto. Cette base de données a fait l'objet d'une déclaration, conformément aux prescriptions requises par la loi relative à l'Informatique, aux fichiers et aux libertés du 6 janvier 1978, modifiée par la loi du 6 août 2004 sous le numéro 1372752.<br/>Conformément à la Loi Informatique et Libertés du 06/01/1978 modifiée en 2004, vous disposez d’un droit individuel d'accès, de retrait et de rectification et pouvez, à cet égard, faire supprimer ou modifier les informations vous concernant, en faisant la demande par écrit à la société Repetto Retail, à l'adresse suivante : Repetto - Service Client - 30 Avenue de Messine 75008 Paris – France ou grâce au <a href=\"/pages/contact\" title=\"Contact\">formulaire de contact</a>.</p>",
+            "page": ""
+          }
+        },
+        "40b6d4ba-97d5-41f8-8ffd-968e819e00da": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SUPPRIMER MON COMPTE CLIENT",
+            "open": false,
+            "content": "<p>Conformément à la Loi Informatique et Libertés du 06/01/1978 modifiée en 2004, vous disposez d’un droit individuel d'accès, de retrait et de rectification et pouvez, à cet égard, faire supprimer ou modifier les informations vous concernant, en faisant la demande par écrit à notre Service Client.<br/>Avant toute demande, assurez vous que vous n'avez aucune commande ou demande de remboursement en cours.<br/>Veuillez également noter que cette action aura pour conséquence la perte de tout votre historique de commandes.</p>",
+            "page": ""
+          }
+        },
+        "b987ff82-ba84-493e-9cd0-ce155353c029": {
+          "type": "text",
+          "settings": {
+            "heading": "NOS CREATIONS"
+          }
+        },
+        "95dbdfcc-3086-48fe-830a-7ca0b2fd7b31": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CONSEILS D'ENTRETIEN",
+            "open": false,
+            "content": "<p>Nous vous invitons à vous référer aux conseils d'entretien spécifiques délivrés sur chacune de nos pages produit.<br/>Une gamme de produits d’entretien signée Repetto est également vendue dans toutes nos boutiques Repetto ainsi que sur notre<a href=\"/collections/catalogue-femme-chaussures-accessoires\" title=\"Accessoires & Produits entretien\"> Boutique en ligne.</a></p>",
+            "page": ""
+          }
+        },
+        "0a432415-30d3-4f03-8b81-a9239682b05c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "POSER DES PATINS SUR NOS SOULIERS",
+            "open": false,
+            "content": "<p>Nous déconseillons vivement à nos clients de poser des patins, notamment sur les souliers confectionnés de manière artisanale grâce à la technique du cousu retourné.<br/><br/>Nous sélectionnons des cuirs souples, soyeux et subtils comme ceux habituellement utilisés pour la ganterie ou le prêt-à-porter qui confèrent à vos souliers une souplesse incroyable, et qui nécessitent une attention particulière. Nous privilégions également une utilisation au plus juste des éléments composant les souliers, sans ajouter de renforts ou autres contre-forts superflus qui viendraient les rigidifier ou les alourdir. Toute modification pourrait altérer cet équilibre.<br/><br/>Les différentes étapes nécessaires à la pose d'un patin sont autant de risques d'endommager vos souliers :<br/>- la mise sous forme : la forme utilisée par le cordonnier est générique. Elle n'est donc pas adaptée à la forme de vos souliers Repetto, ce qui peut tirer sur les coutures et les fragiliser.<br/>- l'ajustement du patin à la forme de la semelle : ce travail nécessite une extrême précision afin de ne pas endommager la matière de vos souliers.<br/>- les tensions appliquées par le patin lui-même : ces tensions peuvent également fragiliser les coutures de vos souliers voire les rompre.</p>",
+            "page": ""
+          }
+        },
+        "90eece0d-d3cf-4347-8e73-59647332635b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "UTILISER DES EMBAUCHOIRS",
+            "open": false,
+            "content": "<p>Nous recommandons de ne pas utiliser d'embauchoirs sur les souliers Repetto qui risqueraient de les déformer.</p>",
+            "page": ""
+          }
+        },
+        "4b753a9d-8621-465b-ad42-9fb7bf822e42": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "UTILISER UN CHAUSSE-PIED",
+            "open": false,
+            "content": "<p>Nous déconseillons l'utilisation d'un chausse-pied, d'autant plus si les souliers en question présentent un laçage qui n'est pas entièrement défait.<br/>Nos souliers étant conçus sans contreforts pour vous garantir une souplesse unique, leur cuir est ainsi plus sensible à la pression exercée par le chausse-pied ainsi que par les pieds et risque donc à terme une déchirure.</p>",
+            "page": ""
+          }
+        },
+        "eaee0f03-90ef-4940-b011-aa0326f58386": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SERVICE DE PERSONNALISATION - L'ATELIER REPETTO",
+            "open": false,
+            "content": "<p>L’Atelier Repetto est un service de personnalisation disponible dans certaines de nos boutiques (Aix-en-Provence, Bordeaux, Cannes, Lille, Lyon, Montpellier, Paris rue de la Paix, Paris rue de Passy, Paris rue du Four, Paris rue des Francs Bourgeois, Paris Le Bon Marché rue de Sèvres, Paris La Vallée Village cours de la Garonne, Toulouse et Bruxelles) .</p><p>L'Atelier est proposé sur une sélection de modèles et de matières.<br/><br/>Si vous souhaitez davantage d’informations sur ce service, nous vous invitons à vous rendre directement sur la <a href=\"/pages/personnalisation\" title=\"Personnalisation\">page dédiée</a>.</p><p>Vous pourrez retrouver les boutiques pouvant prendre en charge votre requête et demander un rendez-vous avec l'une d'entre elles.</p>",
+            "page": ""
+          }
+        },
+        "6d4adf66-349f-488b-b459-7bb886118a34": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "COMMANDER DES POINTES SUR-MESURE",
+            "open": false,
+            "content": "<p>Nous vous invitons à vous rapprocher de l'une de nos boutiques proposant ce service de pointes sur-mesure, à savoir : Paris rue de la Paix, Bordeaux et Lille.<br/>Le délai de conception d'une paire de pointes sur-mesure est d'environ 15 jours.</p>",
+            "page": ""
+          }
+        },
+        "dc0de801-c86b-4761-be06-fd03796914f3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "FAIRE RÉPARER MES CHAUSSURES OU UNE PIÈCE DE MAROQUINERIE",
+            "open": false,
+            "content": "<p>Nous avons le plaisir de vous informer que notre atelier se tient à votre disposition pour toute demande de réparation, si celle-ci est possible, et sous réserve de la disponibilité des pièces nécessaires.<br/>Vous pouvez déposer votre produit directement en boutique (hors Grands Magasins et revendeurs). Nos équipes pourront répondre à vos questions sur la réparation souhaitée, vous indiquer nos tarifs et adresser votre article à nos artisans.<br/>Si vous n'avez pas de boutique Repetto à proximité, nous vous inviterons à adresser un email à notre Service Client (service.client@repetto.com) et d'y joindre des photos illustrant votre besoin.</p>",
+            "page": ""
+          }
+        },
+        "c2feb71f-5a69-4672-9662-ac78746192c6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "OUTLET",
+            "open": false,
+            "content": "<p>Des pièces de collections antérieures sont proposées dans notre boutique Outlet de la Vallée Village située à Serris (77).</p><p>Notre Service Client se tient aussi à votre disposition pour vous renseigner.</p>",
+            "page": ""
+          }
+        },
+        "9d16d8c6-4f72-4b4a-9bb4-1f530eee2cc2": {
+          "type": "text",
+          "settings": {
+            "heading": "COMMANDE"
+          }
+        },
+        "aa6a7a48-0f0a-4554-bbd7-b11c69a5e8d1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "OFFRIR UN CADEAU",
+            "open": false,
+            "content": "<p>Si vous souhaitez offrir un cadeau, nous avons le plaisir de vous informer que vous pouvez demander, dans votre panier, un emballage cadeau et un message personnalisé qui seront joints à votre commande. Ce service est offert.</p>",
+            "page": ""
+          }
+        },
+        "ced41091-ba0d-40d8-a43e-917bee66e6f1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CONFIRMATION DE MA COMMANDE",
+            "open": false,
+            "content": "<p>Dès que votre commande est validée, vous recevez obligatoirement un email de confirmation à l’adresse email associée.<br/>Si ce n’est pas le cas, nous vous invitons à regarder dans vos courriers indésirables (ou spams).<br/>Enfin, si vous avez créé un compte, vous pouvez également vérifier le statut de votre commande directement depuis votre compte, en vous rendant dans la section \"Mes Commandes\".<br/><br/>Pour tout complément d’informations, vous pouvez contacter le Service Client par email (service.client@repetto.com) ou par téléphone au 01 75 85 04 02.</p>",
+            "page": ""
+          }
+        },
+        "9bd8c001-1e75-4d3c-9ad4-cbd147892b46": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MODIFIER MA COMMANDE",
+            "open": false,
+            "content": "<p>Nous sommes au regret de vous informer que malheureusement, nous ne pouvons pas modifier une commande une fois celle-ci validée.<br/></p>",
+            "page": ""
+          }
+        },
+        "5b6a518a-aedf-402e-b2aa-5927aa3406e6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ANNULER MA COMMANDE",
+            "open": false,
+            "content": "<p>Si vous souhaitez annuler votre commande et que celle-ci n'a pas encore été expédiée, nous pouvons demander à notre logistique s'il est toujours possible d'annuler puis de rembourser votre commande. Cette requête est malheureusement sans garantie.</p>",
+            "page": ""
+          }
+        },
+        "41f55c04-6171-4a57-ac2a-9d4e9dddda88": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "TRAITEMENT DE MA COMMANDE",
+            "open": false,
+            "content": "<p>Nous avons à cœur de préparer vos commandes dans les plus brefs délais.<br/>La majorité de nos commandes sont préparées et expédiées le jour même ou le jour ouvré suivant (hors week end et jour fériés).</p>",
+            "page": ""
+          }
+        },
+        "a93f0dd0-467d-4c19-a2fd-9c62e85fb269": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "EFFECTUER UNE PRÉCOMMANDE",
+            "open": false,
+            "content": "<p>Dans une démarche de production raisonnée, nous proposons plusieurs fois par an des précommandes sur des modèles spécifiques ou inédits.<br/>Dès la fermeture d'une précommande, nous lançons la fabrication de vos articles pour respecter la date limite de livraison garantie.<br/>Vous serez tenus informés dans les semaines qui suivent de l'expédition de votre achat.<br/>Il est possible que quelques articles soient toutefois proposés à la vente au prix normal, mais uniquement après la date limite de livraison garantie de la précommande.</p>",
+            "page": ""
+          }
+        },
+        "8de2cb1e-a862-49a0-94e4-7c61750df104": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CONNAÎTRE LA DISPONIBILITÉ D'UN PRODUIT",
+            "open": false,
+            "content": "<p>Si la pointure ou la taille que vous recherchez n'est malheureusement plus disponible, vous pouvez demander à être notifié par email en cliquant sur créer une alerte sur la page du produit soit contacter notre <a href=\"/pages/contact\" title=\"Contact\">Service Client </a>qui se fera un plaisir de vous renseigner.<br/>Si une boutique Repetto a votre produit mais n'est pas à proximité de chez vous, nous avons le plaisir de vous informer que nos boutiques proposent la vente à distance (à destination de la France Métropolitaine et de l'Union Européenne uniquement). Ce service consiste en un paiement à distance suivi d'une expédition de votre achat par notre équipe de vente à l'adresse que vous aurez indiquée.</p>",
+            "page": ""
+          }
+        },
+        "1a00a2ed-9e24-4fa2-8258-886ff7f6a1cb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "GUIDE TAILLE ET POINTURE",
+            "open": false,
+            "content": "<p>Nous vous informons que nos conseils de pointure et de taille varient selon le modèle et la matière concernée. <br/>Afin de vous guider dans votre choix, nous vous invitons à vous fier aux conseils indiqués à l'aide d'une petite cloche sur les pages produit.<br/><br/>Vous pouvez également consulter notre guide des tailles où vous retrouverez nos grilles de correspondance de pointures et de tailles, ainsi que des indications pour le choix d'une pièce de danse ou d'activewear.<br/><br/>Nous tenons toutefois à souligner que nos conseils s’appliquent pour la majorité des personnes.<br/>Selon la forme de vos pieds, de votre morphologie et/ou du confort recherché, il est possible que nos conseils ne répondent pas complètement à votre besoin. Dans ce cas, nous vous invitons à contacter, du lundi au vendredi, notre <a href=\"mailto:service.client@repetto.com\" title=\"mailto:service.client@repetto.com\">Service Client.</a></p>",
+            "page": ""
+          }
+        },
+        "47427bf5-63a7-428e-8945-411b1e14250a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CARTE CADEAU",
+            "open": false,
+            "content": "<p>Vous avez la possibilité d’offrir à la personne de votre choix une carte cadeau sur notre boutique en ligne ou bien en magasin. Les e-cartes cadeaux disponibles à l'achat sur notre boutique en ligne seront utilisables uniquement en ligne. </p><p>Quant à nos cartes cadeaux achetées en magasin, elles seront valables dans nos boutiques uniquement.<br/>Vous choisirez sa valeur et pourrez y inscrire un message personnalisé. </p><p>Toutes nos cartes cadeaux sont utilisables en une ou plusieurs fois sur une durée d’un an à compter de leur création et sont non remboursables. </p>",
+            "page": ""
+          }
+        },
+        "bab9937e-d94d-461f-9513-3396a136f106": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SITES FRAUDULEUX",
+            "open": false,
+            "content": "<p>Nous vous invitons à faire preuve de vigiliance vis-à-vis des sites potentiellement frauduleux qui proposent des produits Repetto à prix réduits.<br/>Ces sites, non agréés, utilisent illicitement l’image de la Maison Repetto dans le seul but de proposer à la vente des contrefaçons de nos produits et/ou d’obtenir frauduleusement vos coordonnées bancaires.<br/><br/>Notre Maison travaille uniquement avec des revendeurs agréés dont vous pouvez consulter la liste directement depuis le <a href=\"/pages/trouver-un-revendeur\" title=\"Trouver un revendeur\">store locator</a> disponible sur notre Boutique en ligne.<br/><br/>Si vous avez un doute, nous vous invitons à contacter notre Service Client (service.client@repetto.com) afin de vérifier si votre site est bien un revendeur agréé.<br/><br/>Voici également quelques indices qui vous permettront d’éviter certains pièges de ces sites frauduleux :<br/><br/>- Si le site propose des remises particulièrement importantes.<br/>- Si la création de compte et/ou le paiement se déroule en http, alors que vous devriez être en https (logo du cadenas dans la barre d’adresse).<br/>- Si l’esthétique et le design du site n’est pas à la hauteur des marques représentées.<br/>- Si les liens vers les réseaux sociaux présentés ne fonctionnent pas ou vous renvoient vers la page d’accueil. Il s'agit alors de liens factices.<br/>- Si les conditions générales de vente ne sont pas visibles et/ou apparaissent dans une autre langue que le français.<br/>- Si les conditions générales de vente ne comportent pas les coordonnées complètes du Service Client ainsi que de la société exploitant le site en question (adresse postale et numéro de téléphone notamment).</p>",
+            "page": ""
+          }
+        },
+        "63bd0fc1-498c-477e-b726-d7e365b883ad": {
+          "type": "text",
+          "settings": {
+            "heading": "PAIEMENT"
+          }
+        },
+        "aba23517-3535-46f5-bce4-f990e97e7271": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MOYENS DE PAIEMENT ACCEPTÉS",
+            "open": false,
+            "content": "<p>Toutes les transactions effectuées depuis la France sont sécurisées par le système de paiement Shopify Payments.</p><p>Actuellement, le site de Repetto accepte uniquement les moyens de paiement suivants : Cartes bancaires (Visa, Mastercard, American Express), PayPal et Apple Pay.<br/><br/>Les chèques, les virements bancaires ou les paiements en plusieurs fois, ne sont pas proposés.<br/><br/>Nous vous précisons que la carte bancaire doit avoir la 3D Secure pour que le paiement en ligne soit validé.<br/>3D Secure est un système de paiement par authentification permettant de renforcer la sécurité de vos achats en ligne. Ce service vous est proposé gratuitement par votre banque pour vos paiements par Visa, Mastercard et American Express. Au moment du paiement, votre banque vérifie l’identité du porteur de la carte avant de valider la transaction (à travers par exemple un code envoyé par SMS par votre banque, une date de naissance, une connexion à l'application de votre banque...).</p><p>Pour les transactions effectuées depuis l'international, elles sont opérées via Global-e et les moyens de paiement sont adaptés à chaque pays. </p>",
+            "page": ""
+          }
+        },
+        "871f588e-0629-4ed7-baf0-2a311022934f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "PAIEMENT SÉCURISÉ PAR CARTE BANCAIRE",
+            "open": false,
+            "content": "<p>Le paiement en ligne par carte bancaire s’effectue en trois étapes :<br/><br/>1. Dans un premier temps, vous sélectionnez le type de carte bancaire avec laquelle vous souhaitez régler<br/>2. Vous rentrez vos informations bancaires (numéros de votre carte, cryptogramme au dos de la carte et la date d’expiration) puis validez les données saisies<br/>3. Vous serez redirigé(e) soit vers l'application de votre banque, soit vers le site de votre banque afin de renseigner votre code unique 3DS et/ou votre code personnel de paiement en ligne.<br/><br/>Une fois l'authentification réussie et le paiement accepté, vous serez redirigé(e) vers notre site qui vous affichera une confirmation de commande ainsi que son numéro. Pour cette raison, ne fermez pas de suite votre page internet. Vous recevez dans les minutes qui suivent une confirmation par email. Veillez à bien vérifier vos courriers indésirables si celui-ci n'apparaissait pas dans votre boite de réception.<br/><br/>3D Secure est un système de paiement par authentification permettant de renforcer la sécurité de vos achats en ligne. Ce service vous est proposé gratuitement par votre banque pour vos paiements par Visa, Mastercard, American Express. Au moment du paiement, votre banque vérifie l’identité du porteur de la carte avant de valider la transaction (à travers par exemple un code envoyé par SMS par votre banque, une date de naissance, une connexion à l'application de votre banque...).<br/>En l’absence du code 3D-Secure, la transaction n’est pas prise en compte – votre compte n’étant bien entendu pas débité.<br/>Si votre carte ne bénéficie pas de ce service 3D-Secure, nous nous invitons à contacter directement votre banque, afin que vous puissiez activer ce service et passer votre commande sur notre Boutique en ligne.</p>",
+            "page": ""
+          }
+        },
+        "326c0033-aca5-4a0f-8762-03affbbf1a22": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MES COORDONNÉES BANCAIRES",
+            "open": false,
+            "content": "<p>Nos partenaires de paiement, Shopify Payments et Global-E, sont les seuls, à travers leur espace sécurisé, à avoir connaissance de vos informations bancaires. Ces informations ne transitent en aucune manière sur le site www.repetto.com.</p>",
+            "page": ""
+          }
+        },
+        "c960fb1f-9dcf-47d5-98a4-3df0e67a121b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DÉBIT DE MON COMPTE BANCAIRE",
+            "open": false,
+            "content": "<p>Votre compte bancaire sera débité à l'expédition de votre commande.</p>",
+            "page": ""
+          }
+        },
+        "b4867bea-dd19-4de6-8b4f-66409655992d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MON PAIEMENT A ÉTÉ REFUSÉ",
+            "open": false,
+            "content": "<p>Si votre paiement n’a pu aboutir, nous vous inviterons à :<br/>- vérifier que votre carte bancaire dispose bien du service 3D Secure (service de sécurisation de transaction bancaire)<br/>- vous rapprocher de votre conseiller bancaire pour vous assurer qu'il n'y a aucun soucis avec votre carte<br/>- ne pas hésiter à repasser votre commande avec un autre moyen de paiement.<br/><br/>Si malgré cela vous ne parvenez pas à régler votre commande, notre <a href=\"/pages/contact\" title=\"Contact\">Service Client</a> se tient à votre disposition pour vous aider.</p>",
+            "page": ""
+          }
+        },
+        "03d26dd9-e897-4777-9682-db0f3286a612": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MES FACTURES",
+            "open": false,
+            "content": "<p>Les factures vous sont envoyées par email lors de l'expédition de votre commande. Vos commandes sont disponibles dans votre compte dans la section \"Mes commandes”.</p>",
+            "page": ""
+          }
+        },
+        "52cfa4c3-d50f-4cfd-ac89-0d38f4e224be": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DÉTAXE",
+            "open": false,
+            "content": "<p>La détaxe n’est pas pratiquée sur notre Boutique en ligne Repetto.<br/>Si vous souhaitez bénéficier d'une détaxe, nous vous invitons à faire votre achat dans l'une de nos boutiques Repetto.</p>",
+            "page": ""
+          }
+        },
+        "17abb0d6-c5bc-47ed-9a62-562150228211": {
+          "type": "text",
+          "settings": {
+            "heading": "LIVRAISON & SUIVI"
+          }
+        },
+        "85aa15aa-3f7c-43ac-a03a-48558b7bb904": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "PAYS LIVRABLES",
+            "open": false,
+            "content": "<p>Repetto vous livre en<br/>France Métropolitaine (Corse y compris) et Monaco ainsi que dans les pays<br/>suivants via sa boutique en ligne www.repetto.com: Afrique du Sud, Albanie,<br/>Algérie, Allemagne, Andorre, Angola, Anguilla, Antigua-et-Barbuda, Arabie<br/>saoudite, Argentine, Arménie, Aruba, Australie, Autriche, Azerbaïdjan, Bahamas,<br/>Bahreïn, Bangladesh, Barbade, Belgique, Belize, Bénin, Bermudes, Bhoutan,<br/>Bolivie, Bosnie-Herzégovine, Botswana, Brésil, Brunei, Bulgarie, Burkina Faso,<br/>Burundi, Cambodge, Cameroun, Canada, Cap-Vert, Chili, Chine, Chypre, Colombie,<br/>Comores, Congo-Brazzaville, Corée du Sud, Costa Rica, Côte d’Ivoire, Croatie,<br/>Curaçao, Danemark, Djibouti, Dominique, Égypte, Émirats arabes unis, Équateur,<br/>Espagne, Estonie, Eswatini, État de la Cité du Vatican, États-Unis, Éthiopie,<br/>Fidji, Finlande, Gabon, Gambie, Géorgie, Ghana, Gibraltar, Grèce, Grenade,<br/>Groenland, Guadeloupe, Guatemala, Guernesey, Guinée, Guinée équatoriale,<br/>Guinée-Bissau, Guyana, Guyane française, Haïti, Honduras, Hongrie, Île de Man,<br/>Îles Caïmans, Îles Cook, Îles Féroé, Îles Malouines, Îles Salomon, Îles<br/>Turques-et-Caïques, Îles Vierges britanniques, Inde, Indonésie, Irlande,<br/>Islande, Israël, Italie, Jamaïque, Japon, Jersey, Jordanie, Kazakhstan, Kenya,<br/>Kirghizstan, Kiribati, Koweït, La Réunion, Laos, Lesotho, Lettonie, Liban,<br/>Liberia, Liechtenstein, Lituanie, Luxembourg, Macédoine du Nord, Madagascar,<br/>Malaisie, Malawi, Maldives, Malte, Maroc, Martinique, Maurice, Mauritanie,<br/>Mayotte, Mexique, Moldavie, Mongolie, Monténégro, Montserrat, Mozambique, Namibie,<br/>Nauru, Népal, Nicaragua, Nigeria, Niue, Norvège, Nouvelle-Calédonie,<br/>Nouvelle-Zélande, Oman, Ouganda, Ouzbékistan, Pakistan, Panama,<br/>Papouasie-Nouvelle-Guinée, Paraguay, Pays-Bas, Pérou, Philippines, Pologne,<br/>Polynésie française, Portugal, Qatar, République dominicaine, Roumanie,<br/>Royaume-Uni, Rwanda, Saint-Barthélemy, Saint-Christophe-et-Niévès, Saint-Marin,<br/>Saint-Martin, Saint-Martin, Saint-Vincent-et-les Grenadines, Sainte-Hélène,<br/>Sainte-Lucie, Salvador, Samoa, Sao Tomé-et-Principe, Sénégal, Serbie, Seychelles,<br/>Sierra Leone, Singapour, Slovaquie, Slovénie, Sri Lanka, Suède, Suisse,<br/>Suriname, Tanzanie, Tchad, Tchéquie, Thaïlande, Timor oriental, Togo, Tonga,<br/>Trinité-et-Tobago, Tunisie, Turkménistan, Tuvalu, Uruguay, Vanuatu, Venezuela,<br/>Viêt Nam, Wallis-et-Futuna, Zambie, Zimbabwe.</p>",
+            "page": ""
+          }
+        },
+        "5c957b42-9843-46e8-a8fa-9d0deedd9a5f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MODES, DÉLAIS ET FRAIS DE LIVRAISON",
+            "open": false,
+            "content": "<p>Nous proposons actuellement la livraison en France Métropolitaine (Corse incluse) et Monaco avec Colissimo Domicile & Point Relais, Click & Collect dans nos boutiques de Paris, Bordeaux, Grenoble, Lille, Montpellier, Toulouse, Aix en Provence & Lyon.</p><p>A l'international, les livraisons sont opérées par DHL Express.<br/><br/>Les frais et délais de livraison varient en fonction du pays, du service de livraison choisi et du montant de votre panier.</p>",
+            "page": ""
+          }
+        },
+        "e7786f38-4b12-4090-9fa8-37e39db6306d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SUIVRE LA LIVRAISON DE MA COMMANDE",
+            "open": false,
+            "content": "<p>Dès que votre commande est expédiée, vous recevrez par email une confirmation d'expédition incluant un lien de suivi.<br/>Vous pouvez également, avec votre numéro de suivi, voir l'état d'avancement de votre livraison directement sur le site du transporteur choisi.</p>",
+            "page": ""
+          }
+        },
+        "dc593d6e-496e-4a97-b54a-d6f9791be892": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "JE SUIS ABSENT LORS DE LA LIVRAISON",
+            "open": false,
+            "content": "<p>En cas d’absence lors de la livraison standard, votre colis sera remis au point de<br/>retrait indiqué sur l’avis de passage déposé dans votre boîte aux lettres ou<br/>sur votre suivi en ligne. Votre colis Colissimo sera conservé dans le point de<br/>retrait durant une période de 15 jours calendaires à compter du lendemain du<br/>jour de dépôt de l’avis de passage. A l’expiration de ce délai, le colis nous<br/>sera automatiquement retourné.</p><p>Si vous êtes absent lors de la livraison express effectuée par DHL, le<br/>transporteur remettra en livraison votre colis sur le prochain jour ouvré.</p><p>Il est toutefois possible que DHL vous demande de nouvelles instructions.  Pour cette raison, nous vous inviterons à<br/>vérifier au plus tôt sur le site DHL le statut de votre envoi. </p>",
+            "page": ""
+          }
+        },
+        "fc72321e-a898-4fc1-8580-5fbbebf0e526": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MON COLIS EST INDIQUÉ LIVRÉ MAIS JE N'AI RIEN RECU",
+            "open": false,
+            "content": "<p>Dans un premier temps, nous vous inviterons à patienter car il est possible que le livreur ait malencontreusement scanné votre colis avant de vous l'avoir remis.<br/>Si vous n'avez rien reçu en fin de journée, nous vous conseillerons de revérifier votre suivi d'expédition et, si la livraison est confirmée, de vérifier par la suite auprès de votre gardien ou de vos voisins. Ces derniers peuvent parfois réceptionner à votre place votre colis.<br/><br/>Si ces vérifications ne vous permettent pas de localiser votre envoi, nous vous inviterons à contacter au plus tôt notre <a href=\"/pages/contact\" title=\"Contact\">Service Client </a>afin que nos équipes puissent se rapprocher du transporteur concerné.</p>",
+            "page": ""
+          }
+        },
+        "e6a91c3d-c488-4ed7-8550-e38040e0d4c5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "MON COLIS A ÉTÉ RETOURNÉ À L'EXPÉDITEUR",
+            "open": false,
+            "content": "<p>Votre colis peut nous être retourné pour les raisons suivantes : adresse de livraison incomplète ou erronée, absence du destinataire lors des différentes présentations du livreur, non réclamation du colis dans le délai imparti en cas de dépôt dans un bureau de Poste ou chez un commerçant partenaire.<br/><br/>Une fois votre colis retourné à notre entrepôt, nous pourrons, à votre demande, et sous réserve de confirmation :<br/>- procéder à une nouvelle expédition après vérification de votre adresse de livraison.<br/>- rembourser votre commande.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "73d89b39-04b9-4a4d-ba2f-f8e5c52af532",
+        "dc9207b1-3481-4365-95de-407296e5ffea",
+        "48668a99-a753-4554-8a5c-c1cb41d7a457",
+        "collapsible_tab_jFW98y",
+        "71a33229-ef16-4686-8044-723315ad9447",
+        "5ed3b49d-e70a-4c42-9d25-9fc2008a6216",
+        "2ab1d88d-6540-422c-b59e-f1b3c522be7e",
+        "69b28e33-6617-495d-bab1-733b8d509498",
+        "50fd7a58-010b-45c4-b41d-f9e6ec1ea90d",
+        "40b6d4ba-97d5-41f8-8ffd-968e819e00da",
+        "b987ff82-ba84-493e-9cd0-ce155353c029",
+        "95dbdfcc-3086-48fe-830a-7ca0b2fd7b31",
+        "0a432415-30d3-4f03-8b81-a9239682b05c",
+        "90eece0d-d3cf-4347-8e73-59647332635b",
+        "4b753a9d-8621-465b-ad42-9fb7bf822e42",
+        "eaee0f03-90ef-4940-b011-aa0326f58386",
+        "6d4adf66-349f-488b-b459-7bb886118a34",
+        "dc0de801-c86b-4761-be06-fd03796914f3",
+        "c2feb71f-5a69-4672-9662-ac78746192c6",
+        "9d16d8c6-4f72-4b4a-9bb4-1f530eee2cc2",
+        "aa6a7a48-0f0a-4554-bbd7-b11c69a5e8d1",
+        "ced41091-ba0d-40d8-a43e-917bee66e6f1",
+        "9bd8c001-1e75-4d3c-9ad4-cbd147892b46",
+        "5b6a518a-aedf-402e-b2aa-5927aa3406e6",
+        "41f55c04-6171-4a57-ac2a-9d4e9dddda88",
+        "a93f0dd0-467d-4c19-a2fd-9c62e85fb269",
+        "8de2cb1e-a862-49a0-94e4-7c61750df104",
+        "1a00a2ed-9e24-4fa2-8258-886ff7f6a1cb",
+        "47427bf5-63a7-428e-8945-411b1e14250a",
+        "bab9937e-d94d-461f-9513-3396a136f106",
+        "63bd0fc1-498c-477e-b726-d7e365b883ad",
+        "aba23517-3535-46f5-bce4-f990e97e7271",
+        "871f588e-0629-4ed7-baf0-2a311022934f",
+        "326c0033-aca5-4a0f-8762-03affbbf1a22",
+        "c960fb1f-9dcf-47d5-98a4-3df0e67a121b",
+        "b4867bea-dd19-4de6-8b4f-66409655992d",
+        "03d26dd9-e897-4777-9682-db0f3286a612",
+        "52cfa4c3-d50f-4cfd-ac89-0d38f4e224be",
+        "17abb0d6-c5bc-47ed-9a62-562150228211",
+        "85aa15aa-3f7c-43ac-a03a-48558b7bb904",
+        "5c957b42-9843-46e8-a8fa-9d0deedd9a5f",
+        "e7786f38-4b12-4090-9fa8-37e39db6306d",
+        "dc593d6e-496e-4a97-b54a-d6f9791be892",
+        "fc72321e-a898-4fc1-8580-5fbbebf0e526",
+        "e6a91c3d-c488-4ed7-8550-e38040e0d4c5"
+      ],
+      "settings": {
+      }
+    },
+    "4548e77f-1e44-4d22-a3ea-0d05ac26c8b8": {
+      "type": "faq",
+      "blocks": {
+        "bd2b158c-76a1-4637-b184-edd26c8fb608": {
+          "type": "text",
+          "settings": {
+            "heading": "RETOUR & REMBOURSEMENT"
+          }
+        },
+        "08ee1002-f3b5-46d5-bdd9-3800c8428c97": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CONDITIONS D'ACCEPTATION D'UN RETOUR",
+            "open": false,
+            "content": "<p>Vous disposez d’un délai de 14 jours calendaires suivant la date de réception de votre commande pour nous retourner l'article qui ne conviendrait pas. Seuls les articles neufs, non portés ni lavés et dans leur emballage d’origine seront acceptés.<br/><br/>Une fois votre demande de retour effectuée depuis votre compte, vous aurez accès à votre formulaire de retour. Celui-ci est téléchargeable depuis votre espace client et vous sera également envoyé également par email.</p><p>Vous pouvez aussi faire une demande de retour depuis notre espace retour.<br/><br/>Tout article retourné et répondant aux conditions énumérées ci-dessus vous sera remboursé au prix d'achat.<br/><br/>Les retours sont payants à hauteur de 5€. Ils seront déduits de votre remboursement.</p><p>Les retours pour échanges et pour remboursements par avoir sont offerts depuis la<br/>France.</p>",
+            "page": "felix-test"
+          }
+        },
+        "8d19e9a7-1bca-4c16-9f45-049639ff07ea": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "FAIRE UN RETOUR",
+            "open": false,
+            "content": "<p>Pour enregistrer votre demande de retour, nous vous invitons à vous rendre dans votre compte. Accédez ensuite à la rubrique « Mes commandes » :<br/>- Cliquer sur la référence de votre commande puis sur « Faire un retour »<br/>- Sélectionner la/les référence(s) que vous souhaitez nous renvoyer<br/>- Valider votre demande<br/><br/>Pour faciliter votre retour, le formulaire de retour sera alors téléchargeable sur votre espace, de même qu'une étiquette prépayée de retour.<br/>Ces documents vous seront également adressés par email.<br/><br/>Si vous avez oublié votre mot de passe pour faire votre demande de retour :<br/>- Rendez-vous sur la page d'authentification que vous utilisez habituellement pour accéder à votre compte<br/>- Cliquez sur “Mot de passe oublié ?” et entrez votre adresse mail<br/>Vous recevrez alors un email vous permettant de réinitialiser celui-ci.</p><p>Vous pouvez aussi faire une demande de retour depuis notre page <a href=\"https://repetto.com/a/return\" title=\"https://repetto.com/a/return\">\"Retours\"</a>.</p>",
+            "page": ""
+          }
+        },
+        "d2cc4ff0-7677-4ad6-9835-1ee7e8dad70c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "REMBOURSEMENT",
+            "open": false,
+            "content": "<p>Le remboursement est effectué sous 15 jours à compter de la réception de votre retour. Une confirmation de remboursement vous sera alors adressée par email.<br/>Le remboursement sera fait sur le même moyen de paiement ayant servi lors de l'achat.<br/><br/>Merci de noter qu'en fonction de votre banque, la notification de crédit sur votre compte pourra prendre plusieurs jours. Si votre carte est à débit différé, le crédit pourrait lui aussi être différé.<br/><br/>Si vous aviez réglé des frais de livraison à la commande, veuillez noter que pour tout retour qu’il soit partiel ou complet, les frais de livraison réglés lors de la commande initiale resteront à votre charge.</p>",
+            "page": ""
+          }
+        },
+        "3c8d654f-53ec-44fe-8425-9c1f8accc849": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "RETOURNER PLUSIEURS COMMANDES EN UN ENVOI",
+            "open": false,
+            "content": "<p>Si vous souhaitez retourner des articles provenant de plusieurs commandes, nous regrettons de vous informer que vous ne pourrez pas regrouper ces retours dans un même envoi.<br/><br/>Le retour étant facilité avec une étiquette prépayée par demande de retour, nous vous inviterons à bien renvoyer séparément les articles issues de commandes différentes.<br/><br/>Veillez à bien joindre tous les formulaires de retour correspondant afin de faciliter le traitement de votre envoi par nos équipes. Pour rappel, les frais et risques de ce retour restent à votre charge.</p>",
+            "page": ""
+          }
+        },
+        "239f4c48-3f8a-4a44-81c3-6155977f87d7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ÉCHANGE EN LIGNE",
+            "open": false,
+            "content": "<p>Nous vous informons que notre Maison propose maintenant les échanges en ligne pour le même produit avec une taille et/ou couleur différente. L’échange pour un nouveau produit sera possible sur un montant égal à votre produit.</p><p>L'échange est disponible uniquement pour les commandes France. </p><p>Rendez-vous sur votre compte ou notre page \"Retours\" pour en profiter. </p>",
+            "page": ""
+          }
+        },
+        "a4016a1e-c361-4b88-9549-e9ca60c13565": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ÉCHANGE EN BOUTIQUE",
+            "open": false,
+            "content": "<p>Nous avons le plaisir de vous informer que vous avez la possibilité de vous rendre directement dans l’une de nos boutiques Repetto en France ou en Belgique (hors Grands Magasins, revendeurs et notre Outlet de La Vallée Village) afin de procéder à un échange de pointure/taille/modèle.<br/>L’échange pour un nouveau produit sera possible sur un montant égal ou supérieur à celui retourné et sur présentation de la facture d'achat disponible sur votre espace personnel.<br/><br/>Toutefois, avant tout déplacement, nous vous conseillons vivement de prendre contact avec la boutique souhaitée afin de vous assurer de la disponibilité de la référence comme de la pointure/taille recherchées.<br/><br/>Veuillez noter que seuls les articles neufs, dans leur emballage d'origine seront acceptés.<br/>Nous vous rappelons qu’aucun remboursement ne pourra être fait par nos boutiques.</p>",
+            "page": ""
+          }
+        },
+        "a3fe65df-9f55-4b73-a888-49c09e40fda5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "PRODUIT RECU NON CONFORME",
+            "open": false,
+            "content": "<p>Si vous avez reçu un produit non conforme à votre commande ou présentant un petit défaut de qualité, nous en sommes sincèrement navrés.<br/><br/>Afin de vous apporter une solution adaptée, nous vous serions reconnaissants de contacter le service client au plus vite via email (service.client@repetto.com) en veillant à bien nous joindre une ou plusieurs photo(s).</p>",
+            "page": ""
+          }
+        },
+        "93d9292b-ff8f-47d0-af20-8d5403e7d59a": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "RETOURNER UN CADEAU",
+            "open": false,
+            "content": "<p>Si vous souhaitez nous retourner un cadeau, qu'il ait été acheté sur notre Boutique en ligne comme dans nos points de vente, nous vous informons que seul l'échange pour une nouvelle taille/pointure ou un modèle sera possible uniquement dans l’une de nos boutiques Repetto (hors Grands Magasins et revendeurs).<br/><br/>Pour un cadeau acheté sur notre site, le remboursement pourra être possible si celui-ci est retourné à notre entrepôt. Le remboursement sera toutefois réalisé sur le même moyen de paiement ayant servi lors de la commande.</p>",
+            "page": ""
+          }
+        },
+        "cda5fe68-418d-41e4-9814-b3b287df735f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "ANNULER MA DEMANDE DE RETOUR FAITE EN LIGNE",
+            "open": false,
+            "content": "<p>Une demande de retour faite depuis votre compte et pour laquelle notre entrepôt ne reçoit pas de produit ne sera pas traitée.<br/>Si vous souhaitez finalement garder votre produit, vous n'avez aucune démarche à faire.</p>",
+            "page": ""
+          }
+        },
+        "06978788-48fc-482f-b4a5-2165106d30f2": {
+          "type": "text",
+          "settings": {
+            "heading": "CONTACT"
+          }
+        },
+        "9dc98921-9a34-42e1-835b-6b51d363c8d7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "SERVICE CLIENT",
+            "open": false,
+            "content": "<p>Le Service Client est joignable :<br/>- par email (service.client@repetto.com)<br/>- grâce au <a href=\"/pages/contact\" title=\"Contact\">formulaire de contact</a><br/>- par téléphone: du lundi de 14h à 17h30 et du mardi au vendredi de 9h30 à 12h30 et de 14h à 17h30 (heure française) au 01 75 85 04 02.</p>",
+            "page": ""
+          }
+        },
+        "e934ecf4-ffcf-4463-9ec8-732ab9ccc115": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "RELATIONS PRESSE",
+            "open": false,
+            "content": "<p>Pour toute demande presse, nous vous invitons à contacter le service client, en adressant un e-mail à : service.client@repetto.com</p>",
+            "page": ""
+          }
+        },
+        "27c4bf09-b8dd-401f-9a98-e4bd7419a1a2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "CANDIDATURE DE STAGE OU D'EMPLOI",
+            "open": false,
+            "content": "<p>Vous pouvez adresser votre candidature (CV et lettre de motivation) par email à recrutement@repetto.com ou consulter notre espace <a href=\"/pages/recrutement\" title=\"Recrutement\">Carrières</a>.</p>",
+            "page": ""
+          }
+        },
+        "c5e988a9-db23-44ed-a99b-40ca88caed5d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "DEVENIR PARTENAIRE DE NOTRE MAISON",
+            "open": false,
+            "content": "<p>Nous vous invitons à contacter directement notre Service Commercial par email: wholesale@repetto.com.<br/>Vous souhaitez devenir revendeur ? Consulter notre <a href=\"/pages/wholesale\" title=\"Wholesale\">page revendeur</a>.<br/></p>",
+            "page": ""
+          }
+        },
+        "a444727f-a0b4-49c4-90e9-0f99610e7bee": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "TROUVER UNE BOUTIQUE REPETTO",
+            "open": false,
+            "content": "<p>Vous pourrez retrouver les adresses et coordonnées de nos boutiques et revendeurs sur la page <a href=\"/pages/trouver-un-revendeur\" title=\"Trouver un revendeur\">Points de vente</a>.</p>",
+            "page": ""
+          }
+        },
+        "38537ebe-1aae-4ba5-8c24-06d83a4c78e3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "NOS RÉSEAUX SOCIAUX",
+            "open": false,
+            "content": "<p>Vous pouvez nous retrouver les réseaux suivants :</p><p><a href=\"https://www.linkedin.com/company/repetto/\" target=\"_blank\" title=\"https://www.linkedin.com/company/repetto/\">Linkedin</a><br/><a href=\"https://www.facebook.com/RepettoParis\" target=\"_blank\" title=\"https://www.facebook.com/RepettoParis\">Facebook</a> <a href=\"https://www.facebook.com/RepettoParis/\" target=\"_self\" title=\"www.facebook.com/RepettoParis\"><br/></a><a href=\"https://www.instagram.com/repettoparis\" target=\"_blank\" title=\"https://www.instagram.com/repettoparis\">Instagram</a> <a href=\"https://www.instagram.com/repettoparis/\" target=\"_self\" title=\"@repettoparis_official\"><br/></a><a href=\"https://ww.pinterest.fr/repettoparis/\" target=\"_blank\" title=\"https://www.pinterest.fr/repettoparis/\">Pinterest</a><a href=\"https://www.pinterest.fr/repettoparis/\" target=\"_self\" title=\"www.pinterest.fr/repettoparis/\"><br/></a><a href=\"https://www.youtube.com/user/RepettoParis\" target=\"_blank\" title=\"https://www.youtube.com/user/RepettoParis\">Youtube</a> </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "bd2b158c-76a1-4637-b184-edd26c8fb608",
+        "08ee1002-f3b5-46d5-bdd9-3800c8428c97",
+        "8d19e9a7-1bca-4c16-9f45-049639ff07ea",
+        "d2cc4ff0-7677-4ad6-9835-1ee7e8dad70c",
+        "3c8d654f-53ec-44fe-8425-9c1f8accc849",
+        "239f4c48-3f8a-4a44-81c3-6155977f87d7",
+        "a4016a1e-c361-4b88-9549-e9ca60c13565",
+        "a3fe65df-9f55-4b73-a888-49c09e40fda5",
+        "93d9292b-ff8f-47d0-af20-8d5403e7d59a",
+        "cda5fe68-418d-41e4-9814-b3b287df735f",
+        "06978788-48fc-482f-b4a5-2165106d30f2",
+        "9dc98921-9a34-42e1-835b-6b51d363c8d7",
+        "e934ecf4-ffcf-4463-9ec8-732ab9ccc115",
+        "27c4bf09-b8dd-401f-9a98-e4bd7419a1a2",
+        "c5e988a9-db23-44ed-a99b-40ca88caed5d",
+        "a444727f-a0b4-49c4-90e9-0f99610e7bee",
+        "38537ebe-1aae-4ba5-8c24-06d83a4c78e3"
+      ],
+      "settings": {
+      }
+    },
+    "3a419161-55a0-4a8d-b36d-081c4729f1ac": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "166186303682d7c655",
+    "aeedc6fd-14fc-4f08-882e-ac56a1647148",
+    "4548e77f-1e44-4d22-a3ea-0d05ac26c8b8",
+    "3a419161-55a0-4a8d-b36d-081c4729f1ac"
+  ]
+}

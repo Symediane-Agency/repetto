@@ -1,0 +1,744 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "settings": {
+        "hero_image": "shopify://shop_images/REPETTO_SAVOIRFAIRE_2023_SEWREDLEATHERBALLERINA.jpg",
+        "hero_video": "shopify://files/videos/SAVOIRFAIRE LANDSCAPE HP_ae5f22c9-6b0e-4634-b06e-e0df0999548f.mp4",
+        "hero_title": "CONSEILS & ENTRETIEN",
+        "hero_content": "<p>Notre Maison façonne des souliers d’exception de manière artisanale, avec des matériaux de qualité supérieure leur procurant une souplesse remarquable.<br/><br/>Fabriqués pour la grande majorité en cuir, matière à la fois naturelle et vivante, nos souliers nécessitent un entretien régulier pour préserver leur beauté et leur confort.<br/><br/>Leur fabrication artisanale peut présenter de petites aspérités, témoignant de leur caractère unique. Au fil du temps et de votre porter, vos souliers évolueront, développant une patine naturelle qui les rendra encore plus singuliers.<br/></p>"
+      }
+    },
+    "spacer_VVnqDB": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_Pkdzeg": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_cDn7UN": {
+          "type": "subheading",
+          "settings": {
+            "text": "les conseils clès"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cDn7UN"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_6cxkEf": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_with_text_slideshow_DfPtBn": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "slide_t4BNmn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/REPETTO_SAVOIRFAIRE_2023_SEWREDLEATHERBALLERINA_22ce5e39-5a1d-4a91-994c-6bf1f9a264a9.jpg",
+            "heading": "Le porté",
+            "content": "Assurez-vous de défaire les lacets avant d'enfiler votre paire ou de la retirer pour éviter toute déchirure.  Évitez également les contacts prolongés et les frottements répétés avec des textiles dégorgeants tels que les jeans foncés ou les vêtements neufs, pouvant transférer leurs pigments. Ainsi, nous vous déconseillons d'associer un cuir clair à un vêtement foncé, et inversement. Évitez  les surfaces abrasives susceptibles d'endommager le cuir par frottement ou accroc.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_dit7ct": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/REPETTO_SAVOIRFAIRE_2023_CONSTRUCTIONOXFORDWHITELEATHER.jpg",
+            "heading": "Les semelles en cuir",
+            "content": "Les semelles en cuir offrent un confort incomparable, mais demandent un entretien minutieux. Ainsi, nous les déconseillons par temps pluvieux. Par ce temps, nous préconisons les modèles munis de semelles en gomme.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_QEELGU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/REPETTO_SAVOIRFAIRE_2023_SEWBALLERINAREDLEATHER.jpg",
+            "heading": "Les Embauchoirs &  Chausse-pieds",
+            "content": "Pour prévenir toute déformation, évitez d'utiliser des embauchoirs dans les souliers Repetto. Nous vous recommandons plutôt d’utiliser du papier de soie afin de préserver leur forme d’origine. De même, l'utilisation d'un chausse-pied est déconseillée afin de ne pas fragiliser les coutures et d'éviter d'éventuelles déchirures.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_6gTigf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/REPETTO_SAVOIRFAIRE_2023_CUTREDLEATHERBALLERINA.jpg",
+            "heading": "La protection",
+            "content": "Tenez vos souliers à l’écart de l’eau et de l'humidité. En cas de pluie ou de projection d'eau, laissez-les sécher sur leur tranche, loin de toute source de chaleur, et placez du papier journal à l'intérieur pour absorber l'humidité et éviter tout transfert de couleur. Évitez les contacts prolongés avec l’eau, le soleil, les lumières artificielles puissantes, la chaleur, ainsi que les corps gras, alcoolisés ou solvants, afin de prévenir des dommages tels qu’une décoloration de la matière ou un jaunissement des cuirs clairs.\n\nRangez vos souliers après les avoir aérés, talons tournés vers l'extérieur, dans leur pochon et leur boîte, dans un endroit sec, à l'abri de toute source de chaleur et de lumière directe. En effet, le soleil ou le contact avec d'autres cuirs ou matières peuvent endommager ou faire pâlir vos cuirs. Nous vous recommandons également d’utiliser du papier de soie pour préserver leur forme d’origine.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_t4BNmn",
+        "slide_dit7ct",
+        "slide_QEELGU",
+        "slide_6gTigf"
+      ],
+      "settings": {
+        "mobile_height": "mobile-height-350",
+        "desktop_height": "desktop-height-650",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_fcjwGJ": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_79Dp4y": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_EGbnb3": {
+          "type": "subheading",
+          "settings": {
+            "text": "Les Matières Repetto"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_EGbnb3"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_a4aWh9": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "custom_banner_CDim74": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_qVzd7t": {
+          "type": "subheading",
+          "settings": {
+            "text": "cuir classique"
+          }
+        },
+        "text_T3BAB6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Notre cuir est un cuir pleine fleur, souple et d'excellente qualité. Un traitement de surface protecteur est appliqué sur la peau, ce qui le rend plus résistant à la lumière et aux frottements. Il a un aspect lisse et peut laisser apparaître des variations de grains d'une pièce à l'autre, ce qui rend chaque paire unique.<br/><br/>• Nettoyez régulièrement la surface de vos chaussures avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager le cuir.<br/>• Imperméabilisez régulièrement vos chaussures et utilisez des produits d'entretien adaptés, comme notre <a href=\"https://repetto.com/search?q=baume+embelisseur\" target=\"_blank\" title=\"https://repetto.com/search?q=baume+embelisseur\"><em><strong>Baume Embellisseur</strong></em></a> spécialement conçu pour nourrir, protéger et faire briller le cuir.<br/>• En cas de taches superficielles, tamponnez délicatement avec un chiffon humide.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme de la chaussure et prévenir la formation de plis.<br/>• Alternez l'utilisation de vos chaussures avec d'autres paires pour réduire l'usure excessive et les laisser respirer entre les portés.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qVzd7t",
+        "text_T3BAB6"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Matieres2-Modifier.jpg",
+        "mobile_image": "shopify://shop_images/Matieres2-Modifier.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "custom_banner_GFWADx": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_fXrL6z": {
+          "type": "subheading",
+          "settings": {
+            "text": "cuir VERNIS ET VERNIS VEGAN"
+          }
+        },
+        "text_gd7bFV": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Sur une base de cuir ou une base textile est appliquée en surface une enduction vernie après obtention de la teinture voulue. Ce cuir subit un traitement spécifique qui lui donne un aspect brillant, sophistiqué et le rend également résistant à l’abrasion et aux rayures.<br/><br/>• Nettoyez régulièrement la surface de vos chaussures avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager le cuir.<br/>• Utilisez des produits d'entretien adaptés, comme notre<a href=\"https://repetto.com/products/huile-sublime-pe02999?_pos=1&_sid=b0a4017ff&_ss=r\" target=\"_blank\" title=\"https://repetto.com/products/huile-sublime-pe02999?_pos=1&_sid=b0a4017ff&_ss=r\"><em><strong> Huile Sublime </strong></em></a>spécialement conçue pour conserver la brillance de votre cuir.<br/>• En raison du risque de migration de couleur, évitez de mettre ce cuir en contact d’autres cuirs ou avec un produit à la pigmentation foncée.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme de la chaussure et prévenir la formation de plis.<br/>• Alternez l'utilisation de vos chaussures avec d'autres paires pour réduire l'usure excessive et les laisser respirer entre les portés.</p>"
+          }
+        },
+        "button_8LJBzG": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fXrL6z",
+        "text_gd7bFV",
+        "button_8LJBzG"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Matieres9-Modifier.jpg",
+        "mobile_image": "shopify://shop_images/Matieres9-Modifier.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "text_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_banner_HGtef9": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_H7zDWr": {
+          "type": "subheading",
+          "settings": {
+            "text": "Chèvre velours"
+          }
+        },
+        "text_df3BGc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le chèvre velours provient d’une peau de chèvre dont le côté chair a été poncé délicatement afin d’obtenir un rasé très fin et un aspect moiré. C'est un cuir doux, souple et résistant.<br/><br/>• Nettoyez régulièrement la surface de vos chaussures avec un chiffon doux ou une brosse à poils souples pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager le cuir.<br/>• <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><strong>Imperméabilisez </strong></a>régulièrement vos chaussures et utilisez des produits d'entretien adaptés, comme <a href=\"https://repetto.com/products/elixir-pour-chevre-velours-pe04999-1?_pos=1&_psq=elixir&_ss=e&_v=1.0\" target=\"_blank\" title=\"https://repetto.com/products/elixir-pour-chevre-velours-pe04999-1?_pos=1&_psq=elixir&_ss=e&_v=1.0\"><em><strong>notre Elixir</strong></em></a> spécialement conçu pour raviver la couleur d'origine de votre cuir.<br/>• En cas de taches superficielles sur le chèvre velours, frottez doucement avec<em><strong> </strong></em><a href=\"https://repetto.com/products/brosse-crepe-pe06-999?_pos=1&_psq=bros&_ss=e&_v=1.0\" target=\"_blank\" title=\"https://repetto.com/products/brosse-crepe-pe06-999?_pos=1&_psq=bros&_ss=e&_v=1.0\"><em><strong>notre Brosse Crêpe</strong></em></a><em><strong> </strong></em>ou avec une gomme en crêpe.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme de la chaussure et prévenir la formation de plis.<br/>• Alternez l'utilisation de vos chaussures avec d'autres paires pour réduire l'usure excessive et les laisser respirer entre les portés.</p>"
+          }
+        },
+        "button_yXHYpE": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_H7zDWr",
+        "text_df3BGc",
+        "button_yXHYpE"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Matieres19-Modifier.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_banner_yzBDEa": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_8Pg8hA": {
+          "type": "subheading",
+          "settings": {
+            "text": "Chèvre velours cristal"
+          }
+        },
+        "text_gQU9a8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Le chèvre velours cristal est une peau de chèvre velours sur laquelle est appliquée une sublimation de paillettes.<br/><br/>• Nettoyez régulièrement la surface de vos chaussures avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager le cuir.<br/>• <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><em><strong>Imperméabilisez </strong></em></a>régulièrement vos chaussures et utilisez des produits d'entretien adaptés, comme <a href=\"https://repetto.com/products/elixir-pour-chevre-velours-pe04999-1?_pos=1&_psq=elixir&_ss=e&_v=1.0\" target=\"_blank\" title=\"https://repetto.com/products/elixir-pour-chevre-velours-pe04999-1?_pos=1&_psq=elixir&_ss=e&_v=1.0\"><em><strong>notre Elixir</strong></em></a> spécialement conçu pour raviver la couleur d'origine de votre cuir.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme de la chaussure et prévenir la formation de plis.<br/>• Alternez l'utilisation de vos chaussures avec d'autres paires pour réduire l'usure excessive et les laisser respirer entre les portés.</p>"
+          }
+        },
+        "button_LMUdEp": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8Pg8hA",
+        "text_gQU9a8",
+        "button_LMUdEp"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Matieres22-Modifier_1.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "text_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_banner_WdQweW": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_jHay7c": {
+          "type": "subheading",
+          "settings": {
+            "text": "Cuir métalisé"
+          }
+        },
+        "text_WbYtXE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sur une base de cuir est appliquée en surface un film métallisé. Ce cuir subit un traitement spécifique qui lui donne un aspect métallique et moderne. Il s’agit d’un cuir délicat, sensible aux frottements, accrocs ou rayures.<br/><br/>• Nettoyez régulièrement la surface de vos chaussures avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager le cuir.<br/>• <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><em><strong>Imperméabilisez </strong></em></a>régulièrement vos chaussures et utilisez des produits d'entretien adaptés, comme notre<a href=\"https://repetto.com/products/baume-embellisseur-pour-cuirs-lisses-pe01999?_pos=1&_psq=baume&_ss=e&_v=1.0\" target=\"_blank\" title=\"https://repetto.com/products/baume-embellisseur-pour-cuirs-lisses-pe01999?_pos=1&_psq=baume&_ss=e&_v=1.0\"> <em><strong>Baume Embellisseur </strong></em></a>spécialement conçu pour nourrir, protéger et faire briller.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme de la chaussure et prévenir la formation de plis.<br/>• Alternez l'utilisation de vos chaussures avec d'autres paires pour réduire l'usure excessive et les laisser respirer entre les portés.</p>"
+          }
+        },
+        "button_bMJDyc": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jHay7c",
+        "text_WbYtXE",
+        "button_bMJDyc"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Matieres25-Modifier.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_banner_83yLEk": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_qP4jrx": {
+          "type": "subheading",
+          "settings": {
+            "text": "satin"
+          }
+        },
+        "text_yLBihX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le satin est une matière emblématique de la Maison, rappelant l’univers de la danse. Utilisée initialement sur les pointes, il apporte fièrement une touche de danse classique dans la ville, pour une allure gracieuse et singulière. <br/><br/>• Nettoyez régulièrement la surface de vos chaussures avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager la matière.<br/>• Évitez les surfaces non lisses et les éléments pointus, comme les ongles ou bijoux, qui pourraient frotter ou accrocher la matière.<br/>• <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><em><strong>Imperméabilisez</strong></em></a> très régulièrement vos chaussures avec un produit adapté, comme notre Imperméabilisant spécialement conçu pour protéger contre les tâches et la pluie.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme de la chaussure et prévenir la formation de plis.<br/>• Alternez l'utilisation de vos chaussures avec d'autres paires pour réduire l'usure excessive et les laisser respirer entre les portés.</p>"
+          }
+        },
+        "button_yVXtmX": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qP4jrx",
+        "text_yLBihX",
+        "button_yVXtmX"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Matieres1-Modifier.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "text_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_banner_LRmcTX": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_V3JN4V": {
+          "type": "subheading",
+          "settings": {
+            "text": "textiles"
+          }
+        },
+        "text_fD7hq9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nos textiles apportent une touche d’originalité, de raffinement et d’élégance à nos collections. Il s'agit de matières délicates, sensibles aux frottements, accrocs ou rayures.<br/><br/>• Nettoyez régulièrement la surface de votre sac avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager la matière.<br/>• Évitez les surfaces non lisses et les éléments pointus, comme les ongles ou bijoux, qui pourraient frotter ou accrocher la matière.<br/>• <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><em><strong>Imperméabilisez</strong></em></a> très régulièrement vos chaussures avec un produit adapté, comme notre Imperméabilisant spécialement conçu pour protéger contre les tâches et la pluie.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme de la chaussure et prévenir la formation de plis.<br/>• Alternez l'utilisation de vos chaussures avec d'autres paires pour réduire l'usure excessive et les laisser respirer entre les portés.</p>"
+          }
+        },
+        "button_ybnzqF": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_V3JN4V",
+        "text_fD7hq9",
+        "button_ybnzqF"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/matieres_ND15-Modifier_1.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_banner_mEXJGN": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_Jq8K7n": {
+          "type": "subheading",
+          "settings": {
+            "text": "Pony"
+          }
+        },
+        "text_pQktPz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le pony est un cuir plus ou moins rasé, sur lequel nous pouvons venir imprimer un motif (léopard, ...). <br/><br/>•Nettoyez régulièrement la surface de vos chaussures avec un chiffon doux ou une brosse à poils souples dans le sens des poils pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager la matière.<br/>• <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><em><strong>Imperméabilisez </strong></em></a>régulièrement vos chaussures.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme de la chaussure et prévenir la formation de plis.<br/>• Alternez l'utilisation de vos chaussures avec d'autres paires pour réduire l'usure excessive et les laisser respirer entre les portés.</p>"
+          }
+        },
+        "button_UbGN7r": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Jq8K7n",
+        "text_pQktPz",
+        "button_UbGN7r"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/matieres_ND13-Modifier.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "text_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 34,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_W4p6CV": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "custom_text_with_image_cpewFU": {
+      "type": "custom-text-with-image",
+      "settings": {
+        "show_on_mobile": "right",
+        "left_background_bg": "shopify://shop_images/EmptyName_17-Modifier.jpg",
+        "right_background_image": "shopify://shop_images/EmptyName_22-Modifier_2.jpg",
+        "heading": "Conservez l'élégance de votre sac",
+        "heading_size": "h4",
+        "content": "<p>Fabriqués pour la grande majorité en cuir, matière à la fois naturelle et vivante, un soin particulier doit être apporté à l’entretien de vos sacs. Découvrez comment prendre soin de votre sac.</p>",
+        "content_size": "text-size-regular",
+        "button_text": "En savoir plus",
+        "button_link": "shopify://pages/conseils-entretien-maroquinerie"
+      }
+    },
+    "rich_text_Acpicr": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_brrnDz": {
+          "type": "subheading",
+          "settings": {
+            "text": "le kit d'entretien"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_brrnDz"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "gallery_GxgXE7": {
+      "type": "gallery",
+      "blocks": {
+        "image_fFLdRe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pe06-999-p1_1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "Brosse crêpe",
+            "link": "https://repetto.com/products/brosse-crepe-pe06-999?_pos=1&_psq=brose&_ss=e&_v=1.0",
+            "use_text_button": true,
+            "block_link": "https://repetto.com/products/brosse-crepe-pe06-999?_pos=1&_psq=brose&_ss=e&_v=1.0"
+          }
+        },
+        "image_dzwaj6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pe02-999-p1_1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "Huile sublime",
+            "link": "shopify://products/huile-sublime-pe02999",
+            "use_text_button": true,
+            "block_link": "shopify://products/huile-sublime-pe02999"
+          }
+        },
+        "image_pfENwG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pe03-999-p11_1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "Imperméabilisant",
+            "link": "shopify://products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1",
+            "use_text_button": true,
+            "block_link": "shopify://products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1"
+          }
+        },
+        "image_9pUdKk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pe04-999-p10_1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "Elixir",
+            "link": "shopify://products/elixir-pour-chevre-velours-pe04999-1",
+            "use_text_button": true,
+            "block_link": "shopify://products/elixir-pour-chevre-velours-pe04999-1"
+          }
+        }
+      },
+      "block_order": [
+        "image_fFLdRe",
+        "image_dzwaj6",
+        "image_pfENwG",
+        "image_9pUdKk"
+      ],
+      "settings": {
+        "columns_desktop": 4,
+        "section_width": "grid",
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h1",
+        "overlay_color": "#000000",
+        "overlay_opacity": 4,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "60e4509c-462c-435d-9110-5ef360e52d45": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_list_3f4zm3": {
+      "type": "image-list",
+      "settings": {}
+    },
+    "rich_text_hpbx3x": {
+      "type": "rich-text",
+      "blocks": {
+        "text_d6bEyG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour toute question, nous vous invitons à <a href=\"https://repetto.com/pages/nous-contacter\" title=\"https://repetto.com/pages/nous-contacter\"><em>contacter notre service client</em></a> ou à vous rendre dans l'une de <a href=\"https://repetto.com/pages/trouver-un-revendeur\" title=\"https://repetto.com/pages/trouver-un-revendeur\"><em>nos boutiques</em></a>, où notre personnel se fera un plaisir de vous aider et de vous informer sur nos services. </p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_d6bEyG"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "spacer_VVnqDB",
+    "rich_text_Pkdzeg",
+    "spacer_6cxkEf",
+    "image_with_text_slideshow_DfPtBn",
+    "spacer_fcjwGJ",
+    "rich_text_79Dp4y",
+    "spacer_a4aWh9",
+    "custom_banner_CDim74",
+    "custom_banner_GFWADx",
+    "custom_banner_HGtef9",
+    "custom_banner_yzBDEa",
+    "custom_banner_WdQweW",
+    "custom_banner_83yLEk",
+    "custom_banner_LRmcTX",
+    "custom_banner_mEXJGN",
+    "spacer_W4p6CV",
+    "custom_text_with_image_cpewFU",
+    "rich_text_Acpicr",
+    "gallery_GxgXE7",
+    "60e4509c-462c-435d-9110-5ef360e52d45",
+    "image_list_3f4zm3",
+    "rich_text_hpbx3x",
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab"
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "ee5bd799-f6c2-41db-a48c-0fdcc8a413e5": {
+      "type": "spacer",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "683e67b8-e15e-4828-8d99-8b49076d6792": {
+      "type": "image-content-card",
+      "blocks": {
+        "db4aa419-b0e1-4e02-940b-827a863464a0": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Rectangle_154_c85ae95f-7373-4b8c-8df1-b17f513f94fa.png",
+            "image_position": "left",
+            "block_title": "Lorem ipsum dolor sit amet consectetur",
+            "block_content": "<p>Placerat maecenas sed diam vitae. Tincidunt ac nibh velit non eget pretium arcu turpis sagittis. Netus bibendum cursus facilisi morbi vivamus sit enim tristique ut. Dui placerat mauris fermentum vivamus mattis ornare. <br\/><br\/>Ornare nunc massa tortor accumsan eleifend at fermentum vitae. Massa turpis enim tellus in orci in. Purus in nunc facilisis diam nullam et. Risus mi elementum pellentesque sapien dictum. Nulla sollicitudin pretium ac auctor malesuada. Pulvinar fringilla.<\/p>",
+            "url": "shopify:\/\/pages\/faq",
+            "url_label": "Découvrez"
+          }
+        },
+        "044ca6be-02dc-4c39-9db0-ff276d328d31": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "50%",
+            "img": "shopify:\/\/shop_images\/Rectangle_158_6484d69d-9b49-425f-af98-1db3537dfdbe.png",
+            "image_position": "right",
+            "block_title": "Tout en souplesse",
+            "block_content": "<p>La tenue est choisie, il ne manque plus que les chaussures. L'escarpin pour danser est un choix plébiscité quand il s'agit de sublimer<\/p>",
+            "url": "",
+            "url_label": ""
+          }
+        },
+        "9899aa90-6279-4d03-b4ec-a075bedf07b7": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "50%",
+            "img": "shopify:\/\/shop_images\/Rectangle_158_57b8246f-e01d-47fb-81c6-0923b73dcce8.png",
+            "image_position": "right",
+            "block_title": "Restez hydraté !",
+            "block_content": "<p>La tenue est choisie, il ne manque plus que les chaussures. L'escarpin pour danser est un choix plébiscité quand il s'agit de sublimer<\/p>",
+            "url": "",
+            "url_label": ""
+          }
+        },
+        "0c0a9571-1587-42e4-b1d2-da2f13e88e8c": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Rectangle_154_34795a45-6b76-4247-8960-849f99867de8.png",
+            "image_position": "left",
+            "block_title": "Lorem ipsum dolor sit amet consectetur",
+            "block_content": "<p>Placerat maecenas sed diam vitae. Tincidunt ac nibh velit non eget pretium arcu turpis sagittis. Netus bibendum cursus facilisi morbi vivamus sit enim tristique ut. Dui placerat mauris fermentum vivamus mattis ornare. <br\/><br\/>Ornare nunc massa tortor accumsan eleifend at fermentum vitae. Massa turpis enim tellus in orci in. Purus in nunc facilisis diam nullam et. Risus mi elementum pellentesque sapien dictum. Nulla sollicitudin pretium ac auctor malesuada. Pulvinar fringilla.<\/p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "db4aa419-b0e1-4e02-940b-827a863464a0",
+        "044ca6be-02dc-4c39-9db0-ff276d328d31",
+        "9899aa90-6279-4d03-b4ec-a075bedf07b7",
+        "0c0a9571-1587-42e4-b1d2-da2f13e88e8c"
+      ],
+      "settings": {
+        "section_head": "Les conseils des pros",
+        "section_background_color": "#fcf2f4",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false
+      }
+    },
+    "062b8b1b-d4f6-4903-b085-aa90c9f56d2f": {
+      "type": "help-links",
+      "blocks": {
+        "4329da77-3349-4908-bbce-b02b259da295": {
+          "type": "phone",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/WhatsApp.png",
+            "phone_label": "Contacter un conseiller",
+            "phone": "400-820-49999"
+          }
+        },
+        "caf2fb3e-a760-4101-9c39-1d08f184864b": {
+          "type": "link",
+          "settings": {
+            "url_label": "Service client",
+            "url_link": ""
+          }
+        },
+        "69d9e5fd-ba1a-43f3-b5b2-f75abe7e0069": {
+          "type": "link",
+          "settings": {
+            "url_label": "Prendre RDV en boutique",
+            "url_link": ""
+          }
+        },
+        "2061c50f-128f-49b0-862f-f1fa27c077a7": {
+          "type": "link",
+          "settings": {
+            "url_label": "Commandes en lignes",
+            "url_link": ""
+          }
+        },
+        "c8ccee86-f69b-4e25-8b28-51521ba02af0": {
+          "type": "link",
+          "settings": {
+            "url_label": "FAQ",
+            "url_link": "shopify:\/\/pages\/faq"
+          }
+        }
+      },
+      "block_order": [
+        "4329da77-3349-4908-bbce-b02b259da295",
+        "caf2fb3e-a760-4101-9c39-1d08f184864b",
+        "69d9e5fd-ba1a-43f3-b5b2-f75abe7e0069",
+        "2061c50f-128f-49b0-862f-f1fa27c077a7",
+        "c8ccee86-f69b-4e25-8b28-51521ba02af0"
+      ],
+      "settings": {
+      }
+    },
+    "11ce9466-bfea-4ff2-94ac-cf7cc0df494a": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "87c77c59-bc1a-455c-9818-33fbf11a705f": {
+      "type": "job-list",
+      "settings": {
+      }
+    },
+    "bbda5610-cedf-4c49-99f4-bf7b8e7e5502": {
+      "type": "column-image-with-content",
+      "blocks": {
+        "17f360dc-e45f-4c88-a79b-8be11f977ab0": {
+          "type": "columnItem",
+          "settings": {
+            "cardItemTitle": "<p><strong>La Maison Repetto se réinvente chaque jour et confectionne plus de 300 000 paires par an dans ses Ateliers de Saint-Médard-d-Excideuil en France.<\/strong><\/p>",
+            "cardItemImage": "shopify:\/\/shop_images\/v086v-899-p3_1.jpg",
+            "imagePosition": "bottom",
+            "titlePosition": "bottom"
+          }
+        },
+        "155bd3bf-99bc-441c-a6d6-d4d0fee86c2f": {
+          "type": "columnItem",
+          "settings": {
+            "cardItemTitle": "<p><strong>Objet de toutes les convoitises, La Maison séduit une clientèle raffinée, composée à la fois de danseurs et d’amateurs de cet univers unique.<\/strong><\/p>",
+            "cardItemImage": "shopify:\/\/shop_images\/Rectangle_258.png",
+            "imagePosition": "top",
+            "titlePosition": "bottom"
+          }
+        },
+        "e8ad9b0e-d382-4967-8da0-c2b0df3b3342": {
+          "type": "columnItem",
+          "settings": {
+            "cardItemTitle": "<p><strong>Se renouvelant sans cesse, La Maison Repetto crée des collections à l’imaginaire incroyable pour faire rêver les femmes.<\/strong><\/p>",
+            "cardItemImage": "shopify:\/\/shop_images\/BT51_Wai_Ki_1671_1fff_1_1.png",
+            "imagePosition": "bottom",
+            "titlePosition": "middle"
+          }
+        },
+        "1d2b99d4-8502-4475-b281-a696699986d5": {
+          "type": "columnItem",
+          "settings": {
+            "cardItemTitle": "",
+            "cardItemImage": "shopify:\/\/shop_images\/Rectangle_261.png",
+            "imagePosition": "bottom",
+            "titlePosition": "top"
+          }
+        }
+      },
+      "block_order": [
+        "17f360dc-e45f-4c88-a79b-8be11f977ab0",
+        "155bd3bf-99bc-441c-a6d6-d4d0fee86c2f",
+        "e8ad9b0e-d382-4967-8da0-c2b0df3b3342",
+        "1d2b99d4-8502-4475-b281-a696699986d5"
+      ],
+      "settings": {
+      }
+    },
+    "7f773d53-2961-4999-8e31-23e2bb559d5e": {
+      "type": "image-content-card",
+      "blocks": {
+        "8832fe53-c7fb-4802-94df-621eebb11453": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Rectangle_154_102b5b2d-6af6-48ec-b80e-7b9e0a2c50de.png",
+            "image_position": "left",
+            "block_title": "",
+            "block_content": "<p>À l'occasion du soixantième anniversaire de la marque en 2007, Jean - Marc Gaucher, président de Repetto, a créé la Fondation Danse pour la Vie, afin de donner plus de sens et d'envergure à cet anniversaire en le rendant plus \"humain\".<br\/><br\/>L'objectif est de soutenir, dans le monde, des écoles de danse en favorisant la réintégration des enfants en détresse par l'expression artistique.<\/p>",
+            "url": "",
+            "url_label": ""
+          }
+        },
+        "bdf43b93-97a6-40c7-876a-966eec1b8349": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify:\/\/shop_images\/Rectangle_154_9581be47-2ac8-476c-b696-3dab6fbb22ca.png",
+            "image_position": "right",
+            "block_title": "",
+            "block_content": "<p>La Fondation Danse pour la Vie souhaite s'associer à des projets à échelle humaine qui utilisent la danse comme outil d'éducation, de réinsertion et de développement personnel et dont les résultats sont visibles concrètement sur le terrain.<br\/><br\/>Elle propose une alliance unique entre l'art et l'humanitaire. Faute de moyens financiers, certains enfants n'osent pousser la porte d'une école de danse car le matériel et les tenues sont trop coûteux.<br\/><br\/>D’autres pratiquent leur art avec des chaussons si usés que leur rêve de futur(e)s étoiles s’étiole lorsque les pointes rendent l’âme et que le collant se déchire.<\/p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "8832fe53-c7fb-4802-94df-621eebb11453",
+        "bdf43b93-97a6-40c7-876a-966eec1b8349"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#fcf2f4",
+        "block_gap": false,
+        "bg_all_section": false,
+        "text_gap": true
+      }
+    },
+    "af485117-544f-4d2b-9538-a85fabb0332a": {
+      "type": "theme",
+      "settings": {
+        "themeColor": "#fcf2f4"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ee5bd799-f6c2-41db-a48c-0fdcc8a413e5",
+    "683e67b8-e15e-4828-8d99-8b49076d6792",
+    "062b8b1b-d4f6-4903-b085-aa90c9f56d2f",
+    "11ce9466-bfea-4ff2-94ac-cf7cc0df494a",
+    "87c77c59-bc1a-455c-9818-33fbf11a705f",
+    "bbda5610-cedf-4c49-99f4-bf7b8e7e5502",
+    "7f773d53-2961-4999-8e31-23e2bb559d5e",
+    "af485117-544f-4d2b-9538-a85fabb0332a"
+  ]
+}

@@ -1,0 +1,408 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "background_video_ttmEqd": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-full",
+        "mobile_height": "mobile-height-full",
+        "full_width": true,
+        "subheading": "",
+        "heading": "",
+        "text": "",
+        "lightbox_button": false,
+        "video": "",
+        "video_hosted": "shopify:\/\/files\/videos\/Vidéo historique Repetto 1_website 16-9 gris foncé.mp4",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "24cf03ed-9be4-41c9-9c80-de5f3f7ff095": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 25,
+        "spacer_desktop": 25,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "2551a84c-153e-4ea2-a9be-c230eb5c645a": {
+      "type": "timeline",
+      "blocks": {
+        "template--21352097481008__2551a84c-153e-4ea2-a9be-c230eb5c645a-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/histoire-1.jpg",
+            "subheading": "1947",
+            "heading": "1947",
+            "text": "<p>Rose Repetto crée sur les conseils de son fils Roland Petit, ses premiers chaussons de danse, dans un atelier situé à deux pas de l'Opéra National de Paris.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21352097481008__2551a84c-153e-4ea2-a9be-c230eb5c645a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_1952_4e013384-fbff-451f-b5e4-584a6dc4c32d.jpg",
+            "subheading": "1952",
+            "heading": "1952",
+            "text": "<p>Première création publicitaire de Madame Repetto<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21352097481008__2551a84c-153e-4ea2-a9be-c230eb5c645a-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_1956_8daddce0-e284-40fe-bd14-14fe0cfec9b7.jpg",
+            "subheading": "1956",
+            "heading": "1956",
+            "text": "<p>À la demande de Brigitte Bardot, Rose Repetto crée les ballerines Cendrillon qu'elle lui dédie. BB les associe pour toujours à sa gloire, dans le film \"Et dieu créa la femme\".<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "03ecc537-11ea-4064-aa3c-fd7aec604410": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_1959_6ccc9b7e-d9e7-419e-ba5e-47a4d4c292e4.jpg",
+            "subheading": "1959",
+            "heading": "1959",
+            "text": "<p>Rose Repetto installe sa première boutique au 22 rue de la Paix. Cette nouvelle adresse devient le repère des plus grandes étoiles du monde. De Béjart, Noureev, Barychnikov, Carolyn Carlson, le Kirov aux Folies Bergères, tous s'y fournissent en ballerines et tenues de danse...<\/p><p><\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8c6770db-0b61-42f8-972f-e7c420cfe5a9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_1964_a1baeb9b-da54-424c-bca0-990e7100d599.jpg",
+            "subheading": "1964",
+            "heading": "1964",
+            "text": "<p>Léonor Fini stylise le fameux logo.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "4f80e15a-1874-4e0e-b8b2-4299c6c61b2b": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_1967_61b24256-acee-4dc9-8e25-6fa244911c62.jpg",
+            "subheading": "1967",
+            "heading": "1967",
+            "text": "<p>Pour assurer le développement de son activité, Rose Repetto implante le berceau de sa fabrication à St Médard d'Excideuil, en Dordogne. La manufacture est encore aujourd'hui le lieu où les pointes et les ballerines sont confectionnées selon la méthode du \"cousu-retourné\" avec la plus grande dextérité.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "436cd9f8-cb10-4786-8b3b-9e8f7a78cc89": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_1970.jpg",
+            "subheading": "1970",
+            "heading": "1970",
+            "text": "<p>Serge Gainsbourg tombe sous le charme des Zizi, modèle que Rose Repetto avait créé pour sa belle-fille Zizi Jeanmaire, et devient ambassadeur de la marque.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "73a8e3ba-b97e-40cd-8058-5bba57a8e1f2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_1999.jpg",
+            "subheading": "1999",
+            "heading": "1999",
+            "text": "<p>Jean-Marc Gaucher reprend les rênes de la Maison Repetto avec pour ambition de lui insuffler un nouveau dynamisme et la remettre au devant de la scène.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "07803beb-4052-4f29-83e9-70ac8c1d8b4e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2000.jpg",
+            "subheading": "2000",
+            "heading": "2000",
+            "text": "<p>Signature du premier partenariat entre Repetto et Issey Miyake.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "cd9ced18-8132-42f1-b6fe-b79c98b51ac7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2002.jpg",
+            "subheading": "2002",
+            "heading": "2002",
+            "text": "<p>Signature du premier partenariat entre Repetto et Yohji Yamamoto<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bae771dc-4ad4-47bb-bd78-df051785b640": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2004.jpg",
+            "subheading": "2004",
+            "heading": "2004",
+            "text": "<p>Signature du premier partenariat avec Comme des Garçons.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "8ab787de-3274-4ec1-aa9c-cc1358325351": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2005.jpg",
+            "subheading": "2005",
+            "heading": "2005",
+            "text": "<p>L'atelier de Dordogne célèbre sa millionième paire de ballerines et la Maison Repetto s'associe avec l'Université Technologique de Compiègne afin d'élaborer un chausson \"révolutionnaire\".<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "73707436-d2dd-4c17-aebd-ceef9aaccb54": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2009.jpg",
+            "subheading": "2009",
+            "heading": "2009",
+            "text": "<p>Signature du premier partenariat entre Repetto et Karl Lagerfeld.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "37ac8af0-37aa-4c5e-8a37-190a5b3bad24": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2010.jpg",
+            "subheading": "2010",
+            "heading": "2010",
+            "text": "<p>Lever de rideau sur l’Atelier Repetto. Ce service d’exception offre la possibilité à chaque femme de créer ses ballerines personnalisées et uniques parmi un éventail de 252 nuances. Les couleurs des tiges, bordures et lacettes sont assemblées de manière entièrement artisanale et selon les aspirations de chacune.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "649680f0-2021-4686-9ad4-3b335589bea3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2011.jpg",
+            "subheading": "2011",
+            "heading": "2011",
+            "text": "<p>Pour faire face à la demande importante, notamment japonaise et coréenne, Repetto a agrandi l'usine de Saint-Médard d'Excideuil sur 3 000 m² supplémentaires, de façon à pouvoir produire annuellement 500 000 paires de ballerines.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "33dc7a19-8771-47e4-81d9-69135652b3cc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2012.jpg",
+            "subheading": "2012",
+            "heading": "2012",
+            "text": "<p>Repetto inaugure son école de formation à Coulaures en Dordogne. L’objectif de cette école, unique en France, est de former l’ensemble des salariés des ateliers Repetto ainsi que 150 nouveaux salariés sur les métiers du cuir afin de faire face à l’accroissement de l’activité de la Maison. A l’issue de cette formation d’une durée de 6 mois, ces personnes seront en mesure de confectionner une ballerine en « cousu retourné » dans son intégralité et selon le savoir-faire unique de Repetto.<\/p><p><\/p><p>Pour la première fois, la Maison Repetto propose une collection de prêt-à-porter, inspirée du vestiaire de la danseuse. Les pièces iconiques, intemporelles et pures, racontent l’allure féminine, légère et gracieuse. Celle d’un corps au mouvement sublimé. Les modèles de la Garde-robe Repetto évoquent l’épure, la discipline, la légèreté et la grâce de la danseuse classique. C’est une féminité subtile, délicate qui se dévoile.<\/p><p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c11fe3c9-c502-460e-ba1f-b43efbf4f6b4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/repetto_2013_1.jpg",
+            "subheading": "2013",
+            "heading": "2013",
+            "text": "<p>Repetto lance son premier Parfum, l’Eau de Toilette, délicat mélange de Poire et de Fleur de Cerisier, de Rose et de Fleur d’Oranger, et de Vanille et de Bois ambré. Il évoque avec subtilité la grâce, la légèreté et la féminité des danseuses étoile. En 2014, c’est au tour de l’Eau de Parfum de faire son entrée en scène.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21352097481008__2551a84c-153e-4ea2-a9be-c230eb5c645a-column-1",
+        "template--21352097481008__2551a84c-153e-4ea2-a9be-c230eb5c645a-column-2",
+        "template--21352097481008__2551a84c-153e-4ea2-a9be-c230eb5c645a-column-3",
+        "03ecc537-11ea-4064-aa3c-fd7aec604410",
+        "8c6770db-0b61-42f8-972f-e7c420cfe5a9",
+        "4f80e15a-1874-4e0e-b8b2-4299c6c61b2b",
+        "436cd9f8-cb10-4786-8b3b-9e8f7a78cc89",
+        "73a8e3ba-b97e-40cd-8058-5bba57a8e1f2",
+        "07803beb-4052-4f29-83e9-70ac8c1d8b4e",
+        "cd9ced18-8132-42f1-b6fe-b79c98b51ac7",
+        "bae771dc-4ad4-47bb-bd78-df051785b640",
+        "8ab787de-3274-4ec1-aa9c-cc1358325351",
+        "73707436-d2dd-4c17-aebd-ceef9aaccb54",
+        "37ac8af0-37aa-4c5e-8a37-190a5b3bad24",
+        "649680f0-2021-4686-9ad4-3b335589bea3",
+        "33dc7a19-8771-47e4-81d9-69135652b3cc",
+        "c11fe3c9-c502-460e-ba1f-b43efbf4f6b4"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "text_alignment": "left",
+        "show_progress_bar": true,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_bg_box": "#ffffff",
+        "color_text_box": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "13729c37-fba8-44ca-ac9e-35c027a242d0": {
+      "type": "rich-text",
+      "blocks": {
+        "52e112de-35c5-4949-a42a-eba4cbb14094": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>TOUT L’UNIVERS<\/strong><\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "template--21352097481008__13729c37-fba8-44ca-ac9e-35c027a242d0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "REPETTO",
+            "size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "52e112de-35c5-4949-a42a-eba4cbb14094",
+        "template--21352097481008__13729c37-fba8-44ca-ac9e-35c027a242d0-heading-1"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e5d5bedd-c8d4-4aa0-8922-a1a61a52cf68": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 10,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "681caa4d-b0db-4b8e-aa2f-5ea17942d48a": {
+      "type": "univirse-columns",
+      "blocks": {
+        "template--21352097481008__681caa4d-b0db-4b8e-aa2f-5ea17942d48a-column-1": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify:\/\/shop_images\/savoir_faire_repetto_7926ded8-029f-4d95-a215-f6e3db672b42.jpg",
+            "title": "Savoir-faire",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/catalogue-danse"
+          }
+        },
+        "template--21352097481008__681caa4d-b0db-4b8e-aa2f-5ea17942d48a-column-2": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify:\/\/shop_images\/encadre.png",
+            "title": "Collection Anniversaire",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/pages\/univers-repetto-anniversaire"
+          }
+        },
+        "template--21352097481008__681caa4d-b0db-4b8e-aa2f-5ea17942d48a-column-3": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify:\/\/shop_images\/rue_de_la_paix_1959_repetto_store_paris.jpg",
+            "title": "héritage français",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/pages\/univers-repetto-heritage"
+          }
+        }
+      },
+      "block_order": [
+        "template--21352097481008__681caa4d-b0db-4b8e-aa2f-5ea17942d48a-column-1",
+        "template--21352097481008__681caa4d-b0db-4b8e-aa2f-5ea17942d48a-column-2",
+        "template--21352097481008__681caa4d-b0db-4b8e-aa2f-5ea17942d48a-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 3
+      }
+    },
+    "2367765f-7ea3-4817-962b-d402a253e4d2": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 10,
+        "spacer_desktop": 25,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "collection_list_3MgwPT": {
+      "type": "collection-list",
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+          "catalogue-danse",
+          "catalogue-femme-chaussures",
+          "catalogue-femme-athleisure"
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 15,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "background_video_ttmEqd",
+    "24cf03ed-9be4-41c9-9c80-de5f3f7ff095",
+    "2551a84c-153e-4ea2-a9be-c230eb5c645a",
+    "13729c37-fba8-44ca-ac9e-35c027a242d0",
+    "e5d5bedd-c8d4-4aa0-8922-a1a61a52cf68",
+    "681caa4d-b0db-4b8e-aa2f-5ea17942d48a",
+    "2367765f-7ea3-4817-962b-d402a253e4d2",
+    "collection_list_3MgwPT"
+  ]
+}

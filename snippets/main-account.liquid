@@ -1,0 +1,61 @@
+<section class="main-account">
+    <h4 class="welcome">
+        {{ 'customer.account.welcome' | t }}
+    </h4>
+    <h3 class="customer-name">
+        {{ customer.first_name }} {{ customer.last_name }}
+        <a class="edit-pencil personal-drawer-toggle" id="personal-drawer-toggle">
+          {% render "svg-icons" with "edit-pencil" %}
+        </a>
+    </h3>
+  	<a href="{{ routes.account_logout_url }}" title="{{ 'customer.account.log_out' | t | escape }}" class="myaccount--link mb-show">
+        <span>{{ 'customer.account.log_out' | t }}</span>
+	</a>
+    <div class="row contact-blocks">
+        <div class="columns large-6 small-12">
+            <a href="{% if request.locale.iso_code == 'fr' %}/pages/nous-contacter/{% else %}/en/pages/contact-us-contact{% endif %}">
+                <div class="contact-block">
+                    <div class="icon">
+                        {% render 'svg-icons' with 'envelope' %}
+                    </div>
+                    <h3 class="title">
+                        {{ 'customer.account.contact.title' | t }}
+                    </h3>
+                    <p class="text">
+                        {{ 'customer.account.contact.text' | t }}
+                    </p>
+                </div>
+            </a>
+        </div>
+        <div class="columns large-6 small-12">
+            <a href="#tabOrders-tab">
+                <div class="contact-block">
+                    <div class="icon">
+                        {% render 'svg-icons' with 'shopping-bag' %}
+                    </div>
+                    <h3 class="title">
+                        {{ 'customer.account.orders.title' | t }}
+                    </h3>
+                    <p class="text">
+                        {{ 'customer.account.orders.text' | t }}
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="products">
+        {%- liquid
+            assign section_heading = ""
+            assign section_heading_left = ""
+            assign section_description = ""
+            assign full_width = false
+            assign mobile_swipe = true
+            assign disable_top_spacing = true
+            assign disable_bottom_spacing = true
+        -%}
+        
+        {% render 'recently-viewed-products' with section_heading: section_heading, section_heading_left: section_heading_left, section_description: section_description, full_width: full_width, mobile_swipe: mobile_swipe, disable_top_spacing: disable_top_spacing, disable_bottom_spacing: disable_bottom_spacing  %}
+    </div>
+    
+</section>

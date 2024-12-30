@@ -1,0 +1,50 @@
+{{ 'image-list.css' | asset_url | stylesheet_tag }}
+
+<div class="row full-width-row image-blocks">
+  <div class="small-12">
+    {% for block in section.blocks %}
+      <div class="image-item">
+        <a href="{{ block.settings.url }}" alt=" {{ block.settings.label }}">
+          <div class="image-box">
+            {% assign image = block.settings.image %}
+            {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
+            {%- render 'responsive-image', image: image, sizes: master_width -%}
+          </div>
+          <div class="title">
+            {{ block.settings.label }}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image list",
+  "blocks": [
+    {
+      "name": "Iamge item",
+      "type": "imageList",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Image",
+          "id": "image"
+        },
+        {
+          "type": "text",
+          "label": "Label",
+          "id": "label"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Item url"
+        }
+      ]
+    }
+  ],
+  "presets": [{ "name": "Image list", "blocks": [{ "type": "imageList" }] }]
+}
+{% endschema %}

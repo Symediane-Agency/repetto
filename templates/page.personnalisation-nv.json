@@ -1,0 +1,728 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_n8J4rW": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "hero_image": "shopify://shop_images/Shoot_porte_AH-Modifier-2.jpg",
+        "hero_title": "L'Atelier par Repetto",
+        "hero_content": "<p>Le savoir-faire exceptionnel de nos ateliers vous offre l’opportunité de concevoir des chaussures qui vous ressemblent. Grâce à un choix infini d'associations entre matières, formes, hauteurs et couleurs, chaque création devient unique. Laissez libre cours à votre imagination et découvrez l’art de la personnalisation, signé Repetto.</p>"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_Vkk3V3": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MEKehK": {
+          "type": "heading",
+          "settings": {
+            "text": "L'Atelier par Repetto",
+            "heading_size": "h3"
+          }
+        },
+        "text_mpL3TW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le savoir-faire exceptionnel de nos ateliers vous offre l’opportunité de concevoir des chaussures qui vous ressemblent. Grâce à un choix infini d'associations entre matières, formes, hauteurs et couleurs, chaque création devient unique. Laissez libre cours à votre imagination et découvrez l’art de la personnalisation, signé Repetto.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MEKehK",
+        "text_mpL3TW"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Shoot_porte_AH-Modifier_2.jpg",
+        "use_video": false,
+        "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_autoplay": false,
+        "video_controls": false,
+        "height": "large",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row-full",
+        "layout": "image_first",
+        "content_position": "text-center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_content_card_84eExG": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_bfzzmL": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/Shoot_porte_AH-Modifier_2.jpg",
+            "image_position": "left",
+            "block_title": "L'ATELIER PAR REPETTO",
+            "block_content": "<p>Le savoir-faire exceptionnel de nos ateliers vous offre l’opportunité de concevoir des chaussures qui vous ressemblent. Grâce à un choix infini d'associations entre matières, formes, hauteurs et couleurs, chaque création devient unique. </p><p>Laissez libre cours à votre imagination et découvrez l’art de la personnalisation, signé Repetto.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_bfzzmL"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#FFFFFF",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "64c8b707-044d-460c-a67f-91aa88842e5e": {
+      "type": "rich-text",
+      "blocks": {
+        "c0371092-00a4-4f42-8ba9-97ab955edda2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOGO.jpg",
+            "retina": true
+          }
+        },
+        "image_HAB7rC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto.jpg",
+            "retina": true
+          }
+        },
+        "template--21666802630960__64c8b707-044d-460c-a67f-91aa88842e5e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Créez vos chaussures uniques en boutique",
+            "size": "h3"
+          }
+        },
+        "template--21666802630960__64c8b707-044d-460c-a67f-91aa88842e5e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le savoir-faire unique transmis dans notre manufacture périgourdine nous permet de vous donner le choix entre d’infinies associations de matières, de formes, de hauteurs et de couleurs. </p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "c0371092-00a4-4f42-8ba9-97ab955edda2",
+        "image_HAB7rC",
+        "template--21666802630960__64c8b707-044d-460c-a67f-91aa88842e5e-heading-1",
+        "template--21666802630960__64c8b707-044d-460c-a67f-91aa88842e5e-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "custom_text_with_image_tp4dEJ": {
+      "type": "custom-text-with-image",
+      "disabled": true,
+      "settings": {
+        "show_on_mobile": "left",
+        "left_background_bg": "shopify://shop_images/L_Atelier_Repetto-10.jpg",
+        "right_background_image": "shopify://shop_images/Shoot_porte_AH-Modifier-2.jpg",
+        "heading": "L'Atelier par Repetto",
+        "heading_size": "h3",
+        "content": "<p>Le savoir-faire exceptionnel de nos ateliers vous offre l’opportunité de concevoir des chaussures qui vous ressemblent. Grâce à un choix infini d'associations entre matières, formes, hauteurs et couleurs, chaque création devient unique. Laissez libre cours à votre imagination et découvrez l’art de la personnalisation, signé Repetto.</p>",
+        "content_size": "text-size-regular",
+        "button_text": "",
+        "button_link": ""
+      }
+    },
+    "gallery_4HFiGV": {
+      "type": "gallery",
+      "blocks": {
+        "image_TfwFd9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto-9.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_EL6VE3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto-4.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_3t3rRW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L_Atelier_Repetto-7.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TfwFd9",
+        "image_EL6VE3",
+        "image_3t3rRW"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_content_card_HC3aCU": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_JyPQwr": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/Left_a74a73fe-85bb-471e-ac50-0762589d126f.jpg",
+            "image_position": "left",
+            "block_title": "",
+            "block_content": "<p><em><strong>1-</strong></em><strong> </strong><a href=\"https://repetto.com/pages/ceremony-form\" title=\"https://repetto.com/pages/ceremony-form\">Prenez rendez-vous</a> dans l’une de nos boutiques<strong>.</strong> Un conseiller dédié vous accueillera pour vous faire découvrir notre Atelier et l’excellence du savoir-faire Repetto.</p><p><em><strong>2-</strong></em><strong> </strong>Votre conseiller vous accompagnera lors du choix du modèle. Explorez une palette de matières et de coloris pour personnaliser chaque détail de votre création. Votre conseiller vous guidera à chaque étape pour concevoir une paire unique. Il vous proposera également d’ajouter des charms, des rubans, ou de personnaliser la semelle intérieure avec vos initiales ou une date significative selon le modèle. Chaque détail compte pour créer une paire qui vous ressemble.</p><p><em><strong>3-</strong></em><strong> </strong>Validez vos choix, et une fois votre création transmise à nos ateliers de Saint-Médard-d'Excideuil, en France, nos artisans mettront en œuvre un savoir-faire transmis depuis 1947. Sélectionnez votre lieu de livraison et recevez votre paire sous 3 à 5 semaines.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_JyPQwr"
+      ],
+      "settings": {
+        "section_head": "L’art de la personnalisation, en quelques étapes",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "ad755abf-e4ed-40e2-aee4-1a528f4fdb09": {
+      "type": "ceremony-form",
+      "settings": {
+        "heading": "PRENDRE RENDEZ-VOUS EN BOUTIQUE",
+        "description": "<p>Créez la paire de vos rêves avec des matières exclusives, spécialement conçues pour sublimer les grandes occasions. </p>",
+        "image": "shopify://shop_images/L_Atelier_Repetto-2.jpg"
+      }
+    },
+    "rich_text_k7VUbw": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_9jV64U": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_WLzwnA": {
+          "type": "heading",
+          "settings": {
+            "text": "Des modèles uniques, à votre image",
+            "size": "h3"
+          }
+        },
+        "text_XyWFMH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>À partir des modèles emblématiques de la Maison, les paires Atelier sont confectionnées dans notre usine en France ou chez notre partenaire historique au Portugal.</p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9jV64U",
+        "heading_WLzwnA",
+        "text_XyWFMH"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "aa4818e6-06dc-46dc-a7e5-1266ba93d064": {
+      "type": "image-title-description",
+      "blocks": {
+        "ef64179e-aed3-4da1-a528-4bf7d7bf43f2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/dessin_technique_zizi_1.jpg",
+            "column_name": "Richelieus Zizi",
+            "column_description_title": "Zizi",
+            "column_description": "Nos iconiques Richelieux Zizi ont marqué l'histoire, accompagnant de nombreux artistes emblématiques de la scène musicale française et internationale."
+          }
+        },
+        "747151d8-1d58-4706-863a-ab920929ac36": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/dessin_technique_cendrillon_1.jpg",
+            "column_name": "Ballerines Cendrillon",
+            "column_description_title": "",
+            "column_description": "La ballerine Cendrillon, créée en 1956 à la demande de Brigitte Bardot, est aussi légère et confortable qu'un chausson de danse."
+          }
+        },
+        "3c16be83-473e-4f6d-a616-69bc8326b9fe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre.png",
+            "column_name": "Mocassins Michael",
+            "column_description_title": "Michael",
+            "column_description": "Créés en 2009 en hommage au roi de la pop, les mocassins Michael sont devenus des pièces iconiques de la Maison Repetto."
+          }
+        },
+        "91e955d2-aa94-457a-8bd7-5b2805817e52": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Camille.jpg",
+            "column_name": "Ballerines Camille",
+            "column_description_title": "Camille",
+            "column_description": "Les ballerines Camille réinterprètent la silhouette iconique de la Cendrillon, cette fois sublimée par un petit talon."
+          }
+        },
+        "76f2161c-0902-43ed-9f2f-ac66608ca5ab": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Brigitte.jpg",
+            "column_name": "Ballerines Brigitte",
+            "column_description_title": "Brigitte",
+            "column_description": "Les ballerines Brigitte, avec leur bout pointu, allient confort et féminité."
+          }
+        },
+        "12ccc009-ce0a-401d-a971-49b3fbc09d29": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Junon.jpg",
+            "column_name": "Ballerines Junon",
+            "column_description_title": "Junon",
+            "column_description": "La ballerine Junon, avec son bout pointu et sa semelle en gomme, allie féminité et élégance et se personnalise à l'infini."
+          }
+        },
+        "f1360c73-b0bc-42c2-aed2-6b0f90d40295": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Flora.jpg",
+            "column_name": "Ballerines Flora",
+            "column_description_title": "Flora",
+            "column_description": "La ballerine Flora sublime votre allure avec son bout arrondi et sa pointe ornée d'une pièce bicolore ou bi-matière."
+          }
+        },
+        "aad08f0c-58d8-4273-874f-b53e971fb630": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ballerines-Lilouh.jpg",
+            "column_name": "Ballerines Lilouh",
+            "column_description_title": "Lilouh",
+            "column_description": "Grâce à son décolleté enveloppant, les Ballerines  vous offre souplesse et confort, vous accompagnant avec élégance du jour à la nuit."
+          }
+        }
+      },
+      "block_order": [
+        "ef64179e-aed3-4da1-a528-4bf7d7bf43f2",
+        "747151d8-1d58-4706-863a-ab920929ac36",
+        "3c16be83-473e-4f6d-a616-69bc8326b9fe",
+        "91e955d2-aa94-457a-8bd7-5b2805817e52",
+        "76f2161c-0902-43ed-9f2f-ac66608ca5ab",
+        "12ccc009-ce0a-401d-a971-49b3fbc09d29",
+        "f1360c73-b0bc-42c2-aed2-6b0f90d40295",
+        "aad08f0c-58d8-4273-874f-b53e971fb630"
+      ],
+      "disabled": true,
+      "settings": {
+        "last_item_image": "shopify://shop_images/Sandales-Bikini.jpg",
+        "last_item_name": "Sandales Bikini",
+        "last_item_description_title": "Bikini",
+        "last_item_description": "Confortable et élancée avec son haut talon, la Bikini est la sandale parfaite pour votre grand jour. Désormais personnalisable dans notre atelier, ajoutez votre touche personnelle pour créer un paire qui vous ressemble.",
+        "fixed_description": "<p>L’offre cérémonie s'invite chez Repetto avec l'iconique sandale à talon Bikini, sublimée par des matières soigneusement sélectionnées pour votre grand jour. Prenez rendez-vous en boutique pour créer la paire de vos rêves.</p>"
+      }
+    },
+    "image_list_KjUbgc": {
+      "type": "image-list",
+      "blocks": {
+        "image_list_kFgrhh": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_1_1.png",
+            "label": "Richelieus ZIZI",
+            "url": ""
+          }
+        },
+        "image_list_Bz6EMA": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_2.png",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_wQpCWm": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_3.png",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_NeVjd9": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_4.png",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_gwYbyK": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_5.png",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_QmEXRM": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_6.png",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_wW6JUB": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_7.png",
+            "label": "",
+            "url": ""
+          }
+        },
+        "image_list_jJ7Wyq": {
+          "type": "imageList",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_8.png",
+            "label": "",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_list_kFgrhh",
+        "image_list_Bz6EMA",
+        "image_list_wQpCWm",
+        "image_list_NeVjd9",
+        "image_list_gwYbyK",
+        "image_list_QmEXRM",
+        "image_list_wW6JUB",
+        "image_list_jJ7Wyq"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "gallery_ENCrVQ": {
+      "type": "gallery",
+      "blocks": {
+        "image_EgP3pg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_11.png",
+            "subheading": "Nos iconiques",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_8hExJY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_1_1.png",
+            "subheading": "Richelieus Zizi",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_MVpETp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_2.png",
+            "subheading": "Ballerines Camille",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_CgMrqV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_3.png",
+            "subheading": "Ballerines Cendrillon",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EgP3pg",
+        "image_8hExJY",
+        "image_MVpETp",
+        "image_CgMrqV"
+      ],
+      "settings": {
+        "columns_desktop": 4,
+        "section_width": "grid",
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "center",
+        "column_spacing": "large",
+        "heading_size": "h2",
+        "overlay_color": "#7b7678",
+        "overlay_opacity": 15,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_WtENMt": {
+      "type": "gallery",
+      "blocks": {
+        "image_iUn3UF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_4.png",
+            "subheading": "Mocassins Michael",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_HMgtBQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_5.png",
+            "subheading": "Ballerines Flora",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_kzUBPd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_7.png",
+            "subheading": "Ballerines Lilouh",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_ePWzKQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_8.png",
+            "subheading": "Sandales Bikini",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iUn3UF",
+        "image_HMgtBQ",
+        "image_kzUBPd",
+        "image_ePWzKQ"
+      ],
+      "settings": {
+        "columns_desktop": 4,
+        "section_width": "grid",
+        "mobile_swipe": true,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "center",
+        "column_spacing": "large",
+        "heading_size": "h2",
+        "overlay_color": "#7b7678",
+        "overlay_opacity": 15,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_HCAkVE": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_content_card_wCrY8t": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_DxiTVc": {
+          "type": "Image-card",
+          "disabled": true,
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/L_Atelier_Repetto-3.jpg",
+            "image_position": "left",
+            "block_title": "L'offre cérémonie",
+            "block_content": "<p>L’offre cérémonie s'invite chez Repetto avec l'iconique sandale à talon Bikini, sublimée par des matières soigneusement sélectionnées pour votre grand jour. Prenez rendez-vous en boutique pour créer la paire de vos rêves.</p><p>Confortable et élancée avec son haut talon, la Bikini est la sandale parfaite pour votre grand jour. Désormais personnalisable dans notre atelier, ajoutez votre touche personnelle pour créer un paire qui vous ressemble.</p><p>Pour le modèle Bikini, produit au Portugal, le délai de livraison est de 7 semaines.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        },
+        "image_card_a6cPje": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/L_Atelier_Repetto-10.jpg",
+            "image_position": "right",
+            "block_title": "Délais & Conditions de l'Atelier",
+            "block_content": "<p>- Aucun échange ni remboursement sur les paires Atelier.</p><p>- Délai de fabrication : 3 à 5 semaines selon le modèle.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        },
+        "image_card_WXwc7a": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/Personalization-gif_08037b4d-8236-4cfa-9398-a45a29856f95.gif",
+            "image_position": "left",
+            "block_title": "Vos créations personnalisées",
+            "block_content": "<p>La personnalisation fait partie de l’héritage de la Maison. </p><p>De la création d’un chausson de danse plus confortable pour Roland Petit, le fils de Rose Repetto, à la confection d’une ballerine citadine pour Brigitte Bardot, notre volonté d'interpréter les envies d’exception s’exprime à travers l’Atelier Repetto.</p>",
+            "url": "",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_DxiTVc",
+        "image_card_a6cPje",
+        "image_card_WXwc7a"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "spacer_dC93DX": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "hero_n8J4rW",
+    "main",
+    "image_with_text_Vkk3V3",
+    "image_content_card_84eExG",
+    "64c8b707-044d-460c-a67f-91aa88842e5e",
+    "custom_text_with_image_tp4dEJ",
+    "gallery_4HFiGV",
+    "image_content_card_HC3aCU",
+    "ad755abf-e4ed-40e2-aee4-1a528f4fdb09",
+    "rich_text_k7VUbw",
+    "aa4818e6-06dc-46dc-a7e5-1266ba93d064",
+    "image_list_KjUbgc",
+    "gallery_ENCrVQ",
+    "gallery_WtENMt",
+    "spacer_HCAkVE",
+    "image_content_card_wCrY8t",
+    "spacer_dC93DX"
+  ]
+}

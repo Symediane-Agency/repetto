@@ -1,0 +1,99 @@
+{{ 'login-register.css' | asset_url | stylesheet_tag }}
+
+{% assign recover_success = false %}
+
+<div class="row">
+	<div class="small-12 columns">
+    <div class="thb-form-container">
+				<div class="thb-login-form" id="recover">
+					<h4>{{ 'customer.recover_password.title' | t }}</h4>
+					<p>{{ 'customer.recover_password.subtext' | t }}</p>
+					{%- form 'recover_customer_password' -%}
+						{% assign recover_success = form.posted_successfully? %}
+
+						{%- if form.errors -%}
+							<div class="form-notification error" id="RecoverEmail-email-error">
+			          {% render 'svg-icons' with 'thb-error' %} {{ form.errors.messages['form'] }}
+			        </div>
+			      {%- endif -%}
+			      <div class="field">
+			        <input type="email"
+						{% if customer and customer.email %}
+							value="{{ customer.email }}"
+						{% else %}
+							value=""
+						{% endif %}
+			          name="email"
+			          id="RecoverEmail"
+			          autocorrect="off"
+			          autocapitalize="off"
+			          autocomplete="email"
+								placeholder="{{ 'customer.login_page.email' | t | escape }}"
+			          {% if form.errors %}
+			            aria-invalid="true"
+			            aria-describedby="RecoverEmail-email-error"
+			            autofocus
+			          {% endif %}
+								class="full"
+			          placeholder="{{ 'customer.login_page.email' | t }}"
+			        >
+			        <label for="RecoverEmail">
+			          {{ 'customer.login_page.email' | t }}
+			        </label>
+			      </div>
+			      <button type="submit" class="button full"><span>{{ 'customer.login_page.submit' | t | escape }}</span></button>
+						<div class="switch-login-section">
+				      <a href="#login" class="text-button">
+				        {{ 'customer.login_page.cancel' | t }}
+				      </a>
+						</div>
+			    {%- endform -%}
+				</div>
+        <div class="thb-login-form" id="login">
+			{%- if recover_success == true -%}
+				<svg aria-hidden="true" focusable="false" viewBox="0 0 13 13" style="width: 50px;height: 50px;margin-left: auto;margin-right: auto;margin-bottom: 15px;display:block;">
+					<path d="M6.5 12.35C9.73087 12.35 12.35 9.73086 12.35 6.5C12.35 3.26913 9.73087 0.65 6.5 0.65C3.26913 0.65 0.65 3.26913 0.65 6.5C0.65 9.73086 3.26913 12.35 6.5 12.35Z" fill="#428445" stroke="white" stroke-width="0.7"/>
+					<path d="M5.53271 8.66357L9.25213 4.68197" stroke="white"/>
+					<path d="M4.10645 6.7688L6.13766 8.62553" stroke="white">
+				</svg>
+				<h5 class="form__message" tabindex="-1"  style="text-align:center;">
+				  {{ 'customer.recover_password.success' | t }}
+				</h5>
+			  {%- endif -%}
+
+          {% form 'customer_login', novalidate: 'novalidate' %}
+						<h4>{{ 'customer.login_page.login' | t }}</h4>
+						<p>{{ 'customer.login_page.login_description' | t }}</p>
+						{% if form.errors %}
+						<div class="form-notification error">
+							{% render 'svg-icons' with 'thb-error' %} {{ form.errors | default_errors }}
+						</div>
+						{% endif %}
+            <div class="field">
+              <input type="email" name="customer[email]" class="full {% if form.errors contains 'form' %}invalid{% endif %}" value=""
+								autocomplete="email"
+								autocorrect="off"
+								autocapitalize="off"
+								placeholder="{{ 'customer.login_page.email' | t }}"
+							 />
+							 <label for="customer_email">{{ 'customer.login_page.email' | t }}</label>
+            </div>
+            <div class="field">
+							<input type="password" name="customer[password]" class="full {% if form.errors contains 'form' %}invalid{% endif %}" value="" placeholder="{{ 'customer.login_page.password' | t }}" />
+              <label for="customer_password">{{ 'customer.login_page.password' | t }}</label>
+            </div>
+            <div class="field">
+              <button type="submit" class="button full"><span>{{ 'customer.login_page.sign_in' | t }}</span></button>
+            </div>
+						<div class="switch-login-section">
+							{{ 'customer.login_page.dont_have_an_account' | t }} <a href="{{ routes.account_register_url }}" class="text-button register-drawer-toggle">{{ 'customer.login_page.create_account' | t }}</a>
+							<div>
+								<a href="#recover" class="text-button">{{ 'customer.login_page.forgot_password' | t }}</a>
+							</div>
+						</div>
+          {% endform %}
+
+        </div>
+      </div>
+  </div>
+</div>

@@ -1,0 +1,87 @@
+{% liquid
+  assign back_img = section.settings.back_img
+  assign video_hosted = section.settings.video_hosted
+  assign sub_title = section.settings.sub_title
+  assign main_title = section.settings.main_title
+  assign desc = section.settings.desc
+  assign link_href = section.settings.link_href
+  assign link_text = section.settings.link_text
+%}
+
+{{ 'custom-content-with-bg.css' | asset_url | stylesheet_tag }}
+{% if video_hosted != blank or back_img != blank  %}
+  <div class="row custom-content-with-bg">
+    <div class="all-wrap">
+      {% if video_hosted != blank %}
+        {{ video_hosted | video_tag: autoplay: true, loop: true, controls: false, muted: true, class: 'bg-video' }}
+      {% elsif back_img != blank %}
+        {% assign master_width = back_img.src.width | append: 'x' | append: back_img.src.height %}
+        <div class="bg-wrap">
+          {% render 'responsive-image', image: back_img, sizes: master_width, class: 'bg-img' %}
+        </div>
+      {% endif %}
+      {% if sub_title != blank or main_title != blank or desc != blank or link_href != blank or link_text != blank %}
+        <div class="content">
+          <div class="sub-title">{{ sub_title }}</div>
+          <div class="main-title">{{ main_title }}</div>
+          <div class="desc">{{ desc }}</div>
+          {% if link_href != blank and link_text != blank %}
+            <a
+              class="text-link"
+              href="{{link_href }}"
+              title="{{ link_text | escape }}">
+              <span>{{ link_text }}</span>
+              {% render 'svg-icons' with 'custom-right-icon' %}</button>
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Custom content with bg",
+    "settings": [
+      {
+        "id": "back_img",
+        "type": "image_picker",
+        "label": "image picker"
+      },
+      {
+        "id": "video_hosted",
+        "type": "video",
+        "label": "backgrond video"
+      },
+      {
+        "id": "sub_title",
+        "type": "text",
+        "label": "sub title"
+      },
+      {
+        "id": "main_title",
+        "type": "text",
+        "label": "main title"
+      },
+      {
+        "id": "desc",
+        "type": "text",
+        "label": "desc"
+      }, {
+        "id": "link_text",
+        "type": "text",
+        "label": "link text"
+      }, {
+        "id": "link_href",
+        "type": "url",
+        "label": "link href"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom content with bg"
+      }
+    ]
+  }
+{% endschema %}

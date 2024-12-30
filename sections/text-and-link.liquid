@@ -1,0 +1,33 @@
+{{ 'text-and-link.css' | asset_url | stylesheet_tag }}
+<div class="row text-and-link">
+  {{ section.settings.content }}
+  <a href="{{section.settings.url_link}}" title="{{ section.settings.url_link }}">{{ section.settings.url_label }}</a>
+</div>
+
+{% schema %}
+{
+  "name": "Text and link",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content"
+    },
+    {
+      "type": "text",
+      "id": "url_label",
+      "label": "Url label"
+    },
+    {
+      "type": "url",
+      "id": "url_link",
+      "label": "Url link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text and link"
+    }
+  ]
+}
+{% endschema %}

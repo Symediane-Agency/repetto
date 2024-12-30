@@ -1,0 +1,125 @@
+{
+  "sections": {
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "contact-blocks": {
+      "type": "contact-blocks",
+      "settings": {
+        "faq_enabled": true,
+        "whatsapp_enabled": true,
+        "storelocator_enabled": true,
+        "form_enabled": true
+      }
+    },
+    "spacer-1": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "contact-texts": {
+      "type": "contact-texts",
+      "settings": {
+        "headquarter_content": "<p>REPETTO<br\/>30, avenue de Messine<br\/>75008 Paris<br\/><br\/>Tél. : +33 (0) 1 44 71 83 00<br\/><br\/>E-mail professionnel : <a href=\"mailto:contact@repetto.com\" title=\"mailto:contact@repetto.com\">contact@repetto.com<\/a><br\/>E-mail consommateur : <a href=\"mailto:service.client@repetto.fr\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com<\/a><\/p>",
+        "sales_department_content": "<p>Tél. : + 33 (0) 1 44 71 83 10<br\/>E-mail :<a href=\"mailto:adv@repetto.com\" title=\"mailto:adv@repetto.com\"> adv@repetto.com<\/a><br\/>Devenir revendeur ? <a href=\"\/pages\/wholesale\" title=\"Wholesale\">C’est par ici<\/a><\/p>",
+        "press_content": "<p>Pour toute demande presse, nous vous invitons à contacter le service client, en adressant un e-mail à : <a href=\"mailto:service.client@repetto.com\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com<\/a><br\/>Découvrez l’espace presse : <a href=\"\/pages\/relation-presse\" title=\"Relation presse\">c’est par ici<\/a><\/p>",
+        "recruitment_content": "<p>Retrouvez nos dernière offres d’emploi ici<\/p>",
+        "recruitment_link": "\/pages\/recrutement",
+        "recruitment_link_text": "Carrière"
+      }
+    },
+    "spacer-2": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 80,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "custom-banner": {
+      "type": "custom-banner",
+      "blocks": {
+        "a1df6010-432e-470d-892b-78f3a8574ba0": {
+          "type": "heading",
+          "settings": {
+            "text": "Nous trouver",
+            "heading_size": "h1"
+          }
+        },
+        "1a34cdb1-addf-4498-85b4-50428529c6de": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vivez l’expérience en boutique<\/p>"
+          }
+        },
+        "ef5260fb-80e0-40e5-bd18-837fd7b1fb33": {
+          "type": "button",
+          "settings": {
+            "button_text": "Points de vente",
+            "button_link": "shopify:\/\/pages\/trouver-un-revendeur",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "a1df6010-432e-470d-892b-78f3a8574ba0",
+        "1a34cdb1-addf-4498-85b4-50428529c6de",
+        "ef5260fb-80e0-40e5-bd18-837fd7b1fb33"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify:\/\/shop_images\/Rectangle_133_375x110_crop_center_f59dff0f-75fc-429d-ba88-8404c2a084bc.webp",
+        "image_height": "adapt",
+        "image_width": "full",
+        "frame_border": false,
+        "content_position": "text-center",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7",
+    "main",
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631",
+    "contact-blocks",
+    "spacer-1",
+    "contact-texts",
+    "spacer-2",
+    "custom-banner"
+  ]
+}

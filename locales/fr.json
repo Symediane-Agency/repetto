@@ -1,0 +1,755 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "general": {
+    "continue_shopping": "Continuer vos achats",
+    "close": "Fermer",
+    "cart_drawer": {
+      "title": "Mon panier",
+      "view_cart": "Voir le panier",
+      "checkout": "Procéder au paiement",
+      "cart_empty": "Votre panier est actuellement vide.",
+      "start_shopping": "Commencer vos achats",
+      "you_may_also_like": "Vous pourriez aimer",
+      "add_order_note": "Ajouter une note",
+      "save": "Sauvegarder",
+      "size": "taille",
+      "free_shipping": {
+        "spend_more_for_free_shipping_html": "Dépensez <span>{{ amount }}</span> de plus pour la livraison GRATUITE.",
+        "free_shipping_applied_at_checkout": "La livraison GRATUITE sera appliquée à la caisse"
+      }
+    },
+    "meta": {
+      "page": "Page",
+      "tags": "Étiquette"
+    }
+  },
+  "newsletter": {
+    "label": "E-mail",
+    "success": "Merci de votre inscription"
+  },
+  "social": {
+    "links": {
+      "twitter": "Twitter",
+      "facebook": "Facebook",
+      "pinterest": "Pinterest",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "vimeo": "Vimeo",
+      "tiktok": "TikTok",
+      "linkedin": "Linkedin",
+      "wechat": "WeChat"
+    }
+  },
+  "search": {
+    "heading": "Résultats de la recherche",
+    "no_results": "Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
+    "results_found": {
+      "one": "{{ count }} résultat trouvé pour “{{ key }}”",
+      "other": "{{ count }} résultats trouvés pour “{{ key }}”",
+      "many": "{{ count }} résultats trouvés pour “{{ key }}”"
+    },
+    "results_with_count": {
+      "one": "{{ count }} résultat",
+      "other": "{{ count }} résultats",
+      "many": "{{ count }} résultats"
+    },
+    "replacement_title": "Découvrez nos iconiques"
+  },
+  "accessibility": {
+    "skip_to_text": "Ignorer et passer au contenu",
+    "close": "Fermer",
+    "unit_price_separator": "par",
+    "link_messages": {
+      "new_window": "S'ouvre dans une nouvelle fenêtre."
+    }
+  },
+  "blogs": {
+    "blog": {
+      "all": "Toute"
+    },
+    "article": {
+      "read_more": "Lire la suite",
+      "tags": "Etiquette:",
+      "comments_html": {
+        "one": "<span>{{ count }} commentaire sur</span> {{ title }}",
+        "other": "<span>{{ count }} commentaires sur</span> {{ title }}"
+      },
+      "moderated": "Veuillez noter que les commentaires doivent être approuvés avant d'être publiés.",
+      "comment_form_title": "Laisser un commentaire",
+      "comment_form_note": "Votre adresse email ne sera pas publiée.",
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Commentaire",
+      "post": "Publier le commentaire",
+      "success": "Votre commentaire a bien été publié ! Merci !",
+      "success_moderated": "Votre commentaire a bien été publié. Nous le publierons sous peu, conformément au processus de modération de notre blog.",
+      "share_this_article": "Partagez cet article",
+      "previous_article": "Article précédent",
+      "next_article": "Article suivant"
+    }
+  },
+  "onboarding": {
+    "product_vendor": "Fournisseur de produits",
+    "product_title": "Titre du produit",
+    "collection_title": "Le nom de votre collection"
+  },
+  "products": {
+    "product": {
+      "gift_card_title": "Un Cadeau Unique",
+      "gift_card_text": "Lorsque vous choisissez une e-carte cadeau Repetto, elle devient votre UNIQUE service dans votre commande. Si vous souhaitez ajouter d'autres créations, une nouvelle commande est alors de rigueur.",
+      "cant_order_product": "Le produit ne peut être ajouté, vous avez déjà une carte cadeau dans votre panier.",
+      "cant_order_gift_card": "Une carte cadeau ne peut être commandée avec d’autres produits au panier.",
+      "quick_view": "Aperçu rapide",
+      "out_of_stock": "Rupture",
+      "soon_available": "Bientôt disponible",
+      "on_sale": "Vente",
+      "new": "NOUVEAUTÉS",
+      "product_variants": "Variantes de produits",
+      "product_information": "Information produit",
+      "add_to_cart": "Ajouter au panier",
+      "size_title": "Sélectionnez votre taille",
+      "size_tip": "Prenez votre pointure habituelle",
+      "choose_options": "Choisissez les options",
+      "sold_out": "Rupture",
+      "save_html": "Épargnez {{ saved_amount }}",
+      "unavailable": "Non disponible",
+      "color_selection": {
+        "title": "Choix de la couleur"
+      },
+      "price": {
+        "from_price_html": "Du {{ price }}",
+        "regular_price": "Prix habituel",
+        "sale_price": "Prix soldé",
+        "unit_price": "Prix unitaire"
+      },
+      "include_taxes": "Taxes incluses.",
+      "reviews": {
+        "one": "{{ count }} avis",
+        "other": "{{ count }} avis"
+      },
+      "available": {
+        "one": "+ {{ count }} couleur",
+        "other": "+ {{ count }} couleurs"
+      },
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition</a> calculés à l'étape de paiement.",
+      "quantity": {
+        "label": "Quantité",
+        "input_label": "Quantité pour {{ product }}",
+        "increase": "Augmenter la quantité de {{ product }}",
+        "decrease": "Réduire la quantité de {{ product }}"
+      },
+      "inventory": {
+        "only_x_left": "{{ quantity }} en stock",
+        "x_units_available": "{{ quantity }} exemplaires disponibles",
+        "low_stock": "Stock limité",
+        "in_stock": "En stock"
+      },
+      "pickup_availability": {
+        "heading": "Disponibilité de Click & Collect",
+        "view_store_info": "Afficher les informations de la boutique",
+        "check_other_stores": "Vérifier la disponibilité dans d'autres boutiques",
+        "pick_up_available": "Service de retrait disponible",
+        "pick_up_available_at_html": "Service de retrait disponible à <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Service de retrait non disponible actuellement à <span class=\"color-foreground\">{{ location_name }}</span>",
+        "unavailable": "Impossible de charger la disponibilité du service de retrait",
+        "refresh": "Actualiser"
+      },
+      "view_product_details": "Voir les détails du produit",
+      "product_drawer": {
+        "select_options": "Sélectionnez les options"
+      },
+      "xr_button": "Afficher dans son espace",
+      "xr_button_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée"
+    },
+    "facets": {
+      "apply": "Appliquer",
+      "clear": "Effacer",
+      "clear_all": "Tout supprimer",
+      "from": "De",
+      "filter_and_sort": "Filtrer et trier",
+      "filter_by_label": "Filtre :",
+      "filter_button": "Filtrer",
+      "filters_selected": {
+        "one": "{{ count }} sélectionné",
+        "other": "{{ count }} sélectionnés",
+        "many": "{{ count }} sélectionnés"
+      },
+      "max_price": "Le prix le plus élevé est de {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} produit sur {{ count }}",
+        "other": "{{ product_count }} produits sur {{ count }}",
+        "many": "{{ product_count }} produits sur {{ count }}"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} RÉSULTATS",
+        "other": "{{ count }} RÉSULTATS",
+        "many": "{{ count }} RÉSULTATS"
+      },
+      "reset": "Réinitialiser",
+      "sort_button": "Trier",
+      "sort_by_label": "Trier par :",
+      "to": "À",
+      "clear_filter": "Supprimer le filtre"
+    }
+  },
+  "sections": {
+    "header": {
+      "search": "Recherche",
+      "search_for": "Que recherchez-vous ?",
+      "popular_searches": "RECHERCHES POPULAIRESS",
+      "my_account": "Mon compte",
+      "login": "Connexion",
+      "cart": "Panier",
+      "products": "Des produits",
+      "articles": "Des articles",
+      "suggestions": "Suggestions",
+      "view_all_results": "Voir tous les résultats"
+    },
+    "breadcrumbs": {
+      "home": "Maison",
+      "shop": "Boutique",
+      "cart": "Panier",
+      "search": "Recherche",
+      "my_account": "Mon compte"
+    },
+    "404": {
+      "not_found": "Page non trouvée",
+      "not_found_description": "La page que vous recherchez n'existe pas. Vous avez peut-être mal tapé l'adresse ou la page a peut-être été déplacée.",
+      "continue_shopping": "Continuer vos achats"
+    },
+    "cart": {
+      "continue_shopping": "Continuer vos achats",
+      "title": "Votre panier",
+      "order_summary": "Récapitulatif de la commande",
+      "add_notes": "Ajouter des remarques",
+      "subtotal": "Sous-total",
+      "note": "Instructions spéciales concernant la commande",
+      "checkout": "Procéder au paiement",
+      "ready": "Prêt à trouver vos nouveaux produits préférés ?",
+      "empty": "Votre panier est vide",
+      "cart_error": "Une erreur est survenue lors de l’actualisation de votre panier. Veuillez réessayer.",
+      "cart_quantity_error_html": "Vous ne pouvez pas ajouter plus de {{ quantity }} de ce produit à votre panier.",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d'expédition</a> calculés lors du paiement",
+      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais d'expédition calculés lors du paiement",
+      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais d'expédition</a> calculés à l'étape de paiement.",
+      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés lors du paiement",
+      "headings": {
+        "product": "Produit",
+        "price": "Prix",
+        "total": "Total",
+        "quantity": "Quantité"
+      },
+      "terms": "J'accepte les termes et conditions",
+      "terms_html": "J'accepte les <a href='{{ url }}' target='_blank'>termes et conditions</a>",
+      "terms_confirm": "Vous devez accepter les conditions générales de vente pour valider"
+    },
+    "collection_template": {
+      "empty": "Aucun produit trouvé",
+      "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout supprimer</a>",
+      "load_more": "Afficher plus de produits"
+    },
+    "signup": {
+      "enter_your_email": "Votre adresse email"
+    },
+    "countdown_banner": {
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes",
+      "seconds": "Secondes"
+    },
+    "password": {
+      "login_using": "Entrez en utilisant le mot de passe",
+      "opening_soon": "Ouverture prochaine",
+      "enter_using": "Entrez dans le magasin en utilisant le mot de passe:",
+      "are_you_the_store_owner": "Êtes-vous le propriétaire du magasin ?",
+      "login_here": "Connectez-vous ici",
+      "cancel": "Annuler"
+    },
+    "featured_collection": {
+      "shop_collection": "Shop {{ collection }}"
+    },
+    "featured_blog": {
+      "view_all": "Tout afficher",
+      "onboarding_title": "Article de blog",
+      "onboarding_content": "Donnez à vos clients un résumé de votre article de blog"
+    },
+    "shop_the_look": {
+      "view_product": "Voir le produit"
+    },
+    "ceremony_form": {
+      "male": "M",
+      "female": "Mme",
+      "first_name": "Votre prénom*",
+      "last_name": "Votre nom*",
+      "email": "Votre email*",
+      "country": "Votre pays*",
+      "phone": "Votre téléphone*",
+      "store": "Choix de la boutique*",
+      "date": "Date souhaitée*",
+      "hour": "Heure souhaitée*",
+      "required": "* Champs obligatoires",
+      "submit": "Envoyer"
+    },
+    "jobapply_form": {
+      "title": "Postuler",
+      "lastname": "Nom",
+      "firstname": "Prénom",
+      "phone": "Téléphone",
+      "email": "Adresse e-mail",
+      "file_title": "CV",
+      "download_file": "télécharger le fichier",
+      "file_type": "Fichier pris en charge : PDF, DOC (2Mo)",
+      "file2_title": "AUTRES PIÈCES JOINTES",
+      "download_file2": "télécharger le fichier",
+      "file2_type": "Fichier pris en charge : PDF, DOC (2Mo)",
+      "send": "ENVOYER"
+    },
+    "contact": {
+      "form": {
+        "name": "Nom",
+        "email": "E-mail",
+        "phone": "Numéro de téléphone",
+        "comment": "Commentaire",
+        "send": "Envoyer",
+        "post_success": "Merci de nous avoir contactés. Nous vous répondrons dès que possible.",
+        "error_heading": "Veuillez ajuster les éléments suivants:",
+        "subject": {
+          "placeholder": "Sujet",
+          "values": {
+            "subject1": "Suivi de commande",
+            "subject2": "Retour et remboursement",
+            "subject3": "Autre"
+          }
+        },
+        "lastname": "Nom",
+        "firstname": "Prénom",
+        "order": "Numéro de commande",
+        "theme": {
+          "placeholder": "Pays",
+          "values": {
+            "theme1": "Thématique 1",
+            "theme2": "Thématique 2",
+            "theme3": "Thématique 3"
+          }
+        }
+      },
+      "map": {
+        "location": "Emplacement {{ index }}"
+      }
+    }
+  },
+  "localization": {
+    "country_label": "Pays/région",
+    "language_label": "Langue",
+    "update_language": "Mettre à jour la langue",
+    "update_country": "Mettre à jour le pays/la région"
+  },
+  "customer": {
+    "signup_page": {
+      "accepts_marketing": "Découvrez et recevez nos actualités, notre histoire pour une expérience sans couture",
+      "are_you_a_dancer": "Êtes-vous danseur·euse ?",
+      "no": "NO",
+      "amateur_dancer": "Danseur·euse amatrice (loisir)",
+      "student_dancer": "Danseur·euse élève",
+      "pro_dancer": "Danseur·euse professionnelle",
+      "dance_teacher": "Professeur de danse"
+    },
+    "login_page": {
+      "login": "Connexion",
+      "login_description": "Si vous avez un compte chez nous, veuillez vous connecter.",
+      "create_account": "Créer un compte",
+      "create_account_description": "Entrez vos informations ci-dessous pour continuer. Si vous avez déjà un compte, veuillez vous connecter à la place.",
+      "email": "Adresse e-mail",
+      "birthdate": "Date de naissance",
+      "forgot_password": "Mot de passe oublié?",
+      "dont_have_an_account": "Vous n'avez pas de compte ?",
+      "password": "Mot de passe",
+      "title": "Connexion",
+      "sign_in": "S'identifier",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "submit_register": "Créer un compte",
+      "already_have_an_account": "Vous avez déjà un compte?",
+      "submit": "Envoyer",
+      "cancel": "Annuler"
+    },
+    "recover_password": {
+      "title": "Réinitialiser son mot de passe",
+      "subtext": "Nous vous ferons parvenir un e-mail pour réinitialiser votre mot de passe",
+      "success": "Nous vous avons envoyé un e-mail contenant un lien pour mettre à jour votre mot de passe."
+    },
+    "reset_password": {
+      "title": "Réinitialiser le mot de passe du compte",
+      "subtext": "Saisir un nouveau mot de passe pour {{ email }}",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmer le mot de passe",
+      "submit": "Réinitialiser le mot de passe"
+    },
+    "account": {
+      "shipping_address": "Adresse de livraison",
+      "title": "Compte",
+      "details": "Détails du compte",
+      "view_addresses": "Voir les adresses",
+      "default_address": "Adresse par défaut",
+      "log_out": "Se déconnecter",
+      "return_to_account_details": "Retour aux détails du compte",
+      "welcome": "Bienvenue",
+      "contact": {
+        "title": "Besoin d'aide ?",
+        "text": "Contactez-nous par mail"
+      },
+      "orders": {
+        "title": "Mes commandes",
+        "text": "Consulter vos commandes"
+      },
+      "menu": {
+        "account": "Mon compte",
+        "information": "Mes informations",
+        "orders": "Mes commandes",
+        "addresses": "Mes adresses",
+        "refund": "Retours et remboursements",
+        "logout": "Déconnexion"
+      },
+      "refund": {
+        "main_text": "Pour toutes les commandes passées avant le 28 Février, rendez-vous ici, sinon votre retour ne pourra pas être traité.",
+        "link_text": "ici",
+        "end_text": ", sinon votre retour ne pourra pas être traité."
+      }
+    },
+    "order": {
+      "title": "Commande {{ name }}",
+      "date_html": "Passée le {{ date }}",
+      "cancelled_html": "Commande annulée le {{ date }}",
+      "cancelled_reason": "Motif : {{ reason }}",
+      "billing_address": "Adresse de facturation",
+      "payment_status": "Statut de paiement",
+      "shipping_address": "Adresse d'expédition",
+      "fulfillment_status": "Statut des commandes",
+      "discount": "Réduction",
+      "shipping": "Expédition",
+      "tax": "Taxes",
+      "product": "Produit",
+      "sku": "SKU",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "total": "Total",
+      "fulfilled_at_html": "Traitée le {{ date }}",
+      "track_shipment": "Suivre l'envoi",
+      "tracking_url": "Lien de suivi",
+      "tracking_company": "Transporteur",
+      "tracking_number": "Numéro de suivi",
+      "subtotal": "Sous-total",
+      "return_request": "Demande de retour"
+    },
+    "orders": {
+      "title": "Historique des commandes",
+      "order_number": "Commande",
+      "order_number_link": "Numéro de commande {{ number }}",
+      "date": "Date",
+      "payment_status": "Statut des paiements",
+      "fulfillment_status": "Statut des commandes",
+      "total": "Total",
+      "none": "Vous n'avez encore passé aucune commande.",
+      "actions": "Opération",
+      "tracking": "Détails de la commande"
+    },
+    "activate_account": {
+      "title": "Activer le compte",
+      "subtext": "Créez votre mot de passe pour activer le compte.",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmer le mot de passe",
+      "submit": "Activer le compte",
+      "cancel": "Décliner l'invitation"
+    },
+    "addresses": {
+      "title": "Adresses",
+      "default": "Par défaut",
+      "add_new": "Ajouter une nouvelle adresse",
+      "edit_address": "Modifier l'adresse",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "company": "Entreprise",
+      "address1": "Adresse 1",
+      "address2": "Adresse 2",
+      "city": "Ville",
+      "country": "Pays/région",
+      "province": "Province",
+      "zip": "Code postal",
+      "phone": "Téléphone",
+      "set_default": "Définir comme adresse par défaut",
+      "add": "Ajouter l'adresse",
+      "update": "Mettre à jour l'adresse",
+      "cancel": "Annuler",
+      "edit": "Modifier",
+      "delete": "Supprimer",
+      "delete_confirm": "Êtes-vous certain(e) de vouloir supprimer cette adresse ?"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Voici votre carte-cadeau {{ shop }} d'une valeur de {{ value }} !",
+      "subtext": "Votre carte-cadeau",
+      "gift_card_code": "Code de la carte-cadeau",
+      "shop_link": "Continuer les achats",
+      "remaining_html": "Reste {{ balance }}",
+      "add_to_apple_wallet": "Ajouter à Apple Wallet",
+      "qr_image_alt": "Code QR : scannez-le pour utiliser votre carte-cadeau",
+      "copy_code": "Copier le code",
+      "expired": "Expiré",
+      "copy_code_success": "Le code a bien été copié",
+      "print_gift_card": "Imprimer"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Je veux envoyer ce produit comme cadeau",
+      "email_label": "E‑mail du destinataire",
+      "email_label_optional": "E‑mail du destinataire (facultatif)",
+      "email": "E‑mail",
+      "name_label": "Nom du destinataire (facultatif)",
+      "name": "Nom",
+      "message_label": "Message (facultatif)",
+      "message": "Message",
+      "max_characters": "{{ max_chars }} caractères au maximum"
+    }
+  },
+  "plp": {
+    "header_filter": {
+      "all": "Toutes les ballerines",
+      "models": "Tous les modèles"
+    }
+  },
+  "job": {
+    "list": {
+      "button": "VOIR PLUS D’OFFRES"
+    }
+  },
+  "custom": {
+    "help": {
+      "question": "Une question ?",
+      "find": "Découvrir",
+      "tel": "Tél",
+      "viewAll": "Tout voir",
+      "subscribing": "Recevez notre newsletter et découvrez nos histoires",
+      "edit": "Modifier les informations personnelles"
+    },
+    "pdp": {
+      "question": "Une question ?",
+      "contact": " Contactez-nous",
+      "FreeShipping": "Livraison offerte dès 100€ - retours facilités",
+      "color": "Sélectionnez une couleur",
+      "color_count": "couleur",
+      "colors_count": "couleurs",
+      "size": "Guide des tailles",
+      "type": {
+        "fit_clothe": "Taille",
+        "fit_shoe": "Chaussant",
+        "true": "normal",
+        "small": "petit",
+        "large": "grand",
+        "special": "spéciale"
+      },
+      "size_guide": {
+        "size_advice": "Prenez une taille",
+        "size_not_available": "Sélectionnez une autre valeur",
+        "select_height": "Sélectionnez votre taille",
+        "select_weight": "Sélectionnez votre poids",
+        "select_size_type": "Choisir votre type de taille",
+        "select_size": "Choisir votre taille",
+        "size_properties": {
+          "repetto": "Repetto",
+          "fr_eu": "FR / EU",
+          "fr_de_eu": "FR / DE / EU",
+          "fr_eu_de": "FR / EU / DE",
+          "foot_length": "Longueur de pied",
+          "inches": "Pouces",
+          "de": "DE",
+          "it": "IT",
+          "uk": "UK",
+          "us": "US",
+          "height": "Stature (cm)",
+          "waist": "Taille (cm)",
+          "chest": "Buste (cm)",
+          "hips": "Hanches (cm)",
+          "inside_leg": "Entrejambes (cm)",
+          "us_man": "Homme US",
+          "us_woman": "Femme US"
+        }
+      },
+      "corresponding_size": "Tableau de correspondance",
+      "verify_size": "Vérifiez votre pointure selon la taille de votre pied et votre pays :"
+    },
+    "cart": {
+      "title": "Mon panier"
+    },
+    "reassurance": {
+      "sizing": {
+        "title": "Avez-vous vérifié le conseil pointure?",
+        "content1": "Toutes nos créations sont confectionnées à la main dans nos ateliers, le chaussant peut alors varier d’un modèle à l’autre.",
+        "content2": "Il peut aussi être différent selon si la semelle est en cuir ou en gomme.",
+        "content3": "Besoin d’un conseil ? Notre équipe est disponible du lundi au vendredi de 10h à 18h (heure française)"
+      },
+      "shipping": {
+        "content": "Livraison en 3 jours ouvrés dans le monde entier - retours facilités",
+        "worldwide_content": "Livraison en 3 jours ouvrés dans le monde entier - retours facilités",
+        "french_content_bold": "LIVRAISON OFFERTE",
+        "french_content": "À PARTIR DE 150€ - RETOURS FACILITÉS"
+      }
+    }
+  },
+  "personal": {
+    "drawer": {
+      "male": "Homme",
+      "female": "Femme",
+      "first_name": "Nom",
+      "last_name": "Nom de famille",
+      "e-mail": "Adresse e-mail",
+      "dancer_profile": "Êtes-vous danseur.euse",
+      "birth": "Date de naissance",
+      "tips_html": "Si vous souhaitez changer votre mot de passe, nous vous invitons à utiliser le <a href='/account/login#recover'>formulaire de réinitialisation de mot de passe</a>",
+      "password": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "confirm": "Confirmer le mot de passe",
+      "required": "Champs obligatoires",
+      "save": "Sauvegarder"
+    }
+  },
+  "store_locator": {
+    "search_placeholder": "Chercher une boutique",
+    "filters": {
+      "all": "Tout Repetto",
+      "life_style": "Chaussures & Mode",
+      "dance": "Danse"
+    },
+    "phone": "Tel",
+    "email": "Email",
+    "schedule": "Horaires",
+    "looking_for_lifestyle": "Chaussures & Activewear",
+    "looking_for_dance": "Collection Danse",
+    "find": "Rechercher"
+  },
+  "contact_us": {
+    "faq": {
+      "title": "FAQ",
+      "text": "                                                                                                                                                                                                                       "
+    },
+    "whatsapp": {
+      "title": "Téléphone",
+      "text": "+33 (0) 1 44 71 83 00 Notre service client est disponible du lundi de 14h à 17h30 et du mardi au vendredi de 9h30 à 12h30 et de 14h à 17h30 (heure française). "
+    },
+    "storelocator": {
+      "title": "Conseils en magasin",
+      "text": "                                                                                                                                                                                                                        "
+    },
+    "form": {
+      "title": "Nous écrire",
+      "placeholder": "Votre message..."
+    },
+    "headquarter": {
+      "title": "Nos bureaux"
+    },
+    "sales_department": {
+      "title": "Département ventes"
+    },
+    "press": {
+      "title": "Presse"
+    },
+    "recruitment": {
+      "title": "Recrutement"
+    },
+    "career": {
+      "button": "Carrière"
+    }
+  },
+  "wholesale": {
+    "reseller": {
+      "title": "Revendeur",
+      "search_placeholder": "Chercher un revendeur"
+    }
+  },
+  "countries": {
+    "list_part1": "Afrique du Sud, Albanie, Algérie, Allemagne, Andorre, Angola, Anguilla, Antigua-et-Barbuda, Arabie saoudite, Argentine, Arménie, Aruba, Australie, Autriche, Azerbaïdjan, Bahamas, Bahreïn, Bangladesh, Barbade, Belgique, Belize, Bénin, Bermudes, Bhoutan, Bolivie, Bosnie-Herzégovine, Botswana, Brésil, Brunei, Bulgarie, Burkina Faso, Burundi",
+    "list_part2": "Cambodge, Cameroun, Canada, Cap-Vert, Chili, Chine, Chypre, Colombie, Comores, Congo-Brazzaville, Corée du Sud, Costa Rica, Côte d’Ivoire, Croatie, Curaçao, Danemark, Djibouti, Dominique",
+    "list_part3": "Égypte, Émirats arabes unis, Équateur, Espagne, Estonie, Eswatini, État de la Cité du Vatican, États-Unis, Éthiopie,Fidji, Finlande, Gabon, Gambie, Géorgie, Ghana, Gibraltar, Grèce, Grenade, Groenland, Guadeloupe, Guatemala, Guernesey, Guinée, Guinée équatoriale, Guinée-Bissau, Guyana, Guyane française, Haïti, Honduras, Hongrie",
+    "list_part4": "Île de Man, Îles Caïmans, Îles Cook, Îles Féroé, Îles Malouines, Îles Salomon, Îles Turques-et-Caïques, Îles Vierges britanniques, Inde, Indonésie, Irlande, Islande, Israël, Italie, Jamaïque, Japon, Jersey, Jordanie, Kazakhstan, Kenya, Kirghizstan, Kiribati, Koweït, La Réunion, Laos, Lesotho, Lettonie, Liban, Liberia, Liechtenstein, Lituanie, Luxembourg",
+    "list_part5": "Macédoine du Nord, Madagascar, Malaisie, Malawi, Maldives, Malte, Maroc, Martinique, Maurice, Mauritanie, Mayotte, Mexique, Moldavie, Mongolie, Monténégro, Montserrat, Mozambique, Namibie, Nauru, Népal, Nicaragua, Nigeria, Niue, Norvège, Nouvelle-Calédonie, Nouvelle-Zélande, Oman, Ouganda, Ouzbékistan, Pakistan, Panama, Papouasie-Nouvelle-Guinée, Paraguay, Pays-Bas, Pérou, Philippines, Pologne, Polynésie française, Portugal",
+    "list_part6": "Qatar, R.A.S. chinoise de Hong Kong, R.A.S. chinoise de Macao, République dominicaine, Roumanie, Royaume-Uni, Rwanda, Saint-Barthélemy, Saint-Christophe-et-Niévès, Saint-Marin, Saint-Martin, Saint-Martin, Saint-Vincent-et-les Grenadines, Sainte-Hélène, Sainte-Lucie, Salvador, Samoa, Sao Tomé-et-Principe, Sénégal, Serbie, Seychelles, Sierra Leone, Slovaquie, Slovénie, Soudan, Sri Lanka, Suède, Suisse, Suriname",
+    "list_part7": "Tanzanie, Tchad, Tchéquie, Thaïlande, Timor oriental, Togo, Tonga, Trinité-et-Tobago, Tunisie, Turkménistan, Turquie, Tuvalu, Uruguay, Vanuatu, Venezuela, Viêt Nam, Wallis-et-Futuna, Zambie, Zimbabwe",
+    "special_countries": "Chine, Japon, Corée du Sud",
+    "china": "Chine",
+    "south_korea": "Corée du Sud",
+    "japan": "Japon",
+    "bolivia": "Bolivie",
+    "brunei": "Brunei"
+  },
+  "shopify": {
+    "collections": {
+      "sorting": {
+        "manual": "Trier"
+      }
+    },
+    "checkout": {
+      "delivery_options": {
+        "pick_up_in_two_hours": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_in_four_hours": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_in_one_hour": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_in_twenty_four_hours": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_in_two_to_four_days": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_in_five_or_more_days": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_immediately": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_next_day": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_in_zero_to_two_hours": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_in_two_to_four_hours": "livraison en 2 à 3 jours ouvrés",
+        "pick_up_from_store": "Retrait en boutique - livraison 2 à 3 jours ouvrés",
+        "ship": "Livraison à domicile ou point relais - livraison 2 à 3 jours ouvrés",
+        "free_total_label": "Offert"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "{{ count }} boutiques",
+          "other": "{{ count }} boutiques",
+          "many": "{{ count }} boutiques"
+        }
+      },
+      "shipping": {
+        "free_rate_label": "Offert"
+      },
+      "order_summary": {
+        "free_total_label": "Offert",
+        "free_shipping_total_label": "Offert"
+      },
+      "payment_summary": {
+        "free_label": "Offert"
+      }
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "livraison en 2 à 3 jours ouvrés",
+        "two_hours": "livraison en 2 à 3 jours ouvrés",
+        "four_hours": "livraison en 2 à 3 jours ouvrés",
+        "twenty_four_hours": "livraison en 2 à 3 jours ouvrés",
+        "two_to_four_days": "livraison en 2 à 3 jours ouvrés",
+        "five_or_more_days": "livraison en 2 à 3 jours ouvrés",
+        "zero_to_two_hours": "livraison en 2 à 3 jours ouvrés",
+        "two_to_four_hours": "livraison en 2 à 3 jours ouvrés",
+        "immediately": "livraison en 2 à 3 jours ouvrés",
+        "next_day": "livraison en 2 à 3 jours ouvrés"
+      }
+    }
+  },
+  "customer_accounts": {
+    "order_details": {
+      "shipping": {
+        "free": "Offert"
+      }
+    }
+  }
+}

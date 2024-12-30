@@ -1,0 +1,130 @@
+.content-image {
+  padding: 0;
+}
+
+.content-image .small-12 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-image .small-12 .content-item {
+  flex-shrink: 0;
+  width: 50%;
+  display: flex;
+  margin-bottom: 42px;
+}
+
+.content-image .small-12 .content-item p {
+  color: #000;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.content-image .small-12 .content-item .text-box {
+  width: 100%;
+  padding: 30px;
+}
+
+.content-image .small-12 .content-item .text-box .title {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.content-image .small-12 .content-item .text-box .content p {
+  color: #7b7678;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content-image .small-12 .full-width.content-item .text-box{
+  padding: 30px 30px 30px 42px;
+}
+
+.content-image .small-12 .full-width.reverse.content-item .text-box{
+  padding: 30px 42px 30px 30px;
+}
+
+.content-image .small-12 .full-width {
+  width: 100%;
+  flex-direction: row;
+}
+
+.content-image .small-12 .full-width.reverse {
+  flex-direction: row-reverse;
+}
+
+.content-image .small-12 .full-width .img-box {
+  width: 50%;
+}
+
+.content-image .small-12 .full-width .img-box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.content-image .small-12 .full-width .text-box {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .content-image {
+    padding: 0 16px;
+  }
+  .content-image .small-12 {
+    flex-direction: column;
+  }
+  .content-image .small-12 .content-item {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .content-image .small-12 .content-item .img-box {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .content-image .small-12 .content-item .img-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .content-image .small-12 .content-item .text-box {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .content-image .small-12 .full-width {
+    flex-wrap: wrap;
+  }
+  .content-image .small-12 .full-width .img-box {
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .content-image .small-12 .full-width .img-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .content-image .small-12 .full-width .text-box {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .content-image .small-12 .full-width.reverse {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1520px) {
+  .content-image {
+    padding: 0 60px;
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "disabled": true,
+      "settings": {
+        "hero_image": "shopify:\/\/shop_images\/REPETTO_4456.png",
+        "hero_title": "BORN TO DANCE",
+        "hero_content": "<p>C’est en suivant les conseils de son fils Roland Petit que Rose Repetto créa sa première paire de <a href=\"https:\/\/repetto.com\/collections\/catalogue-danse\" title=\"Danse - FEMME\">chaussons de danse <\/a>et ouvra son premier atelier à deux pas de l’Opéra National de Paris. Depuis, Repetto n’a de cesse de proposer des produits innovants au service des danseurs, des étudiants aux plus belles étoiles.<\/p>"
+      }
+    },
+    "1f7fb399-531e-4bc3-9b4f-a8861e1f5cb0": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 90,
+        "border_separator": false,
+        "border_separator_full": true
+      }
+    },
+    "context_with_media_AaciQ7": {
+      "type": "context-with-media",
+      "settings": {
+        "video_autoplay": true,
+        "video_to_image": true,
+        "image_cover": "shopify:\/\/shop_images\/POINTES.jpg",
+        "content_image": "shopify:\/\/shop_images\/logo_rep_dance.jpg",
+        "image_position": "right",
+        "content_title": "",
+        "content_subtitle": "un évènement exceptionnel",
+        "content_richtext": "<p>À l'occasion de la Journée Internationale de la Danse,  Repetto met à l’honneur la danse classique en offrant, sur cette journée, des cours à tous les danseurs amateurs, semi-professionnels et  professionnels. Cet événement unique se déroulera le dimanche 28 avril, de 9h30 à 18h00 au Studio 16, 66 rue Nicolo 75016 Paris, offrant une opportunité inestimable de perfectionnement et d'inspiration pour les passionnés de danse.<\/p>"
+      }
+    },
+    "2119b849-c418-4611-afc4-1a3cf480b72b": {
+      "type": "custom-content-with-bg",
+      "disabled": true,
+      "settings": {
+        "back_img": "shopify:\/\/shop_images\/BT51_Wai_Ki_1920x1080_cc52772e-71db-4c23-b22b-a5bdbc5bb3fe.png",
+        "sub_title": "",
+        "main_title": "REPETTO X STUDIO 16",
+        "desc": "À l'occasion de la Journée Internationale de la Danse,  Repetto met à l’honneur la danse classique en offrant, sur cette journée, des cours à tous les danseurs amateurs, semi-professionnels et professionnels. Cet événement unique se déroulera le dimanche 28 avril, de 9h00 à 18h00 au Studio 16,66 rue Nicolo 75116 Paris, offrant une opportunité inestimable de perfectionnement et d'inspiration pour les passionnés de danse.",
+        "link_text": "",
+        "link_href": "shopify:\/\/pages\/hub-edito"
+      }
+    },
+    "rich_text_tdYNdY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_gRfFGE": {
+          "type": "subheading",
+          "settings": {
+            "text": "DIMANCHE 28 AVRIL 2024"
+          }
+        },
+        "heading_hHfhrd": {
+          "type": "heading",
+          "settings": {
+            "text": "De 9h30 à 18h00",
+            "size": "h3"
+          }
+        },
+        "button_EnGp44": {
+          "type": "button",
+          "settings": {
+            "link_label": "COMPLET",
+            "link": "",
+            "button_outline": false
+          }
+        },
+        "text_K4z9Tb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><\/p><p>Plongez dans l'univers artistique de la danse classique, héritage de la célèbre maison Repetto. Au programme, une variété d'ateliers et de cours captivants, animés par les plus grands danseurs professionnels. La danseuse Étoile Myriam Ould Braham dispensera un cours de danse classique avancé, en duo avec Mickaël Lafon, soliste du ballet de l'Opéra de Paris. Ensemble, ils partageront leur expertise lors d'un cours d’adage sur le pas de deux du célèbre ballet « Gisèle ».<\/p><p>Une grande barre au sol introduira cette journée, offrant aux participants une occasion de se préparer en douceur. Au fil des heures, les apprentis danseurs laisseront place aux plus perfectionnés, avec des cours de technique enseignés par les danseurs Allister Madin, Alexis Renaud et Eléonore Guérineau, solistes de l'Opéra de Paris.<\/p><p>En parallèle, des sessions de Danse - Fitness, de renforcement musculaire, de Pilates, ainsi qu’un atelier parent-enfant « Contakids », viendront rythmer cette journée très ancrée dans la tradition académique.<\/p><p>Cet événement immersif sera également l'occasion de rencontres enrichissantes et de moments forts, dédiés à la formation et à la transmission. Au programme : atelier chignon, essayages de chaussons de pointes, histoire de la danse et de la maison Repetto, et bien d'autres encore.<\/p><p>Repetto est fier de soutenir et de célébrer la passion pour cet art majeur, offrant à chacun(e) une opportunité exceptionnelle de partager ensemble l'expérience captivante et enrichissante de la danse, dans un esprit de communauté et de partage.<\/p>",
+            "size": "text-size-regular"
+          }
+        },
+        "image_mcT8Eq": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/POINTES.jpg",
+            "retina": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gRfFGE",
+        "heading_hHfhrd",
+        "button_EnGp44",
+        "text_K4z9Tb",
+        "image_mcT8Eq"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "grid",
+        "text_position": "right",
+        "text_alignment": "left",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_ycLpBK": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_C6PFKC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_C7QfRm": {
+          "type": "heading",
+          "settings": {
+            "text": "Découvrez nos professeurs",
+            "size": "h3"
+          }
+        },
+        "text_XBQHrT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Depuis 1947 Repetto incarne l'excellence et l'élégance dans le monde de la danse, offrant des produits de haute qualité aux danseurs du monde entier. Avec une tradition de plus de 75  ans, Repetto reste un leader incontesté dans l'industrie de la danse, inspirant et soutenant les danseurs de tous niveaux.<\/p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_C7QfRm",
+        "text_XBQHrT"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "4d36c4c2-7b64-4a0f-afbd-3dce243ecc5d": {
+      "type": "content-image-list",
+      "blocks": {
+        "703bf87c-0fd3-4f38-bf8a-20882865e083": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/myriam_83bba4fa-dfaa-4197-9dcc-604dc851a984.jpg",
+            "image_position": "left",
+            "block_title": "MYRIAM OULD BRAHAM",
+            "block_content": "<p>Myriam Ould-Braham a débuté son parcours de danse en 1994 au Conservatoire National à Rayonnement Régional (CNR), puis a perfectionné son art au Conservatoire National Supérieur de Musique et de Danse de Paris (CNSMDP) à La Villette. Son talent exceptionnel l'a conduite à rejoindre l'École de Danse de l'Opéra national de Paris en 1996, et dès 1999, elle a été engagée dans le Corps de Ballet de l'Opéra.<\/p><p>•<\/p><p>Sa carrière a été marquée par une ascension rapide : promue successivement « Coryphée » en 2001, « Sujet » en 2002, et enfin « Première danseuse » en 2005. En 2012, elle a atteint le firmament de sa carrière en étant nommée « Danseuse Étoile » après une performance mémorable de La Fille mal gardée de Frederick Ashton.<\/p><p>•<\/p><p>Parallèlement à sa brillante carrière à l'Opéra de Paris, elle a également illuminé les scènes internationales, notamment en dansant avec Nicolai Tsiskaridzé lors d'un  gala en Russie en 2010.<\/p><p>•<\/p><p>Reconnue pour son talent exceptionnel, Myriam Ould-Braham a été honorée de nombreux prix tout au long de sa carrière, et en 2014, elle a été élevée au rang de Chevalier de l'Ordre des Arts et des Lettres pour sa contribution exceptionnelle à l'art français et mondial.<\/p><p>•<\/p><p>Son héritage artistique reste indélébile, symbolisant l'élégance et la grâce intemporelle qui caractérisent la danse classique à son plus haut niveau.<\/p>"
+          }
+        },
+        "367f0def-c777-4c36-9684-22374bea1b7a": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/micka.webp",
+            "image_position": "right",
+            "block_title": "MICKAEL LAFON",
+            "block_content": "<p>Mickael Lafon découvre sa passion pour la danse classique lors de son initiation en 1997-1998 et intègre rapidement l'École de Danse de<br\/>l'Opéra de Paris en 1998.   <\/p><p>•  <\/p><p>Après avoir rejoint la Compagnie de l'Opéra National de Paris en 2006 en tant que quadrille, il gravit les échelons pour devenir coryphée en 2009.<\/p><p>•<\/p><p>En 2017, Mickael obtient son diplôme NASM PCA Personal Trainer Level 4, élargissant ainsi ses compétences dans le domaine de la forme physique et du bien-être.<\/p><p>•<\/p><p>En parallèle à sa carrière de danseur, Mickael excelle également en tant que mannequin - danseur pour les plus grandes maisons de luxe. <\/p><p>•<\/p><p>En 2020 Mickael est le visage du « manifeste » de la maison Repetto, mettant en valeur son élégance, son charisme et son talent artistique.<\/p><p>•<\/p><p>En 2024, il est promu au statut de \"Sujet\" à l'Opéra National de Paris, une reconnaissance supplémentaire de son engagement et de son excellence dans le domaine de la danse. <\/p><p>•<\/p><p>Sa polyvalence en tant que danseur et mannequin, combinée à son dévouement et son talent exceptionnel, font de Mickael Lafon une figure inspirante et influente dans le monde de la danse.<\/p>"
+          }
+        },
+        "b560ef84-bb73-49c1-ac90-f63070d15461": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/ele_472eff40-d81e-4106-82c9-354fd61d0c66.jpg",
+            "image_position": "left",
+            "block_title": "ELEONORE GUERINEAU",
+            "block_content": "<p>Éléonore Guérineau a débuté sa passion pour la danse<br\/>classique dès l'âge de 3 ans dans une école de quartier en région parisienne. Son talent l'a rapidement distinguée, et entre l'âge de 7 et 11 ans, elle a remporté de nombreux concours régionaux, nationaux et internationaux, accumulant les premiers prix. <\/p><p>•<\/p><p>À 11 ans, elle est admise à l'École du Ballet de l'Opéra National de Paris, où elle a étudié pendant 5 ans sous la direction de Claude Bessy puis d'Elisabeth Platel, avant de rejoindre le corps de ballet de l'Opéra National de Paris en 2005. Son ascension dans le monde de la danse a été remarquable. <\/p><p>•<\/p><p>Elle a gravi les échelons, passant du grade de \"quadrille\" en 2005 à celui de \"coryphée\" en 2008, puis à celui de \"sujet\" en 2013. <\/p><p>En 2009, elle a été récompensée par le Prix Jeune Danseuse de l'AROP. <\/p><p>En 2010, elle a obtenu son diplôme d'État de professeur de danse classique. En 2014, elle est devenue maman d'une petite fille, conciliant ainsi sa carrière artistique avec sa vie personnelle. <\/p><p>•<\/p><p>Durant la saison 2018\/2019, elle a pris une année sabbatique pour danser en tant que soliste au Zurich Ballet. Elle a continué à développer ses compétences en dehors de la danse elle-même. En janvier 2021, elle a obtenu la certification PBT (Progressing Ballet Technique). Par la suite, elle s'est intéressée à l'aspect mental de la performance sportive, devenant certifiée en préparation mentale pour la performance professionnelle en octobre 2021.<\/p><p>•<\/p><p>Sa carrière artistique est jalonnée de rôles prestigieux en tant que soliste, notamment le rôle-titre de Giselle, celui de Lise dans la Fille mal gardée, le rôle de Kitri dans Don Quichotte, et bien d'autres. <\/p>"
+          }
+        },
+        "combination_mMWmFn": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/ali.jpg",
+            "image_position": "right",
+            "block_title": "ALLISTER MADIN",
+            "block_content": "<p>Originaire du Pays Basque, Allister commence la danse très jeune avant d’intégrer l’école du ballet de l’Opéra de Paris en 1999 et son corps de ballet en 2005.  Une année plus tard, il est finaliste du prestigieux concours international de danse de Varna. <\/p><p>•<\/p><p>En 2011, il devient soliste du ballet de l’Opéra de Paris où il interprète de nombreux rôles de soliste dans le répertoire classique et contemporain, et participe aux diverses créations des chorégraphes invités.<\/p><p>Il remporte le prix A.R.O.P. des mécènes de l’Opéra en 2014.<\/p><p>•<\/p><p>Il intègre par la suite le ballet royal de Nouvelle-Zélande en tant que danseur étoile en 2019 et le Béjart Ballet Lausanne comme soliste en août 2021 avant de se décider à retourner à Paris en 2022 pour reprendre et développer des activités d’artiste free-lance.<\/p><p>•<\/p><p>Danseur-chorégraphe depuis 2011, il multiplie les créations ainsi que les collaborations artistiques, également avec des réalisateurs et metteurs en scène, et reçoit en juin 2021 un prix aux Sobanova Dance Awards à la Grande Halle de La Villette de Paris aux côtés du danseur chorégraphe flamenco Rubén Molina. <\/p><p>•<\/p><p>Depuis 2016, il est également titulaire du diplôme d’État de professeur de danse et enseigne régulièrement en France et à l’étranger. <\/p><p>Été 2022, il remonte un Don Quichotte pour le festival Dancs Piran en Slovénie. <\/p><p>En février 2023, il travaille comme chorégraphe assistant au Teatro dell’Opera di Roma et réalise une performance solo à la Villa Médicis. <\/p>"
+          }
+        },
+        "combination_BagwLQ": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/alexis.jpg",
+            "image_position": "left",
+            "block_title": "ALEXIS RENAUD",
+            "block_content": "<p>Formé à l'école de danse de Nanterre sous la direction de Claude Bessy, il intègre ensuite la compagnie de l'Opéra de Paris, où il gravit les échelons pour devenir sujet. <\/p><p>•<\/p><p>Au cours de sa carrière, il a eu l'opportunité de travailler sur tout le répertoire classique de l'Opéra de Paris, en plus de collaborer avec de nombreux chorégraphes contemporains et néo-classiques de renom tels que Jiri Kylian, Roland Petit, John Neumeier, Maurice Béjart, Pina Bausch, William Forsythe, Crystal Pite, Angelin Preljocaj et Pierre Lacotte.<\/p><p>•<\/p><p>Aujourd'hui professeur, il s'attache à transmettre l'héritage de ses maîtres tels qu'Attilio Labis, Cyril Atanasoff, Gilbert Mayer, Michaël Denard, et bien d'autres. <\/p><p>Son enseignement est empreint du souci de transmettre les fondamentaux et la grande technique de l'école française à ses élèves.<\/p><p>•<\/p><p>En plus de son travail en tant que professeur, Alexis continue à collaborer régulièrement avec l'Opéra de Paris et Les Ballets du Rhin. Il participe également à de nombreux stages en France, en Allemagne, en Chine et au Japon, où il partage son savoir et son expérience avec une audience internationale.<\/p>"
+          }
+        },
+        "combination_DhQKGY": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/marie.jpg",
+            "image_position": "right",
+            "block_title": "MARIE PERRUCHET",
+            "block_content": "<p>Formée au conservatoire régional de Paris et à l'École nationale de Musique et de Danse de la Rochelle, Marie Perruchet enseigne la danse classique depuis 2005. <\/p><p>•<\/p><p>Elle danse de nombreuses années en compagnie, notamment avec des chorégraphes comme Régine Chopinot, Karine Saporta, François Chaignaud, Tatiana Julien. <\/p><p>•<\/p><p>Parallèlement à son travail de professeure, elle est également chorégraphe et directrice de la Compagnie Body Double, la pièce Étrange Tableau créé en 2023 et en diffusion et le duo Exquis sera créé le 7 juin 2024. <\/p><p>•<\/p><p>Son cours est tout autant un cours de danse qu’un cours sur la danse : on y apprendra tant les fondements du placement, nécessaires à l’exercice de la danse classique, que les jalons qui ont scandé l’histoire de la danse classique. <\/p><p>•<\/p><p>Le cours donnera une attention particulière à l’école française. Le respect de l’anatomie de chacune et de chacun est l’une de ses priorités, le cours n’exclut pas non plus un travail sur la musicalité et sur la virtuosité, en privilégiant la bienveillance et l’expressivité de tous.<\/p>"
+          }
+        },
+        "combination_k4jLnT": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/octavie_81e6ed62-e794-46d8-bb20-c9a2857001ed.jpg",
+            "image_position": "left",
+            "block_title": "OCTAVIE ESCURE",
+            "block_content": "<p>Octavie Escure débute en 2006 au jeune Ballet de Genève, puis en 2008 rentre au ballet de San Francisco. <\/p><p>•<\/p><p>C'est en 2009 qu'elle commence sa collaboration avec Peter Doherty et les Babyshambles. <\/p><p>En 2014, elle obtient son diplôme d'État de professeur de danse classique et le Fit Ballet se créer. <\/p><p>•<\/p><p>Le Fit’Ballet se veut à mi-chemin entre la danse classique et le fitness. <\/p><p>Un dérivé original d’exercices autant rapides et cardiaques que doux et profonds inspirés par le ballet, la barre au sol, le yoga et la propre expérience de la créatrice. <\/p><p>•<\/p><p>Au fil des années, elle ouvre de nombreux cours de cette pratique et est une vraie spécialiste dans le domaine. <\/p>"
+          }
+        },
+        "combination_6zinKX": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/anna_ea7436f0-4c07-4927-95e9-32057e41ce34.jpg",
+            "image_position": "right",
+            "block_title": "ANNABELLE HETTMANN",
+            "block_content": "<p>Annabelle est danseuse de formation, notamment à l’Opéra National de Paris, puis elle se dirige vers le cinéma et le théâtre.​<\/p><p>•<\/p><p>Jeune maman, elle décide de se reconvertir et s’oriente vers le Pilates. <\/p><p>•<\/p><p>Elle suit une formation complète au sein de Danse Pilates Paris et s’apprête  à suivre la formation de Bernadette de Gasquet.<\/p>"
+          }
+        },
+        "combination_AkdBRp": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/sylvian_939dae2d-f051-4846-b714-7feeca9e2355.jpg",
+            "image_position": "left",
+            "block_title": "SYLVAIN TORRES",
+            "block_content": "<p>Formé à l’École du Ballet National de l’Opéra de Paris et au Conservatoire National Supérieur de Musique et de danse de Paris, il débute sa carrière professionnelle dans des galas internationaux interprétant les rôles du répertoire.<\/p><p>•<\/p><p> Il travaille principalement en freelance, puis travaille à l’Opéra de Nice, à Saragosse et au Japon. <\/p><p>Une blessure mettra fin à sa carrière et, se passionnant pour l’enseignement, il fondera une école de danse pluridisciplinaire en Martinique qu’il développera pendant plus de 15 années avec 8 professeurs auprès de 400 élèves. <\/p><p>•<\/p><p>Multipliant les échanges et rencontres avec des professeurs étrangers (Cuba, Brésil, etc.), il dirige parallèlement une salle de spectacle et une compagnie de création de spectacle vivant. <\/p><p>Multipliant les interventions en tant que professeur, il intervient auprès de jeunes professeurs en tant qu’accompagnateur pédagogique.<\/p><p>•<br\/>Aujourd’hui professeur principal du Conservatoire de Montmorency, professeur et responsable pédagogique du Studio 16, sa passion pour l’école académique française et le travail de précision animent chacun des cours où il intervient.<\/p>"
+          }
+        },
+        "combination_LcYgf3": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/marina1-4846-b714-7feeca9e2355.jpg",
+            "image_position": "right",
+            "block_title": "MARINA DROGHETTI",
+            "block_content": "<p>Marina Droghetti est une danseuse brésilienne qui vit entre Paris et São Paulo. <\/p><p>•<\/p><p>En 2016, elle obtient son diplôme d’État à Paris. Au Brésil, elle crée sa propre méthodologie « BalletBuild » et monte son studio de danse, qui mélange la barre au sol et le Pilates. <\/p><p>•<\/p><p>Parallèlement à son travail de professeure, elle est également chorégraphe et directrice de la compagnie Senna Marina Droghetti. <\/p><p>•<\/p><p>Elle compte à ce jour sur un portfolio important de production de danse : la pièce Étrange REVIE créée en 2018, Les Noces 2020 et enfin REFLEXOS 2023 en diffusion à São Paulo. <\/p><p>•<\/p><p>Ses cours portent une attention particulière à la barre au sol méthode « Boris Kniaseff », un mélange entre étirements et mouvements de Pilates.<\/p><p>•<\/p><p>Les cours de « BalletBuild » encouragent une immersion musicale complète : les sonorités brésiliennes s’entrelacent aux sons français et italiens.<\/p>"
+          }
+        },
+        "combination_MBGCFj": {
+          "type": "combination",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/contakids_939dae2d-f051-4846-b714-7feeca9e2355.jpg",
+            "image_position": "left",
+            "block_title": "CONTAKIDS",
+            "block_content": "<p>Contakids offre aux parents et à leurs enfants âgés de 2 à 4 ans un moment de rencontre de 45 minutes, axé sur le mouvement, l'espace et le contact physique, favorisant la confiance en soi et le développement sensoriel des enfants. <\/p><p>•<\/p><p>Cette expérience renforce le lien parent-enfant grâce à une communication non verbale, permettant à chacun de devenir de véritables partenaires de jeux, procurant ainsi du bonheur aux petits et aux grands.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "703bf87c-0fd3-4f38-bf8a-20882865e083",
+        "367f0def-c777-4c36-9684-22374bea1b7a",
+        "b560ef84-bb73-49c1-ac90-f63070d15461",
+        "combination_mMWmFn",
+        "combination_BagwLQ",
+        "combination_DhQKGY",
+        "combination_k4jLnT",
+        "combination_6zinKX",
+        "combination_AkdBRp",
+        "combination_LcYgf3",
+        "combination_MBGCFj"
+      ],
+      "settings": {
+        "section_index": 1
+      }
+    },
+    "image_with_text_C4bg4R": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_gBct6y": {
+          "type": "subheading",
+          "settings": {
+            "text": "LE STUDIO 16"
+          }
+        },
+        "heading_rUpzBW": {
+          "type": "heading",
+          "settings": {
+            "text": "BORN TO DANCE",
+            "heading_size": "h3"
+          }
+        },
+        "text_AWGCrH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Né en 2017, le <strong>Studio 16<\/strong> est un espace dédié à la pluridisciplinarité de la danse dans le 16e arrondissement de paris. Il s’étend sur plus de 650 m2 ou une quarantaine de professeurs dispensent des cours ,ateliers et événements.​<\/p><p>​<\/p><p>Le studio 16 s’est donné pour mission d'incarner l'essence même de la danse en créant un espace artistique où la diversité et la richesse de la danse sont célébrées. De la danse classique à l'expression urbaine, il offre un lieu où chacun peut s'épanouir à travers le mouvement. En cultivant la créativité et en favorisant l'expression individuelle, il aspire à devenir un centre de référence pour les amateurs et professionnels de tous horizons.​<\/p><p>​<\/p><p>66 rue Nicolo 75116 Paris​<\/p><p><a href=\"https:\/\/www.studio16.fr\/\" target=\"_blank\"><span style=\"text-decoration:underline\">https:\/\/www.studio16.fr\/<\/span><\/a>​<\/p><p>​<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gBct6y",
+        "heading_rUpzBW",
+        "text_AWGCrH"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/STUDIO_16_1.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "grid",
+        "layout": "text_first",
+        "content_position": "text-center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "featured_collection_ygfe6d": {
+      "type": "featured-collection",
+      "settings": {
+        "show_price": false,
+        "heading": "Une expérience sans couture",
+        "heading_left": true,
+        "description": "<p>Préparez-vous pour votre cours<\/p>",
+        "full_width": true,
+        "collection": "catalogue-danse",
+        "display_type": "grid",
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "60e4509c-462c-435d-9110-5ef360e52d45": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d3880f5d-01a8-4f38-a8e2-8b75224f8104",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "1f7fb399-531e-4bc3-9b4f-a8861e1f5cb0",
+    "context_with_media_AaciQ7",
+    "2119b849-c418-4611-afc4-1a3cf480b72b",
+    "rich_text_tdYNdY",
+    "spacer_ycLpBK",
+    "rich_text_C6PFKC",
+    "4d36c4c2-7b64-4a0f-afbd-3dce243ecc5d",
+    "image_with_text_C4bg4R",
+    "featured_collection_ygfe6d",
+    "60e4509c-462c-435d-9110-5ef360e52d45",
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab"
+  ]
+}

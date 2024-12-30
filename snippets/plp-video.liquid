@@ -1,0 +1,29 @@
+{% liquid
+    assign video_hosted = video_hosted
+    assign video_autoplay = video_autoplay
+    assign video_controls = video_controls
+    assign video = video
+%}
+{%- if video_hosted != blank -%}
+  {{ video_hosted | video_tag: autoplay: video_autoplay, loop: true, controls: video_controls, muted: video_autoplay, image_size: '100%' }}
+{%- elsif video != blank -%}
+  {%- if video.type == 'youtube' -%}
+    <iframe
+      data-src="https://www.youtube.com/embed/{{ video.id }}?loop=1{%- if video_autoplay -%}&autoplay=1&mute=1{%- endif -%}&playlist={{ video.id }}&iv_load_policy=3&disablekb=1&controls={{ video_controls }}&playsinline=1"
+      frameborder="0"
+      class="lazyload"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+      title="{{ section.settings.heading | escape }}"
+      tabindex="-1"></iframe>
+  {%- else -%}
+    <iframe
+      data-src="https://player.vimeo.com/video/{{ video.id }}{%- if video_autoplay -%}?background=1{%- endif -%}"
+      frameborder="0"
+      class="lazyload"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+      title="{{ section.settings.heading | escape }}"
+      tabindex="-1"></iframe>
+  {%- endif -%}
+{%- endif -%}

@@ -1,0 +1,265 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "0758df8d-581f-4b58-9262-40e274944f15": {
+      "type": "rich-text",
+      "blocks": {
+        "bd1abd98-f6c6-40a8-8865-ca3db70c1dcc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>LA MAISON</p>",
+            "size": "text-size-regular"
+          }
+        },
+        "00ba4ce6-60dd-4c79-9169-f2faa96c21e4": {
+          "type": "heading",
+          "settings": {
+            "text": "REPETTO",
+            "size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "bd1abd98-f6c6-40a8-8865-ca3db70c1dcc",
+        "00ba4ce6-60dd-4c79-9169-f2faa96c21e4"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#000000",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "7191da8d-2fbe-41cd-a59e-64db196b893f": {
+      "type": "image-content-with-button",
+      "blocks": {
+        "column_4BXr3x": {
+          "type": "column",
+          "settings": {
+            "proportion": "1",
+            "image": "shopify://shop_images/Marine_Serre_13-Modifier.jpg",
+            "image_or_video": "image",
+            "heading": "Les amis de la Maison",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/marine-serre"
+          }
+        },
+        "44394282-ef49-4d23-bf6a-90e7e239b09a": {
+          "type": "column",
+          "settings": {
+            "proportion": "1",
+            "video": "shopify://files/videos/SAVOIRFAIRE LANDSCAPE HP.mp4",
+            "image_or_video": "video",
+            "heading": "LE SAVOIR-FAIRE REPETTO",
+            "text": "<p>Issu de notre savoir-faire danse, le « cousu retourné » est un procédé unique de fabrication mis au point par Madame Rose Repetto.</p>",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/univers-repetto-savoir-faire"
+          }
+        },
+        "1c79b85f-e237-42f7-85c8-2d38e75d63d6": {
+          "type": "column",
+          "settings": {
+            "proportion": "0.5",
+            "image": "shopify://shop_images/Video.png",
+            "image_or_video": "image",
+            "heading": "HERITAGE FRANCAIS",
+            "text": "<p>Le savoir-faire d’exception et le « geste parfait » se perpétuent en Dordogne, à Saint-Médard-d’Excideuil depuis plus de 75 ans.</p>",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/univers-repetto-heritage"
+          }
+        },
+        "f81031c3-83bb-40fb-a695-3999cebdbdad": {
+          "type": "column",
+          "settings": {
+            "proportion": "0.5",
+            "image": "shopify://shop_images/hub-history.jpg",
+            "image_or_video": "image",
+            "heading": "HISTOIRE",
+            "text": "<p>Rose Repetto crée sur les conseils de son fils Roland Petit, ses premiers chaussons de danse, dans un atelier situé à deux pas de l'Opéra National de Paris.</p>",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/univers-repetto-histoire"
+          }
+        },
+        "39ddd469-892c-4276-aca3-1c026cf0eb17": {
+          "type": "column",
+          "settings": {
+            "proportion": "1",
+            "image": "shopify://shop_images/hub-danse.jpg",
+            "image_or_video": "image",
+            "heading": "DANSE POUR LA VIE",
+            "text": "<p>Pour <em>Danse pour la Vie</em>, la tenue d'un danseur ou d'une danseuse n'a pas seulement vocation à être esthétiquement parfaite, elle est surtout un véritable outil d'apprentissage de qualité et de confiance en soi.</p>",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/repetto-sengage-fondation-white"
+          }
+        },
+        "d335f8ab-f19c-4001-af89-71629b012b02": {
+          "type": "column",
+          "settings": {
+            "proportion": "0.5",
+            "image": "shopify://shop_images/projet_a_vos_pointes_repetto.jpg",
+            "image_or_video": "image",
+            "heading": "PROJET “A VOS POINTES”",
+            "text": "<p>Pour chacune des paires récupérées, une paire de pointe neuve est envoyée aux écoles soutenues par la fondation Repetto.</p>",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/repetto-sengage-a-vos-pointes"
+          }
+        },
+        "dbbdad10-b024-4c08-90ad-368d6f536936": {
+          "type": "column",
+          "settings": {
+            "proportion": "0.5",
+            "image": "shopify://shop_images/opera_rome_repetto.jpg",
+            "image_or_video": "image",
+            "heading": "OPÉRA DE ROME",
+            "text": "<p><em>En 2015, Repetto devient fournisseur Officiel du ballet de l’Opéra de Rome. </em></p>",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/repetto-sengage-opera-de-rome"
+          }
+        }
+      },
+      "block_order": [
+        "column_4BXr3x",
+        "44394282-ef49-4d23-bf6a-90e7e239b09a",
+        "1c79b85f-e237-42f7-85c8-2d38e75d63d6",
+        "f81031c3-83bb-40fb-a695-3999cebdbdad",
+        "39ddd469-892c-4276-aca3-1c026cf0eb17",
+        "d335f8ab-f19c-4001-af89-71629b012b02",
+        "dbbdad10-b024-4c08-90ad-368d6f536936"
+      ],
+      "settings": {
+      }
+    },
+    "b54550db-b5f1-4bfe-af3c-907db6dfa5ba": {
+      "type": "help-links",
+      "blocks": {
+        "ef266e68-53ad-471a-bb40-2c8e7384e538": {
+          "type": "link",
+          "settings": {
+            "url_label": "Contacter un conseiller",
+            "url_link": "shopify://pages/nous-contacter"
+          }
+        },
+        "template--21352029061424__b54550db-b5f1-4bfe-af3c-907db6dfa5ba-link-1": {
+          "type": "link",
+          "settings": {
+            "url_label": "Service client",
+            "url_link": "shopify://pages/contact"
+          }
+        },
+        "0389985f-8931-42d5-8b10-18b22671f20a": {
+          "type": "link",
+          "settings": {
+            "url_label": "Prendre RDV en boutique",
+            "url_link": "/"
+          }
+        },
+        "ff2df339-b71f-450b-b4b1-2fc858acaf39": {
+          "type": "link",
+          "settings": {
+            "url_label": "Commandes en lignes",
+            "url_link": "shopify://pages/faq"
+          }
+        },
+        "7591b7c1-8229-4edd-8067-c51bf136341c": {
+          "type": "link",
+          "settings": {
+            "url_label": "FAQ",
+            "url_link": "shopify://pages/faq"
+          }
+        }
+      },
+      "block_order": [
+        "ef266e68-53ad-471a-bb40-2c8e7384e538",
+        "template--21352029061424__b54550db-b5f1-4bfe-af3c-907db6dfa5ba-link-1",
+        "0389985f-8931-42d5-8b10-18b22671f20a",
+        "ff2df339-b71f-450b-b4b1-2fc858acaf39",
+        "7591b7c1-8229-4edd-8067-c51bf136341c"
+      ],
+      "settings": {
+      }
+    },
+    "abbdf0af-6eca-46c9-95ba-5d1ed61794bf": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "3295f680-729e-4251-a5d6-b0dd9e9ecf5e": {
+      "type": "spacer",
+      "custom_css": [
+        ".has-border-separator:before {background: #000000;}"
+      ],
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": false
+      }
+    },
+    "81b48825-c28d-47c4-98bd-a2efd734294b": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 60,
+        "spacer_desktop": 60,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "16316b36-9cab-4041-8457-1949982e4e35": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "ACTUALITés",
+        "heading_left": true,
+        "description": "",
+        "full_width": false,
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "mobile_swipe": false,
+        "image_ratio": "square",
+        "show_date": true,
+        "show_excerpt": true,
+        "show_view_all": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0758df8d-581f-4b58-9262-40e274944f15",
+    "7191da8d-2fbe-41cd-a59e-64db196b893f",
+    "b54550db-b5f1-4bfe-af3c-907db6dfa5ba",
+    "abbdf0af-6eca-46c9-95ba-5d1ed61794bf",
+    "3295f680-729e-4251-a5d6-b0dd9e9ecf5e",
+    "81b48825-c28d-47c4-98bd-a2efd734294b",
+    "16316b36-9cab-4041-8457-1949982e4e35"
+  ]
+}

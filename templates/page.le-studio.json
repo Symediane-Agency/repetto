@@ -1,0 +1,216 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "contact-blocks": {
+      "type": "contact-blocks",
+      "disabled": true,
+      "settings": {
+        "faq_enabled": true,
+        "whatsapp_enabled": true,
+        "storelocator_enabled": true,
+        "form_enabled": true
+      }
+    },
+    "contact-texts": {
+      "type": "contact-texts",
+      "disabled": true,
+      "settings": {
+        "headquarter_content": "<p>REPETTO<br\/>30, avenue de Messine<br\/>75008 Paris<br\/><br\/>Tél. : +33 (0) 1 44 71 83 00<br\/><br\/>E-mail professionnel : <a href=\"mailto:contact@repetto.com\" title=\"mailto:contact@repetto.com\">contact@repetto.com<\/a><br\/>E-mail consommateur : <a href=\"mailto:service.client@repetto.fr\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com<\/a><\/p>",
+        "sales_department_content": "<p>Tél. : + 33 (0) 1 44 71 83 10<br\/>E-mail :<a href=\"mailto:adv@repetto.com\" title=\"mailto:adv@repetto.com\"> adv@repetto.com<\/a><br\/>Devenir revendeur ? <a href=\"\/pages\/wholesale\" title=\"Wholesale\">C’est par ici<\/a><\/p>",
+        "press_content": "<p>Pour toute demande presse, nous vous invitons à contacter le service client, en adressant un e-mail à : <a href=\"mailto:service.client@repetto.com\" title=\"mailto:service.client@repetto.com\">service.client@repetto.com<\/a><br\/>Découvrez l’espace presse : <a href=\"\/pages\/relation-presse\" title=\"Relation presse\">c’est par ici<\/a><\/p>",
+        "recruitment_content": "<p>Retrouvez nos dernière offres d’emploi ici<\/p>",
+        "recruitment_link": "\/pages\/recrutement",
+        "recruitment_link_text": "Carrière"
+      }
+    },
+    "rich_text_g9cdAh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_rXXNBh": {
+          "type": "subheading",
+          "settings": {
+            "text": "Sélection le studio paris"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rXXNBh"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "gallery_7pegPt": {
+      "type": "gallery",
+      "blocks": {
+        "image_a7qxQi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "",
+            "title": "Classique 3\/4 ans",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-3-4-ans-x-le-studio-paris",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-3-4-ans-x-le-studio-paris"
+          }
+        },
+        "image_E3Xj8b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "",
+            "title": "Classique 5\/6 ans",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-5-6-ans-x-le-studio-paris",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-5-6-ans-x-le-studio-paris"
+          }
+        },
+        "image_f8EFfT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "",
+            "title": "Classique Primaire (CP-CE1)",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-primaire-x-le-studio-paris",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-primaire-x-le-studio-paris"
+          }
+        },
+        "image_yxrkpb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "",
+            "title": "Classique Primaire (CE2-CM2)",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-primaire-ce2-cm2-x-le-studio-paris",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-primaire-ce2-cm2-x-le-studio-paris"
+          }
+        },
+        "image_b4Hwd6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "",
+            "title": "Classique Collège (6ième-3ème)",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-college-le-studio-paris",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-college-le-studio-paris"
+          }
+        },
+        "image_FiPF4n": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "",
+            "title": "Classique Lycée (Seconde - Terminale)",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/classique-lycee-x-le-studio-paris",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/classique-lycee-x-le-studio-paris"
+          }
+        },
+        "image_wMFAtU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Visuel_Ballerine_Fond_Rose.png",
+            "subheading": "",
+            "title": "Modern jazz",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "shopify:\/\/collections\/modern-jazz-le-studio-paris",
+            "use_text_button": true,
+            "block_link": "shopify:\/\/collections\/modern-jazz-le-studio-paris"
+          }
+        }
+      },
+      "block_order": [
+        "image_a7qxQi",
+        "image_E3Xj8b",
+        "image_f8EFfT",
+        "image_yxrkpb",
+        "image_b4Hwd6",
+        "image_FiPF4n",
+        "image_wMFAtU"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "adapt",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "b70a2d19-b4cd-43b7-9b05-ee53214976e7",
+    "main",
+    "e7ed8890-055f-4eda-a5b9-ea72efcec631",
+    "contact-blocks",
+    "contact-texts",
+    "rich_text_g9cdAh",
+    "gallery_7pegPt"
+  ]
+}

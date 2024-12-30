@@ -1,0 +1,118 @@
+<div class="container">
+    <div class="row">
+        {% if section.settings.faq_enabled %}
+            <div class="columns large-4 small-12">
+                <a href="/pages/faq">
+                    <div class="contact-block">
+                        <div class="icon">
+                            {% render 'svg-icons' with 'question' %}
+                        </div>
+                        <h3 class="title">
+                            {{ 'contact_us.faq.title' | t }}
+                        </h3>
+                        <p class="text">
+                            {{ 'contact_us.faq.text' | t }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        {% endif %}
+        {% if section.settings.whatsapp_enabled %}
+            <div class="columns large-4 small-12">
+                {% comment %} https://api.whatsapp.com/send?phone=+3301010101 {% endcomment %}
+                <a href="#"> 
+                    <div class="contact-block">
+                        <div class="icon">
+                            {% render 'svg-icons' with 'phone' %}
+                        </div>
+                        <h3 class="title">
+                            {{ 'contact_us.whatsapp.title' | t }}
+                        </h3>
+                        <p class="text">
+                            {{ 'contact_us.whatsapp.text' | t }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        {% endif %}
+    
+        {% if section.settings.storelocator_enabled %}
+            <div class="columns large-4 small-12">
+                <a href="{{ pages['trouver-un-revendeur'].url }}">
+                    <div class="contact-block">
+                        <div class="icon">
+                            {% render 'svg-icons' with 'pin-map' %}
+                        </div>
+                        <h3 class="title">
+                            {{ 'contact_us.storelocator.title' | t }}
+                        </h3>
+                        <p class="text">
+                            {{ 'contact_us.storelocator.text' | t }}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        {% endif %}
+    
+        {% if section.settings.form_enabled %}
+            <div class="columns large-4 small-12">
+                <div class="contact-block">
+                    <div class="icon">
+                        {% render 'svg-icons' with 'envelope' %}
+                    </div>
+                    <h3 class="title">
+                        {{ 'contact_us.form.title' | t }}
+                    </h3>
+                    <form action="{{ pages.contact.url }}" method="GET" class="form">
+                        <div class="input-group">
+                            <select name="subject" class="input-group-field" id="">
+                                <option value="">{{ 'contact_us.form.placeholder' | t }}</option>
+                                <option value="{{ 'sections.contact.form.subject.values.subject1' | t }}">{{ 'sections.contact.form.subject.values.subject1' | t }}</option>
+                                <option value="{{ 'sections.contact.form.subject.values.subject2' | t }}">{{ 'sections.contact.form.subject.values.subject2' | t }}</option>
+                                <option value="{{ 'sections.contact.form.subject.values.subject3' | t }}">{{ 'sections.contact.form.subject.values.subject3' | t }}</option>
+                            </select>
+                            <button type="submit" class="input-group-button button" >OK</button>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+{% schema %}
+{
+  "name": "Contact blocks",
+  "class": "contact-blocks",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "faq_enabled",
+      "default": true,
+      "info": "Enable FAQ",
+      "label": "Enable FAQ"
+    },
+    {
+        "type": "checkbox",
+        "id": "whatsapp_enabled",
+        "default": true,
+        "info": "Enable Whatsapp",
+        "label": "Enable Whatsapp"
+      },
+      {
+        "type": "checkbox",
+        "id": "storelocator_enabled",
+        "default": true,
+        "info": "Enable Store locator",
+        "label": "Enable Store locator"
+      },
+      {
+        "type": "checkbox",
+        "id": "form_enabled",
+        "default": true,
+        "info": "Enable contact form link",
+        "label": "Enable contact form link"
+      }
+  ]
+}
+{% endschema %}

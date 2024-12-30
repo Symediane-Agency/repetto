@@ -1,0 +1,60 @@
+{
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "phone_label": "Votre numéro de téléphone",
+        "optional_phone_label": "Votre numéro de téléphone (facultatif)",
+        "phone_placeholder": "Votre numéro de téléphone",
+        "optional_phone_placeholder": "Votre numéro de téléphone (facultatif)",
+        "shipping_address_title": "Informations sur le ramassage",
+        "first_name_label": "Votre prénom",
+        "optional_first_name_label": "Votre prénom",
+        "first_name_placeholder": "Votre prénom",
+        "optional_first_name_placeholder": "Votre prénom",
+        "last_name_label": "Votre nom",
+        "optional_last_name_label": "Votre nom",
+        "last_name_placeholder": "Votre nom",
+        "optional_last_name_placeholder": "Votre nom"
+      },
+      "delivery_options": {
+        "shipping_address": "Adresse de ramassage"
+      },
+      "thank_you": {
+        "marker": {
+          "shipping": "Adresse de ramassage",
+          "current": "Adresse de ramassage"
+        },
+        "shipping_address_title": "Adresse de ramassage",
+        "order_updates_subscribe_to_email_notifications": "Obtenir des mises à jour par courriel",
+        "order_updates_subscribe_to_phone_notifications": "Obtenez des mises à jour par courriel ou par SMS",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Obtenir des mises à jour par SMS"
+      },
+      "general": {
+        "continue_to_shipping_method": "Continuer",
+        "back_to_shipping_method": "Retourner",
+        "edit_shipping_address": "Modifier l'adresse de ramassage",
+        "edit_shipping_method": "Modifier"
+      },
+      "order_summary": {
+        "free_shipping_discount_label": "Ramassage gratuit",
+        "shipping_label": "Ramassage en magasin"
+      },
+      "shipping": {
+        "shipping_method_title": "Option(s) de ramassage",
+        "title": "Adresse de ramassage",
+        "waiting_on_rate_notice": "Veuillez patienter pendant que nous cherchons des frais de ramassage disponibles...",
+        "no_rates_for_cart_or_destination_notice": "Le ramassage n'est pas disponible pour votre panier ou destination.",
+        "no_rates_for_country_notice": "Nous ne proposons pas de ramassages en {{ country }}.",
+        "please_enter_your_shipping_information_notice": "Veuillez retourner à la page du panier pour choisir un point de ramassage."
+      },
+      "payment": {
+        "same_billing_address_label": "Veuillez utiliser l'option ci-dessous ?",
+        "same_billing_address_checkbox_label": "Ne sélectionnez pas"
+      },
+      "shipping_title": "Ramassage en magasin",
+      "billing": {
+        "same_as_shipping": "Ne sélectionnez pas"
+      }
+    }
+  }
+}

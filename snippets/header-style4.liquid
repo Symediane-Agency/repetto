@@ -1,0 +1,66 @@
+{%- if shop.customer_accounts_enabled -%}
+  {%- if customer -%}
+    {%- assign profile_link = routes.account_url -%}
+  {%- else -%}
+    {%- assign profile_link = routes.account_login_url -%}
+  {%- endif -%}
+{%- endif -%}
+
+<div class="thb-header-mobile-left mb-show">
+  {%- render 'localization',
+    show_language_switcher: false,
+    show_currency_switcher: true,
+    resizeSelect: true
+  -%}
+</div>
+<div class="thb-header-desktop-left">
+  <div class="no-js-hidden">
+    {%- render 'localization',
+      id: 'HeaderLocalization',
+      show_language_switcher: false,
+      show_currency_switcher: true,
+      class: 'inside-header'
+    -%}
+  </div>
+</div>
+{% if header_settings.logo %}
+  <a class="logolink" href="{{ routes.root_url }}">
+    <img
+      src="{{ header_settings.logo | image_url }}"
+      class="logoimg"
+      alt="{{ header_settings.logo.alt | default: shop.name | escape }}"
+      width="{{ header_settings.logo.width }}"
+      height="{{ header_settings.logo.height }}"
+    >
+    {%- liquid
+      if header_settings.logo_light != blank
+        assign light_logo = header_settings.logo_light
+      else
+        assign light_logo = header_settings.logo
+      endif
+    -%}
+    <img
+      src="{{ light_logo | image_url }}"
+      class="logoimg logoimg--light"
+      alt="{{ header_settings.logo.alt | default: shop.name | escape }}"
+      width="{{ header_settings.logo.width }}"
+      height="{{ section.settings.logo.height }}"
+    >
+  </a>
+{% else %}
+  <a class="logolink text-logo" href="{{ routes.root_url }}">
+    {{ shop.name }}
+  </a>
+{% endif %}
+<div class="thb-header-mobile-right mb-show">
+  <a
+    class="thb-secondary-area-item thb-quick-account login-drawer-toggle"
+    href="{{ profile_link | escape }}"
+    title="MyAccount"
+    id="login-drawer-toggle"
+  >
+    {%- render 'svg-icons' with 'myaccount' -%}
+  </a>
+</div>
+{% render 'header-secondary-area', header_settings: header_settings %}
+{% render 'header-full-menu', header_settings: header_settings, menu: header_settings.menu, blocks: blocks %}

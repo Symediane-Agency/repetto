@@ -1,0 +1,64 @@
+{{ 'job-list.css' | asset_url | stylesheet_tag }}
+{% liquid
+  assign jobTypes = shop.metaobjects.job_type.values
+  assign jobs = shop.metaobjects.job.values
+%}
+
+<div class="row job-list">
+  <div class="small-12 job-container">
+    {% for jobType in jobTypes %}
+      <div class="job-type">
+        <div class="type-title">
+          {% assign len = 0 %}
+
+          {% for job in jobs %}
+            {% if job.job_type.value.title == jobType.title %}
+              {% assign len = len | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+
+          <i class="num">{{ len }}</i> {{ jobType.title.value }}
+        </div>
+        <div class="type-list">
+          {% for job in jobs %}
+            {% if job.job_type.value.title == jobType.title %}
+              <div class="job-item">
+                <div class="job-title">
+                  {{ job.title.value }}
+                </div>
+                <div class="address-item">
+                  {% if job.gender.value != blank %}
+                    <div class="gender">{{ job.gender.value }}</div>
+                  {% endif %}
+                  {% render 'svg-icons' with 'location' %}
+                  {{ job.location.value }}
+                  <div class="location"></div>
+                </div>
+                <a class="more" href="{{ job.system.url }}" target="_blank">{{ 'custom.help.find' | t }}</a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+    {% comment %} <div class="pager">
+      {% render 'svg-icons' with 'afficher-plus' %}
+      <div
+        class="load-more"
+      >
+        {{ 'job.list.button' | t }}
+      </div>
+    </div> {% endcomment %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Job list",
+  "presets": [
+    {
+      "name": "Job list"
+    }
+  ]
+}
+{% endschema %}

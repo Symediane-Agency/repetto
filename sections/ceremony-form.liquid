@@ -1,0 +1,137 @@
+{{- 'ceremony-form.css' | asset_url | stylesheet_tag -}}
+
+<div class="row">
+  <div class="ceremony-form-inner-wrap">
+    <div class="form-title">{{ section.settings.heading }}</div>
+    <div class="form-desc">{{ section.settings.description }}</div>
+    <div class="form-wrap">
+      <form action="" id="customizationContactForm">
+        <div class="field radio-field">
+          <input type="radio" id="mme" name="gender" value="mme" checked>
+          <label for="mme">{{ 'sections.ceremony_form.female' | t }}</label>
+          <input type="radio" id="m" name="gender" value="m">
+          <label for="m">{{ 'sections.ceremony_form.male' | t }}</label>
+        </div>
+        <div class="field">
+          <input
+            type="text"
+            required
+            id="CeremonyFormFirstName"
+            class="full"
+            placeholder="{{ 'sections.ceremony_form.first_name' | t }}"
+          >
+          <label for="ContactFormFirstName">{{ 'sections.ceremony_form.first_name' | t }}</label>
+        </div>
+        <div class="field">
+          <input
+            type="text"
+            required
+            id="CeremonyFormName"
+            class="full"
+            placeholder="{{ 'sections.ceremony_form.last_name' | t }}"
+          >
+          <label for="CeremonyFormName">{{ 'sections.ceremony_form.last_name' | t }}</label>
+        </div>
+        <div class="field">
+          <input
+            type="email"
+            required
+            id="CeremonyFormEmail"
+            class="full"
+            placeholder="{{ 'sections.ceremony_form.email' | t }}"
+          >
+          <label for="CeremonyFormEmail">{{ 'sections.ceremony_form.email' | t }}</label>
+        </div>
+        <div class="field">
+          <input
+            type="text"
+            required
+            id="CeremonyFormCountry"
+            class="full"
+            placeholder="{{ 'sections.ceremony_form.country' | t }}"
+          >
+          <label for="CeremonyFormCountry">{{ 'sections.ceremony_form.country' | t }}</label>
+        </div>
+        <div class="field">
+          <input
+            type="tel"
+            required
+            id="CeremonyFormPhone"
+            class="full"
+            placeholder="{{ 'sections.ceremony_form.phone' | t }}"
+          >
+          <label for="CeremonyFormPhone">{{ 'sections.ceremony_form.phone' | t }}</label>
+        </div>
+        <div class="field">
+          <select
+            id="CeremonyFormStore"
+            required
+            class="full"
+            placeholder="{{ 'sections.ceremony_form.store' | t }}"
+          ></select>
+          <label for="CeremonyFormStore">{{ 'sections.ceremony_form.store' | t }}</label>
+        </div>
+        <div class="field">
+          <input
+            type="date"
+            required
+            id="CeremonyFormDesiredDate"
+            class="full"
+            placeholder="{{ 'sections.ceremony_form.date' | t }}"
+          >
+          <label for="CeremonyFormDesiredDate">{{ 'sections.ceremony_form.date' | t }}</label>
+        </div>
+        <div class="field">
+          <input
+            type="text"
+            required
+            id="CeremonyFormDesiredHour"
+            class="full"
+            placeholder="{{ 'sections.ceremony_form.hour' | t }}"
+          >
+          <label for="CeremonyFormDesiredHour">{{ 'sections.ceremony_form.hour' | t }}</label>
+        </div>
+        <div class="champs-obligatoires">{{ 'sections.ceremony_form.required' | t }}</div>
+        <button class="button" id="CeremonyFormSubmit">
+          <span>{{ 'sections.ceremony_form.submit' | t }}</span>
+        </button>
+      </form>
+    </div>
+  </div>
+  <div class="ceremony-form-image-wrap">
+    <img src="{{ section.settings.image | image_url }}" alt="">
+  </div>
+</div>
+
+{{ 'ceremony-form.js' | asset_url | script_tag }}
+
+{% schema %}
+{
+  "name": "Ceremony form",
+  "class": "ceremony-form",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "LA CÉRÉMONIE"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Prenez rendez-vous pour personnaliser la paire de vos rêves avec de nouvelles matières exclusives développées pour votre grand jour !</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Ceremony form"
+    }
+  ]
+}
+{% endschema %}

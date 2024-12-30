@@ -1,0 +1,719 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "b53e768a-c480-40c0-951a-633e11a64d72": {
+      "type": "hero",
+      "settings": {
+        "hero_video": "shopify://files/videos/SAVOIRFAIRE LANDSCAPE HP.mp4",
+        "hero_title": "Le savoir-faire Repetto",
+        "hero_content": "<p>Le savoir-faire d’exception et le « geste parfait » se perpétuent en Dordogne, à Saint-Médard-d’Excideuil depuis plus de 75 ans. Nos artisans partagent depuis toujours la fierté de leur métier, l’amour des belles matières et le souci du détail pour confectionner des produits d’exception à la main.  </p><p>Façonné par son exigence et sa quête d’excellence, Repetto s’impose aujourd’hui comme une maison de l’univers du luxe français, signe d’élégance et de raffinement.</p>"
+      }
+    },
+    "gallery_XWTrcR": {
+      "type": "gallery",
+      "blocks": {
+        "image_KpweqL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EmptyName_6-Modifier.jpg",
+            "subheading": "",
+            "title": "Les chaussures",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "https://repetto.com/collections/catalogue-femme-chaussures",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_cKWWeL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Repetto_visuel_11.jpg",
+            "subheading": "",
+            "title": "La danse",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "https://repetto.com/collections/catalogue-danse",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_GrmAJA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/EmptyName_17-Modifier.jpg",
+            "subheading": "",
+            "title": "La maroquinerie",
+            "text": "",
+            "link_label": "Découvrir",
+            "link": "https://repetto.com/collections/catalogue-femme-maroquinerie",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KpweqL",
+        "image_cKWWeL",
+        "image_GrmAJA"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "medium",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_aEiA4f": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7eRyCN": {
+          "type": "heading",
+          "settings": {
+            "text": "Le Savoir-Faire qui Nous Rend Uniques",
+            "size": "h3"
+          }
+        },
+        "text_GEJ8nN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Chacune de nos créations est conçue pour vous offrir liberté de mouvement et souplesse, tout en conservant la grâce et l’élégance des danseurs.</p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7eRyCN",
+        "text_GEJ8nN"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "510324c5-9852-4bf3-9f6a-5e30d85469ad": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_3TbxAj": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/IMG_4639.png",
+            "image_position": "left",
+            "block_title": "Le cousu retourné",
+            "block_content": "<p>Nos chaussures, tout comme nos chaussons de danse, sont fabriqués de manière artisanale, en utilisant des techniques propres à la Maison Repetto, notamment celle du 'cousu-retourné'. Ce procédé de fabrication exceptionnel et minutieux est employé pour la confection de chaque chausson de danse et de chaque chaussure mythique de Repetto. Il illustre toute la précision du savoir-faire de la Maison, car il exige que les chaussures soient cousues et montées à l'envers sur une semelle en cuir végétal, à la fois légère et résistante, avant d'être retournées.</p><p>Ce savoir-faire leur confère une souplesse toute particulière et les rend plus confortables au porté.</p>",
+            "url": "https://repetto.com/collections/catalogue-femme-chaussures-ballerines?filter.p.m.repetto.model=Camille",
+            "url_label": ""
+          }
+        },
+        "c6a6273b-a766-4bba-bfae-ef887d9a6e91": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/007_CMJN.png",
+            "image_position": "right",
+            "block_title": "Les pointes",
+            "block_content": "<p>La pointe Repetto, produit emblématique de la Maison, répond depuis toujours aux exigences des danseurs. Repetto légitime son savoir-faire avec un programme de pointes sur mesure unique en France.<br/><br/>Depuis 2005, un partenariat recherche et développement avec l’Université Technologique de Compiègne a permis de mettre au point une pointe insonore et sans douleur.</p><p></p><p></p>",
+            "url": "https://repetto.com/products/pointes-la-carlotta-boite-moyenne-semelle-moyenne-satin-saumon-melon-t255mm-315?_pos=1&_sid=9a8beb11b&_ss=r",
+            "url_label": ""
+          }
+        },
+        "63483057-94f5-4478-8b8c-794619df267a": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/Opera_Cuir_36201a8b-5486-48ba-a58b-52ceee6c013f.png",
+            "image_position": "left",
+            "block_title": "Les cuirs",
+            "block_content": "<p>Nos artisans façonniers sélectionnent avec soin les plus belles peausseries, préservant ainsi l'excellence de notre savoir-faire. Chaque pièce est minutieusement assemblée pour créer des ballerines uniques, reconnues pour leur confort, ainsi qu'une maroquinerie élégante qui vous accompagne avec grâce.</p>",
+            "url": "https://repetto.com/collections/catalogue-femme-chaussures-ballerines?filter.p.m.repetto.model=Cendrillon",
+            "url_label": ""
+          }
+        },
+        "image_card_9ibJm9": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/EmptyName_1-Modifier_3_1.jpg",
+            "image_position": "right",
+            "block_title": "Dansons sous la pluie",
+            "block_content": "<p>Chez Repetto, nous repoussons les limites du confort et de l'élégance avec nos semelles en gomme. Conçues pour résister à l'humidité et au froid, elles offrent une adhérence supérieure tout en préservant la souplesse et le style raffiné de nos créations. Alliant performance et sophistication, ces semelles innovantes assurent une démarche élégante et sécurisée, même par temps capricieux. Repetto, où l'art de la chaussure rencontre la technologie avancée.</p><p></p>",
+            "url": "shopify://collections/dansons-sous-la-pluie",
+            "url_label": "Découvrir"
+          }
+        }
+      },
+      "block_order": [
+        "image_card_3TbxAj",
+        "c6a6273b-a766-4bba-bfae-ef887d9a6e91",
+        "63483057-94f5-4478-8b8c-794619df267a",
+        "image_card_9ibJm9"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": false,
+        "bg_all_section": false,
+        "text_gap": true,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "image_with_text_slideshow_ncwTXM": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "slide_BUegt3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Marais2_c7e01489-6e2d-490b-b930-a7a81b6c9ecd.jpg",
+            "heading": "Le cousu retourné",
+            "content": "Nos chaussures, tout comme nos chaussons de danse, sont fabriqués de manière artisanale, en utilisant des techniques propres à la Maison Repetto, notamment celle du 'cousu-retourné'. Ce procédé de fabrication exceptionnel et minutieux est employé pour la confection de chaque chausson de danse et de chaque chaussure mythique de Repetto. Il illustre toute la précision du savoir-faire de la Maison, car il exige que les chaussures soient cousues et montées à l'envers sur une semelle en cuir végétal, à la fois légère et résistante, avant d'être retournées.Ce savoir-faire leur confère une souplesse toute particulière et les rend plus confortables au porté.",
+            "button_text": "Découvrir la Camille",
+            "button_link": "https://repetto.com/products/ballerines-camille-rouge-flamme-v511v-550?_pos=3&_sid=aecd7c708&_ss=r"
+          }
+        },
+        "slide_VDxqGR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Repetto_visuel_5_1d4b353c-8cf8-48ef-b931-ed2e651dbf52.jpg",
+            "heading": "Les pointes",
+            "content": "La pointe Repetto, produit emblématique de la Maison, répond depuis toujours aux exigences des danseurs. Repetto légitime son savoir-faire avec un programme de pointes sur mesure unique en France. Depuis 2005, un partenariat recherche et développement avec l’Université Technologique de Compiègne a permis de mettre au point une pointe insonore et sans douleur.",
+            "button_text": "Découvrir la Carlotta",
+            "button_link": "https://repetto.com/products/pointes-la-carlotta-boite-large-semelle-souple-satin-saumon-melon-t255ls-315?_pos=1&_sid=1187fd9f0&_ss=r"
+          }
+        },
+        "slide_E8zwDy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/REPETTO_SAVOIRFAIRE_2023_CONSTRUCTIONOXFORDWHITELEATHER.png",
+            "heading": "Les cuirs",
+            "content": "Tout en respectant nos traditions, nous avons adapté notre savoir-faire aux exigences du XXI siècle.Nos artisans façonniers sélectionnent les plus belles peausseries et les assemblent pour créer des ballerines reconnues partout dans le monde.",
+            "button_text": "Découvrir la Cendrillon",
+            "button_link": "https://repetto.com/products/ballerines-cendrillon-noir-v086ve-410?_pos=6&_sid=9ae4b618f&_ss=r"
+          }
+        },
+        "slide_RbTXjE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/v080vlux-410-p5_1.png",
+            "heading": "Dansons sous la pluie",
+            "content": "Chez Repetto, nous repoussons les limites du confort et de l'élégance avec nos semelles en gomme. Conçues pour résister à l'humidité et au froid, elles offrent une adhérence supérieure tout en préservant la souplesse et le style raffiné de nos créations. Alliant performance et sophistication, ces semelles innovantes assurent une démarche élégante et sécurisée, même par temps capricieux. Repetto, où l'art de la chaussure rencontre la technologie avancée.",
+            "button_text": "Découvrir la Camille semelle gomme",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_BUegt3",
+        "slide_VDxqGR",
+        "slide_E8zwDy",
+        "slide_RbTXjE"
+      ],
+      "disabled": true,
+      "settings": {
+        "mobile_height": "mobile-height-350",
+        "desktop_height": "desktop-height-650",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "slideshow_tQJNTz": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_h8ENcq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/072A1344.jpg",
+            "slide_link": "",
+            "video_background": false,
+            "video": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_hosted": "shopify://files/videos/Repetto_16x9_Grade_FINAL_PRORES.mp4",
+            "subheading": "Repetto célèbre le savoir-faire français",
+            "heading": "",
+            "heading_size": "h1-xlarge",
+            "content": "Depuis 1947, la Maison Repetto s'engage avec passion à préserver le savoir-faire français à travers ses créations. Découvrez les pièces emblématiques de la Maison : ballerines fabriquées en France, créations intemporelles et artisanales, conçues pour sublimer chaque pas.",
+            "description_size": "medium",
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "content_size": "large",
+            "overlay_color": "#000000",
+            "overlay_opacity": 1,
+            "overlay_gradient": "linear-gradient(183deg, rgba(0, 0, 0, 1) 1%, rgba(231, 209, 209, 0) 21%, rgba(0, 0, 0, 1) 100%)",
+            "button_1_text": "Découvrir",
+            "button_1_link": "shopify://pages/made-in-france",
+            "button_1_outline": true,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_h8ENcq"
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "transition": "swipe",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_AQBwEx": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_content_card_Pj4P9w": {
+      "type": "image-content-card",
+      "blocks": {
+        "image_card_KmaJmX": {
+          "type": "Image-card",
+          "settings": {
+            "component_width": "100%",
+            "img": "shopify://shop_images/Mickael_Uniforme3.jpg",
+            "image_position": "left",
+            "block_title": "CONSEILS & ENTRETIEN",
+            "block_content": "<p>Depuis 1947, nous nous engageons à offrir des produits confectionnés à partir de matières d'exception, reconnues pour leur qualité supérieure et leur souplesse. Toutefois, ces matériaux nécessitent un entretien régulier pour préserver leur élégance et leur éclat. </p><p><a href=\"/pages/conseils-entretien\" title=\"Conseils & Entretien\"><em>Découvrez tous nos conseils d'entretien pour prendre soin de vos créations Repetto.</em></a></p>",
+            "url": "shopify://pages/conseils-entretien",
+            "url_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_card_KmaJmX"
+      ],
+      "settings": {
+        "section_head": "",
+        "section_background_color": "#ffffff",
+        "block_gap": true,
+        "bg_all_section": true,
+        "text_gap": false,
+        "text_bg_color": "#ffffff"
+      }
+    },
+    "7e7de8d8-f8da-49d0-a6db-32205cb06693": {
+      "type": "univirse-columns",
+      "blocks": {
+        "template--21349477646640__7e7de8d8-f8da-49d0-a6db-32205cb06693-column-1": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify://shop_images/rue_de_la_paix_1959_repetto_store_paris.jpg",
+            "title": "héritage français",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/univers-repetto-heritage"
+          }
+        },
+        "template--21349477646640__7e7de8d8-f8da-49d0-a6db-32205cb06693-column-2": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify://shop_images/ATELIER_RUE_DE_LA_PAIX2_-_REPETTO_store_paris_b15c36f2-c05b-466e-b229-7387a8ffe0e5.jpg",
+            "title": "L’histoire",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/univers-repetto-histoire"
+          }
+        },
+        "template--21349477646640__7e7de8d8-f8da-49d0-a6db-32205cb06693-column-3": {
+          "type": "column",
+          "settings": {
+            "textarea_display_model": "inside",
+            "image": "shopify://shop_images/encadre.png",
+            "title": "COLLECTION ANNIVERSAIRE",
+            "description": "",
+            "link_label": "Découvrir",
+            "link": "shopify://pages/univers-repetto-anniversaire"
+          }
+        }
+      },
+      "block_order": [
+        "template--21349477646640__7e7de8d8-f8da-49d0-a6db-32205cb06693-column-1",
+        "template--21349477646640__7e7de8d8-f8da-49d0-a6db-32205cb06693-column-2",
+        "template--21349477646640__7e7de8d8-f8da-49d0-a6db-32205cb06693-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 3
+      }
+    },
+    "rich_text_MeV96D": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_8PiwVM": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_x6mQKJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Exigence, liberté & mouvement",
+            "size": "h3"
+          }
+        },
+        "text_4L6bAa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Objet de toutes les convoitises, la Maison séduit une clientèle raffinée, composée à la fois de danseurs et d’amateurs de cet univers unique.</p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8PiwVM",
+        "heading_x6mQKJ",
+        "text_4L6bAa"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_text_with_image_fDVKEP": {
+      "type": "custom-text-with-image",
+      "settings": {
+        "show_on_mobile": "left",
+        "left_background_bg": "shopify://shop_images/Opera-image_21_af1501ff-d2a7-424a-8c9a-3ed5db4a4ec7.png",
+        "right_background_image": "shopify://shop_images/IMG_6411.jpg",
+        "heading": "Opéra de Rome",
+        "heading_size": "h3",
+        "content": "<p><em>En 2015, Repetto devient fournisseur Officiel du ballet de l’Opéra de Rome.</em></p>",
+        "content_size": "text-size-regular",
+        "button_text": "En savoir plus",
+        "button_link": "https://repetto.com/pages/repetto-sengage-opera-de-rome"
+      }
+    },
+    "rich_text_cp7jRd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_a9qtwk": {
+          "type": "heading",
+          "settings": {
+            "text": "de la scène à la ville...",
+            "size": "h3"
+          }
+        },
+        "text_W67YUj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Des icônes emblématiques de la danse et de la mode aux légendes de la chanson, la Maison Repetto séduit et inspire à travers les générations.</p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a9qtwk",
+        "text_W67YUj"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "gallery_yTt4Hr": {
+      "type": "gallery",
+      "blocks": {
+        "image_m8m3Hg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ZIZI_Jeanmaire5.jpg",
+            "subheading": "Zizi Jeanmaire",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_T4JQ7x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FTWK_square_serge.jpg",
+            "subheading": "Serge Gainsbourg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_TA78aC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FTWK_Lily.jpg",
+            "subheading": "Lily-Rose depp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_DYqcGT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Brigitte_Bardot_sur_les_toits.jpg",
+            "subheading": "Brigitte Bardot",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_UH7ddJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FTWK_Amy.jpg",
+            "subheading": "Amy Winehouse",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_KcWA9b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MC4.jpg",
+            "subheading": "Matthieu Chedid",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_KxAzn7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rolling_Stones.jpg",
+            "subheading": "Rolling Stones",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_CLHnNd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FTWK_Jane.jpg",
+            "subheading": "Jane Birkin",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": false,
+            "block_link": ""
+          }
+        },
+        "image_WcF7my": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02-stromae-2017-cr-stephan-vanfleteren-billboard-embed_63427a8b-8caa-4233-9670-9447df53bd70.png",
+            "subheading": "Stromae",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_zJD4MG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FTWK_Gigi.jpg",
+            "subheading": "Kate Moss",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_YTTcqe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FTWK_square_clara_alban.jpg",
+            "subheading": "Clara Luciani & Alban Claudin",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        },
+        "image_77HAQ9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/zacharydawes.jpg",
+            "subheading": "Cage the elephants",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_m8m3Hg",
+        "image_T4JQ7x",
+        "image_TA78aC",
+        "image_DYqcGT",
+        "image_UH7ddJ",
+        "image_KcWA9b",
+        "image_KxAzn7",
+        "image_CLHnNd",
+        "image_WcF7my",
+        "image_zJD4MG",
+        "image_YTTcqe",
+        "image_77HAQ9"
+      ],
+      "disabled": true,
+      "settings": {
+        "columns_desktop": 4,
+        "section_width": "grid",
+        "mobile_swipe": false,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "small",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_N47VYL": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "spacer_ym3eDD": {
+      "type": "spacer",
+      "disabled": true,
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "spacer_YkcLKW": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b53e768a-c480-40c0-951a-633e11a64d72",
+    "gallery_XWTrcR",
+    "rich_text_aEiA4f",
+    "510324c5-9852-4bf3-9f6a-5e30d85469ad",
+    "image_with_text_slideshow_ncwTXM",
+    "slideshow_tQJNTz",
+    "spacer_AQBwEx",
+    "image_content_card_Pj4P9w",
+    "7e7de8d8-f8da-49d0-a6db-32205cb06693",
+    "rich_text_MeV96D",
+    "custom_text_with_image_fDVKEP",
+    "rich_text_cp7jRd",
+    "gallery_yTt4Hr",
+    "spacer_N47VYL",
+    "spacer_ym3eDD",
+    "spacer_YkcLKW"
+  ]
+}

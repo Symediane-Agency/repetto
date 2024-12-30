@@ -1,0 +1,28 @@
+#ProductGridContainer .sidebar-container .facets--bar .facets__form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+#ProductGridContainer .sidebar-container .facets--bar .facets__form .thb-filter-sort-count {
+  margin-left: 0;
+  display: flex;
+}
+
+.facet-drawer .side-panel-content::-webkit-scrollbar {
+  width: 5px;
+  height: 16px;
+  background-color: transparent;
+}
+
+.facet-drawer .side-panel-content::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.facet-drawer .side-panel-content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #d5d5d5;
+}

@@ -1,0 +1,105 @@
+{{ 'column-image-with-content.css' | asset_url | stylesheet_tag }}
+<div class="row column-image-with-content column-image-with-content-{{ section.id }}">
+  <div class="small-12">
+    <div class="container">
+      {% for block in section.blocks %}
+        {% assign image = block.settings.cardItemImage %}
+        {% assign cardItemTitle = block.settings.cardItemTitle %}
+        {% assign imageWidth = image.src.width | append: 'x' | append: image.src.height %}
+        <div class="box-item {% if block.settings.imagePosition == 'top'  %} reserve  {% endif %} {% if cardItemTitle != blank and image != blank %} between {% else %} center {% endif %}">
+          {% if cardItemTitle != blank %}
+            <div class="title {{ block.settings.titlePosition }}">
+              {{ cardItemTitle }}
+            </div>
+          {% endif %}
+          <div class="img-box">
+            {% if image != blank %}
+              {%- render 'responsive-image', image: image, sizes: imageWidth -%}
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<script>
+  function resizeContainer() {
+    if(document.documentElement.offsetWidth <= 767) return
+    var boxItems = document.querySelectorAll('.column-image-with-content-{{ section.id }} .box-item');
+    var boxWidth = document.querySelector('.column-image-with-content-{{ section.id }} .container').offsetWidth;
+    Array.prototype.forEach.call(boxItems, (item) => {
+      item.style.width = boxWidth / Number('{{section.blocks.size}}') - 20 + 'px';
+    });
+  }
+  window.addEventListener('resize', function () {
+    resizeContainer();
+  });
+  resizeContainer();
+</script>
+{% schema %}
+{
+  "name": "Column image with content",
+  "blocks": [
+    {
+      "name": "Column item",
+      "type": "columnItem",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "cardItemTitle",
+          "label": "Column item title"
+        },
+        {
+          "type": "image_picker",
+          "id": "cardItemImage",
+          "label": "Column item"
+        },
+        {
+          "type": "select",
+          "default": "bottom",
+          "id": "imagePosition",
+          "label": "Image position",
+          "info": "If only text or images do not take effect",
+          "options": [
+            {
+              "label": "Top",
+              "value": "top"
+            },
+            {
+              "label": "Bottom",
+              "value": "bottom"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "default": "top",
+          "id": "titlePosition",
+          "label": "Title position",
+          "options": [
+            {
+              "label": "Top",
+              "value": "top"
+            },
+            {
+              "label": "Middle",
+              "value": "middle"
+            },
+            {
+              "label": "Bottom",
+              "value": "bottom"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Column image with content",
+      "blocks": [{ "type": "columnItem" }]
+    }
+  ]
+}
+{% endschema %}

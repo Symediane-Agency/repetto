@@ -1,0 +1,180 @@
+.waterfall .waterfall-grid {
+  width: 100%;
+}
+
+.waterfall .waterfall-grid .grid-item {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.waterfall .waterfall-grid .grid-item .video-play {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.waterfall .waterfall-grid .grid-item .video-play.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.waterfall .waterfall-grid .grid-item video,
+.waterfall .waterfall-grid .grid-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.waterfall .waterfall-grid .text-box {
+  padding: 40px;
+}
+
+.waterfall .waterfall-grid .text-box .title {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.waterfall .waterfall-grid .text-box .content {
+  margin-top: 30px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.waterfall .waterfall-grid .img-with-text img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.waterfall .waterfall-grid .img-with-text .text-box {
+  text-align: left;
+  padding: 20px 0 0;
+}
+
+.waterfall .waterfall-grid .img-with-text .text-box .title {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.waterfall .waterfall-grid .img-with-text .text-box .content {
+  margin-top: 5px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.waterfall .waterfall-grid .img-with-text .text-box .label {
+  margin-top: 12px;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration-line: underline;
+}
+
+.waterfall .waterfall-grid .youtube-video {
+  position: relative;
+}
+
+.waterfall .waterfall-grid .youtube-video .play-cover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youtube-paly-dialog {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.youtube-paly-dialog .dialog-content {
+  width: 870px;
+  height: 524px;
+  background: #000;
+}
+
+.youtube-paly-dialog .dialog-content .dialog-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.youtube-paly-dialog .dialog-content .dialog-header h3 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 22px;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.youtube-paly-dialog .dialog-content .dialog-header .svg-box {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+}
+
+.youtube-paly-dialog .dialog-content .dialog-header .svg-box svg {
+  cursor: pointer;
+}
+
+.youtube-paly-dialog .dialog-content .dialog-body {
+  width: 100%;
+  height: calc(100% - 32px);
+}
+
+.grid-sizer {
+  width: 30%;
+}
+
+.gutter-sizer{
+  width: 4.8%;
+}
+
+@media screen and (max-width: 768px) {
+  .waterfall {
+    padding: 0 16px;
+  }
+  .grid-sizer {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1520px) {
+  .grid-sizer {
+    width: 29.8%;
+  }
+}

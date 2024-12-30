@@ -1,0 +1,58 @@
+.header-page {
+  padding: 30px 0;
+}
+
+.header-page.border-top {
+  border-top: 1px solid #d8d1d4;
+}
+
+.header-page.border-bottom {
+  border-bottom: 1px solid #d8d1d4;
+}
+
+.header-page .small-12 .page-title {
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.header-page .small-12 .page-tel {
+  margin-top: 10px;
+  color: #7b7678;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 166.667% */
+}
+
+.header-page .small-12 .page-email {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #7b7678;
+}
+
+.header-page .small-12 .page-email a {
+  text-decoration-line: underline;
+  color: #ef8ca5;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1520px) {
+  .header-page {
+    margin: 0 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-page {
+    margin: 0 16px;
+  }
+  .header-page .small-12 .page-title {
+    font-size: 30px;
+  }
+}

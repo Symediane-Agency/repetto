@@ -1,0 +1,129 @@
+{{ 'customer.css' | asset_url | stylesheet_tag }}
+{{ 'account.js' | asset_url | script_tag }}
+
+<script
+  src="{{ 'tabbed-content.js' | asset_url }}"
+  defer="defer"
+></script>
+
+<div class="tabbed-content-wrapper section-spacing-padding">
+  <div class="row">
+    <div class="small-12 columns">
+      <tabbed-content
+        class="tabbed-content"
+        selected-index="0"
+      >
+        <scroll-shadow class="tabbed-content--scroll pc-show">
+          <div class="tabbed-content--tabs">
+            <button
+              class="active"
+              id="tabAccount"
+            >
+              {{ 'customer.account.menu.account' | t }}
+            </button>
+
+            {% comment %} <button class="" id="tabInformation">{{ 'customer.account.menu.information' | t }}</button> {% endcomment %}
+            <button
+              class=""
+              id="tabOrders"
+            >
+              {{ 'customer.account.menu.orders' | t }}
+            </button>
+
+            <button
+              class=""
+              id="tabAddresses"
+            >
+              {{ 'customer.account.menu.addresses' | t }}
+            </button>
+
+            <button
+              class=""
+              id="tabRefund"
+            >
+              {{ 'customer.account.menu.refund' | t }}
+            </button>
+
+            <a
+              class="last"
+              href="{{ routes.account_logout_url }}"
+            >
+              {{ 'customer.account.menu.logout' | t }}
+            </a>
+          </div>
+        </scroll-shadow>
+
+        <div class="mb-show">
+          <select id="tabbed-content--tabs">
+            <option value="tabAccount">
+              {{ 'customer.account.menu.account' | t }}
+            </option>
+
+            <option value="tabOrders">
+              {{ 'customer.account.menu.orders' | t }}
+            </option>
+
+            <option value="tabAddresses">
+              {{ 'customer.account.menu.addresses' | t }}
+            </option>
+
+            <option value="tabRefund">
+              {{ 'customer.account.menu.refund' | t }}
+            </option>
+          </select>
+        </div>
+
+        <div class="tabbed-content--content active">
+          {% render 'main-account' %}
+        </div>
+
+        {% comment %} <div class="tabbed-content--content">
+          {% render 'main-account-information' %}
+        </div> {% endcomment %}
+
+        <div class="tabbed-content--content">
+          {% render 'main-orders' %}
+        </div>
+
+        <div class="tabbed-content--content">
+          {% render 'main-addresses' %}
+        </div>
+
+        <div class="tabbed-content--content">
+          {% render 'main-refunds' %}
+        </div>
+      </tabbed-content>
+    </div>
+  </div>
+</div>
+
+{% comment %} Remove the Appointo app My bookings button once it appear in the DOM {% endcomment %}
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Set up a MutationObserver to watch for the addition of the "My Bookings" button
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === 'childList') {
+          const myBookingsButton = document.querySelector('button.btn');
+
+          if (myBookingsButton) {
+            // Remove the button from the DOM
+            myBookingsButton.remove();
+
+            // Disconnect the observer since the button has been found and removed
+            observer.disconnect();
+          }
+        }
+      });
+    });
+
+    // Start observing the document for the addition of the "My Bookings" button
+    observer.observe(
+      document.body,
+      {
+        childList: true,
+        subtree: true
+      }
+    );
+  });
+</script>

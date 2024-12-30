@@ -1,0 +1,40 @@
+.rich-text__inner h3 {
+  width: 733px;
+}
+
+.rich-text__inner h3.h3 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.rich-text__inner .rte {
+  width: 733px;
+}
+
+.rich-text__inner .rte.text-size-regular {
+  color: var(--repetto-colors-black-primary, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.rich-text__inner .rte.text-size-regular:not(a){
+    color: var(--repetto-colors-black-primary, #7b7678);
+}
+
+@media screen and (max-width: 768px) {
+  .rich-text__inner {
+    padding: 30px 16px 0;
+  }
+  .rich-text__inner h3 {
+    width: 100%;
+  }
+  .rich-text__inner .rte {
+    width: 100%;
+  }
+}

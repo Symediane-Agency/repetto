@@ -1,0 +1,285 @@
+{% liquid
+  assign full_width = section.settings.full_width
+  assign copyright_text = section.settings.copyright_text
+  assign show_language_switcher = section.settings.show_language_switcher
+  assign show_currency_switcher = section.settings.show_currency_switcher
+  assign show_payment_icons = section.settings.show_payment_icons
+%}
+
+<link
+  rel="stylesheet"
+  href="{{ 'footer.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+>
+<noscript>{{ 'footer.css' | asset_url | stylesheet_tag }}</noscript>
+{{ 'custom-footer.css' | asset_url | stylesheet_tag }}
+<footer class="footer" id="footer">
+  {%- render 'breadcrumbs' -%}
+  <div class="row {% if full_width %}full-width-row{% endif %}">
+    {%- for block in section.blocks -%}
+      {% if block.type == 'text' %}
+        {%- liquid
+          assign column_class = 'small-12 medium-4 large-2'
+          case block.settings.column_size
+            when 'medium'
+              assign column_class = 'small-12 medium-3'
+            when 'large'
+              assign column_class = 'small-12 medium-6'
+          endcase
+        -%}
+        <div class="{{ column_class | escape }} columns" {{ block.shopify_attributes }}>
+          <div class="widget widget--text">
+            {%- if block.settings.title != blank -%}
+              <div class="thb-widget-title">{{ block.settings.title }}</div>
+            {%- endif -%}
+            {%- if block.settings.image != blank -%}
+              {% assign image = block.settings.image %}
+              {% assign master_width = image.src.width | append: 'x' | append: image.src.height %}
+              {%- render 'responsive-image', image: image, sizes: master_width, retina: 1 -%}
+            {%- endif -%}
+            {%- if block.settings.text != blank -%}
+              <div class="rte text-size--{{ block.settings.text_size }}">
+                {{ block.settings.text }}
+              </div>
+            {%- endif -%}
+            {%- if block.settings.button_text != blank -%}
+              <a
+                class="text-button"
+                href="{{ block.settings.button_link }}"
+                role="button"
+                title="{{ block.settings.button_text | escape }}"
+              >
+                {{- block.settings.button_text -}}
+              </a>
+            {%- endif -%}
+          </div>
+        </div>
+      {% endif %}
+      {%- if block.type == 'menu' -%}
+        {%- liquid
+          assign column_class = 'small-12 medium-4 large-2'
+          case block.settings.column_size
+            when 'medium'
+              assign column_class = 'small-12 medium-3'
+            when 'large'
+              assign column_class = 'small-12 medium-6'
+          endcase
+        -%}
+        <div
+          class="{{ column_class | escape }} columns widget--menu-column  small-12  medium-6 large-6 "
+          {{ block.shopify_attributes }}
+        >
+          <div class="widget widget--menu">
+            <button class="thb-widget-title collapsible" tabindex="0">
+              {{ block.settings.title }}
+              <span>
+                {% render 'svg-icons' with 'right-icon' %}
+              </span>
+            </button>
+            {%- if block.settings.menu != blank -%}
+              <ul class="thb-widget-menu">
+                {% for link in block.settings.menu.links %}
+                  {% assign has_sub_menu = false %}
+                  {% if link.links.size > 0 %}
+                    {% assign has_sub_menu = true %}
+                  {% endif %}
+                  <li class="{% if has_sub_menu %}menu-item-has-children{% endif %}{% if link.active %} active{% endif %}">
+                    <a
+                      href="{{ link.url }}"
+                      title="{{ link.title | escape }}"
+                      {%- if link.active %}
+                        aria-current="page"
+                      {% endif -%}
+                    >
+                      {{- link.title -}}
+                    </a>
+                    {% if has_sub_menu %}
+                      <span class="thb-arrow" tabindex="0">{%- render 'svg-icons' with 'thb-dropdown-bottom' -%}</span>
+                    {% endif %}
+                    {% if has_sub_menu %}
+                      <ul class="sub-menu" tabindex="-1">
+                        {% for l in link.links %}
+                          {% assign has_sub_menu = false %}
+                          {% if l.links.size > 0 %}
+                            {% assign has_sub_menu = true %}
+                          {% endif %}
+                          <li
+                            class="{% if has_sub_menu %}menu-item-has-children{% endif %}{% if l.active %} active{% endif %}"
+                            role="none"
+                          >
+                            <a
+                              href="{{ l.url }}"
+                              title="{{ l.title | escape }}"
+                              role="menuitem"
+                            >
+                              {{- l.title -}}
+                            </a>
+                            {% if has_sub_menu %}
+                              <span class="thb-arrow" tabindex="0">
+                                {%- render 'svg-icons' with 'thb-dropdown-bottom' -%}
+                              </span>
+                            {% endif %}
+                            {% if has_sub_menu %}
+                              <ul class="sub-menu" role="menu">
+                                {% for sub_link in l.links %}
+                                  {% assign has_sub_menu = false %}
+                                  {% if sub_link.links.size > 0 %}
+                                    {% assign has_sub_menu = true %}
+                                  {% endif %}
+                                  <li
+                                    class="{% if has_sub_menu %}menu-item-has-children{% endif %}{% if sub_link.active %} active{% endif %}"
+                                    role="none"
+                                  >
+                                    <a
+                                      href="{{ sub_link.url }}"
+                                      title="{{ sub_link.title | escape }}"
+                                      role="menuitem"
+                                    >
+                                      {{- sub_link.title -}}
+                                    </a>
+                                  </li>
+                                {% endfor %}
+                              </ul>
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            {%- endif -%}
+            {%- if block.settings.mobile_menu != blank -%}
+              <ul class="thb-widget-menu mobile">
+                {% for link in block.settings.mobile_menu.links %}
+                  <li class="{% if link.active %} active{% endif %}">
+                    <a
+                      href="{{ link.url }}"
+                      title="{{ link.title | escape }}"
+                      {%- if link.active %}
+                        aria-current="page"
+                      {% endif -%}
+                    >
+                      {{- link.title -}}
+                    </a>
+                    <span class="thb-arrow" tabindex="0">{%- render 'svg-icons' with 'custom-right-icon' -%}</span>
+                  </li>
+                {% endfor %}
+              </ul>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endif -%}
+      {%- if block.type == 'signup' -%}
+        <div
+          class="{{ column_class | escape }} columns small-12 widget--menu-column  small-12  medium-6 large-6 "
+          {{ block.shopify_attributes }}
+        >
+          <div class="container-fix"> <!-- div added to fix footer newsletter -->
+            <p class="Email-p-tag">{{ 'custom.help.subscribing' | t }}</p>
+            <div class="widget widget--signup email-signup">
+              {% render 'email-signup-form' %}
+            </div>
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+
+    <div
+      class="no-js-hidden"
+    >
+      {%- render 'localization',
+        id: 'FooterLocalization',
+        show_language_switcher: true,
+        show_currency_switcher: false,
+        class: 'inside-header'
+      -%}
+    </div>
+  </div>
+  <div class="social-links widget widget--text mobile-social-links">
+    {%- render 'social-links' -%}
+  </div>
+  <div
+    class="no-js-hidden"
+  >
+    {%- render 'localization',
+      id: 'FooterLocalization',
+      show_language_switcher: true,
+      show_currency_switcher: false,
+      class: 'inside-header inside-mobile'
+    -%}
+  </div>
+  <div class="sub-footer">
+    <div class="row {% if full_width %}full-width-row{% endif %}">
+      <div class="small-12 columns footer-copyright">
+        <p class="footer-copyright-links">
+          {% for link in section.settings.menu.links %}
+            <a href="{{ link.url }}" title="{{ link.title}}">{{ link.title }}</a>
+          {% endfor %}
+        </p>
+        <p class="footer-copyright-text">{{ shop.name }}. {{ copyright_text }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": false,
+      "label": "Make section full width"
+    },
+    {
+      "type": "text",
+      "id": "copyright_text",
+      "label": "Additional copyright text",
+      "default": "All rights reserved."
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "default": "footer",
+      "label": "Links for Terms & Policy"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "text",
+      "name": "Text"
+    },
+    {
+      "type": "menu",
+      "name": "Menu",
+      "settings": [
+        {
+          "type": "link_list",
+          "id": "menu",
+          "default": "footer",
+          "label": "Menu",
+          "info": "Select navigation to display"
+        },
+        {
+          "type": "link_list",
+          "id": "mobile_menu",
+          "default": "footer",
+          "label": "Mobile menu",
+          "info": "Select navigation to display on mobile"
+        }
+      ]
+    },
+    {
+      "type": "signup",
+      "name": "Email signup",
+      "limit": 1
+    }
+  ]
+}
+{% endschema %}

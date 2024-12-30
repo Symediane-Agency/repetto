@@ -1,0 +1,569 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51": {
+      "type": "hero",
+      "settings": {
+        "hero_image": "shopify://shop_images/EmptyName_22-Modifier.jpg",
+        "hero_title": "CONSEILS D'ENTRETIEN",
+        "hero_content": "<p>Fabriqués pour la grande majorité en cuir, matière à la fois naturelle et vivante, un soin particulier doit être apporté à l’entretien de vos sacs.<br/><br/>Au fil du temps et de votre porter, votre pièce de maroquinerie évoluera : la forme s'assouplira et le cuir se patinera.<br/><br/>Ces changements naturels témoignent de l’évolution de votre cuir et rendront votre pièce unique.</p>"
+      }
+    },
+    "spacer_VVnqDB": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_Pkdzeg": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_cDn7UN": {
+          "type": "subheading",
+          "settings": {
+            "text": "Conservez l’Élégance de Votre Sac"
+          }
+        },
+        "heading_YAKkiV": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": "h3"
+          }
+        },
+        "text_XFzmKB": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_BkqyGf": {
+          "type": "button",
+          "settings": {
+            "link_label": "",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cDn7UN",
+        "heading_YAKkiV",
+        "text_XFzmKB",
+        "button_BkqyGf"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_6cxkEf": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_with_text_slideshow_DfPtBn": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "slide_t4BNmn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/operamulti-m0777ve_cef7af5f-42b4-4dcd-8073-7cd02d5ea00c.jpg",
+            "heading": "Le porté",
+            "content": "Protégez votre produit et conservez son éclat en l’imperméabilisant régulièrement. \nNe surchargez pas votre sac afin d'en préserver la forme d'origine.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_dit7ct": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4650.jpg",
+            "heading": "La protection",
+            "content": "Les contacts prolongés avec l’eau, le soleil, les lumières artificielles puissantes, la chaleur et les corps gras ou alcoolisés (crème mains par exemple) sont à éviter afin de prévenir de dommages tels qu’une décoloration de la matière voire un jaunissement pour les cuirs clairs.\nDe même, évitez les contacts prolongés et les frottements répétés avec des textiles dégorgeants tels que les jeans foncés ou les vêtements neufs, pouvant transférer leurs pigments. Ainsi, nous vous déconseillons d'associer un cuir clair à un vêtement foncé, et inversement.\nÉvitez également les surfaces abrasives susceptibles d'endommager le cuir par frottement ou accroc, notamment sur les zones les plus exposées comme le fond du sac, les coins ou les pièces métalliques.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_QEELGU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/M0764A-410-P2_35881a93-2fba-4ea0-aca8-432e851d21b5.jpg",
+            "heading": "L'entretien",
+            "content": "Tenez votre produit à l’écart de l’eau. \nSi celui-ci se mouille ou que sa surface se tâche, frottez-le délicatement avec un chiffon propre et doux, puis laissez-le sécher naturellement.",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "slide_6gTigf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4704bis.jpg",
+            "heading": "La conservation",
+            "content": "Afin de protéger votre produit lorsque vous ne l’utilisez pas, rangez-le dans le pochon fourni lors de l’achat, idéalement garni de son papier de soie, et stockez-le à l’abri de l’humidité, de la chaleur et de la lumière.\nPour les sacs avec bandoulières, enveloppez-les dans du papier de soie et placez-les à l'intérieur pour éviter les marques sur le cuir extérieur.",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_t4BNmn",
+        "slide_dit7ct",
+        "slide_QEELGU",
+        "slide_6gTigf"
+      ],
+      "settings": {
+        "mobile_height": "mobile-height-350",
+        "desktop_height": "desktop-height-650",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "full_width": false,
+        "autoplay": false,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_fcjwGJ": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "rich_text_79Dp4y": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_EGbnb3": {
+          "type": "subheading",
+          "settings": {
+            "text": "Les Matières Repetto"
+          }
+        },
+        "heading_8EBceT": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": "h3"
+          }
+        },
+        "text_UFaaGA": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_bBVzVi": {
+          "type": "button",
+          "settings": {
+            "link_label": "",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_EGbnb3",
+        "heading_8EBceT",
+        "text_UFaaGA",
+        "button_bBVzVi"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_a4aWh9": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "custom_banner_CDim74": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_qVzd7t": {
+          "type": "subheading",
+          "settings": {
+            "text": "cuir classique"
+          }
+        },
+        "text_T3BAB6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Notre cuir est un cuir pleine fleur, souple et d'excellente qualité. Un traitement de surface protecteur est appliqué sur la peau, ce qui le rend plus résistant à la lumière et aux frottements. Il a un aspect lisse et peut laisser apparaître des variations de grains d'une pièce à l'autre, ce qui rend chaque pièce unique.<br/><br/>• Nettoyez régulièrement la surface de votre sac avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-le de la lumière, de la chaleur et de l'humidité pour ne pas endommager le cuir.<br/>• <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><em><strong>Imperméabilisez </strong></em></a>régulièrement votre sac et utilisez des produits d'entretien adaptés, comme <a href=\"/products/baume-embellisseur-pour-cuirs-lisses-pe01999\" title=\"Baume Embellisseur\"><em>notre Baume Embellisseur. </em></a>spécialement conçu pour nourrir, protéger et faire briller le cuir<br/>• En cas de taches superficielles, tamponnez délicatement avec un chiffon humide.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme du sac et prévenir la formation de plis.</p>"
+          }
+        },
+        "button_49HH4Y": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qVzd7t",
+        "text_T3BAB6",
+        "button_49HH4Y"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Opera_Cuir-3_e9787b6e-0f07-44cb-b391-6bee36b28595.jpg",
+        "mobile_image": "shopify://shop_images/Opera_Cuir-3_189d4741-79fb-4e9d-b7fc-fc7faea43cc6.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "custom_banner_WdQweW": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_jHay7c": {
+          "type": "subheading",
+          "settings": {
+            "text": "Cuir métalisé"
+          }
+        },
+        "text_WbYtXE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sur une base de cuir est appliquée en surface un film métallisé. Ce cuir subit un traitement spécifique qui lui donne un aspect métallique et moderne. Il s’agit d’un cuir délicat, sensible aux frottements, accrocs ou rayures.<br/><br/>• Nettoyez régulièrement la surface de votre sac avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager le cuir.<br/>• <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><em><strong>Imperméabilisez </strong></em></a>régulièrement votre sac et utilisez des produits d'entretien adaptés, comme <a href=\"/products/baume-embellisseur-pour-cuirs-lisses-pe01999\" title=\"Baume Embellisseur\"><em>notre Baume Embellisseur.</em></a> spécialement conçu pour nourrir, protéger et faire briller le cuir.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme du sac et prévenir la formation de plis.</p>"
+          }
+        },
+        "button_bMJDyc": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jHay7c",
+        "text_WbYtXE",
+        "button_bMJDyc"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/Matieres25-Modifier.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "text_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "custom_banner_LRmcTX": {
+      "type": "custom-banner",
+      "blocks": {
+        "subheading_V3JN4V": {
+          "type": "subheading",
+          "settings": {
+            "text": "textiles"
+          }
+        },
+        "text_fD7hq9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nos textiles apportent une touche d’originalité, de raffinement et d’élégance à nos collections. Il s'agit de matières délicates, sensibles aux frottements, accrocs ou rayures.<br/><br/>• Nettoyez régulièrement la surface de votre sac avec un chiffon doux pour éliminer la poussière.<br/>• Protégez-les de la lumière, de la chaleur et de l'humidité pour ne pas endommager la matière.<br/>• Évitez les surfaces non lisses et les éléments pointus, comme les ongles ou bijoux, qui pourraient frotter ou accrocher la matière.<br/>• Imperméabilisez très régulièrement votre sac avec un produit adapté, comme <a href=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\" title=\"https://repetto.com/products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1?_pos=1&_psq=imper&_ss=e&_v=1.0\"><em><strong>notre Imperméabilisant </strong></em></a>spécialement conçu pour protéger contre les tâches et la pluie.<br/>• Stockez-les en utilisant du papier de soie pour garder la forme du sac et prévenir la formation de plis.</p>"
+          }
+        },
+        "button_ybnzqF": {
+          "type": "button",
+          "settings": {
+            "button_text": "",
+            "button_link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_V3JN4V",
+        "text_fD7hq9",
+        "button_ybnzqF"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "image": "shopify://shop_images/matieres_ND16-Modifier.jpg",
+        "image_height": "small",
+        "image_width": "split",
+        "frame_border": false,
+        "content_position": "text-left",
+        "split_layout": "image_first",
+        "color_bg": "#ffffff",
+        "color_bg_frame": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_gD7Vfq": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 50,
+        "spacer_desktop": 100,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "custom_text_with_image_LGbKiX": {
+      "type": "custom-text-with-image",
+      "settings": {
+        "show_on_mobile": "left",
+        "left_background_bg": "shopify://shop_images/EmptyName_14-Modifier.jpg",
+        "right_background_image": "shopify://shop_images/EmptyName_6-Modifier.jpg",
+        "heading": "Conservez l'élégance de vos souliers",
+        "heading_size": "h4",
+        "content": "<p>Notre Maison façonne des souliers d’exception de manière artisanale, avec des matériaux de qualité supérieure leur procurant une souplesse remarquable.<br/><br/>Fabriqués pour la grande majorité en cuir, matière à la fois naturelle et vivante, nos souliers nécessitent un entretien régulier pour préserver leur beauté et leur confort. Découvrez comment prendre soin de vos souliers.</p>",
+        "content_size": "text-size-regular",
+        "button_text": "En savoir plus",
+        "button_link": "shopify://pages/conseils-entretien-chaussures"
+      }
+    },
+    "rich_text_4DyhjL": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_LLMdMp": {
+          "type": "subheading",
+          "settings": {
+            "text": "Le kit d'entretien"
+          }
+        },
+        "heading_YErNcY": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": "h3"
+          }
+        },
+        "text_8GHjhP": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LLMdMp",
+        "heading_YErNcY",
+        "text_8GHjhP"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "gallery_NCHpT3": {
+      "type": "gallery",
+      "blocks": {
+        "image_hpJXfG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pe03-999-p11_1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "Imperméabilisant",
+            "link": "shopify://products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1",
+            "use_text_button": true,
+            "block_link": "shopify://products/impermeabilisant-pour-cuirs-et-textiles-pe03999-1"
+          }
+        },
+        "image_aXGfXr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pe01-999-p10_1.jpg",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "link_label": "Baume embellisseur",
+            "link": "shopify://products/baume-embellisseur-pour-cuirs-lisses-pe01999",
+            "use_text_button": true,
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hpJXfG",
+        "image_aXGfXr"
+      ],
+      "settings": {
+        "columns_desktop": 2,
+        "section_width": "grid",
+        "mobile_swipe": true,
+        "image_ratio": "square",
+        "content_position": "bottom-left",
+        "text_alignment": "center",
+        "column_spacing": "large",
+        "heading_size": "h2",
+        "overlay_color": "#000000",
+        "overlay_opacity": 4,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_iA6jwx": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_xen9B8": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_jCpVcx": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "size": "h3"
+          }
+        },
+        "text_Y4nnTK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pour toute question, nous vous invitons à <a href=\"https://repetto.com/pages/nous-contacter\" title=\"https://repetto.com/pages/nous-contacter\"><em><strong>contacter notre service client</strong></em></a> ou à vous rendre dans l'une de <a href=\"https://repetto.com/pages/trouver-un-revendeur\" title=\"https://repetto.com/pages/trouver-un-revendeur\"><em><strong>nos boutiques,</strong></em></a> où notre personnel se fera un plaisir de vous aider et de vous informer sur nos services. </p>",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xen9B8",
+        "heading_jCpVcx",
+        "text_Y4nnTK"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "60e4509c-462c-435d-9110-5ef360e52d45": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 0,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 80,
+        "spacer_desktop": 120,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_list_3f4zm3": {
+      "type": "image-list",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "13b7584b-fe14-45ff-a85b-bbe0285b7c51",
+    "spacer_VVnqDB",
+    "rich_text_Pkdzeg",
+    "spacer_6cxkEf",
+    "image_with_text_slideshow_DfPtBn",
+    "spacer_fcjwGJ",
+    "rich_text_79Dp4y",
+    "spacer_a4aWh9",
+    "custom_banner_CDim74",
+    "custom_banner_WdQweW",
+    "custom_banner_LRmcTX",
+    "spacer_gD7Vfq",
+    "custom_text_with_image_LGbKiX",
+    "rich_text_4DyhjL",
+    "gallery_NCHpT3",
+    "rich_text_iA6jwx",
+    "60e4509c-462c-435d-9110-5ef360e52d45",
+    "86cbe5be-98dd-49e7-b659-9cc0bd76f3ab",
+    "image_list_3f4zm3"
+  ]
+}
