@@ -111,7 +111,9 @@
             }
           }
         },
-        "block_order": ["c947d47d-abab-4f58-b89e-58ad729f6986"],
+        "block_order": [
+          "c947d47d-abab-4f58-b89e-58ad729f6986"
+        ],
         "settings": {
           "logo_height_range": 24,
           "logo_height_range_mobile": 24,
@@ -279,7 +281,9 @@
               }
             }
           },
-          "block_order": ["c947d47d-abab-4f58-b89e-58ad729f6986"],
+          "block_order": [
+            "c947d47d-abab-4f58-b89e-58ad729f6986"
+          ],
           "settings": {
             "logo_height_range": 24,
             "logo_height_range_mobile": 24,
@@ -430,7 +434,9 @@
               }
             }
           },
-          "block_order": ["c947d47d-abab-4f58-b89e-58ad729f6986"],
+          "block_order": [
+            "c947d47d-abab-4f58-b89e-58ad729f6986"
+          ],
           "settings": {
             "logo": "shopify://shop_images/logo.png",
             "logo_height_range": 36,
@@ -567,7 +573,9 @@
               }
             }
           },
-          "block_order": ["c947d47d-abab-4f58-b89e-58ad729f6986"],
+          "block_order": [
+            "c947d47d-abab-4f58-b89e-58ad729f6986"
+          ],
           "settings": {
             "logo": "shopify://shop_images/logo-2x.png",
             "logo_height_range": 34,
@@ -711,7 +719,9 @@
               }
             }
           },
-          "block_order": ["0b220934-05c8-49f3-81c9-17468e976ff1"],
+          "block_order": [
+            "0b220934-05c8-49f3-81c9-17468e976ff1"
+          ],
           "settings": {
             "logo": "shopify://shop_images/logo.png",
             "logo_height_range": 24,
@@ -858,7 +868,9 @@
               }
             }
           },
-          "block_order": ["c947d47d-abab-4f58-b89e-58ad729f6986"],
+          "block_order": [
+            "c947d47d-abab-4f58-b89e-58ad729f6986"
+          ],
           "settings": {
             "logo_height_range": 24,
             "logo_height_range_mobile": 24,
